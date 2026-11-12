@@ -8,6 +8,14 @@ compares. It mirrors the original's interface: header bar, comparison tabs,
 link maps with curved chunk connectors, merge action gutters, overview chunk
 maps and the "New comparison" page.
 
+## Screenshots
+
+### File comparison, light theme
+![File comparison, light theme](screenshots/meld-qt.png)
+
+### Folder comparison, dark theme
+![Folder comparison, dark theme](screenshots/meld-qt-files.png)
+
 ## Requirements
 
 - CMake 3.21 or newer, or qmake from Qt 6 (see "Building with qmake")
