@@ -6,22 +6,22 @@
     <message>
         <location filename="../src/core/archive.cpp" line="+381"/>
         <source>Couldn’t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>无法创建文件夹 %1</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>No installed program can extract this archive. Install bsdtar (from libarchive) or 7-Zip.</source>
-        <translation type="unfinished"></translation>
+        <translation>没有已安装的程序可以解压此归档。请安装 bsdtar（来自 libarchive）或 7-Zip。</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>%1 crashed</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 崩溃了</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>%1 failed with status %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 失败，状态码为 %2</translation>
     </message>
 </context>
 <context>
@@ -29,22 +29,22 @@
     <message>
         <location filename="../src/ui/dirdiff.cpp" line="+88"/>
         <source>Couldn&apos;t create link %1</source>
-        <translation type="unfinished"></translation>
+        <translation>无法创建链接 %1</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Not a file</source>
-        <translation type="unfinished"></translation>
+        <translation>不是文件</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Couldn&apos;t replace %1</source>
-        <translation type="unfinished"></translation>
+        <translation>无法替换 %1</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>无法创建文件夹 %1</translation>
     </message>
     <message>
         <location filename="../src/ui/externalhelpers.cpp" line="+58"/>
@@ -59,7 +59,7 @@
     <message>
         <location line="+1"/>
         <source>unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>未知</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -69,17 +69,17 @@
     <message>
         <location line="+1"/>
         <source>Couldn&apos;t run “%1”</source>
-        <translation type="unfinished"></translation>
+        <translation>无法运行“%1”</translation>
     </message>
     <message>
         <location filename="../src/ui/meldapp.cpp" line="+37"/>
         <source>show program&apos;s version number and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>显示程序版本号并退出</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>show this help message and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>显示此帮助信息并退出</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -94,12 +94,12 @@
     <message>
         <location line="+2"/>
         <source>Open comparisons in an already running instance (single-instance mode)</source>
-        <translation type="unfinished"></translation>
+        <translation>在已运行的实例中打开比较（单实例模式）</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in a new instance, even in single-instance mode</source>
-        <translation type="unfinished"></translation>
+        <translation>在新实例中打开比较，即使处于单实例模式</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -130,7 +130,7 @@
     <message>
         <location line="+2"/>
         <source>Compare a file or folder with what a patch would make of it</source>
-        <translation type="unfinished"></translation>
+        <translation>将文件或文件夹与补丁应用后的结果进行比较</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -159,7 +159,7 @@
     <message>
         <location line="-4"/>
         <source>Start a comparison against a blank pane</source>
-        <translation type="unfinished"></translation>
+        <translation>开始与空白窗格的比较</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -174,24 +174,26 @@
     <message>
         <location line="+1"/>
         <source>patch</source>
-        <translation type="unfinished"></translation>
+        <translation>补丁</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare with a patch applied</source>
-        <translation type="unfinished"></translation>
+        <translation>与应用补丁后的结果比较</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Usage:</source>
-        <translation type="unfinished"></translation>
+        <translation>用法：</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>
 For file comparisons, the special argument @blank may be used instead of
 a &lt;file&gt; argument to create a blank pane.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+比较文件时，可以使用特殊参数 @blank 代替 &lt;文件&gt; 参数
+来创建空白窗格。</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -201,30 +203,30 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+1"/>
         <source>Options:</source>
-        <translation type="unfinished"></translation>
+        <translation>选项：</translation>
     </message>
     <message>
         <location line="+42"/>
         <location line="+9"/>
         <source>no such option: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>没有此选项：%1</translation>
     </message>
     <message>
         <location line="-8"/>
         <source>ambiguous option: %1 (%2?)</source>
-        <translation type="unfinished"></translation>
+        <translation>选项不明确：%1（%2？）</translation>
     </message>
     <message>
         <location line="+16"/>
         <location line="+59"/>
         <location line="+16"/>
         <source>%1 option requires an argument</source>
-        <translation type="unfinished"></translation>
+        <translation>选项 %1 需要一个参数</translation>
     </message>
     <message>
         <location line="-73"/>
         <source>%1 option does not take a value</source>
-        <translation type="unfinished"></translation>
+        <translation>选项 %1 不接受值</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -234,17 +236,17 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+53"/>
         <source>--patch needs one file or folder to apply the patch to (got %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>--patch 需要一个用于应用补丁的文件或文件夹（实际为 %1 个）</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>can’t auto-merge with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>无法在使用补丁时自动合并</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>can’t load a comparison file with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>无法在使用补丁时载入比较文件</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -281,14 +283,14 @@ a &lt;file&gt; argument to create a blank pane.</source>
 %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/preferences.cpp" line="+104"/>
+        <location filename="../src/ui/preferences.cpp" line="+108"/>
         <source>Select a Style</source>
-        <translation type="unfinished"></translation>
+        <translation>选择样式</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Select</source>
-        <translation type="unfinished"></translation>
+        <translation>选择</translation>
     </message>
     <message>
         <location filename="../src/ui/recent.cpp" line="+76"/>
@@ -302,7 +304,8 @@ a &lt;file&gt; argument to create a blank pane.</source>
         <location filename="../src/ui/singleinstance.cpp" line="+50"/>
         <source>Meld Qt couldn’t open the comparison: a different version of Meld Qt is running.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Meld Qt 无法打开比较：正在运行另一个版本的 Meld Qt。
+</translation>
     </message>
 </context>
 <context>
@@ -391,34 +394,34 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+10"/>
         <source>The conflict markers in “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>无法读取“%1”中的冲突标记。</translation>
     </message>
     <message numerus="yes">
         <location line="+17"/>
         <source>%n unresolved conflicts</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n 个未解决的冲突</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts show the common ancestor’s text, which the local and remote versions changed.</source>
-        <translation type="unfinished"></translation>
+        <translation>冲突中显示共同祖先的文本，本地和远端版本都修改了这些文本。</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts are empty, to be filled from the local and remote versions.</source>
-        <translation type="unfinished"></translation>
+        <translation>冲突内容为空，需从本地和远端版本中填写。</translation>
     </message>
     <message>
         <location line="+42"/>
         <source>local</source>
-        <translation type="unfinished"></translation>
+        <translation>本地</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>remote</source>
-        <translation type="unfinished"></translation>
+        <translation>远端</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -446,12 +449,12 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+16"/>
         <source>Folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>文件夹 %1</translation>
     </message>
     <message>
         <location line="+81"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>搜索</translation>
     </message>
     <message>
         <location line="+88"/>
@@ -486,7 +489,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+54"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>无法读取补丁“%1”。</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -497,17 +500,17 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+36"/>
         <source>%1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1：%2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Permission denied</source>
-        <translation type="unfinished"></translation>
+        <translation>权限被拒绝</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>: Dangling symlink</source>
-        <translation type="unfinished"></translation>
+        <translation>：悬空的符号链接</translation>
     </message>
     <message>
         <location line="+99"/>
@@ -657,7 +660,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+164"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>无法创建文件夹 %1</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -734,7 +737,7 @@ to %2.
     <message>
         <location line="+144"/>
         <source>empty folder</source>
-        <translation type="unfinished"></translation>
+        <translation>空文件夹</translation>
     </message>
 </context>
 <context>
@@ -852,12 +855,12 @@ to %2.
     <message>
         <location line="+13"/>
         <source>There was a problem opening “%1”.</source>
-        <translation type="unfinished"></translation>
+        <translation>打开“%1”时出现问题。</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The file could not be decoded using the candidate encodings.</source>
-        <translation type="unfinished"></translation>
+        <translation>无法使用候选编码解码该文件。</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -871,19 +874,19 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message numerus="yes">
         <location line="+39"/>
         <source>%1 has %n unresolved merge conflicts.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 有 %n 个未解决的合并冲突。</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The local and remote versions can be merged in a 3-way comparison.</source>
-        <translation type="unfinished"></translation>
+        <translation>本地和远端版本可以在三方比较中合并。</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Resolve</source>
-        <translation type="unfinished"></translation>
+        <translation>解决</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -903,7 +906,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+64"/>
         <source>Computing differences</source>
-        <translation type="unfinished"></translation>
+        <translation>正在计算差异</translation>
     </message>
     <message>
         <location line="+117"/>
@@ -957,7 +960,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Some changes were not highlighted because they were too large. You can force Meld Qt to take longer to highlight larger changes, though this may be slow.</source>
-        <translation type="unfinished"></translation>
+        <translation>某些更改由于太大没有被高亮。您可以强制 Meld Qt 花更多时间高亮显示大幅的更改，尽管这可能很慢。</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -992,14 +995,14 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message numerus="yes">
         <location line="+41"/>
         <source>%n conflicts aren’t resolved</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n 个冲突尚未解决</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>If you save the merge now, the conflicts are saved as they are here, without conflict markers.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果现在保存合并结果，冲突将按此处的样子保存，不带冲突标记。</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1139,7 +1142,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+6"/>
         <source>File %1</source>
-        <translation type="unfinished"></translation>
+        <translation>文件 %1</translation>
     </message>
     <message>
         <location line="+128"/>
@@ -1290,12 +1293,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+19"/>
         <source>Visual diff and merge tool</source>
-        <translation type="unfinished"></translation>
+        <translation>可视化差异比较与合并工具</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Built with Qt %1</source>
-        <translation type="unfinished"></translation>
+        <translation>使用 Qt %1 构建</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1312,7 +1315,7 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
     <message>
         <location line="+3"/>
         <source>Translated by</source>
-        <translation type="unfinished"></translation>
+        <translation>翻译者</translation>
     </message>
 </context>
 <context>
@@ -1391,12 +1394,12 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
     <message>
         <location line="-383"/>
         <source>Header bar</source>
-        <translation type="unfinished"></translation>
+        <translation>标题栏</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>New Comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>新比较</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1406,7 +1409,7 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
     <message>
         <location line="+1"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>关闭</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1453,12 +1456,12 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
     <message>
         <location line="+2"/>
         <source>Move Tab Left</source>
-        <translation type="unfinished"></translation>
+        <translation>左移标签页</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Move Tab Right</source>
-        <translation type="unfinished"></translation>
+        <translation>右移标签页</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -1478,7 +1481,7 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
     <message>
         <location line="+1"/>
         <source>Next Change</source>
-        <translation type="unfinished"></translation>
+        <translation>下一处更改</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1488,7 +1491,7 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
     <message>
         <location line="+4"/>
         <source>Previous Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>上一个冲突</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1498,7 +1501,7 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
     <message>
         <location line="+1"/>
         <source>Next Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>下一个冲突</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1553,7 +1556,7 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
     <message>
         <location line="+6"/>
         <source>Delete Change</source>
-        <translation type="unfinished"></translation>
+        <translation>删除更改</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1613,7 +1616,7 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
         <location line="+22"/>
         <location line="+6"/>
         <source>Main Menu</source>
-        <translation type="unfinished"></translation>
+        <translation>主菜单</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -1718,12 +1721,12 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
     <message>
         <location line="+17"/>
         <source>No recent comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>没有最近的比较</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Clear Recent Comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>清除最近的比较</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -1739,14 +1742,14 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
         <location line="+65"/>
         <location line="+17"/>
         <source>%1 - Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 - Meld Qt</translation>
     </message>
     <message>
         <location line="+26"/>
         <location line="+146"/>
         <location line="+16"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>无法打开比较</translation>
     </message>
     <message>
         <location line="+43"/>
@@ -1761,7 +1764,7 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
     <message>
         <location line="+11"/>
         <source>Select what to compare, and the patch to apply to it.</source>
-        <translation type="unfinished"></translation>
+        <translation>选择要比较的内容，以及要对其应用的补丁。</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1769,12 +1772,14 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
         <source>The patch “%1” can’t be read.
 
 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>无法读取补丁“%1”。
+
+%2</translation>
     </message>
     <message>
         <location line="+66"/>
         <source>Opening archive “%1”…</source>
-        <translation type="unfinished"></translation>
+        <translation>正在打开归档“%1”…</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1784,17 +1789,17 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
     <message>
         <location line="+2"/>
         <source>Opening Archive</source>
-        <translation type="unfinished"></translation>
+        <translation>正在打开归档</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Couldn’t open archive %1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>无法打开归档 %1：%2</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Failed to open archive</source>
-        <translation type="unfinished"></translation>
+        <translation>打开归档失败</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -1810,7 +1815,7 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
     <message>
         <location line="+28"/>
         <source>The patch “%1” doesn’t exist</source>
-        <translation type="unfinished"></translation>
+        <translation>补丁“%1”不存在</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -2153,22 +2158,22 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
     <message>
         <location line="+7"/>
         <source>Compare with a &amp;patch</source>
-        <translation type="unfinished"></translation>
+        <translation>与补丁比较(&amp;P)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the folder with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>将文件夹与补丁修改后的样子进行比较</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the file with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>将文件与补丁修改后的样子进行比较</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Select Patch File</source>
-        <translation type="unfinished"></translation>
+        <translation>选择补丁文件</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2218,12 +2223,12 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
     <message>
         <location line="+70"/>
         <source>Patches (*.patch *.diff)</source>
-        <translation type="unfinished"></translation>
+        <translation>补丁 (*.patch *.diff)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>All files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>所有文件 (*)</translation>
     </message>
 </context>
 <context>
@@ -2232,27 +2237,27 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
         <location filename="../src/ui/patchcomparison.cpp" line="+24"/>
         <location line="+41"/>
         <source>The patch “%1” can’t be applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>无法将补丁“%1”应用到“%2”。</translation>
     </message>
     <message>
         <location line="-34"/>
         <source>The patch deletes this file.</source>
-        <translation type="unfinished"></translation>
+        <translation>补丁会删除此文件。</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The patch “%1” was applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>补丁“%1”已应用到“%2”。</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>%1 with %2 applied</source>
-        <translation type="unfinished"></translation>
+        <translation>应用了 %2 的 %1</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>无法读取补丁“%1”。</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2372,7 +2377,7 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
     <message>
         <location line="+3"/>
         <source>Follow System Style</source>
-        <translation type="unfinished"></translation>
+        <translation>跟随系统样式</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2390,7 +2395,22 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
         <translation>界面样式</translation>
     </message>
     <message>
+        <location line="+5"/>
+        <source>System Language</source>
+        <translation>系统语言</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Language</source>
+        <translation>语言</translation>
+    </message>
+    <message>
         <location line="+3"/>
+        <source>The language will change when Meld Qt is next started.</source>
+        <translation>语言将在下次启动 Meld Qt 时更改。</translation>
+    </message>
+    <message>
+        <location line="+14"/>
         <source>Use Custom Font</source>
         <translation>使用自定义字体</translation>
     </message>
@@ -2422,12 +2442,12 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
     <message>
         <location line="+1"/>
         <source>At Any Character</source>
-        <translation type="unfinished"></translation>
+        <translation>在任意字符处</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>At Word Boundaries</source>
-        <translation type="unfinished"></translation>
+        <translation>在单词边界处</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2502,22 +2522,22 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
     <message>
         <location line="+1"/>
         <source>Use {file} and {line} to refer to the file and line being opened</source>
-        <translation type="unfinished"></translation>
+        <translation>使用 {file} 和 {line} 引用要打开的文件和行</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Application</source>
-        <translation type="unfinished"></translation>
+        <translation>应用程序</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in the running Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>在正在运行的 Meld Qt 中打开比较</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Comparisons opened from the command line or other programs open in a new window of a Meld Qt that&apos;s already running, instead of starting another Meld Qt. This applies to Meld Qt started after the change.</source>
-        <translation type="unfinished"></translation>
+        <translation>从命令行或其他程序打开的比较将在已运行的 Meld Qt 的新窗口中打开，而不是启动另一个 Meld Qt。此设置对更改后启动的 Meld Qt 生效。</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -2612,7 +2632,7 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
     <message>
         <location line="+5"/>
         <source>Order when comparing file revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>比较文件修订版本时的顺序</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2627,17 +2647,17 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
     <message>
         <location line="+5"/>
         <source>Order when merging files</source>
-        <translation type="unfinished"></translation>
+        <translation>合并文件时的顺序</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Show the common ancestor in conflicts from conflict markers</source>
-        <translation type="unfinished"></translation>
+        <translation>在来自冲突标记的冲突中显示共同祖先</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Merges of files with diff3-style conflict markers start with the common ancestor’s text in conflicts, rather than nothing</source>
-        <translation type="unfinished"></translation>
+        <translation>带有 diff3 风格冲突标记的文件在合并时，冲突中以共同祖先的文本开始，而不是空白</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2687,7 +2707,7 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
     <message>
         <location line="+1"/>
         <source>When performing file comparisons, you may ignore certain types of changes. Each pattern here is a python regular expression which replaces matching text with the empty string before comparison is performed. If the expression contains groups, only the groups are replaced.</source>
-        <translation type="unfinished"></translation>
+        <translation>在进行文件比较时，您可以忽略某些类型的更改。此处的每个模式都是一个 Python 正则表达式，在比较之前会将匹配的文本替换为空字符串。如果表达式包含分组，则只替换分组部分。</translation>
     </message>
 </context>
 <context>
@@ -2802,27 +2822,27 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
     <message>
         <location line="+18"/>
         <source>%1 — %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 — %2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>The file isn’t in %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>该文件不在 %1 中。</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 (%2, %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1（%2，%3）</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (working, %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1（工作区，%2）</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (%2, working)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1（%2，工作区）</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -2862,7 +2882,7 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
     <message>
         <location line="+25"/>
         <source>working copy</source>
-        <translation type="unfinished"></translation>
+        <translation>工作副本</translation>
     </message>
     <message>
         <location line="+67"/>
@@ -2889,7 +2909,7 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
         <location line="+1"/>
         <location line="+1"/>
         <source>Next Change</source>
-        <translation type="unfinished"></translation>
+        <translation>下一处更改</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2992,7 +3012,7 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
     <message>
         <location line="+1"/>
         <source>Pull</source>
-        <translation type="unfinished"></translation>
+        <translation>拉取</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -3017,42 +3037,42 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
     <message>
         <location line="+30"/>
         <source>The commit, tag or tree that changes are compared with</source>
-        <translation type="unfinished"></translation>
+        <translation>用于比较更改的提交、标签或树</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The working copy, or a commit, tag or tree, whose changes are shown</source>
-        <translation type="unfinished"></translation>
+        <translation>显示其更改的工作副本，或者提交、标签或树</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Swap</source>
-        <translation type="unfinished"></translation>
+        <translation>交换</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Swap the revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>交换修订版本</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>重置</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the working copy with the current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>将工作副本与当前提交进行比较</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Changes from</source>
-        <translation type="unfinished"></translation>
+        <translation>更改起点</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>to</source>
-        <translation type="unfinished"></translation>
+        <translation>至</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -3062,17 +3082,17 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
     <message>
         <location line="+28"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>搜索</translation>
     </message>
     <message>
         <location line="+102"/>
         <source>The files as they are now, which can be changed</source>
-        <translation type="unfinished"></translation>
+        <translation>当前的文件，可以修改</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>Unknown revision</source>
-        <translation type="unfinished"></translation>
+        <translation>未知修订版本</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -3083,7 +3103,7 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
     <message>
         <location line="+5"/>
         <source>%1 → %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 → %2</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3103,7 +3123,7 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
     <message>
         <location line="+20"/>
         <source>No such file or directory</source>
-        <translation type="unfinished"></translation>
+        <translation>没有那个文件或目录</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -3118,13 +3138,14 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
     <message>
         <location line="+157"/>
         <source>Error running command</source>
-        <translation type="unfinished"></translation>
+        <translation>运行命令时出错</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>While running &apos;%1&apos;
 Error: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>运行“%1”时
+错误：%2</translation>
     </message>
     <message>
         <location line="+58"/>
@@ -3172,7 +3193,7 @@ Error: %2</source>
     <message>
         <location line="+38"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>无法打开比较</translation>
     </message>
 </context>
 <context>
@@ -3180,12 +3201,12 @@ Error: %2</source>
     <message>
         <location filename="../src/core/conflictmarkers.cpp" line="+134"/>
         <source>Line %1: a conflict starts inside the conflict that starts at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>第 %1 行：一个冲突在第 %2 行开始的冲突内部开始。</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>The conflict that starts at line %1 doesn’t end.</source>
-        <translation type="unfinished"></translation>
+        <translation>从第 %1 行开始的冲突没有结束。</translation>
     </message>
 </context>
 <context>
@@ -3193,133 +3214,133 @@ Error: %2</source>
     <message>
         <location filename="../src/core/patch.cpp" line="+176"/>
         <source>Line %1 of the patch: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>补丁第 %1 行：%2</translation>
     </message>
     <message>
         <location line="+96"/>
         <source>malformed hunk header</source>
-        <translation type="unfinished"></translation>
+        <translation>块头格式错误</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>unexpected line in a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>块中有意外的行</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>the hunk has more lines than its header says</source>
-        <translation type="unfinished"></translation>
+        <translation>块的行数多于块头所述</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>the patch ends in the middle of a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>补丁在块的中间结束</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Only unified diffs can be applied; this is a context diff.</source>
-        <translation type="unfinished"></translation>
+        <translation>只能应用统一格式的差异；这是上下文格式的差异。</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>No changes were found in the patch.</source>
-        <translation type="unfinished"></translation>
+        <translation>补丁中未找到任何更改。</translation>
     </message>
     <message>
         <location line="+122"/>
         <source>Hunk #%1 doesn’t match the file at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>块 #%1 与文件第 %2 行不匹配。</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>Hunk #%1 applied at line %2</source>
-        <translation type="unfinished"></translation>
+        <translation>块 #%1 已应用于第 %2 行</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source> (offset %n lines)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>（偏移 %n 行）</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source> with fuzz %1</source>
-        <translation type="unfinished"></translation>
+        <translation> （模糊匹配 %1）</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+186"/>
         <source>Binary changes can’t be applied.</source>
-        <translation type="unfinished"></translation>
+        <translation>无法应用二进制更改。</translation>
     </message>
     <message>
         <location line="-174"/>
         <source>The patch creates this file, which is already as it would create it.</source>
-        <translation type="unfinished"></translation>
+        <translation>补丁创建此文件，但它已经与补丁将创建的内容相同。</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+190"/>
         <source>The patch creates this file, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>补丁创建此文件，但它已存在。</translation>
     </message>
     <message>
         <location line="-178"/>
         <source>The patch seems to be applied already: its changes are in the file.</source>
-        <translation type="unfinished"></translation>
+        <translation>补丁似乎已经应用：其更改已在文件中。</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source>%1 of %n hunks can’t be applied.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n 个块中有 %1 个无法应用。</numerusform>
         </translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch deletes this file, but it has other contents than the patch removes.</source>
-        <translation type="unfinished"></translation>
+        <translation>补丁删除此文件，但其内容与补丁删除的内容不同。</translation>
     </message>
     <message>
         <location line="+75"/>
         <source>The patch changes several files called %1:</source>
-        <translation type="unfinished"></translation>
+        <translation>补丁修改了多个名为 %1 的文件：</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The patch doesn’t change %1. It changes:</source>
-        <translation type="unfinished"></translation>
+        <translation>补丁没有修改 %1。它修改的是：</translation>
     </message>
     <message>
         <location line="+73"/>
         <source>The patch changes %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>补丁修改了 %1，但它不在文件夹中。</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The patch deletes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>补丁删除此文件，但它不在文件夹中。</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch makes this file from %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>补丁从 %1 创建此文件，但 %1 不在文件夹中。</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>The patch makes this file from %1, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>补丁从 %1 创建此文件，但它已存在。</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>The patch changes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>补丁修改此文件，但它不在文件夹中。</translation>
     </message>
     <message>
         <location line="+106"/>
         <source>The file isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>该文件不在文件夹中。</translation>
     </message>
 </context>
 <context>
@@ -3461,22 +3482,22 @@ Error: %2</source>
     <message>
         <location line="+98"/>
         <source>The current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>当前提交</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>“%1” isn’t a commit, tag or tree in this repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>“%1”不是此仓库中的提交、标签或树。</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 isn’t in the repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 不在仓库中。</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>%1 isn’t in %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 不在 %2 中。</translation>
     </message>
     <message>
         <location line="+84"/>

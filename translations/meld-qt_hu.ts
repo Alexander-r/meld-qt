@@ -6,22 +6,22 @@
     <message>
         <location filename="../src/core/archive.cpp" line="+381"/>
         <source>Couldn’t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>A(z) %1 mappa nem hozható létre</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>No installed program can extract this archive. Install bsdtar (from libarchive) or 7-Zip.</source>
-        <translation type="unfinished"></translation>
+        <translation>Egyetlen telepített program sem tudja kibontani ezt az archívumot. Telepítse a bsdtar (a libarchive része) vagy a 7-Zip programot.</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>%1 crashed</source>
-        <translation type="unfinished"></translation>
+        <translation>A(z) %1 összeomlott</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>%1 failed with status %2</source>
-        <translation type="unfinished"></translation>
+        <translation>A(z) %1 %2 állapottal meghiúsult</translation>
     </message>
 </context>
 <context>
@@ -29,22 +29,22 @@
     <message>
         <location filename="../src/ui/dirdiff.cpp" line="+88"/>
         <source>Couldn&apos;t create link %1</source>
-        <translation type="unfinished"></translation>
+        <translation>A(z) %1 hivatkozás nem hozható létre</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Not a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Nem fájl</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Couldn&apos;t replace %1</source>
-        <translation type="unfinished"></translation>
+        <translation>A(z) %1 nem cserélhető le</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>A(z) %1 mappa nem hozható létre</translation>
     </message>
     <message>
         <location filename="../src/ui/externalhelpers.cpp" line="+58"/>
@@ -59,7 +59,7 @@
     <message>
         <location line="+1"/>
         <source>unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>ismeretlen</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -69,17 +69,17 @@
     <message>
         <location line="+1"/>
         <source>Couldn&apos;t run “%1”</source>
-        <translation type="unfinished"></translation>
+        <translation>A(z) „%1” nem futtatható</translation>
     </message>
     <message>
         <location filename="../src/ui/meldapp.cpp" line="+37"/>
         <source>show program&apos;s version number and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>a program verziószámának kiírása és kilépés</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>show this help message and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>ezen súgóüzenet kiírása és kilépés</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -94,12 +94,12 @@
     <message>
         <location line="+2"/>
         <source>Open comparisons in an already running instance (single-instance mode)</source>
-        <translation type="unfinished"></translation>
+        <translation>Összehasonlítások megnyitása már futó példányban (egypéldányos mód)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in a new instance, even in single-instance mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Összehasonlítások megnyitása új példányban, egypéldányos módban is</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -130,7 +130,7 @@
     <message>
         <location line="+2"/>
         <source>Compare a file or folder with what a patch would make of it</source>
-        <translation type="unfinished"></translation>
+        <translation>Fájl vagy mappa összehasonlítása azzal, amivé egy folt alakítaná</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -159,7 +159,7 @@
     <message>
         <location line="-4"/>
         <source>Start a comparison against a blank pane</source>
-        <translation type="unfinished"></translation>
+        <translation>Összehasonlítás indítása egy üres ablaktáblával</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -174,24 +174,26 @@
     <message>
         <location line="+1"/>
         <source>patch</source>
-        <translation type="unfinished"></translation>
+        <translation>folt</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare with a patch applied</source>
-        <translation type="unfinished"></translation>
+        <translation>Összehasonlítás alkalmazott folttal</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Usage:</source>
-        <translation type="unfinished"></translation>
+        <translation>Használat:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>
 For file comparisons, the special argument @blank may be used instead of
 a &lt;file&gt; argument to create a blank pane.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+Fájlok összehasonlításakor egy &lt;fájl&gt; argumentum helyett a különleges @blank
+argumentum is használható egy üres ablaktábla létrehozásához.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -201,30 +203,30 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+1"/>
         <source>Options:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kapcsolók:</translation>
     </message>
     <message>
         <location line="+42"/>
         <location line="+9"/>
         <source>no such option: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>nincs ilyen kapcsoló: %1</translation>
     </message>
     <message>
         <location line="-8"/>
         <source>ambiguous option: %1 (%2?)</source>
-        <translation type="unfinished"></translation>
+        <translation>nem egyértelmű kapcsoló: %1 (%2?)</translation>
     </message>
     <message>
         <location line="+16"/>
         <location line="+59"/>
         <location line="+16"/>
         <source>%1 option requires an argument</source>
-        <translation type="unfinished"></translation>
+        <translation>a(z) %1 kapcsoló argumentumot igényel</translation>
     </message>
     <message>
         <location line="-73"/>
         <source>%1 option does not take a value</source>
-        <translation type="unfinished"></translation>
+        <translation>a(z) %1 kapcsoló nem fogad el értéket</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -234,17 +236,17 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+53"/>
         <source>--patch needs one file or folder to apply the patch to (got %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>a --patch egy fájlt vagy mappát igényel, amelyre a foltot alkalmazza (%1 érkezett)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>can’t auto-merge with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>folttal nem lehet automatikusan egyesíteni</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>can’t load a comparison file with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>folttal nem tölthető be összehasonlítás-fájl</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -281,14 +283,14 @@ a &lt;file&gt; argument to create a blank pane.</source>
 %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/preferences.cpp" line="+104"/>
+        <location filename="../src/ui/preferences.cpp" line="+108"/>
         <source>Select a Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Stílus kiválasztása</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Select</source>
-        <translation type="unfinished"></translation>
+        <translation>Kiválasztás</translation>
     </message>
     <message>
         <location filename="../src/ui/recent.cpp" line="+76"/>
@@ -302,7 +304,8 @@ a &lt;file&gt; argument to create a blank pane.</source>
         <location filename="../src/ui/singleinstance.cpp" line="+50"/>
         <source>Meld Qt couldn’t open the comparison: a different version of Meld Qt is running.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>A Meld Qt nem tudta megnyitni az összehasonlítást: a Meld Qt egy másik verziója fut.
+</translation>
     </message>
 </context>
 <context>
@@ -391,34 +394,34 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+10"/>
         <source>The conflict markers in “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>A(z) „%1” ütközésjelölői nem olvashatók.</translation>
     </message>
     <message numerus="yes">
         <location line="+17"/>
         <source>%n unresolved conflicts</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n feloldatlan ütközés</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts show the common ancestor’s text, which the local and remote versions changed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Az ütközések a közös ős szövegét mutatják, amelyet a helyi és a távoli verzió megváltoztatott.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts are empty, to be filled from the local and remote versions.</source>
-        <translation type="unfinished"></translation>
+        <translation>Az ütközések üresek, a helyi és a távoli verzióból kell kitölteni őket.</translation>
     </message>
     <message>
         <location line="+42"/>
         <source>local</source>
-        <translation type="unfinished"></translation>
+        <translation>helyi</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>remote</source>
-        <translation type="unfinished"></translation>
+        <translation>távoli</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -446,12 +449,12 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+16"/>
         <source>Folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1. mappa</translation>
     </message>
     <message>
         <location line="+81"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Keresés</translation>
     </message>
     <message>
         <location line="+88"/>
@@ -486,7 +489,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+54"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>A(z) „%1” folt nem olvasható.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -497,17 +500,17 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+36"/>
         <source>%1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: %2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Permission denied</source>
-        <translation type="unfinished"></translation>
+        <translation>Hozzáférés megtagadva</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>: Dangling symlink</source>
-        <translation type="unfinished"></translation>
+        <translation>: Lógó szimbolikus link</translation>
     </message>
     <message>
         <location line="+99"/>
@@ -552,7 +555,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+13"/>
         <source>Folder %1 is being compared to itself</source>
-        <translation type="unfinished"></translation>
+        <translation>A(z) %1 mappa saját magával lesz összehasonlítva</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -657,7 +660,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+164"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>A(z) %1 mappa nem hozható létre</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -701,7 +704,7 @@ to %2.
     <message>
         <location line="+24"/>
         <source>Error deleting %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiba a(z) %1 törlésekor</translation>
     </message>
 </context>
 <context>
@@ -734,7 +737,7 @@ to %2.
     <message>
         <location line="+144"/>
         <source>empty folder</source>
-        <translation type="unfinished"></translation>
+        <translation>üres mappa</translation>
     </message>
 </context>
 <context>
@@ -852,12 +855,12 @@ to %2.
     <message>
         <location line="+13"/>
         <source>There was a problem opening “%1”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiba történt a(z) „%1” megnyitásakor.</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The file could not be decoded using the candidate encodings.</source>
-        <translation type="unfinished"></translation>
+        <translation>A fájl nem fejthető vissza a lehetséges kódolások egyikével sem.</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -871,19 +874,19 @@ A nagyon hosszú sorokat tartalmazó fájlok betöltése lassíthatja vagy vála
     <message numerus="yes">
         <location line="+39"/>
         <source>%1 has %n unresolved merge conflicts.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>A(z) %1 %n feloldatlan egyesítési ütközést tartalmaz.</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The local and remote versions can be merged in a 3-way comparison.</source>
-        <translation type="unfinished"></translation>
+        <translation>A helyi és a távoli verzió háromutas összehasonlításban egyesíthető.</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Resolve</source>
-        <translation type="unfinished"></translation>
+        <translation>Feloldás</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -903,12 +906,12 @@ A nagyon hosszú sorokat tartalmazó fájlok betöltése lassíthatja vagy vála
     <message>
         <location line="+64"/>
         <source>Computing differences</source>
-        <translation type="unfinished"></translation>
+        <translation>Különbségek számítása</translation>
     </message>
     <message>
         <location line="+117"/>
         <source>File %1 is being compared to itself</source>
-        <translation type="unfinished"></translation>
+        <translation>A(z) %1 fájl saját magával lesz összehasonlítva</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -992,14 +995,14 @@ A nagyon hosszú sorokat tartalmazó fájlok betöltése lassíthatja vagy vála
     <message numerus="yes">
         <location line="+41"/>
         <source>%n conflicts aren’t resolved</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n ütközés nincs feloldva</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>If you save the merge now, the conflicts are saved as they are here, without conflict markers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha most menti az egyesítést, az ütközések ütközésjelölők nélkül, az itt látható módon lesznek mentve.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1032,7 +1035,7 @@ A nagyon hosszú sorokat tartalmazó fájlok betöltése lassíthatja vagy vála
     <message>
         <location line="-18"/>
         <source>File “%1” contains characters that can’t be encoded using its current encoding “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>A(z) „%1” fájl olyan karaktereket tartalmaz, amelyek nem kódolhatók a jelenlegi „%2” kódolás használatával.</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1139,7 +1142,7 @@ A nagyon hosszú sorokat tartalmazó fájlok betöltése lassíthatja vagy vála
     <message>
         <location line="+6"/>
         <source>File %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1. fájl</translation>
     </message>
     <message>
         <location line="+128"/>
@@ -1290,12 +1293,12 @@ A nagyon hosszú sorokat tartalmazó fájlok betöltése lassíthatja vagy vála
     <message>
         <location line="+19"/>
         <source>Visual diff and merge tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Vizuális összehasonlító és egyesítő eszköz</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Built with Qt %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Qt %1 használatával készült</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1309,7 +1312,7 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     <message>
         <location line="+3"/>
         <source>Translated by</source>
-        <translation type="unfinished"></translation>
+        <translation>Fordította</translation>
     </message>
 </context>
 <context>
@@ -1388,12 +1391,12 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     <message>
         <location line="-383"/>
         <source>Header bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Fejléc</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>New Comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Új összehasonlítás</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1403,7 +1406,7 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     <message>
         <location line="+1"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Bezárás</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1419,7 +1422,7 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     <message>
         <location line="-894"/>
         <source>Quit</source>
-        <translation type="unfinished"></translation>
+        <translation>Kilépés</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1440,22 +1443,22 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     <message>
         <location line="-959"/>
         <source>Previous Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Előző lap</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Next Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Következő lap</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Move Tab Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Lap mozgatása balra</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Move Tab Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Lap mozgatása jobbra</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -1465,7 +1468,7 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     <message>
         <location line="+11"/>
         <source>Previous Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Előző változás</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1475,7 +1478,7 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     <message>
         <location line="+1"/>
         <source>Next Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Következő változás</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1485,7 +1488,7 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     <message>
         <location line="+4"/>
         <source>Previous Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>Előző ütközés</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1495,7 +1498,7 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     <message>
         <location line="+1"/>
         <source>Next Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>Következő ütközés</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1505,7 +1508,7 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     <message>
         <location line="+7"/>
         <source>Push to Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Küldés balra</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1515,7 +1518,7 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     <message>
         <location line="+1"/>
         <source>Push to Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Küldés jobbra</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1550,7 +1553,7 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     <message>
         <location line="+6"/>
         <source>Delete Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Változás törlése</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1610,7 +1613,7 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
         <location line="+22"/>
         <location line="+6"/>
         <source>Main Menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Főmenü</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -1715,12 +1718,12 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     <message>
         <location line="+17"/>
         <source>No recent comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>Nincsenek legutóbbi összehasonlítások</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Clear Recent Comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>Legutóbbi összehasonlítások törlése</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -1736,14 +1739,14 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
         <location line="+65"/>
         <location line="+17"/>
         <source>%1 - Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 - Meld Qt</translation>
     </message>
     <message>
         <location line="+26"/>
         <location line="+146"/>
         <location line="+16"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Az összehasonlítás nem nyitható meg</translation>
     </message>
     <message>
         <location line="+43"/>
@@ -1758,7 +1761,7 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     <message>
         <location line="+11"/>
         <source>Select what to compare, and the patch to apply to it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Válassza ki, mit szeretne összehasonlítani, és a rá alkalmazandó foltot.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1766,12 +1769,14 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
         <source>The patch “%1” can’t be read.
 
 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>A(z) „%1” folt nem olvasható.
+
+%2</translation>
     </message>
     <message>
         <location line="+66"/>
         <source>Opening archive “%1”…</source>
-        <translation type="unfinished"></translation>
+        <translation>A(z) „%1” archívum megnyitása…</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1781,17 +1786,17 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     <message>
         <location line="+2"/>
         <source>Opening Archive</source>
-        <translation type="unfinished"></translation>
+        <translation>Archívum megnyitása</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Couldn’t open archive %1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>A(z) %1 archívum nem nyitható meg: %2</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Failed to open archive</source>
-        <translation type="unfinished"></translation>
+        <translation>Az archívum megnyitása sikertelen</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -1807,7 +1812,7 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     <message>
         <location line="+28"/>
         <source>The patch “%1” doesn’t exist</source>
-        <translation type="unfinished"></translation>
+        <translation>A(z) „%1” folt nem létezik</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -1827,7 +1832,7 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     <message>
         <location line="+1"/>
         <source>Quit Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>Kilépés a Meld Qt-ből</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2150,22 +2155,22 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     <message>
         <location line="+7"/>
         <source>Compare with a &amp;patch</source>
-        <translation type="unfinished"></translation>
+        <translation>Összehasonlítás &amp;folttal</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the folder with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>A mappa összehasonlítása azzal, ahogy egy folt megváltoztatná</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the file with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>A fájl összehasonlítása azzal, ahogy egy folt megváltoztatná</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Select Patch File</source>
-        <translation type="unfinished"></translation>
+        <translation>Foltfájl kiválasztása</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2215,12 +2220,12 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     <message>
         <location line="+70"/>
         <source>Patches (*.patch *.diff)</source>
-        <translation type="unfinished"></translation>
+        <translation>Foltok (*.patch *.diff)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>All files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>Minden fájl (*)</translation>
     </message>
 </context>
 <context>
@@ -2229,27 +2234,27 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
         <location filename="../src/ui/patchcomparison.cpp" line="+24"/>
         <location line="+41"/>
         <source>The patch “%1” can’t be applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>A(z) „%1” folt nem alkalmazható erre: „%2”.</translation>
     </message>
     <message>
         <location line="-34"/>
         <source>The patch deletes this file.</source>
-        <translation type="unfinished"></translation>
+        <translation>A folt törli ezt a fájlt.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The patch “%1” was applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>A(z) „%1” folt alkalmazva erre: „%2”.</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>%1 with %2 applied</source>
-        <translation type="unfinished"></translation>
+        <translation>%1, alkalmazott %2 folttal</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>A(z) „%1” folt nem olvasható.</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2369,7 +2374,7 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     <message>
         <location line="+3"/>
         <source>Follow System Style</source>
-        <translation type="unfinished"></translation>
+        <translation>A rendszer stílusának követése</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2387,7 +2392,22 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
         <translation>Felület stílusa</translation>
     </message>
     <message>
+        <location line="+5"/>
+        <source>System Language</source>
+        <translation>Rendszer nyelve</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Language</source>
+        <translation>Nyelv</translation>
+    </message>
+    <message>
         <location line="+3"/>
+        <source>The language will change when Meld Qt is next started.</source>
+        <translation>A nyelv a Meld Qt következő indításakor változik meg.</translation>
+    </message>
+    <message>
+        <location line="+14"/>
         <source>Use Custom Font</source>
         <translation>Egyéni betűkészlet használata</translation>
     </message>
@@ -2419,12 +2439,12 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     <message>
         <location line="+1"/>
         <source>At Any Character</source>
-        <translation type="unfinished"></translation>
+        <translation>Bármely karakternél</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>At Word Boundaries</source>
-        <translation type="unfinished"></translation>
+        <translation>Szóhatároknál</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2499,22 +2519,22 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     <message>
         <location line="+1"/>
         <source>Use {file} and {line} to refer to the file and line being opened</source>
-        <translation type="unfinished"></translation>
+        <translation>A {file} és a {line} segítségével hivatkozhat a megnyitandó fájlra és sorra</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Application</source>
-        <translation type="unfinished"></translation>
+        <translation>Alkalmazás</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in the running Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>Összehasonlítások megnyitása a futó Meld Qt-ben</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Comparisons opened from the command line or other programs open in a new window of a Meld Qt that&apos;s already running, instead of starting another Meld Qt. This applies to Meld Qt started after the change.</source>
-        <translation type="unfinished"></translation>
+        <translation>A parancssorból vagy más programokból megnyitott összehasonlítások egy már futó Meld Qt új ablakában nyílnak meg egy újabb Meld Qt indítása helyett. Ez a módosítás után indított Meld Qt-re vonatkozik.</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -2609,7 +2629,7 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     <message>
         <location line="+5"/>
         <source>Order when comparing file revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>Sorrend fájlverziók összehasonlításakor</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2624,17 +2644,17 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     <message>
         <location line="+5"/>
         <source>Order when merging files</source>
-        <translation type="unfinished"></translation>
+        <translation>Sorrend fájlok egyesítésekor</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Show the common ancestor in conflicts from conflict markers</source>
-        <translation type="unfinished"></translation>
+        <translation>A közös ős megjelenítése az ütközésjelölőkből származó ütközésekben</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Merges of files with diff3-style conflict markers start with the common ancestor’s text in conflicts, rather than nothing</source>
-        <translation type="unfinished"></translation>
+        <translation>A diff3 stílusú ütközésjelölőket tartalmazó fájlok egyesítése az ütközésekben a közös ős szövegével kezdődik a semmi helyett</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2684,7 +2704,7 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     <message>
         <location line="+1"/>
         <source>When performing file comparisons, you may ignore certain types of changes. Each pattern here is a python regular expression which replaces matching text with the empty string before comparison is performed. If the expression contains groups, only the groups are replaced.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fájlok összehasonlításakor bizonyos típusú változások figyelmen kívül hagyhatók. Itt minden minta egy Python reguláris kifejezés, amely az összehasonlítás előtt az illeszkedő szöveget üres karakterláncra cseréli. Ha a kifejezés csoportokat tartalmaz, csak a csoportok lesznek cserélve.</translation>
     </message>
 </context>
 <context>
@@ -2799,27 +2819,27 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     <message>
         <location line="+18"/>
         <source>%1 — %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 — %2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>The file isn’t in %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>A fájl nincs itt: %1.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 (%2, %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2, %3)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (working, %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (munka, %2)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (%2, working)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2, munka)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -2859,7 +2879,7 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     <message>
         <location line="+25"/>
         <source>working copy</source>
-        <translation type="unfinished"></translation>
+        <translation>munkapéldány</translation>
     </message>
     <message>
         <location line="+67"/>
@@ -2886,7 +2906,7 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
         <location line="+1"/>
         <location line="+1"/>
         <source>Next Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Következő változás</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2897,12 +2917,12 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
         <location line="+1"/>
         <location line="+1"/>
         <source>Previous Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Előző változás</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>Frissítés</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2945,7 +2965,7 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     <message>
         <location line="-754"/>
         <source>Push</source>
-        <translation type="unfinished"></translation>
+        <translation>Küldés</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2989,7 +3009,7 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     <message>
         <location line="+1"/>
         <source>Pull</source>
-        <translation type="unfinished"></translation>
+        <translation>Lehúzás</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -3014,42 +3034,42 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     <message>
         <location line="+30"/>
         <source>The commit, tag or tree that changes are compared with</source>
-        <translation type="unfinished"></translation>
+        <translation>A véglegesítés, címke vagy fa, amelyhez a változásokat hasonlítja</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The working copy, or a commit, tag or tree, whose changes are shown</source>
-        <translation type="unfinished"></translation>
+        <translation>A munkapéldány, vagy egy véglegesítés, címke vagy fa, amelynek változásai láthatók</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Swap</source>
-        <translation type="unfinished"></translation>
+        <translation>Csere</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Swap the revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>A verziók felcserélése</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Visszaállítás</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the working copy with the current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>A munkapéldány összehasonlítása a jelenlegi véglegesítéssel</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Changes from</source>
-        <translation type="unfinished"></translation>
+        <translation>Változások ettől:</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>to</source>
-        <translation type="unfinished"></translation>
+        <translation>eddig:</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -3059,17 +3079,17 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     <message>
         <location line="+28"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Keresés</translation>
     </message>
     <message>
         <location line="+102"/>
         <source>The files as they are now, which can be changed</source>
-        <translation type="unfinished"></translation>
+        <translation>A fájlok jelenlegi, módosítható állapotukban</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>Unknown revision</source>
-        <translation type="unfinished"></translation>
+        <translation>Ismeretlen verzió</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -3080,7 +3100,7 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     <message>
         <location line="+5"/>
         <source>%1 → %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 → %2</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3100,7 +3120,7 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     <message>
         <location line="+20"/>
         <source>No such file or directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Nincs ilyen fájl vagy könyvtár</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -3115,13 +3135,14 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     <message>
         <location line="+157"/>
         <source>Error running command</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiba a parancs futtatásakor</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>While running &apos;%1&apos;
 Error: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>A(z) „%1” futtatása közben
+Hiba: %2</translation>
     </message>
     <message>
         <location line="+58"/>
@@ -3164,12 +3185,12 @@ Error: %2</source>
     <message>
         <location line="+22"/>
         <source>Error deleting %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiba a(z) %1 törlésekor</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Az összehasonlítás nem nyitható meg</translation>
     </message>
 </context>
 <context>
@@ -3177,12 +3198,12 @@ Error: %2</source>
     <message>
         <location filename="../src/core/conflictmarkers.cpp" line="+134"/>
         <source>Line %1: a conflict starts inside the conflict that starts at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1. sor: egy ütközés a %2. sorban kezdődő ütközésen belül kezdődik.</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>The conflict that starts at line %1 doesn’t end.</source>
-        <translation type="unfinished"></translation>
+        <translation>A(z) %1. sorban kezdődő ütközés nem ér véget.</translation>
     </message>
 </context>
 <context>
@@ -3190,133 +3211,133 @@ Error: %2</source>
     <message>
         <location filename="../src/core/patch.cpp" line="+176"/>
         <source>Line %1 of the patch: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>A folt %1. sora: %2</translation>
     </message>
     <message>
         <location line="+96"/>
         <source>malformed hunk header</source>
-        <translation type="unfinished"></translation>
+        <translation>hibás blokkfejléc</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>unexpected line in a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>váratlan sor egy blokkban</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>the hunk has more lines than its header says</source>
-        <translation type="unfinished"></translation>
+        <translation>a blokk több sort tartalmaz, mint amennyit a fejléce megad</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>the patch ends in the middle of a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>a folt egy blokk közepén ér véget</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Only unified diffs can be applied; this is a context diff.</source>
-        <translation type="unfinished"></translation>
+        <translation>Csak egységes diffek alkalmazhatók; ez egy környezeti diff.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>No changes were found in the patch.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nem található változás a foltban.</translation>
     </message>
     <message>
         <location line="+122"/>
         <source>Hunk #%1 doesn’t match the file at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>A(z) %1. blokk nem illeszkedik a fájlhoz a(z) %2. sorban.</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>Hunk #%1 applied at line %2</source>
-        <translation type="unfinished"></translation>
+        <translation>A(z) %1. blokk alkalmazva a(z) %2. sorban</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source> (offset %n lines)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform> (%n soros eltolás)</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source> with fuzz %1</source>
-        <translation type="unfinished"></translation>
+        <translation> %1 pontatlansággal</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+186"/>
         <source>Binary changes can’t be applied.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bináris változások nem alkalmazhatók.</translation>
     </message>
     <message>
         <location line="-174"/>
         <source>The patch creates this file, which is already as it would create it.</source>
-        <translation type="unfinished"></translation>
+        <translation>A folt létrehozza ezt a fájlt, de az már olyan, amilyenre a folt létrehozná.</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+190"/>
         <source>The patch creates this file, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>A folt létrehozza ezt a fájlt, de az már létezik.</translation>
     </message>
     <message>
         <location line="-178"/>
         <source>The patch seems to be applied already: its changes are in the file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Úgy tűnik, a folt már alkalmazva van: a változásai benne vannak a fájlban.</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source>%1 of %n hunks can’t be applied.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n blokkból %1 nem alkalmazható.</numerusform>
         </translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch deletes this file, but it has other contents than the patch removes.</source>
-        <translation type="unfinished"></translation>
+        <translation>A folt törli ezt a fájlt, de annak tartalma eltér attól, amit a folt eltávolít.</translation>
     </message>
     <message>
         <location line="+75"/>
         <source>The patch changes several files called %1:</source>
-        <translation type="unfinished"></translation>
+        <translation>A folt több %1 nevű fájlt módosít:</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The patch doesn’t change %1. It changes:</source>
-        <translation type="unfinished"></translation>
+        <translation>A folt nem módosítja ezt: %1. Ezeket módosítja:</translation>
     </message>
     <message>
         <location line="+73"/>
         <source>The patch changes %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>A folt módosítja ezt: %1, de az nincs a mappában.</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The patch deletes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>A folt törli ezt a fájlt, de az nincs a mappában.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch makes this file from %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>A folt ezt a fájlt ebből hozza létre: %1, de az nincs a mappában.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>The patch makes this file from %1, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>A folt ezt a fájlt ebből hozza létre: %1, de a fájl már létezik.</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>The patch changes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>A folt módosítja ezt a fájlt, de az nincs a mappában.</translation>
     </message>
     <message>
         <location line="+106"/>
         <source>The file isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>A fájl nincs a mappában.</translation>
     </message>
 </context>
 <context>
@@ -3340,7 +3361,7 @@ Error: %2</source>
     <message>
         <location line="+3"/>
         <source>“%1” can’t be put in the trash. Do you want to delete it permanently?</source>
-        <translation type="unfinished"></translation>
+        <translation>A(z) „%1” nem helyezhető a kukába. Szeretné véglegesen törölni?</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3458,22 +3479,22 @@ Error: %2</source>
     <message>
         <location line="+98"/>
         <source>The current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>A jelenlegi véglegesítés</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>“%1” isn’t a commit, tag or tree in this repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>A(z) „%1” nem véglegesítés, címke vagy fa ebben a tárolóban.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 isn’t in the repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 nincs a tárolóban.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>%1 isn’t in %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 nincs itt: %2.</translation>
     </message>
     <message>
         <location line="+84"/>

@@ -6,22 +6,22 @@
     <message>
         <location filename="../src/core/archive.cpp" line="+381"/>
         <source>Couldn’t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne mogu da napravim fasciklu „%1“</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>No installed program can extract this archive. Install bsdtar (from libarchive) or 7-Zip.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nijedan instalirani program ne može da raspakuje ovu arhivu. Instalirajte „bsdtar“ (iz „libarchive“) ili „7-Zip“.</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>%1 crashed</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 se urušio</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>%1 failed with status %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 nije uspeo, stanje %2</translation>
     </message>
 </context>
 <context>
@@ -29,57 +29,57 @@
     <message>
         <location filename="../src/ui/dirdiff.cpp" line="+88"/>
         <source>Couldn&apos;t create link %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne mogu da napravim vezu „%1“</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Not a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Nije datoteka</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Couldn&apos;t replace %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne mogu da zamenim „%1“</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne mogu da napravim fasciklu „%1“</translation>
     </message>
     <message>
         <location filename="../src/ui/externalhelpers.cpp" line="+58"/>
         <source>Unsupported file type</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepodržana vrsta datoteke</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>External opening of files of type “%1” is not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Spoljno otvaranje datoteka vrste „%1“ nije podržano</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>nepoznato</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Failed to launch custom editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Nisam uspeo da pokrenem proizvoljnog uređivača</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Couldn&apos;t run “%1”</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne mogu da pokrenem „%1“</translation>
     </message>
     <message>
         <location filename="../src/ui/meldapp.cpp" line="+37"/>
         <source>show program&apos;s version number and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>prikazuje broj izdanja programa i izlazi</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>show this help message and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>prikazuje ovu poruku pomoći i izlazi</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -94,12 +94,12 @@
     <message>
         <location line="+2"/>
         <source>Open comparisons in an already running instance (single-instance mode)</source>
-        <translation type="unfinished"></translation>
+        <translation>Otvara poređenja u već pokrenutom primerku (režim jednog primerka)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in a new instance, even in single-instance mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Otvara poređenja u novom primerku, čak i u režimu jednog primerka</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -125,12 +125,12 @@
     <message>
         <location line="+2"/>
         <source>Load a saved comparison from a Meld Qt comparison file</source>
-        <translation type="unfinished"></translation>
+        <translation>Učitava sačuvano poređenje iz datoteke poređenja programa Meld Qt</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Compare a file or folder with what a patch would make of it</source>
-        <translation type="unfinished"></translation>
+        <translation>Poredi datoteku ili fasciklu sa onim što bi ispravka napravila od nje</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -159,7 +159,7 @@
     <message>
         <location line="-4"/>
         <source>Start a comparison against a blank pane</source>
-        <translation type="unfinished"></translation>
+        <translation>Započinje poređenje sa praznim oknom</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -174,24 +174,26 @@
     <message>
         <location line="+1"/>
         <source>patch</source>
-        <translation type="unfinished"></translation>
+        <translation>ispravka</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare with a patch applied</source>
-        <translation type="unfinished"></translation>
+        <translation>Poredi sa primenjenom ispravkom</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Usage:</source>
-        <translation type="unfinished"></translation>
+        <translation>Upotreba:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>
 For file comparisons, the special argument @blank may be used instead of
 a &lt;file&gt; argument to create a blank pane.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+Za poređenja datoteka, poseban argument @blank se može koristiti umesto
+argumenta &lt;datoteka&gt; da bi se napravilo prazno okno.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -201,30 +203,30 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+1"/>
         <source>Options:</source>
-        <translation type="unfinished"></translation>
+        <translation>Opcije:</translation>
     </message>
     <message>
         <location line="+42"/>
         <location line="+9"/>
         <source>no such option: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>nema takve opcije: %1</translation>
     </message>
     <message>
         <location line="-8"/>
         <source>ambiguous option: %1 (%2?)</source>
-        <translation type="unfinished"></translation>
+        <translation>nejasna opcija: %1 (%2?)</translation>
     </message>
     <message>
         <location line="+16"/>
         <location line="+59"/>
         <location line="+16"/>
         <source>%1 option requires an argument</source>
-        <translation type="unfinished"></translation>
+        <translation>opcija %1 zahteva argument</translation>
     </message>
     <message>
         <location line="-73"/>
         <source>%1 option does not take a value</source>
-        <translation type="unfinished"></translation>
+        <translation>opcija %1 ne prihvata vrednost</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -234,17 +236,17 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+53"/>
         <source>--patch needs one file or folder to apply the patch to (got %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>--patch zahteva jednu datoteku ili fasciklu na koju će se primeniti ispravka (dobijeno je %1)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>can’t auto-merge with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>ne mogu samostalno da stopim sa ispravkom</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>can’t load a comparison file with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>ne mogu da učitam datoteku poređenja sa ispravkom</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -254,12 +256,12 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+2"/>
         <source>can’t auto-merge less than 3 files</source>
-        <translation type="unfinished"></translation>
+        <translation>ne mogu samostalno da stopim manje od 3 datoteke</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>can’t auto-merge directories</source>
-        <translation type="unfinished"></translation>
+        <translation>ne mogu samostalno da stopim direktorijume</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -277,17 +279,18 @@ a &lt;file&gt; argument to create a blank pane.</source>
         <location line="+1"/>
         <source>Couldn’t save file due to:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne mogu da sačuvam datoteku zbog sledećeg:
+%1</translation>
     </message>
     <message>
-        <location filename="../src/ui/preferences.cpp" line="+104"/>
+        <location filename="../src/ui/preferences.cpp" line="+108"/>
         <source>Select a Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Izaberite stil</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Select</source>
-        <translation type="unfinished"></translation>
+        <translation>Izaberi</translation>
     </message>
     <message>
         <location filename="../src/ui/recent.cpp" line="+76"/>
@@ -301,7 +304,8 @@ a &lt;file&gt; argument to create a blank pane.</source>
         <location filename="../src/ui/singleinstance.cpp" line="+50"/>
         <source>Meld Qt couldn’t open the comparison: a different version of Meld Qt is running.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Meld Qt ne može da otvori poređenje: pokrenuto je drugo izdanje programa Meld Qt.
+</translation>
     </message>
 </context>
 <context>
@@ -338,12 +342,12 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location filename="../src/ui/actiongutter.cpp" line="+346"/>
         <source>Copy Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Umnoži gore</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Copy Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Umnoži dole</translation>
     </message>
 </context>
 <context>
@@ -357,7 +361,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+8"/>
         <source>Changed Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Izmenjene datoteke</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -390,36 +394,36 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+10"/>
         <source>The conflict markers in “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne mogu da pročitam oznake sukoba u „%1“.</translation>
     </message>
     <message numerus="yes">
         <location line="+17"/>
         <source>%n unresolved conflicts</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n nerazrešen sukob</numerusform>
+            <numerusform>%n nerazrešena sukoba</numerusform>
+            <numerusform>%n nerazrešenih sukoba</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts show the common ancestor’s text, which the local and remote versions changed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sukobi prikazuju tekst zajedničkog pretka, koji su mesno i udaljeno izdanje izmenili.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts are empty, to be filled from the local and remote versions.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sukobi su prazni, treba ih popuniti iz mesnog i udaljenog izdanja.</translation>
     </message>
     <message>
         <location line="+42"/>
         <source>local</source>
-        <translation type="unfinished"></translation>
+        <translation>mesno</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>remote</source>
-        <translation type="unfinished"></translation>
+        <translation>udaljeno</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -437,22 +441,22 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location filename="../src/ui/dirdiff.cpp" line="+281"/>
         <source>Select Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Izaberite fasciklu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Select folder to open in this pane</source>
-        <translation type="unfinished"></translation>
+        <translation>Izaberite fasciklu za otvaranje u ovom oknu</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Fascikla %1</translation>
     </message>
     <message>
         <location line="+81"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Traži</translation>
     </message>
     <message>
         <location line="+88"/>
@@ -477,17 +481,17 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+1"/>
         <source>Normalize Unicode Paths</source>
-        <translation type="unfinished"></translation>
+        <translation>Normalizuj Junikod putanje</translation>
     </message>
     <message>
         <location line="+239"/>
         <source>%1 (scanning…)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (skeniram…)</translation>
     </message>
     <message>
         <location line="+54"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne mogu da pročitam ispravku „%1“.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -503,17 +507,17 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+8"/>
         <source>Permission denied</source>
-        <translation type="unfinished"></translation>
+        <translation>Pristup je odbijen</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>: Dangling symlink</source>
-        <translation type="unfinished"></translation>
+        <translation>: Viseća simbolička veza</translation>
     </message>
     <message>
         <location line="+99"/>
         <source>Done</source>
-        <translation type="unfinished"></translation>
+        <translation>Gotovo</translation>
     </message>
     <message>
         <location line="+162"/>
@@ -553,7 +557,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+13"/>
         <source>Folder %1 is being compared to itself</source>
-        <translation type="unfinished"></translation>
+        <translation>Fascikla „%1“ je upoređena sa samom sobom</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -583,17 +587,17 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+2"/>
         <source>Files had mismatched leading or trailing whitespace</source>
-        <translation type="unfinished"></translation>
+        <translation>Datoteke imaju neuparenu vodeću ili krajnju prazninu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>This comparison found some files that differed only in leading or trailing whitespace. Their names appear as:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ovim poređenjem je utvrđeno da se neke datoteke razlikuju samo u vodećoj ili završnoj praznini. A one su:</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>“%1” hidden by “%2”</source>
-        <translation type="unfinished"></translation>
+        <translation>„%1“ je skrivena od strane „%2“</translation>
     </message>
     <message>
         <location line="+47"/>
@@ -603,22 +607,22 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+15"/>
         <source>Folder comparison:</source>
-        <translation type="unfinished"></translation>
+        <translation>Poređenje fascikli:</translation>
     </message>
     <message>
         <location line="+377"/>
         <source>&amp;Compare Selected Files</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Uporedi izabrane datoteke</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Mark Selected File</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Označi izabrane datoteke</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare &amp;with Marked File</source>
-        <translation type="unfinished"></translation>
+        <translation>Uporedi &amp;sa označenom datotekom</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -633,32 +637,32 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+1"/>
         <source>&amp;Delete Selected</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Obriši izabrano</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Collapse Recursively</source>
-        <translation type="unfinished"></translation>
+        <translation>Skupi dubinski</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Expand Recursively</source>
-        <translation type="unfinished"></translation>
+        <translation>Raširi dubinski</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Open Externally</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Otvori spoljnim</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&amp;Copy File Paths</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Umnoži putanje datoteka</translation>
     </message>
     <message>
         <location line="+164"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne mogu da napravim fasciklu „%1“</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -694,7 +698,10 @@ Ako zamenite postojeću fasciklu, sve datoteke u njoj biće izgubljene.</transla
 to %2.
 
 %3</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne mogu da umnožim „%1“
+u „%2“.
+
+%3</translation>
     </message>
     <message>
         <location line="+24"/>
@@ -722,7 +729,7 @@ to %2.
     <message>
         <location line="+2"/>
         <source>Modification time (ISO)</source>
-        <translation type="unfinished"></translation>
+        <translation>Vreme izmene (ISO)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -732,7 +739,7 @@ to %2.
     <message>
         <location line="+144"/>
         <source>empty folder</source>
-        <translation type="unfinished"></translation>
+        <translation>prazna fascikla</translation>
     </message>
 </context>
 <context>
@@ -750,37 +757,37 @@ to %2.
     <message>
         <location line="+697"/>
         <source>&amp;Undo</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Opozovi</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&amp;Redo</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ponovi</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Cu&amp;t</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Iseci</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&amp;Copy</source>
-        <translation type="unfinished"></translation>
+        <translation>U&amp;množi</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&amp;Paste</source>
-        <translation type="unfinished"></translation>
+        <translation>U&amp;baci</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open Containing Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Otvori fasciklu sadržaja</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy Full Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Umnoži punu putanju</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -790,17 +797,17 @@ to %2.
     <message>
         <location line="+1"/>
         <source>Move Synchronization Point</source>
-        <translation type="unfinished"></translation>
+        <translation>P tačku usklađivanja</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Match Synchronization Point</source>
-        <translation type="unfinished"></translation>
+        <translation>P tačku usklađivanja</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Remove Synchronization Point</source>
-        <translation type="unfinished"></translation>
+        <translation>U tačku usklađivanja</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -820,27 +827,27 @@ to %2.
     <message>
         <location line="+21"/>
         <source>Can&apos;t swap unsaved files</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne mogu da razmenim nesačuvane datoteke</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Files must be saved to disk before swapping panes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Datoteke moraju biti sačuvane pre razmene okana.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Can&apos;t swap version control comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne mogu da razmenim poređenja kontrole verzije</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Swapping panes is not supported in version control mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>Razmena površi nije podržana u režimu upravljanja izdanjem.</translation>
     </message>
     <message>
         <location line="+89"/>
         <source>File comparison:</source>
-        <translation type="unfinished"></translation>
+        <translation>Poređenje datoteka:</translation>
     </message>
     <message>
         <location line="+116"/>
@@ -850,38 +857,40 @@ to %2.
     <message>
         <location line="+13"/>
         <source>There was a problem opening “%1”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Došlo je do problema pri otvaranju „%1“.</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The file could not be decoded using the candidate encodings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne mogu da dekodiram datoteku ni jednim od ponuđenih kodiranja.</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Line %1 exceeded maximum line length (%2 &gt; %3).
 
 Loading files with very long lines may make Meld Qt slow or unresponsive.</source>
-        <translation type="unfinished"></translation>
+        <translation>Red %1. je premašio najveću dužinu reda (%2 &gt; %3).
+
+Učitavanje datoteka sa vrlo dugim redovima može učiniti Meld Qt sporim ili neodazivajućim.</translation>
     </message>
     <message numerus="yes">
         <location line="+39"/>
         <source>%1 has %n unresolved merge conflicts.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>„%1“ ima %n nerazrešen sukob stapanja.</numerusform>
+            <numerusform>„%1“ ima %n nerazrešena sukoba stapanja.</numerusform>
+            <numerusform>„%1“ ima %n nerazrešenih sukoba stapanja.</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The local and remote versions can be merged in a 3-way comparison.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mesno i udaljeno izdanje se mogu stopiti u trostrukom poređenju.</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Resolve</source>
-        <translation type="unfinished"></translation>
+        <translation>Razreši</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -901,12 +910,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+64"/>
         <source>Computing differences</source>
-        <translation type="unfinished"></translation>
+        <translation>Izračunavam razlike</translation>
     </message>
     <message>
         <location line="+117"/>
         <source>File %1 is being compared to itself</source>
-        <translation type="unfinished"></translation>
+        <translation>Datoteka „%1“ je upoređena sa samom sobom</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -970,7 +979,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+20"/>
         <source>&amp;Load anyway</source>
-        <translation type="unfinished"></translation>
+        <translation>Ipak &amp;učitaj</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -990,16 +999,16 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message numerus="yes">
         <location line="+41"/>
         <source>%n conflicts aren’t resolved</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n sukob nije razrešen</numerusform>
+            <numerusform>%n sukoba nisu razrešena</numerusform>
+            <numerusform>%n sukoba nisu razrešeno</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>If you save the merge now, the conflicts are saved as they are here, without conflict markers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ako sada sačuvate stapanje, sukobi će biti sačuvani onakvi kakvi su ovde, bez oznaka sukoba.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1011,7 +1020,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <location line="-20"/>
         <location line="+21"/>
         <source>Don’t Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Nemoj čuvati</translation>
     </message>
     <message>
         <location line="-5"/>
@@ -1032,13 +1041,14 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="-18"/>
         <source>File “%1” contains characters that can’t be encoded using its current encoding “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Datoteka „%1“ sadrži znakove koji se ne mogu kodirati upotrebom njenog trenutnog kodiranja „%2“.</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Couldn’t save file due to:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne mogu da sačuvam datoteku zbog sledećeg:
+%1</translation>
     </message>
     <message>
         <location line="+56"/>
@@ -1059,12 +1069,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <location line="+36"/>
         <location line="+1"/>
         <source>Discard unsaved changes to documents?</source>
-        <translation type="unfinished"></translation>
+        <translation>Da odbacim nesačuvane izmene u dokumentima?</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Changes made to the following documents will be permanently lost:</source>
-        <translation type="unfinished"></translation>
+        <translation>Izmene načinjene nad sledećim dokumentima će biti trajno izgubljene:</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1076,7 +1086,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <location line="-74"/>
         <location line="+75"/>
         <source>&amp;Discard</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Odbaci</translation>
     </message>
     <message>
         <location line="-26"/>
@@ -1087,7 +1097,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+6"/>
         <source>Open documents contain unsaved changes. Changes which are not saved will be permanently lost.</source>
-        <translation type="unfinished"></translation>
+        <translation>Otvoreni dokumenti sadrže nesačuvane izmene. Izmene koje nisu sačuvane biće trajno izgubljene.</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1123,22 +1133,22 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+10"/>
         <source>Save file in this pane</source>
-        <translation type="unfinished"></translation>
+        <translation>Sačuvaj datoteku u ovom oknu</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Select File</source>
-        <translation type="unfinished"></translation>
+        <translation>Izaberi datoteku</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Open file in this pane</source>
-        <translation type="unfinished"></translation>
+        <translation>Otvori datoteku u ovom oknu</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>File %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Datoteka %1</translation>
     </message>
     <message>
         <location line="+128"/>
@@ -1158,7 +1168,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+2"/>
         <source>Text wrapping</source>
-        <translation type="unfinished"></translation>
+        <translation>Prelamanje teksta</translation>
     </message>
 </context>
 <context>
@@ -1219,17 +1229,17 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+13"/>
         <source>Previous Result</source>
-        <translation type="unfinished"></translation>
+        <translation>Prethodni rezultat</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Next Result</source>
-        <translation type="unfinished"></translation>
+        <translation>Sledeći rezultat</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Switch between Find and Find-and-Replace</source>
-        <translation type="unfinished"></translation>
+        <translation>Prebaci između Nađi i Nađi i zameni</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1284,17 +1294,17 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+77"/>
         <source>About Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>O programu Meld Qt</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Visual diff and merge tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Alat za vidno poređenje i stapanje</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Built with Qt %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Izgrađeno pomoću Qt-a %1</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1308,7 +1318,7 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+3"/>
         <source>Translated by</source>
-        <translation type="unfinished"></translation>
+        <translation>Preveo</translation>
     </message>
 </context>
 <context>
@@ -1316,12 +1326,12 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location filename="../src/ui/settings.cpp" line="+31"/>
         <source>Backups</source>
-        <translation type="unfinished"></translation>
+        <translation>Backups</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>OS-Specific Metadata</source>
-        <translation type="unfinished"></translation>
+        <translation>OS-Specific Metadata</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1331,47 +1341,47 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+2"/>
         <source>Binaries</source>
-        <translation type="unfinished"></translation>
+        <translation>Binaries</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Media</source>
-        <translation type="unfinished"></translation>
+        <translation>Media</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>CVS/SVN Keywords</source>
-        <translation type="unfinished"></translation>
+        <translation>CVS/SVN Keywords</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>C++ Comment</source>
-        <translation type="unfinished"></translation>
+        <translation>C++ Comment</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>C Comment</source>
-        <translation type="unfinished"></translation>
+        <translation>C Comment</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>All Whitespace</source>
-        <translation type="unfinished"></translation>
+        <translation>All Whitespace</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Leading Whitespace</source>
-        <translation type="unfinished"></translation>
+        <translation>Leading Whitespace</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Trailing Whitespace</source>
-        <translation type="unfinished"></translation>
+        <translation>Trailing Whitespace</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Script Comment</source>
-        <translation type="unfinished"></translation>
+        <translation>Script Comment</translation>
     </message>
 </context>
 <context>
@@ -1387,12 +1397,12 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="-383"/>
         <source>Header bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Traka zaglavlja</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>New Comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Novo poređenje</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1402,12 +1412,12 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+1"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Zatvori</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>&amp;Stop</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zaustavi</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1428,7 +1438,7 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+1"/>
         <source>&amp;About Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;O programu Meld Qt</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1459,7 +1469,7 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+14"/>
         <source>Open a recent comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Otvorite skorašnje poređenje</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1544,12 +1554,12 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+3"/>
         <source>Copy chunks</source>
-        <translation type="unfinished"></translation>
+        <translation>Umnožite odlomke</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Delete Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Obriši izmenu</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1603,13 +1613,13 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+9"/>
         <source>Version Filters</source>
-        <translation type="unfinished"></translation>
+        <translation>Filteri izdanja</translation>
     </message>
     <message>
         <location line="+22"/>
         <location line="+6"/>
         <source>Main Menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Glavni izbornik</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -1624,27 +1634,27 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+1"/>
         <source>Revert Files…</source>
-        <translation type="unfinished"></translation>
+        <translation>Povrati datoteke…</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&amp;Open Externally</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Otvori spoljnim</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Refresh Comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Osvežava poređenje</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Find…</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nađi…</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&amp;Replace…</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zameni…</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1654,12 +1664,12 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+2"/>
         <source>Overview Map</source>
-        <translation type="unfinished"></translation>
+        <translation>Mapa pregleda</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Version Control Console</source>
-        <translation type="unfinished"></translation>
+        <translation>Konzola upravljanja izdanjem</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1669,57 +1679,57 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+2"/>
         <source>Zoom In</source>
-        <translation type="unfinished"></translation>
+        <translation>Uveličaj</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Zoom Out</source>
-        <translation type="unfinished"></translation>
+        <translation>Umanji</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reset Zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Vrati uveličanje</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Swap Panes</source>
-        <translation type="unfinished"></translation>
+        <translation>Zameni okna</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Poređenje</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Merge All from &amp;Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Objedini sve s &amp;leva</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Merge All from &amp;Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Objedini sve s &amp;desna</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Merge &amp;All</source>
-        <translation type="unfinished"></translation>
+        <translation>Stopi &amp;sve</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Format as &amp;Patch…</source>
-        <translation type="unfinished"></translation>
+        <translation>Formatiraj kao &amp;ispravku…</translation>
     </message>
     <message>
         <location line="+17"/>
         <source>No recent comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>Nema skorašnjih poređenja</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Clear Recent Comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>Očisti skorašnja poređenja</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -1729,20 +1739,20 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+4"/>
         <source>Filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Naziv datoteke</translation>
     </message>
     <message>
         <location line="+65"/>
         <location line="+17"/>
         <source>%1 - Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 - Meld Qt</translation>
     </message>
     <message>
         <location line="+26"/>
         <location line="+146"/>
         <location line="+16"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne mogu da otvorim poređenje</translation>
     </message>
     <message>
         <location line="+43"/>
@@ -1757,7 +1767,7 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+11"/>
         <source>Select what to compare, and the patch to apply to it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Izaberite šta da se poredi i ispravku koja će se na to primeniti.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1765,12 +1775,14 @@ http://prevod.org — prevod na srpski jezik</translation>
         <source>The patch “%1” can’t be read.
 
 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne mogu da pročitam ispravku „%1“.
+
+%2</translation>
     </message>
     <message>
         <location line="+66"/>
         <source>Opening archive “%1”…</source>
-        <translation type="unfinished"></translation>
+        <translation>Otvaram arhivu „%1“…</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1780,23 +1792,23 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+2"/>
         <source>Opening Archive</source>
-        <translation type="unfinished"></translation>
+        <translation>Otvaram arhivu</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Couldn’t open archive %1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne mogu da otvorim arhivu %1: %2</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Failed to open archive</source>
-        <translation type="unfinished"></translation>
+        <translation>Nisam uspeo da otvorim arhivu</translation>
     </message>
     <message>
         <location line="+26"/>
         <location line="+38"/>
         <source>Cannot compare a non-existent file</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne mogu da poredim nepostojeću datoteku</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -1806,12 +1818,12 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+28"/>
         <source>The patch “%1” doesn’t exist</source>
-        <translation type="unfinished"></translation>
+        <translation>Ispravka „%1“ ne postoji</translation>
     </message>
     <message>
         <location line="+65"/>
         <source>Windows and Tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>Prozori i kartice</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1826,7 +1838,7 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+1"/>
         <source>Quit Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>Izađi iz programa Meld Qt</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1836,22 +1848,22 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+2"/>
         <source>Show preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Prikazuje postavke</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Keyboard shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Prečice tastature</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Open menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Otvara izbornik</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Common Actions</source>
-        <translation type="unfinished"></translation>
+        <translation>Opšte radnje</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1866,12 +1878,12 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+1"/>
         <source>Open externally</source>
-        <translation type="unfinished"></translation>
+        <translation>Otvara spoljnim</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Panes</source>
-        <translation type="unfinished"></translation>
+        <translation>Okna</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1886,7 +1898,7 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+1"/>
         <source>Swap left and right panes</source>
-        <translation type="unfinished"></translation>
+        <translation>Razmenjuje levu i desnu površ</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1986,7 +1998,7 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+1"/>
         <source>Go to line</source>
-        <translation type="unfinished"></translation>
+        <translation>Ide na red</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2061,22 +2073,22 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+2"/>
         <source>Show overview map</source>
-        <translation type="unfinished"></translation>
+        <translation>Prikaži mapu pregleda</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Zoom in</source>
-        <translation type="unfinished"></translation>
+        <translation>Uveličaj</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Zoom out</source>
-        <translation type="unfinished"></translation>
+        <translation>Umanji</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reset zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Vrati uveličanje</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2086,12 +2098,12 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+5"/>
         <source>Expand the current folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Širi trenutnu fasciklu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Collapse the current folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Skuplja trenutnu datoteku</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2134,12 +2146,12 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+1"/>
         <source>Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Fascikla</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Version control</source>
-        <translation type="unfinished"></translation>
+        <translation>Upravljanje izdanjem</translation>
     </message>
     <message>
         <location line="+39"/>
@@ -2149,22 +2161,22 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+7"/>
         <source>Compare with a &amp;patch</source>
-        <translation type="unfinished"></translation>
+        <translation>Poredi sa &amp;ispravkom</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the folder with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>Poredi fasciklu sa onim kako bi je ispravka izmenila</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the file with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>Poredi datoteku sa onim kako bi je ispravka izmenila</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Select Patch File</source>
-        <translation type="unfinished"></translation>
+        <translation>Izaberite datoteku ispravke</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2199,7 +2211,7 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+5"/>
         <source>Select Version-controlled Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Izaberite fasciklu upravljanja izdanjem</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -2214,12 +2226,12 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+70"/>
         <source>Patches (*.patch *.diff)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ispravke (*.patch *.diff)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>All files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>Sve datoteke (*)</translation>
     </message>
 </context>
 <context>
@@ -2228,27 +2240,27 @@ http://prevod.org — prevod na srpski jezik</translation>
         <location filename="../src/ui/patchcomparison.cpp" line="+24"/>
         <location line="+41"/>
         <source>The patch “%1” can’t be applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ispravka „%1“ se ne može primeniti na „%2“.</translation>
     </message>
     <message>
         <location line="-34"/>
         <source>The patch deletes this file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ispravka briše ovu datoteku.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The patch “%1” was applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ispravka „%1“ je primenjena na „%2“.</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>%1 with %2 applied</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 sa primenjenom %2</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne mogu da pročitam ispravku „%1“.</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2305,32 +2317,32 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location filename="../src/ui/pathlabel.cpp" line="+92"/>
         <source>Unnamed file</source>
-        <translation type="unfinished"></translation>
+        <translation>Neimenovana datoteka</translation>
     </message>
     <message>
         <location line="+109"/>
         <source>Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Putanja</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Copy Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Umnoži putanju</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy the full path</source>
-        <translation type="unfinished"></translation>
+        <translation>Umnoži punu putanju</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open Containing Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Otvori fasciklu sadržaja</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>View the folder in file manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Pregledajte fasciklu u upravniku datoteka</translation>
     </message>
 </context>
 <context>
@@ -2348,7 +2360,7 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+1"/>
         <source>Folder Comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Poređenje fascikli</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2363,32 +2375,47 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+15"/>
         <source>Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>Izgled</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Follow System Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Prati stil sistema</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Light</source>
-        <translation type="unfinished"></translation>
+        <translation>Svetla</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Dark</source>
-        <translation type="unfinished"></translation>
+        <translation>Tamna</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Interface Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Stil sučelja</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>System Language</source>
+        <translation>Jezik sistema</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Language</source>
+        <translation>Jezik</translation>
     </message>
     <message>
         <location line="+3"/>
+        <source>The language will change when Meld Qt is next started.</source>
+        <translation>Jezik će se promeniti pri sledećem pokretanju programa Meld Qt.</translation>
+    </message>
+    <message>
+        <location line="+14"/>
         <source>Use Custom Font</source>
-        <translation type="unfinished"></translation>
+        <translation>Proizvoljni slovni lik</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -2398,12 +2425,12 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+12"/>
         <source>Use Syntax Highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>Koristi isticanje sintakse</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Color Scheme</source>
-        <translation type="unfinished"></translation>
+        <translation>Šema boje</translation>
     </message>
     <message>
         <location line="+33"/>
@@ -2413,32 +2440,32 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+3"/>
         <source>Never</source>
-        <translation type="unfinished"></translation>
+        <translation>Nikad</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>At Any Character</source>
-        <translation type="unfinished"></translation>
+        <translation>Na bilo kom znaku</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>At Word Boundaries</source>
-        <translation type="unfinished"></translation>
+        <translation>Na granicama reči</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Wrap Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Prelom teksta</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Highlight Current Line</source>
-        <translation type="unfinished"></translation>
+        <translation>Ističe tekući red</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show Line Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Prikazuje brojeve redova</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2448,7 +2475,7 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+4"/>
         <source>Indentation</source>
-        <translation type="unfinished"></translation>
+        <translation>Uvlačenje</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2458,27 +2485,27 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+1"/>
         <source>Spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>Razmaci</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Tab character</source>
-        <translation type="unfinished"></translation>
+        <translation>Znak tabulatora</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Indentation Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Veličina &amp;uvlačenja</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Code Overview</source>
-        <translation type="unfinished"></translation>
+        <translation>Pregled koda</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show overview map</source>
-        <translation type="unfinished"></translation>
+        <translation>Prikaži mapu pregleda</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2488,37 +2515,37 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+1"/>
         <source>Use custom text editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Koristi osnovni uređivač teksta</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Custom Editor Command</source>
-        <translation type="unfinished"></translation>
+        <translation>Proizvoljna naredba uređivača</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use {file} and {line} to refer to the file and line being opened</source>
-        <translation type="unfinished"></translation>
+        <translation>Koristite {file} i {line} da ukažete na datoteku i red koji se otvaraju</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Application</source>
-        <translation type="unfinished"></translation>
+        <translation>Program</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in the running Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>Otvara poređenja u pokrenutom programu Meld Qt</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Comparisons opened from the command line or other programs open in a new window of a Meld Qt that&apos;s already running, instead of starting another Meld Qt. This applies to Meld Qt started after the change.</source>
-        <translation type="unfinished"></translation>
+        <translation>Poređenja otvorena iz linije naredbi ili drugih programa otvaraju se u novom prozoru već pokrenutog programa Meld Qt, umesto da se pokreće još jedan. Ovo važi za Meld Qt pokrenut nakon izmene.</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Comparison Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Opcije poređenja</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2548,12 +2575,12 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+0"/>
         <source>Ignore timestamp</source>
-        <translation type="unfinished"></translation>
+        <translation>Zanemari vremensku oznaku</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Timestamp resolution</source>
-        <translation type="unfinished"></translation>
+        <translation>Rezolucija vremenske oznake</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2583,7 +2610,7 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+1"/>
         <source>Modification time (ISO)</source>
-        <translation type="unfinished"></translation>
+        <translation>Vreme izmene (ISO)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2608,7 +2635,7 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+5"/>
         <source>Order when comparing file revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>Redosled pri poređenju izdanja datoteka</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2623,32 +2650,32 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+5"/>
         <source>Order when merging files</source>
-        <translation type="unfinished"></translation>
+        <translation>Redosled pri stapanju datoteka</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Show the common ancestor in conflicts from conflict markers</source>
-        <translation type="unfinished"></translation>
+        <translation>Prikazuje zajedničkog pretka u sukobima iz oznaka sukoba</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Merges of files with diff3-style conflict markers start with the common ancestor’s text in conflicts, rather than nothing</source>
-        <translation type="unfinished"></translation>
+        <translation>Stapanja datoteka sa oznakama sukoba u diff3 stilu počinju tekstom zajedničkog pretka u sukobima, umesto ničim</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Commit Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Poruka predaje</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show right margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Prikaži desnu marginu</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Margin position</source>
-        <translation type="unfinished"></translation>
+        <translation>Položaj margine</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2683,7 +2710,7 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+1"/>
         <source>When performing file comparisons, you may ignore certain types of changes. Each pattern here is a python regular expression which replaces matching text with the empty string before comparison is performed. If the expression contains groups, only the groups are replaced.</source>
-        <translation type="unfinished"></translation>
+        <translation>Prilikom poređenja datoteka, možete zanemariti neke vrste izmena. Svaki obrazac ovde je Pitonov regularni izraz koji zamenjuje odgovarajući tekst praznom niskom pre poređenja. Ako izraz sadrži grupe, menjaju se samo grupe.</translation>
     </message>
 </context>
 <context>
@@ -2691,12 +2718,12 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location filename="../src/ui/bufferselectors.cpp" line="+108"/>
         <source>Search highlight mode…</source>
-        <translation type="unfinished"></translation>
+        <translation>Režim isticanja pretrage…</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Plain Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Običan tekst</translation>
     </message>
 </context>
 <context>
@@ -2710,7 +2737,7 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+54"/>
         <source>Line you want to move the cursor to</source>
-        <translation type="unfinished"></translation>
+        <translation>Red na koji želite da postavite kursor</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -2747,7 +2774,7 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="-206"/>
         <source>Flatten Folders</source>
-        <translation type="unfinished"></translation>
+        <translation>Poravnate fascikle</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2772,7 +2799,7 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+250"/>
         <source>%1 (not found)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (nisam našao)</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2783,7 +2810,7 @@ http://prevod.org — prevod na srpski jezik</translation>
         <location line="+4"/>
         <location line="+10"/>
         <source>%1 (invalid repository)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (neispravna riznica)</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -2798,27 +2825,27 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+18"/>
         <source>%1 — %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 — %2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>The file isn’t in %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Datoteka nije u „%1“.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 (%2, %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2, %3)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (working, %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (radna, %2)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (%2, working)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2, radna)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -2858,17 +2885,17 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+25"/>
         <source>working copy</source>
-        <translation type="unfinished"></translation>
+        <translation>radni primerak</translation>
     </message>
     <message>
         <location line="+67"/>
         <source>Version Control Console</source>
-        <translation type="unfinished"></translation>
+        <translation>Konzola upravljanja izdanjem</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Očisti</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2879,7 +2906,7 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="-763"/>
         <source>&amp;Find…</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nađi…</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2890,7 +2917,7 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+1"/>
         <source>&amp;Open Externally</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Otvori spoljnim</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2901,7 +2928,7 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+1"/>
         <source>Refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>Osveži</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2918,17 +2945,17 @@ http://prevod.org — prevod na srpski jezik</translation>
         <location line="+2"/>
         <location line="+758"/>
         <source>&amp;Unstage</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Odstažiraj</translation>
     </message>
     <message>
         <location line="-758"/>
         <source>Remove staged changes</source>
-        <translation type="unfinished"></translation>
+        <translation>Uklonite stare izmene</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Commit…</source>
-        <translation type="unfinished"></translation>
+        <translation>Ugradi…</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2967,7 +2994,7 @@ http://prevod.org — prevod na srpski jezik</translation>
         <location line="+2"/>
         <location line="+752"/>
         <source>Resolve Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>Reši sukob</translation>
     </message>
     <message>
         <location line="-751"/>
@@ -2988,67 +3015,67 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+1"/>
         <source>Pull</source>
-        <translation type="unfinished"></translation>
+        <translation>Dovuci</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Pull remote changes to the local repository</source>
-        <translation type="unfinished"></translation>
+        <translation>Povucite udaljene izmene u lokalnu riznicu</translation>
     </message>
     <message>
         <location line="+49"/>
         <source>Select Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Izaberite fasciklu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Open version controlled folder in this pane</source>
-        <translation type="unfinished"></translation>
+        <translation>Otvorite fasciklu upravljanu izdanjem u ovom oknu</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Unknown folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepoznata fascikla</translation>
     </message>
     <message>
         <location line="+30"/>
         <source>The commit, tag or tree that changes are compared with</source>
-        <translation type="unfinished"></translation>
+        <translation>Ugradnja, oznaka ili stablo sa kojim se porede izmene</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The working copy, or a commit, tag or tree, whose changes are shown</source>
-        <translation type="unfinished"></translation>
+        <translation>Radni primerak, ili ugradnja, oznaka ili stablo, čije se izmene prikazuju</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Swap</source>
-        <translation type="unfinished"></translation>
+        <translation>Zameni</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Swap the revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>Zameni izdanja</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Poništi</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the working copy with the current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>Poredi radni primerak sa trenutnom ugradnjom</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Changes from</source>
-        <translation type="unfinished"></translation>
+        <translation>Izmene od</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>to</source>
-        <translation type="unfinished"></translation>
+        <translation>do</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -3058,38 +3085,38 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+28"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Traži</translation>
     </message>
     <message>
         <location line="+102"/>
         <source>The files as they are now, which can be changed</source>
-        <translation type="unfinished"></translation>
+        <translation>Datoteke u trenutnom stanju, koje se mogu menjati</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>Unknown revision</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepoznato izdanje</translation>
     </message>
     <message>
         <location line="+65"/>
         <source>%1 comparison:</source>
         <extracomment>This is the name of the version control system being used, e.g., &quot;Git&quot; or &quot;Subversion&quot;</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>„%1“ poređenje:</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>%1 → %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 → %2</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>%1 (%2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2)</translation>
     </message>
     <message>
         <location line="+28"/>
         <source>Scanning repository</source>
-        <translation type="unfinished"></translation>
+        <translation>Pregledam riznicu</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -3099,7 +3126,7 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+20"/>
         <source>No such file or directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Nema takve datoteke ili direktorijuma</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -3109,18 +3136,19 @@ http://prevod.org — prevod na srpski jezik</translation>
     <message>
         <location line="+238"/>
         <source>Co&amp;mmit…</source>
-        <translation type="unfinished"></translation>
+        <translation>U&amp;gradi…</translation>
     </message>
     <message>
         <location line="+157"/>
         <source>Error running command</source>
-        <translation type="unfinished"></translation>
+        <translation>Greška pri izvršavanju naredbe</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>While running &apos;%1&apos;
 Error: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Prilikom izvršavanja „%1“
+Greška: %2</translation>
     </message>
     <message>
         <location line="+58"/>
@@ -3168,7 +3196,7 @@ Error: %2</source>
     <message>
         <location line="+38"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne mogu da otvorim poređenje</translation>
     </message>
 </context>
 <context>
@@ -3176,12 +3204,12 @@ Error: %2</source>
     <message>
         <location filename="../src/core/conflictmarkers.cpp" line="+134"/>
         <source>Line %1: a conflict starts inside the conflict that starts at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Red %1: sukob počinje unutar sukoba koji počinje u redu %2.</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>The conflict that starts at line %1 doesn’t end.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sukob koji počinje u redu %1 se ne završava.</translation>
     </message>
 </context>
 <context>
@@ -3189,137 +3217,137 @@ Error: %2</source>
     <message>
         <location filename="../src/core/patch.cpp" line="+176"/>
         <source>Line %1 of the patch: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Red %1 ispravke: %2</translation>
     </message>
     <message>
         <location line="+96"/>
         <source>malformed hunk header</source>
-        <translation type="unfinished"></translation>
+        <translation>neispravno zaglavlje komada</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>unexpected line in a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>neočekivan red u komadu</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>the hunk has more lines than its header says</source>
-        <translation type="unfinished"></translation>
+        <translation>komad ima više redova nego što njegovo zaglavlje kaže</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>the patch ends in the middle of a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>ispravka se završava usred komada</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Only unified diffs can be applied; this is a context diff.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mogu se primeniti samo objedinjene razlike; ovo je kontekstna razlika.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>No changes were found in the patch.</source>
-        <translation type="unfinished"></translation>
+        <translation>U ispravci nisu pronađene izmene.</translation>
     </message>
     <message>
         <location line="+122"/>
         <source>Hunk #%1 doesn’t match the file at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Komad br. %1 se ne poklapa sa datotekom u redu %2.</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>Hunk #%1 applied at line %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Komad br. %1 je primenjen u redu %2</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source> (offset %n lines)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform> (pomeraj %n red)</numerusform>
+            <numerusform> (pomeraj %n reda)</numerusform>
+            <numerusform> (pomeraj %n redova)</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source> with fuzz %1</source>
-        <translation type="unfinished"></translation>
+        <translation> uz nejasnoću %1</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+186"/>
         <source>Binary changes can’t be applied.</source>
-        <translation type="unfinished"></translation>
+        <translation>Binarne izmene se ne mogu primeniti.</translation>
     </message>
     <message>
         <location line="-174"/>
         <source>The patch creates this file, which is already as it would create it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ispravka pravi ovu datoteku, koja je već onakva kakvom bi je napravila.</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+190"/>
         <source>The patch creates this file, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ispravka pravi ovu datoteku, ali ona već postoji.</translation>
     </message>
     <message>
         <location line="-178"/>
         <source>The patch seems to be applied already: its changes are in the file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Izgleda da je ispravka već primenjena: njene izmene su u datoteci.</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source>%1 of %n hunks can’t be applied.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 od %n komada se ne može primeniti.</numerusform>
+            <numerusform>%1 od %n komada se ne može primeniti.</numerusform>
+            <numerusform>%1 od %n komada se ne može primeniti.</numerusform>
         </translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch deletes this file, but it has other contents than the patch removes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ispravka briše ovu datoteku, ali ona ima drugačiji sadržaj od onoga što ispravka uklanja.</translation>
     </message>
     <message>
         <location line="+75"/>
         <source>The patch changes several files called %1:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ispravka menja nekoliko datoteka pod nazivom „%1“:</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The patch doesn’t change %1. It changes:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ispravka ne menja „%1“. Menja:</translation>
     </message>
     <message>
         <location line="+73"/>
         <source>The patch changes %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ispravka menja „%1“, koja nije u fascikli.</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The patch deletes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ispravka briše ovu datoteku, ali ona nije u fascikli.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch makes this file from %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ispravka pravi ovu datoteku iz „%1“, koja nije u fascikli.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>The patch makes this file from %1, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ispravka pravi ovu datoteku iz „%1“, ali ona već postoji.</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>The patch changes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ispravka menja ovu datoteku, ali ona nije u fascikli.</translation>
     </message>
     <message>
         <location line="+106"/>
         <source>The file isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Datoteka nije u fascikli.</translation>
     </message>
 </context>
 <context>
@@ -3327,23 +3355,23 @@ Error: %2</source>
     <message>
         <location filename="../src/ui/trash.cpp" line="+36"/>
         <source>Deleting remote folders is not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Brisanje udaljenih fascikli nije podržano</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Not a file or directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Nije datoteka ili direktorijum</translation>
     </message>
     <message>
         <location line="+2"/>
         <location line="+0"/>
         <source>Delete Permanently?</source>
-        <translation type="unfinished"></translation>
+        <translation>Da obrišem trajno?</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>“%1” can’t be put in the trash. Do you want to delete it permanently?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne mogu da prebacim „%1“ u smeće. Da li želite da je trajno obrišete?</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3353,7 +3381,7 @@ Error: %2</source>
     <message>
         <location line="+1"/>
         <source>&amp;Delete Permanently</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Trajno obriši</translation>
     </message>
 </context>
 <context>
@@ -3431,7 +3459,7 @@ Error: %2</source>
     <message>
         <location line="+2"/>
         <source>Scanning…</source>
-        <translation type="unfinished"></translation>
+        <translation>Pregledam…</translation>
     </message>
     <message>
         <location line="+673"/>
@@ -3465,22 +3493,22 @@ Error: %2</source>
     <message>
         <location line="+98"/>
         <source>The current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>Trenutna ugradnja</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>“%1” isn’t a commit, tag or tree in this repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>„%1“ nije ugradnja, oznaka ili stablo u ovoj riznici.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 isn’t in the repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>„%1“ nije u riznici.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>%1 isn’t in %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>„%1“ nije u „%2“.</translation>
     </message>
     <message>
         <location line="+84"/>

@@ -6,22 +6,22 @@
     <message>
         <location filename="../src/core/archive.cpp" line="+381"/>
         <source>Couldn’t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Não foi possível criar a pasta %1</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>No installed program can extract this archive. Install bsdtar (from libarchive) or 7-Zip.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nenhum programa instalado consegue extrair este arquivo. Instale o bsdtar (do libarchive) ou o 7-Zip.</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>%1 crashed</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 falhou inesperadamente</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>%1 failed with status %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 falhou com o estado %2</translation>
     </message>
 </context>
 <context>
@@ -29,22 +29,22 @@
     <message>
         <location filename="../src/ui/dirdiff.cpp" line="+88"/>
         <source>Couldn&apos;t create link %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Não foi possível criar a ligação %1</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Not a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Não é um ficheiro</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Couldn&apos;t replace %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Não foi possível substituir %1</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Não foi possível criar a pasta %1</translation>
     </message>
     <message>
         <location filename="../src/ui/externalhelpers.cpp" line="+58"/>
@@ -54,12 +54,12 @@
     <message>
         <location line="+1"/>
         <source>External opening of files of type “%1” is not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>A abertura externa de ficheiros do tipo &quot;%1&quot; não é suportada</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>desconhecido</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -69,17 +69,17 @@
     <message>
         <location line="+1"/>
         <source>Couldn&apos;t run “%1”</source>
-        <translation type="unfinished"></translation>
+        <translation>Não foi possível executar &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../src/ui/meldapp.cpp" line="+37"/>
         <source>show program&apos;s version number and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>mostrar o número de versão do programa e sair</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>show this help message and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>mostrar esta mensagem de ajuda e sair</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -94,12 +94,12 @@
     <message>
         <location line="+2"/>
         <source>Open comparisons in an already running instance (single-instance mode)</source>
-        <translation type="unfinished"></translation>
+        <translation>Abrir comparações numa instância já em execução (modo de instância única)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in a new instance, even in single-instance mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Abrir comparações numa nova instância, mesmo no modo de instância única</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -130,7 +130,7 @@
     <message>
         <location line="+2"/>
         <source>Compare a file or folder with what a patch would make of it</source>
-        <translation type="unfinished"></translation>
+        <translation>Comparar um ficheiro ou pasta com o que um patch faria dele</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -159,7 +159,7 @@
     <message>
         <location line="-4"/>
         <source>Start a comparison against a blank pane</source>
-        <translation type="unfinished"></translation>
+        <translation>Iniciar uma comparação com um painel vazio</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -174,24 +174,26 @@
     <message>
         <location line="+1"/>
         <source>patch</source>
-        <translation type="unfinished"></translation>
+        <translation>patch</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare with a patch applied</source>
-        <translation type="unfinished"></translation>
+        <translation>Comparar com um patch aplicado</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Usage:</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilização:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>
 For file comparisons, the special argument @blank may be used instead of
 a &lt;file&gt; argument to create a blank pane.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+Para comparações de ficheiros, o argumento especial @blank pode ser usado em vez de
+um argumento &lt;ficheiro&gt; para criar um painel vazio.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -201,30 +203,30 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+1"/>
         <source>Options:</source>
-        <translation type="unfinished"></translation>
+        <translation>Opções:</translation>
     </message>
     <message>
         <location line="+42"/>
         <location line="+9"/>
         <source>no such option: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>opção inexistente: %1</translation>
     </message>
     <message>
         <location line="-8"/>
         <source>ambiguous option: %1 (%2?)</source>
-        <translation type="unfinished"></translation>
+        <translation>opção ambígua: %1 (%2?)</translation>
     </message>
     <message>
         <location line="+16"/>
         <location line="+59"/>
         <location line="+16"/>
         <source>%1 option requires an argument</source>
-        <translation type="unfinished"></translation>
+        <translation>a opção %1 requer um argumento</translation>
     </message>
     <message>
         <location line="-73"/>
         <source>%1 option does not take a value</source>
-        <translation type="unfinished"></translation>
+        <translation>a opção %1 não aceita um valor</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -234,17 +236,17 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+53"/>
         <source>--patch needs one file or folder to apply the patch to (got %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>--patch precisa de um ficheiro ou pasta ao qual aplicar o patch (recebeu %1)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>can’t auto-merge with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>não é possível unir automaticamente com um patch</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>can’t load a comparison file with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>não é possível carregar um ficheiro de comparação com um patch</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -281,14 +283,14 @@ a &lt;file&gt; argument to create a blank pane.</source>
 %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/preferences.cpp" line="+104"/>
+        <location filename="../src/ui/preferences.cpp" line="+108"/>
         <source>Select a Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecione um estilo</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Select</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecionar</translation>
     </message>
     <message>
         <location filename="../src/ui/recent.cpp" line="+76"/>
@@ -302,7 +304,8 @@ a &lt;file&gt; argument to create a blank pane.</source>
         <location filename="../src/ui/singleinstance.cpp" line="+50"/>
         <source>Meld Qt couldn’t open the comparison: a different version of Meld Qt is running.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>O Meld Qt não conseguiu abrir a comparação: está em execução uma versão diferente do Meld Qt.
+</translation>
     </message>
 </context>
 <context>
@@ -339,12 +342,12 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location filename="../src/ui/actiongutter.cpp" line="+346"/>
         <source>Copy Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Copiar acima</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Copy Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Copiar abaixo</translation>
     </message>
 </context>
 <context>
@@ -358,7 +361,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+8"/>
         <source>Changed Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Ficheiros alterados</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -391,35 +394,35 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+10"/>
         <source>The conflict markers in “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Os marcadores de conflito em &quot;%1&quot; não podem ser lidos.</translation>
     </message>
     <message numerus="yes">
         <location line="+17"/>
         <source>%n unresolved conflicts</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n conflito por resolver</numerusform>
+            <numerusform>%n conflitos por resolver</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts show the common ancestor’s text, which the local and remote versions changed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Os conflitos mostram o texto do antepassado comum, que as versões local e remota alteraram.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts are empty, to be filled from the local and remote versions.</source>
-        <translation type="unfinished"></translation>
+        <translation>Os conflitos estão vazios, para serem preenchidos a partir das versões local e remota.</translation>
     </message>
     <message>
         <location line="+42"/>
         <source>local</source>
-        <translation type="unfinished"></translation>
+        <translation>local</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>remote</source>
-        <translation type="unfinished"></translation>
+        <translation>remoto</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -447,12 +450,12 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+16"/>
         <source>Folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Pasta %1</translation>
     </message>
     <message>
         <location line="+81"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Procurar</translation>
     </message>
     <message>
         <location line="+88"/>
@@ -487,7 +490,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+54"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>O patch &quot;%1&quot; não pode ser lido.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -498,22 +501,22 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+36"/>
         <source>%1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: %2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Permission denied</source>
-        <translation type="unfinished"></translation>
+        <translation>Permissão negada</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>: Dangling symlink</source>
-        <translation type="unfinished"></translation>
+        <translation>: Ligação simbólica quebrada</translation>
     </message>
     <message>
         <location line="+99"/>
         <source>Done</source>
-        <translation type="unfinished"></translation>
+        <translation>Concluído</translation>
     </message>
     <message>
         <location line="+162"/>
@@ -553,7 +556,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+13"/>
         <source>Folder %1 is being compared to itself</source>
-        <translation type="unfinished"></translation>
+        <translation>Pasta %1 sendo comparada consigo própria</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -658,7 +661,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+164"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Não foi possível criar a pasta %1</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -702,7 +705,7 @@ para %2.
     <message>
         <location line="+24"/>
         <source>Error deleting %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Erro ao eliminar %1</translation>
     </message>
 </context>
 <context>
@@ -735,7 +738,7 @@ para %2.
     <message>
         <location line="+144"/>
         <source>empty folder</source>
-        <translation type="unfinished"></translation>
+        <translation>pasta vazia</translation>
     </message>
 </context>
 <context>
@@ -853,37 +856,39 @@ para %2.
     <message>
         <location line="+13"/>
         <source>There was a problem opening “%1”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Houve um problema ao abrir &quot;%1&quot;.</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The file could not be decoded using the candidate encodings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Não foi possível descodificar o ficheiro com as codificações candidatas.</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Line %1 exceeded maximum line length (%2 &gt; %3).
 
 Loading files with very long lines may make Meld Qt slow or unresponsive.</source>
-        <translation type="unfinished"></translation>
+        <translation>A linha %1 excedeu o comprimento máximo de linha (%2 &gt; %3).
+
+Carregar ficheiros com linhas muito longas pode tornar o Meld Qt lento ou sem resposta.</translation>
     </message>
     <message numerus="yes">
         <location line="+39"/>
         <source>%1 has %n unresolved merge conflicts.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 tem %n conflito de união por resolver.</numerusform>
+            <numerusform>%1 tem %n conflitos de união por resolver.</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The local and remote versions can be merged in a 3-way comparison.</source>
-        <translation type="unfinished"></translation>
+        <translation>As versões local e remota podem ser unidas numa comparação de três vias.</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Resolve</source>
-        <translation type="unfinished"></translation>
+        <translation>Resolver</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -903,12 +908,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+64"/>
         <source>Computing differences</source>
-        <translation type="unfinished"></translation>
+        <translation>A calcular diferenças</translation>
     </message>
     <message>
         <location line="+117"/>
         <source>File %1 is being compared to itself</source>
-        <translation type="unfinished"></translation>
+        <translation>O ficheiro %1 está a ser comparado com ele próprio</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -972,7 +977,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+20"/>
         <source>&amp;Load anyway</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Carregar mesmo assim</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -992,15 +997,15 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message numerus="yes">
         <location line="+41"/>
         <source>%n conflicts aren’t resolved</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n conflito não está resolvido</numerusform>
+            <numerusform>%n conflitos não estão resolvidos</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>If you save the merge now, the conflicts are saved as they are here, without conflict markers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se guardar a união agora, os conflitos são guardados tal como estão aqui, sem marcadores de conflito.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1033,7 +1038,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="-18"/>
         <source>File “%1” contains characters that can’t be encoded using its current encoding “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>O ficheiro “%1” contém caracteres que não podem ser codificados ao usar a sua codificação atual “%2”.</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1089,7 +1094,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+6"/>
         <source>Open documents contain unsaved changes. Changes which are not saved will be permanently lost.</source>
-        <translation type="unfinished"></translation>
+        <translation>Há documentos abertos com alterações não guardadas. As alterações que não forem guardadas serão perdidas permanentemente.</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1130,7 +1135,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+15"/>
         <source>Select File</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecionar ficheiro</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1140,7 +1145,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+6"/>
         <source>File %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ficheiro %1</translation>
     </message>
     <message>
         <location line="+128"/>
@@ -1291,12 +1296,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+19"/>
         <source>Visual diff and merge tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Ferramenta visual de comparação e união</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Built with Qt %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Compilado com Qt %1</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1310,7 +1315,7 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
     <message>
         <location line="+3"/>
         <source>Translated by</source>
-        <translation type="unfinished"></translation>
+        <translation>Traduzido por</translation>
     </message>
 </context>
 <context>
@@ -1389,12 +1394,12 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
     <message>
         <location line="-383"/>
         <source>Header bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Barra de cabeçalho</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>New Comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Nova comparação</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1404,7 +1409,7 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
     <message>
         <location line="+1"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Fechar</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1496,7 +1501,7 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
     <message>
         <location line="+1"/>
         <source>Next Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>Conflito seguinte</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1551,7 +1556,7 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
     <message>
         <location line="+6"/>
         <source>Delete Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Eliminar alteração</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1611,7 +1616,7 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
         <location line="+22"/>
         <location line="+6"/>
         <source>Main Menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Menu principal</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -1671,22 +1676,22 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
     <message>
         <location line="+2"/>
         <source>Zoom In</source>
-        <translation type="unfinished"></translation>
+        <translation>Ampliar</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Zoom Out</source>
-        <translation type="unfinished"></translation>
+        <translation>Reduzir</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reset Zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Repor ampliação</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Swap Panes</source>
-        <translation type="unfinished"></translation>
+        <translation>Trocar painéis</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1716,12 +1721,12 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
     <message>
         <location line="+17"/>
         <source>No recent comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>Sem comparações recentes</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Clear Recent Comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>Limpar comparações recentes</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -1737,14 +1742,14 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
         <location line="+65"/>
         <location line="+17"/>
         <source>%1 - Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 - Meld Qt</translation>
     </message>
     <message>
         <location line="+26"/>
         <location line="+146"/>
         <location line="+16"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Não foi possível abrir a comparação</translation>
     </message>
     <message>
         <location line="+43"/>
@@ -1759,7 +1764,7 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
     <message>
         <location line="+11"/>
         <source>Select what to compare, and the patch to apply to it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecione o que comparar e o patch a aplicar-lhe.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1767,12 +1772,14 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
         <source>The patch “%1” can’t be read.
 
 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>O patch &quot;%1&quot; não pode ser lido.
+
+%2</translation>
     </message>
     <message>
         <location line="+66"/>
         <source>Opening archive “%1”…</source>
-        <translation type="unfinished"></translation>
+        <translation>A abrir o arquivo &quot;%1&quot;…</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1782,17 +1789,17 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
     <message>
         <location line="+2"/>
         <source>Opening Archive</source>
-        <translation type="unfinished"></translation>
+        <translation>A abrir arquivo</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Couldn’t open archive %1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Não foi possível abrir o arquivo %1: %2</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Failed to open archive</source>
-        <translation type="unfinished"></translation>
+        <translation>Falha ao abrir o arquivo</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -1808,7 +1815,7 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
     <message>
         <location line="+28"/>
         <source>The patch “%1” doesn’t exist</source>
-        <translation type="unfinished"></translation>
+        <translation>O patch &quot;%1&quot; não existe</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -1928,12 +1935,12 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
     <message>
         <location line="+1"/>
         <source>Move tab left</source>
-        <translation>Mover separador à es_querda</translation>
+        <translation>Mover separador à esquerda</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Move tab right</source>
-        <translation>Mover sepa_rador à direita</translation>
+        <translation>Mover separador à direita</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2068,17 +2075,17 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
     <message>
         <location line="+1"/>
         <source>Zoom in</source>
-        <translation type="unfinished"></translation>
+        <translation>Ampliar</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Zoom out</source>
-        <translation type="unfinished"></translation>
+        <translation>Reduzir</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reset zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Repor ampliação</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2151,22 +2158,22 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
     <message>
         <location line="+7"/>
         <source>Compare with a &amp;patch</source>
-        <translation type="unfinished"></translation>
+        <translation>Comparar com um &amp;patch</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the folder with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>Comparar a pasta com o modo como um patch a alteraria</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the file with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>Comparar o ficheiro com o modo como um patch o alteraria</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Select Patch File</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecionar ficheiro de patch</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2201,7 +2208,7 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
     <message>
         <location line="+5"/>
         <source>Select Version-controlled Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecionar uma pasta com controlo de versões</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -2216,12 +2223,12 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
     <message>
         <location line="+70"/>
         <source>Patches (*.patch *.diff)</source>
-        <translation type="unfinished"></translation>
+        <translation>Patches (*.patch *.diff)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>All files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>Todos os ficheiros (*)</translation>
     </message>
 </context>
 <context>
@@ -2230,27 +2237,27 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
         <location filename="../src/ui/patchcomparison.cpp" line="+24"/>
         <location line="+41"/>
         <source>The patch “%1” can’t be applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>O patch &quot;%1&quot; não pode ser aplicado a &quot;%2&quot;.</translation>
     </message>
     <message>
         <location line="-34"/>
         <source>The patch deletes this file.</source>
-        <translation type="unfinished"></translation>
+        <translation>O patch elimina este ficheiro.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The patch “%1” was applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>O patch &quot;%1&quot; foi aplicado a &quot;%2&quot;.</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>%1 with %2 applied</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 com %2 aplicado</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>O patch &quot;%1&quot; não pode ser lido.</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2350,7 +2357,7 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
     <message>
         <location line="+1"/>
         <source>Folder Comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Comparação de pastas</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2365,32 +2372,47 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
     <message>
         <location line="+15"/>
         <source>Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>Aparência</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Follow System Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Seguir o estilo do sistema</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Light</source>
-        <translation type="unfinished"></translation>
+        <translation>Claro</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Dark</source>
-        <translation type="unfinished"></translation>
+        <translation>Escuro</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Interface Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Estilo da interface</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>System Language</source>
+        <translation>Idioma do sistema</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Language</source>
+        <translation>Idioma</translation>
     </message>
     <message>
         <location line="+3"/>
+        <source>The language will change when Meld Qt is next started.</source>
+        <translation>O idioma será alterado no próximo arranque do Meld Qt.</translation>
+    </message>
+    <message>
+        <location line="+14"/>
         <source>Use Custom Font</source>
-        <translation type="unfinished"></translation>
+        <translation>Usar tipo de letra personalizado</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -2400,12 +2422,12 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
     <message>
         <location line="+12"/>
         <source>Use Syntax Highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>Usar realce de sintaxe</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Color Scheme</source>
-        <translation type="unfinished"></translation>
+        <translation>Esquema de cores</translation>
     </message>
     <message>
         <location line="+33"/>
@@ -2415,32 +2437,32 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
     <message>
         <location line="+3"/>
         <source>Never</source>
-        <translation type="unfinished"></translation>
+        <translation>Nunca</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>At Any Character</source>
-        <translation type="unfinished"></translation>
+        <translation>Em qualquer carácter</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>At Word Boundaries</source>
-        <translation type="unfinished"></translation>
+        <translation>Nos limites das palavras</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Wrap Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Quebrar texto</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Highlight Current Line</source>
-        <translation type="unfinished"></translation>
+        <translation>Realçar linha atual</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show Line Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar números de linha</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2450,7 +2472,7 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
     <message>
         <location line="+4"/>
         <source>Indentation</source>
-        <translation type="unfinished"></translation>
+        <translation>Indentação</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2460,17 +2482,17 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
     <message>
         <location line="+1"/>
         <source>Spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>Espaços</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Tab character</source>
-        <translation type="unfinished"></translation>
+        <translation>Carácter de tabulação</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Indentation Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Tamanho da &amp;indentação</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2490,37 +2512,37 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
     <message>
         <location line="+1"/>
         <source>Use custom text editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Usar editor de texto personalizado</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Custom Editor Command</source>
-        <translation type="unfinished"></translation>
+        <translation>Comando do editor personalizado</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use {file} and {line} to refer to the file and line being opened</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilize {file} e {line} para se referir ao ficheiro e à linha a abrir</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Application</source>
-        <translation type="unfinished"></translation>
+        <translation>Aplicação</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in the running Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>Abrir comparações no Meld Qt em execução</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Comparisons opened from the command line or other programs open in a new window of a Meld Qt that&apos;s already running, instead of starting another Meld Qt. This applies to Meld Qt started after the change.</source>
-        <translation type="unfinished"></translation>
+        <translation>As comparações abertas a partir da linha de comandos ou de outros programas abrem numa nova janela de um Meld Qt já em execução, em vez de iniciar outro Meld Qt. Isto aplica-se ao Meld Qt iniciado depois da alteração.</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Comparison Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Opções de comparação</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2555,7 +2577,7 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
     <message>
         <location line="+10"/>
         <source>Timestamp resolution</source>
-        <translation type="unfinished"></translation>
+        <translation>Resolução da marca de data/hora</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2610,7 +2632,7 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
     <message>
         <location line="+5"/>
         <source>Order when comparing file revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>Ordem ao comparar revisões de ficheiros</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2625,32 +2647,32 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
     <message>
         <location line="+5"/>
         <source>Order when merging files</source>
-        <translation type="unfinished"></translation>
+        <translation>Ordem ao unir ficheiros</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Show the common ancestor in conflicts from conflict markers</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar o antepassado comum nos conflitos de marcadores de conflito</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Merges of files with diff3-style conflict markers start with the common ancestor’s text in conflicts, rather than nothing</source>
-        <translation type="unfinished"></translation>
+        <translation>As uniões de ficheiros com marcadores de conflito no estilo diff3 começam com o texto do antepassado comum nos conflitos, em vez de nada</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Commit Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Mensagem de submissão</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show right margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar margem direita</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Margin position</source>
-        <translation type="unfinished"></translation>
+        <translation>Posição da margem</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2685,7 +2707,7 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
     <message>
         <location line="+1"/>
         <source>When performing file comparisons, you may ignore certain types of changes. Each pattern here is a python regular expression which replaces matching text with the empty string before comparison is performed. If the expression contains groups, only the groups are replaced.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ao efetuar comparações de ficheiros, pode ignorar certos tipos de alterações. Cada padrão aqui é uma expressão regular do Python que substitui o texto correspondente por uma cadeia vazia antes de a comparação ser efetuada. Se a expressão contiver grupos, apenas os grupos são substituídos.</translation>
     </message>
 </context>
 <context>
@@ -2800,27 +2822,27 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
     <message>
         <location line="+18"/>
         <source>%1 — %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 — %2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>The file isn’t in %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>O ficheiro não está em %1.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 (%2, %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2, %3)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (working, %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (trabalho, %2)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (%2, working)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2, trabalho)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -2860,7 +2882,7 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
     <message>
         <location line="+25"/>
         <source>working copy</source>
-        <translation type="unfinished"></translation>
+        <translation>cópia de trabalho</translation>
     </message>
     <message>
         <location line="+67"/>
@@ -2870,7 +2892,7 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
     <message>
         <location line="+2"/>
         <source>&amp;Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Limpar</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2990,7 +3012,7 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
     <message>
         <location line="+1"/>
         <source>Pull</source>
-        <translation type="unfinished"></translation>
+        <translation>Puxar</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -3010,47 +3032,47 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
     <message>
         <location line="+8"/>
         <source>Unknown folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Pasta desconhecida</translation>
     </message>
     <message>
         <location line="+30"/>
         <source>The commit, tag or tree that changes are compared with</source>
-        <translation type="unfinished"></translation>
+        <translation>A submissão, etiqueta ou árvore com que as alterações são comparadas</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The working copy, or a commit, tag or tree, whose changes are shown</source>
-        <translation type="unfinished"></translation>
+        <translation>A cópia de trabalho, ou uma submissão, etiqueta ou árvore, cujas alterações são mostradas</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Swap</source>
-        <translation type="unfinished"></translation>
+        <translation>Trocar</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Swap the revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>Trocar as revisões</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Repor</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the working copy with the current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>Comparar a cópia de trabalho com a submissão atual</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Changes from</source>
-        <translation type="unfinished"></translation>
+        <translation>Alterações de</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>to</source>
-        <translation type="unfinished"></translation>
+        <translation>até</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -3060,17 +3082,17 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
     <message>
         <location line="+28"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Procurar</translation>
     </message>
     <message>
         <location line="+102"/>
         <source>The files as they are now, which can be changed</source>
-        <translation type="unfinished"></translation>
+        <translation>Os ficheiros tal como estão agora, que podem ser alterados</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>Unknown revision</source>
-        <translation type="unfinished"></translation>
+        <translation>Revisão desconhecida</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -3081,7 +3103,7 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
     <message>
         <location line="+5"/>
         <source>%1 → %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 → %2</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3101,7 +3123,7 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
     <message>
         <location line="+20"/>
         <source>No such file or directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Ficheiro ou diretório inexistente</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -3116,13 +3138,14 @@ Hugo Carvalho &lt;hugokarvalho@hotmail.com&gt;</translation>
     <message>
         <location line="+157"/>
         <source>Error running command</source>
-        <translation type="unfinished"></translation>
+        <translation>Erro ao executar o comando</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>While running &apos;%1&apos;
 Error: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Ao executar &quot;%1&quot;
+Erro: %2</translation>
     </message>
     <message>
         <location line="+58"/>
@@ -3165,12 +3188,12 @@ Error: %2</source>
     <message>
         <location line="+22"/>
         <source>Error deleting %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Erro ao eliminar %1</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Não foi possível abrir a comparação</translation>
     </message>
 </context>
 <context>
@@ -3178,12 +3201,12 @@ Error: %2</source>
     <message>
         <location filename="../src/core/conflictmarkers.cpp" line="+134"/>
         <source>Line %1: a conflict starts inside the conflict that starts at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Linha %1: um conflito começa dentro do conflito que começa na linha %2.</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>The conflict that starts at line %1 doesn’t end.</source>
-        <translation type="unfinished"></translation>
+        <translation>O conflito que começa na linha %1 não termina.</translation>
     </message>
 </context>
 <context>
@@ -3191,135 +3214,135 @@ Error: %2</source>
     <message>
         <location filename="../src/core/patch.cpp" line="+176"/>
         <source>Line %1 of the patch: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Linha %1 do patch: %2</translation>
     </message>
     <message>
         <location line="+96"/>
         <source>malformed hunk header</source>
-        <translation type="unfinished"></translation>
+        <translation>cabeçalho de bloco malformado</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>unexpected line in a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>linha inesperada num bloco</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>the hunk has more lines than its header says</source>
-        <translation type="unfinished"></translation>
+        <translation>o bloco tem mais linhas do que o cabeçalho indica</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>the patch ends in the middle of a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>o patch termina a meio de um bloco</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Only unified diffs can be applied; this is a context diff.</source>
-        <translation type="unfinished"></translation>
+        <translation>Só é possível aplicar diffs unificados; este é um diff de contexto.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>No changes were found in the patch.</source>
-        <translation type="unfinished"></translation>
+        <translation>Não foram encontradas alterações no patch.</translation>
     </message>
     <message>
         <location line="+122"/>
         <source>Hunk #%1 doesn’t match the file at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>O bloco n.º %1 não corresponde ao ficheiro na linha %2.</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>Hunk #%1 applied at line %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Bloco n.º %1 aplicado na linha %2</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source> (offset %n lines)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform> (desvio de %n linha)</numerusform>
+            <numerusform> (desvio de %n linhas)</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source> with fuzz %1</source>
-        <translation type="unfinished"></translation>
+        <translation> com imprecisão %1</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+186"/>
         <source>Binary changes can’t be applied.</source>
-        <translation type="unfinished"></translation>
+        <translation>As alterações binárias não podem ser aplicadas.</translation>
     </message>
     <message>
         <location line="-174"/>
         <source>The patch creates this file, which is already as it would create it.</source>
-        <translation type="unfinished"></translation>
+        <translation>O patch cria este ficheiro, que já está como o patch o criaria.</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+190"/>
         <source>The patch creates this file, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>O patch cria este ficheiro, mas ele já existe.</translation>
     </message>
     <message>
         <location line="-178"/>
         <source>The patch seems to be applied already: its changes are in the file.</source>
-        <translation type="unfinished"></translation>
+        <translation>O patch parece já estar aplicado: as suas alterações estão no ficheiro.</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source>%1 of %n hunks can’t be applied.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 de %n bloco não pode ser aplicado.</numerusform>
+            <numerusform>%1 de %n blocos não podem ser aplicados.</numerusform>
         </translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch deletes this file, but it has other contents than the patch removes.</source>
-        <translation type="unfinished"></translation>
+        <translation>O patch elimina este ficheiro, mas ele tem um conteúdo diferente do que o patch remove.</translation>
     </message>
     <message>
         <location line="+75"/>
         <source>The patch changes several files called %1:</source>
-        <translation type="unfinished"></translation>
+        <translation>O patch altera vários ficheiros chamados %1:</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The patch doesn’t change %1. It changes:</source>
-        <translation type="unfinished"></translation>
+        <translation>O patch não altera %1. Altera:</translation>
     </message>
     <message>
         <location line="+73"/>
         <source>The patch changes %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>O patch altera %1, que não está na pasta.</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The patch deletes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>O patch elimina este ficheiro, mas ele não está na pasta.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch makes this file from %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>O patch cria este ficheiro a partir de %1, que não está na pasta.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>The patch makes this file from %1, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>O patch cria este ficheiro a partir de %1, mas ele já existe.</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>The patch changes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>O patch altera este ficheiro, mas ele não está na pasta.</translation>
     </message>
     <message>
         <location line="+106"/>
         <source>The file isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>O ficheiro não está na pasta.</translation>
     </message>
 </context>
 <context>
@@ -3338,12 +3361,12 @@ Error: %2</source>
         <location line="+2"/>
         <location line="+0"/>
         <source>Delete Permanently?</source>
-        <translation type="unfinished"></translation>
+        <translation>Eliminar permanentemente?</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>“%1” can’t be put in the trash. Do you want to delete it permanently?</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;%1&quot; não pode ser colocado no lixo. Deseja eliminá-lo permanentemente?</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3441,16 +3464,16 @@ Error: %2</source>
     <message numerus="yes">
         <location filename="../src/core/vc/git.cpp" line="+80"/>
         <source>%n unpushed commits</source>
-        <translation type="unfinished">
-            <numerusform>%n commits não empurrados</numerusform>
-            <numerusform>%n commits não empurrados</numerusform>
+        <translation>
+            <numerusform>%n submissão não enviada</numerusform>
+            <numerusform>%n submissões não enviadas</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source>%n branches</source>
-        <translation type="unfinished">
-            <numerusform>%n ramos</numerusform>
+        <translation>
+            <numerusform>%n ramo</numerusform>
             <numerusform>%n ramos</numerusform>
         </translation>
     </message>
@@ -3463,22 +3486,22 @@ Error: %2</source>
     <message>
         <location line="+98"/>
         <source>The current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>A submissão atual</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>“%1” isn’t a commit, tag or tree in this repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;%1&quot; não é uma submissão, etiqueta ou árvore neste repositório.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 isn’t in the repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 não está no repositório.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>%1 isn’t in %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 não está em %2.</translation>
     </message>
     <message>
         <location line="+84"/>

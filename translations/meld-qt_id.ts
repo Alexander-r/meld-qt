@@ -6,22 +6,22 @@
     <message>
         <location filename="../src/core/archive.cpp" line="+381"/>
         <source>Couldn’t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Tidak dapat membuat folder %1</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>No installed program can extract this archive. Install bsdtar (from libarchive) or 7-Zip.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tidak ada program terpasang yang dapat mengekstrak arsip ini. Pasang bsdtar (dari libarchive) atau 7-Zip.</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>%1 crashed</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 mogok</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>%1 failed with status %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 gagal dengan status %2</translation>
     </message>
 </context>
 <context>
@@ -29,22 +29,22 @@
     <message>
         <location filename="../src/ui/dirdiff.cpp" line="+88"/>
         <source>Couldn&apos;t create link %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Tidak dapat membuat tautan %1</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Not a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Bukan berkas</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Couldn&apos;t replace %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Tidak dapat mengganti %1</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Tidak dapat membuat folder %1</translation>
     </message>
     <message>
         <location filename="../src/ui/externalhelpers.cpp" line="+58"/>
@@ -54,12 +54,12 @@
     <message>
         <location line="+1"/>
         <source>External opening of files of type “%1” is not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Pembukaan eksternal berkas jenis “%1” tidak didukung</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>tak dikenal</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -69,17 +69,17 @@
     <message>
         <location line="+1"/>
         <source>Couldn&apos;t run “%1”</source>
-        <translation type="unfinished"></translation>
+        <translation>Tidak dapat menjalankan “%1”</translation>
     </message>
     <message>
         <location filename="../src/ui/meldapp.cpp" line="+37"/>
         <source>show program&apos;s version number and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>tampilkan nomor versi program dan keluar</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>show this help message and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>tampilkan pesan bantuan ini dan keluar</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -94,12 +94,12 @@
     <message>
         <location line="+2"/>
         <source>Open comparisons in an already running instance (single-instance mode)</source>
-        <translation type="unfinished"></translation>
+        <translation>Buka perbandingan di instans yang sudah berjalan (mode instans tunggal)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in a new instance, even in single-instance mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Buka perbandingan di instans baru, bahkan dalam mode instans tunggal</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -130,7 +130,7 @@
     <message>
         <location line="+2"/>
         <source>Compare a file or folder with what a patch would make of it</source>
-        <translation type="unfinished"></translation>
+        <translation>Bandingkan berkas atau folder dengan hasil yang akan dibuat oleh patch</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -159,7 +159,7 @@
     <message>
         <location line="-4"/>
         <source>Start a comparison against a blank pane</source>
-        <translation type="unfinished"></translation>
+        <translation>Mulai perbandingan dengan panel kosong</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -174,24 +174,26 @@
     <message>
         <location line="+1"/>
         <source>patch</source>
-        <translation type="unfinished"></translation>
+        <translation>patch</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare with a patch applied</source>
-        <translation type="unfinished"></translation>
+        <translation>Bandingkan dengan patch yang diterapkan</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Usage:</source>
-        <translation type="unfinished"></translation>
+        <translation>Penggunaan:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>
 For file comparisons, the special argument @blank may be used instead of
 a &lt;file&gt; argument to create a blank pane.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+Untuk perbandingan berkas, argumen khusus @blank dapat dipakai sebagai ganti
+argumen &lt;berkas&gt; untuk membuat panel kosong.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -201,30 +203,30 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+1"/>
         <source>Options:</source>
-        <translation type="unfinished"></translation>
+        <translation>Opsi:</translation>
     </message>
     <message>
         <location line="+42"/>
         <location line="+9"/>
         <source>no such option: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>tidak ada opsi: %1</translation>
     </message>
     <message>
         <location line="-8"/>
         <source>ambiguous option: %1 (%2?)</source>
-        <translation type="unfinished"></translation>
+        <translation>opsi ambigu: %1 (%2?)</translation>
     </message>
     <message>
         <location line="+16"/>
         <location line="+59"/>
         <location line="+16"/>
         <source>%1 option requires an argument</source>
-        <translation type="unfinished"></translation>
+        <translation>opsi %1 memerlukan argumen</translation>
     </message>
     <message>
         <location line="-73"/>
         <source>%1 option does not take a value</source>
-        <translation type="unfinished"></translation>
+        <translation>opsi %1 tidak menerima nilai</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -234,17 +236,17 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+53"/>
         <source>--patch needs one file or folder to apply the patch to (got %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>--patch memerlukan satu berkas atau folder untuk diterapkan patch (diberikan %1)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>can’t auto-merge with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>tidak dapat menggabungkan otomatis dengan patch</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>can’t load a comparison file with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>tidak dapat memuat berkas perbandingan dengan patch</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -281,14 +283,14 @@ a &lt;file&gt; argument to create a blank pane.</source>
 %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/preferences.cpp" line="+104"/>
+        <location filename="../src/ui/preferences.cpp" line="+108"/>
         <source>Select a Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Pilih Gaya</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Select</source>
-        <translation type="unfinished"></translation>
+        <translation>Pilih</translation>
     </message>
     <message>
         <location filename="../src/ui/recent.cpp" line="+76"/>
@@ -302,7 +304,8 @@ a &lt;file&gt; argument to create a blank pane.</source>
         <location filename="../src/ui/singleinstance.cpp" line="+50"/>
         <source>Meld Qt couldn’t open the comparison: a different version of Meld Qt is running.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Meld Qt tidak dapat membuka perbandingan: versi Meld Qt yang lain sedang berjalan.
+</translation>
     </message>
 </context>
 <context>
@@ -339,12 +342,12 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location filename="../src/ui/actiongutter.cpp" line="+346"/>
         <source>Copy Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Salin naik</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Copy Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Salin turun</translation>
     </message>
 </context>
 <context>
@@ -358,7 +361,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+8"/>
         <source>Changed Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Berkas yang Berubah</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -391,34 +394,34 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+10"/>
         <source>The conflict markers in “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Penanda konflik di “%1” tidak dapat dibaca.</translation>
     </message>
     <message numerus="yes">
         <location line="+17"/>
         <source>%n unresolved conflicts</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n konflik belum terselesaikan</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts show the common ancestor’s text, which the local and remote versions changed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Konflik menampilkan teks leluhur bersama, yang diubah oleh versi lokal dan remote.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts are empty, to be filled from the local and remote versions.</source>
-        <translation type="unfinished"></translation>
+        <translation>Konflik kosong, untuk diisi dari versi lokal dan remote.</translation>
     </message>
     <message>
         <location line="+42"/>
         <source>local</source>
-        <translation type="unfinished"></translation>
+        <translation>lokal</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>remote</source>
-        <translation type="unfinished"></translation>
+        <translation>remote</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -446,12 +449,12 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+16"/>
         <source>Folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Folder %1</translation>
     </message>
     <message>
         <location line="+81"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Cari</translation>
     </message>
     <message>
         <location line="+88"/>
@@ -486,7 +489,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+54"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Patch “%1” tidak dapat dibaca.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -497,22 +500,22 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+36"/>
         <source>%1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: %2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Permission denied</source>
-        <translation type="unfinished"></translation>
+        <translation>Izin ditolak</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>: Dangling symlink</source>
-        <translation type="unfinished"></translation>
+        <translation>: Tautan simbolik menggantung</translation>
     </message>
     <message>
         <location line="+99"/>
         <source>Done</source>
-        <translation type="unfinished"></translation>
+        <translation>Selesai</translation>
     </message>
     <message>
         <location line="+162"/>
@@ -552,7 +555,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+13"/>
         <source>Folder %1 is being compared to itself</source>
-        <translation type="unfinished"></translation>
+        <translation>Folder %1 sedang dibandingkan dengan dirinya sendiri</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -657,7 +660,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+164"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Tidak dapat membuat folder %1</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -701,7 +704,7 @@ ke %2.
     <message>
         <location line="+24"/>
         <source>Error deleting %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Galat saat menghapus %1</translation>
     </message>
 </context>
 <context>
@@ -734,7 +737,7 @@ ke %2.
     <message>
         <location line="+144"/>
         <source>empty folder</source>
-        <translation type="unfinished"></translation>
+        <translation>folder kosong</translation>
     </message>
 </context>
 <context>
@@ -782,7 +785,7 @@ ke %2.
     <message>
         <location line="+1"/>
         <source>Copy Full Path</source>
-        <translation>_Salin Path Lengkap</translation>
+        <translation>Salin Path Lengkap</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -852,36 +855,38 @@ ke %2.
     <message>
         <location line="+13"/>
         <source>There was a problem opening “%1”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Terjadi masalah saat membuka “%1”.</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The file could not be decoded using the candidate encodings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Berkas tidak dapat didekode memakai pengodean kandidat.</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Line %1 exceeded maximum line length (%2 &gt; %3).
 
 Loading files with very long lines may make Meld Qt slow or unresponsive.</source>
-        <translation type="unfinished"></translation>
+        <translation>Baris %1 melebihi panjang baris maksimum (%2 &gt; %3).
+
+Memuat berkas dengan baris yang sangat panjang dapat membuat Meld Qt lambat atau tidak responsif.</translation>
     </message>
     <message numerus="yes">
         <location line="+39"/>
         <source>%1 has %n unresolved merge conflicts.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 memiliki %n konflik merge yang belum terselesaikan.</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The local and remote versions can be merged in a 3-way comparison.</source>
-        <translation type="unfinished"></translation>
+        <translation>Versi lokal dan remote dapat digabungkan dalam perbandingan 3 arah.</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Resolve</source>
-        <translation type="unfinished"></translation>
+        <translation>Selesaikan</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -901,12 +906,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+64"/>
         <source>Computing differences</source>
-        <translation type="unfinished"></translation>
+        <translation>Menghitung perbedaan</translation>
     </message>
     <message>
         <location line="+117"/>
         <source>File %1 is being compared to itself</source>
-        <translation type="unfinished"></translation>
+        <translation>Berkas %1 sedang dibandingkan dengan dirinya sendiri</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -970,7 +975,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+20"/>
         <source>&amp;Load anyway</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Muat saja</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -990,14 +995,14 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message numerus="yes">
         <location line="+41"/>
         <source>%n conflicts aren’t resolved</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n konflik belum terselesaikan</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>If you save the merge now, the conflicts are saved as they are here, without conflict markers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bila Anda menyimpan hasil merge sekarang, konflik disimpan apa adanya seperti di sini, tanpa penanda konflik.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1030,7 +1035,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="-18"/>
         <source>File “%1” contains characters that can’t be encoded using its current encoding “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Berkas “%1” memuat karakter yang tak bisa dienkode dengan “%2”.</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1086,7 +1091,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+6"/>
         <source>Open documents contain unsaved changes. Changes which are not saved will be permanently lost.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokumen yang terbuka memiliki perubahan yang belum disimpan. Perubahan yang tidak disimpan akan hilang secara permanen.</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1127,7 +1132,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+15"/>
         <source>Select File</source>
-        <translation type="unfinished"></translation>
+        <translation>Pilih Berkas</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1137,7 +1142,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+6"/>
         <source>File %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Berkas %1</translation>
     </message>
     <message>
         <location line="+128"/>
@@ -1288,12 +1293,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+19"/>
         <source>Visual diff and merge tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Alat diff dan merge visual</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Built with Qt %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Dibangun dengan Qt %1</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1305,7 +1310,7 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+3"/>
         <source>Translated by</source>
-        <translation type="unfinished"></translation>
+        <translation>Diterjemahkan oleh</translation>
     </message>
 </context>
 <context>
@@ -1384,12 +1389,12 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="-383"/>
         <source>Header bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Bilah kepala</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>New Comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Perbandingan Baru</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1399,7 +1404,7 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+1"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Tutup</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1415,7 +1420,7 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="-894"/>
         <source>Quit</source>
-        <translation type="unfinished"></translation>
+        <translation>Keluar</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1436,22 +1441,22 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="-959"/>
         <source>Previous Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Tab Sebelumnya</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Next Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Tab Selanjutnya</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Move Tab Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Pindahkan Tab ke Kiri</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Move Tab Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Pindahkan Tab ke Kanan</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -1461,7 +1466,7 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+11"/>
         <source>Previous Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Perubahan Sebelumnya</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1471,7 +1476,7 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+1"/>
         <source>Next Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Perubahan Selanjutnya</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1481,7 +1486,7 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+4"/>
         <source>Previous Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>Konflik Sebelumnya</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1491,7 +1496,7 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+1"/>
         <source>Next Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>Konflik Selanjutnya</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1501,7 +1506,7 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+7"/>
         <source>Push to Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Push ke Kiri</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1511,7 +1516,7 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+1"/>
         <source>Push to Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Push ke Kanan</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1546,7 +1551,7 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+6"/>
         <source>Delete Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Hapus Perubahan</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1606,7 +1611,7 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
         <location line="+22"/>
         <location line="+6"/>
         <source>Main Menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Menu Utama</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -1666,22 +1671,22 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+2"/>
         <source>Zoom In</source>
-        <translation type="unfinished"></translation>
+        <translation>Perbesar</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Zoom Out</source>
-        <translation type="unfinished"></translation>
+        <translation>Perkecil</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reset Zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Atur Ulang Zoom</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Swap Panes</source>
-        <translation type="unfinished"></translation>
+        <translation>Tukar Panel</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1711,12 +1716,12 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+17"/>
         <source>No recent comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>Tidak ada perbandingan terkini</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Clear Recent Comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>Bersihkan Perbandingan Terkini</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -1732,14 +1737,14 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
         <location line="+65"/>
         <location line="+17"/>
         <source>%1 - Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 - Meld Qt</translation>
     </message>
     <message>
         <location line="+26"/>
         <location line="+146"/>
         <location line="+16"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Tidak dapat membuka perbandingan</translation>
     </message>
     <message>
         <location line="+43"/>
@@ -1754,7 +1759,7 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+11"/>
         <source>Select what to compare, and the patch to apply to it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pilih apa yang akan dibandingkan, dan patch yang akan diterapkan padanya.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1762,12 +1767,14 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
         <source>The patch “%1” can’t be read.
 
 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Patch “%1” tidak dapat dibaca.
+
+%2</translation>
     </message>
     <message>
         <location line="+66"/>
         <source>Opening archive “%1”…</source>
-        <translation type="unfinished"></translation>
+        <translation>Membuka arsip “%1”…</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1777,17 +1784,17 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+2"/>
         <source>Opening Archive</source>
-        <translation type="unfinished"></translation>
+        <translation>Membuka Arsip</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Couldn’t open archive %1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Tidak dapat membuka arsip %1: %2</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Failed to open archive</source>
-        <translation type="unfinished"></translation>
+        <translation>Gagal membuka arsip</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -1803,7 +1810,7 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+28"/>
         <source>The patch “%1” doesn’t exist</source>
-        <translation type="unfinished"></translation>
+        <translation>Patch “%1” tidak ada</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -2063,17 +2070,17 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+1"/>
         <source>Zoom in</source>
-        <translation type="unfinished"></translation>
+        <translation>Perbesar</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Zoom out</source>
-        <translation type="unfinished"></translation>
+        <translation>Perkecil</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reset zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Atur ulang zoom</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2146,22 +2153,22 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+7"/>
         <source>Compare with a &amp;patch</source>
-        <translation type="unfinished"></translation>
+        <translation>Bandingkan dengan &amp;patch</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the folder with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>Bandingkan folder dengan bagaimana patch akan mengubahnya</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the file with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>Bandingkan berkas dengan bagaimana patch akan mengubahnya</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Select Patch File</source>
-        <translation type="unfinished"></translation>
+        <translation>Pilih Berkas Patch</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2196,7 +2203,7 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+5"/>
         <source>Select Version-controlled Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Pilih Folder dengan Kendali Versi</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -2211,12 +2218,12 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+70"/>
         <source>Patches (*.patch *.diff)</source>
-        <translation type="unfinished"></translation>
+        <translation>Patch (*.patch *.diff)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>All files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>Semua berkas (*)</translation>
     </message>
 </context>
 <context>
@@ -2225,27 +2232,27 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
         <location filename="../src/ui/patchcomparison.cpp" line="+24"/>
         <location line="+41"/>
         <source>The patch “%1” can’t be applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Patch “%1” tidak dapat diterapkan ke “%2”.</translation>
     </message>
     <message>
         <location line="-34"/>
         <source>The patch deletes this file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Patch menghapus berkas ini.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The patch “%1” was applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Patch “%1” telah diterapkan ke “%2”.</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>%1 with %2 applied</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 dengan %2 diterapkan</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Patch “%1” tidak dapat dibaca.</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2345,7 +2352,7 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+1"/>
         <source>Folder Comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Perbandingan Folder</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2355,37 +2362,52 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+1"/>
         <source>Filters</source>
-        <translation type="unfinished"></translation>
+        <translation>Penyaring</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>Penampilan</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Follow System Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Ikuti Gaya Sistem</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Light</source>
-        <translation type="unfinished"></translation>
+        <translation>Terang</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Dark</source>
-        <translation type="unfinished"></translation>
+        <translation>Gelap</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Interface Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Gaya Antarmuka</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>System Language</source>
+        <translation>Bahasa sistem</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Language</source>
+        <translation>Bahasa</translation>
     </message>
     <message>
         <location line="+3"/>
+        <source>The language will change when Meld Qt is next started.</source>
+        <translation>Bahasa akan berubah saat Meld Qt dijalankan berikutnya.</translation>
+    </message>
+    <message>
+        <location line="+14"/>
         <source>Use Custom Font</source>
-        <translation type="unfinished"></translation>
+        <translation>Pakai Fonta Ubahan</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -2395,12 +2417,12 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+12"/>
         <source>Use Syntax Highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>Pakai Penyorotan Sintaks</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Color Scheme</source>
-        <translation type="unfinished"></translation>
+        <translation>Skema Warna</translation>
     </message>
     <message>
         <location line="+33"/>
@@ -2410,32 +2432,32 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+3"/>
         <source>Never</source>
-        <translation type="unfinished"></translation>
+        <translation>Tidak Pernah</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>At Any Character</source>
-        <translation type="unfinished"></translation>
+        <translation>Pada Karakter Apa Pun</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>At Word Boundaries</source>
-        <translation type="unfinished"></translation>
+        <translation>Pada Batas Kata</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Wrap Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Lipat Teks</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Highlight Current Line</source>
-        <translation type="unfinished"></translation>
+        <translation>Sorot Baris Saat Ini</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show Line Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Tampilkan Nomor Baris</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2445,7 +2467,7 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+4"/>
         <source>Indentation</source>
-        <translation type="unfinished"></translation>
+        <translation>Indentasi</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2455,17 +2477,17 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+1"/>
         <source>Spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>Spasi</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Tab character</source>
-        <translation type="unfinished"></translation>
+        <translation>Karakter tab</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Indentation Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukuran &amp;Indentasi</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2485,37 +2507,37 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+1"/>
         <source>Use custom text editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Pakai penyunting teks ubahan</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Custom Editor Command</source>
-        <translation type="unfinished"></translation>
+        <translation>Perintah Penyunting Ubahan</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use {file} and {line} to refer to the file and line being opened</source>
-        <translation type="unfinished"></translation>
+        <translation>Pakai {file} dan {line} untuk merujuk ke berkas dan baris yang dibuka</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Application</source>
-        <translation type="unfinished"></translation>
+        <translation>Aplikasi</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in the running Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>Buka perbandingan di Meld Qt yang sedang berjalan</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Comparisons opened from the command line or other programs open in a new window of a Meld Qt that&apos;s already running, instead of starting another Meld Qt. This applies to Meld Qt started after the change.</source>
-        <translation type="unfinished"></translation>
+        <translation>Perbandingan yang dibuka dari baris perintah atau program lain dibuka di jendela baru dari Meld Qt yang sudah berjalan, alih-alih menjalankan Meld Qt yang lain. Ini berlaku untuk Meld Qt yang dijalankan setelah perubahan.</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Comparison Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Opsi Perbandingan</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2550,7 +2572,7 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+10"/>
         <source>Timestamp resolution</source>
-        <translation type="unfinished"></translation>
+        <translation>Resolusi stempel waktu</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2605,7 +2627,7 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+5"/>
         <source>Order when comparing file revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>Urutan ketika membandingkan revisi berkas</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2620,32 +2642,32 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+5"/>
         <source>Order when merging files</source>
-        <translation type="unfinished"></translation>
+        <translation>Urutan ketika menggabungkan berkas</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Show the common ancestor in conflicts from conflict markers</source>
-        <translation type="unfinished"></translation>
+        <translation>Tampilkan leluhur bersama di dalam konflik dari penanda konflik</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Merges of files with diff3-style conflict markers start with the common ancestor’s text in conflicts, rather than nothing</source>
-        <translation type="unfinished"></translation>
+        <translation>Merge berkas dengan penanda konflik gaya diff3 dimulai dengan teks leluhur bersama di dalam konflik, alih-alih kosong</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Commit Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Pesan Komit</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show right margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Tampilkan margin kanan</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Margin position</source>
-        <translation type="unfinished"></translation>
+        <translation>Posisi margin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2680,7 +2702,7 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+1"/>
         <source>When performing file comparisons, you may ignore certain types of changes. Each pattern here is a python regular expression which replaces matching text with the empty string before comparison is performed. If the expression contains groups, only the groups are replaced.</source>
-        <translation type="unfinished"></translation>
+        <translation>Saat melakukan perbandingan berkas, Anda dapat mengabaikan jenis perubahan tertentu. Setiap pola di sini adalah ekspresi reguler python yang mengganti teks yang cocok dengan string kosong sebelum perbandingan dilakukan. Bila ekspresi berisi grup, hanya grup yang diganti.</translation>
     </message>
 </context>
 <context>
@@ -2795,27 +2817,27 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+18"/>
         <source>%1 — %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 — %2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>The file isn’t in %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Berkas tidak ada di %1.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 (%2, %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2, %3)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (working, %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (kerja, %2)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (%2, working)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2, kerja)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -2855,7 +2877,7 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+25"/>
         <source>working copy</source>
-        <translation type="unfinished"></translation>
+        <translation>salinan kerja</translation>
     </message>
     <message>
         <location line="+67"/>
@@ -2865,7 +2887,7 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+2"/>
         <source>&amp;Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Bersihkan</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2882,7 +2904,7 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
         <location line="+1"/>
         <location line="+1"/>
         <source>Next Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Perubahan Selanjutnya</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2893,12 +2915,12 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
         <location line="+1"/>
         <location line="+1"/>
         <source>Previous Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Perubahan Sebelumnya</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>Segarkan</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2941,7 +2963,7 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="-754"/>
         <source>Push</source>
-        <translation type="unfinished"></translation>
+        <translation>Push</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2985,7 +3007,7 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+1"/>
         <source>Pull</source>
-        <translation type="unfinished"></translation>
+        <translation>Pull</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -3005,47 +3027,47 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+8"/>
         <source>Unknown folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Folder tak dikenal</translation>
     </message>
     <message>
         <location line="+30"/>
         <source>The commit, tag or tree that changes are compared with</source>
-        <translation type="unfinished"></translation>
+        <translation>Komit, tag, atau pohon yang menjadi pembanding perubahan</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The working copy, or a commit, tag or tree, whose changes are shown</source>
-        <translation type="unfinished"></translation>
+        <translation>Salinan kerja, atau komit, tag, atau pohon, yang perubahannya ditampilkan</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Swap</source>
-        <translation type="unfinished"></translation>
+        <translation>Tukar</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Swap the revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>Tukar revisi</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Atur Ulang</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the working copy with the current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>Bandingkan salinan kerja dengan komit saat ini</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Changes from</source>
-        <translation type="unfinished"></translation>
+        <translation>Perubahan dari</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>to</source>
-        <translation type="unfinished"></translation>
+        <translation>ke</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -3055,17 +3077,17 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+28"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Cari</translation>
     </message>
     <message>
         <location line="+102"/>
         <source>The files as they are now, which can be changed</source>
-        <translation type="unfinished"></translation>
+        <translation>Berkas sebagaimana adanya sekarang, yang dapat diubah</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>Unknown revision</source>
-        <translation type="unfinished"></translation>
+        <translation>Revisi tak dikenal</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -3076,7 +3098,7 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+5"/>
         <source>%1 → %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 → %2</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3096,7 +3118,7 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+20"/>
         <source>No such file or directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Tidak ada berkas atau direktori seperti itu</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -3111,13 +3133,14 @@ Kukuh Syafaat &lt;kukuhsyafaat@gnome.org&gt;, 2017, 2018, 2019, 2022, 2023.</tra
     <message>
         <location line="+157"/>
         <source>Error running command</source>
-        <translation type="unfinished"></translation>
+        <translation>Galat saat menjalankan perintah</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>While running &apos;%1&apos;
 Error: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Saat menjalankan &apos;%1&apos;
+Galat: %2</translation>
     </message>
     <message>
         <location line="+58"/>
@@ -3160,12 +3183,12 @@ Error: %2</source>
     <message>
         <location line="+22"/>
         <source>Error deleting %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Galat saat menghapus %1</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Tidak dapat membuka perbandingan</translation>
     </message>
 </context>
 <context>
@@ -3173,12 +3196,12 @@ Error: %2</source>
     <message>
         <location filename="../src/core/conflictmarkers.cpp" line="+134"/>
         <source>Line %1: a conflict starts inside the conflict that starts at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Baris %1: sebuah konflik dimulai di dalam konflik yang dimulai pada baris %2.</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>The conflict that starts at line %1 doesn’t end.</source>
-        <translation type="unfinished"></translation>
+        <translation>Konflik yang dimulai pada baris %1 tidak berakhir.</translation>
     </message>
 </context>
 <context>
@@ -3186,133 +3209,133 @@ Error: %2</source>
     <message>
         <location filename="../src/core/patch.cpp" line="+176"/>
         <source>Line %1 of the patch: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Baris %1 dari patch: %2</translation>
     </message>
     <message>
         <location line="+96"/>
         <source>malformed hunk header</source>
-        <translation type="unfinished"></translation>
+        <translation>kepala hunk salah bentuk</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>unexpected line in a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>baris tak terduga di dalam hunk</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>the hunk has more lines than its header says</source>
-        <translation type="unfinished"></translation>
+        <translation>hunk memiliki lebih banyak baris daripada yang dinyatakan kepalanya</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>the patch ends in the middle of a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>patch berakhir di tengah sebuah hunk</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Only unified diffs can be applied; this is a context diff.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hanya unified diff yang dapat diterapkan; ini adalah context diff.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>No changes were found in the patch.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tidak ada perubahan yang ditemukan di dalam patch.</translation>
     </message>
     <message>
         <location line="+122"/>
         <source>Hunk #%1 doesn’t match the file at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunk #%1 tidak cocok dengan berkas pada baris %2.</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>Hunk #%1 applied at line %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunk #%1 diterapkan pada baris %2</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source> (offset %n lines)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform> (geser %n baris)</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source> with fuzz %1</source>
-        <translation type="unfinished"></translation>
+        <translation> dengan fuzz %1</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+186"/>
         <source>Binary changes can’t be applied.</source>
-        <translation type="unfinished"></translation>
+        <translation>Perubahan biner tidak dapat diterapkan.</translation>
     </message>
     <message>
         <location line="-174"/>
         <source>The patch creates this file, which is already as it would create it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Patch membuat berkas ini, yang sudah seperti yang akan dibuat oleh patch.</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+190"/>
         <source>The patch creates this file, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>Patch membuat berkas ini, tetapi berkas sudah ada.</translation>
     </message>
     <message>
         <location line="-178"/>
         <source>The patch seems to be applied already: its changes are in the file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Patch tampaknya sudah diterapkan: perubahannya sudah ada di dalam berkas.</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source>%1 of %n hunks can’t be applied.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 dari %n hunk tidak dapat diterapkan.</numerusform>
         </translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch deletes this file, but it has other contents than the patch removes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Patch menghapus berkas ini, tetapi isinya berbeda dari yang dihapus oleh patch.</translation>
     </message>
     <message>
         <location line="+75"/>
         <source>The patch changes several files called %1:</source>
-        <translation type="unfinished"></translation>
+        <translation>Patch mengubah beberapa berkas bernama %1:</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The patch doesn’t change %1. It changes:</source>
-        <translation type="unfinished"></translation>
+        <translation>Patch tidak mengubah %1. Patch mengubah:</translation>
     </message>
     <message>
         <location line="+73"/>
         <source>The patch changes %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Patch mengubah %1, yang tidak ada di dalam folder.</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The patch deletes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Patch menghapus berkas ini, tetapi berkas tidak ada di dalam folder.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch makes this file from %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Patch membuat berkas ini dari %1, yang tidak ada di dalam folder.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>The patch makes this file from %1, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>Patch membuat berkas ini dari %1, tetapi berkas sudah ada.</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>The patch changes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Patch mengubah berkas ini, tetapi berkas tidak ada di dalam folder.</translation>
     </message>
     <message>
         <location line="+106"/>
         <source>The file isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Berkas tidak ada di dalam folder.</translation>
     </message>
 </context>
 <context>
@@ -3331,12 +3354,12 @@ Error: %2</source>
         <location line="+2"/>
         <location line="+0"/>
         <source>Delete Permanently?</source>
-        <translation type="unfinished"></translation>
+        <translation>Hapus Secara Permanen?</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>“%1” can’t be put in the trash. Do you want to delete it permanently?</source>
-        <translation type="unfinished"></translation>
+        <translation>“%1” tidak dapat dipindahkan ke tong sampah. Apakah Anda ingin menghapusnya secara permanen?</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3454,22 +3477,22 @@ Error: %2</source>
     <message>
         <location line="+98"/>
         <source>The current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>Komit saat ini</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>“%1” isn’t a commit, tag or tree in this repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>“%1” bukan komit, tag, atau pohon di repositori ini.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 isn’t in the repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 tidak ada di repositori.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>%1 isn’t in %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 tidak ada di %2.</translation>
     </message>
     <message>
         <location line="+84"/>

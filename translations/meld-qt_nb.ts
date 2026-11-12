@@ -6,22 +6,22 @@
     <message>
         <location filename="../src/core/archive.cpp" line="+381"/>
         <source>Couldn’t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunne ikke opprette mappen %1</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>No installed program can extract this archive. Install bsdtar (from libarchive) or 7-Zip.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen installerte programmer kan pakke ut dette arkivet. Installer bsdtar (fra libarchive) eller 7-Zip.</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>%1 crashed</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 krasjet</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>%1 failed with status %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 mislyktes med status %2</translation>
     </message>
 </context>
 <context>
@@ -29,22 +29,22 @@
     <message>
         <location filename="../src/ui/dirdiff.cpp" line="+88"/>
         <source>Couldn&apos;t create link %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunne ikke opprette lenken %1</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Not a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Ikke en fil</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Couldn&apos;t replace %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunne ikke erstatte %1</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunne ikke opprette mappen %1</translation>
     </message>
     <message>
         <location filename="../src/ui/externalhelpers.cpp" line="+58"/>
@@ -59,7 +59,7 @@
     <message>
         <location line="+1"/>
         <source>unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>ukjent</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -69,17 +69,17 @@
     <message>
         <location line="+1"/>
         <source>Couldn&apos;t run “%1”</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunne ikke kjøre «%1»</translation>
     </message>
     <message>
         <location filename="../src/ui/meldapp.cpp" line="+37"/>
         <source>show program&apos;s version number and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>vis programmets versjonsnummer og avslutt</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>show this help message and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>vis denne hjelpeteksten og avslutt</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -94,12 +94,12 @@
     <message>
         <location line="+2"/>
         <source>Open comparisons in an already running instance (single-instance mode)</source>
-        <translation type="unfinished"></translation>
+        <translation>Åpne sammenligninger i en instans som allerede kjører (enkeltinstansmodus)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in a new instance, even in single-instance mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Åpne sammenligninger i en ny instans, også i enkeltinstansmodus</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -130,7 +130,7 @@
     <message>
         <location line="+2"/>
         <source>Compare a file or folder with what a patch would make of it</source>
-        <translation type="unfinished"></translation>
+        <translation>Sammenlign en fil eller mappe med det en endringsfil ville gjort med den</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -159,7 +159,7 @@
     <message>
         <location line="-4"/>
         <source>Start a comparison against a blank pane</source>
-        <translation type="unfinished"></translation>
+        <translation>Start en sammenligning mot en tom rute</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -174,24 +174,26 @@
     <message>
         <location line="+1"/>
         <source>patch</source>
-        <translation type="unfinished"></translation>
+        <translation>endringsfil</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare with a patch applied</source>
-        <translation type="unfinished"></translation>
+        <translation>Sammenlign med en endringsfil brukt</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Usage:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bruk:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>
 For file comparisons, the special argument @blank may be used instead of
 a &lt;file&gt; argument to create a blank pane.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+For filsammenligninger kan spesialargumentet @blank brukes i stedet for
+et &lt;fil&gt;-argument for å lage en tom rute.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -201,30 +203,30 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+1"/>
         <source>Options:</source>
-        <translation type="unfinished"></translation>
+        <translation>Valg:</translation>
     </message>
     <message>
         <location line="+42"/>
         <location line="+9"/>
         <source>no such option: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ukjent valg: %1</translation>
     </message>
     <message>
         <location line="-8"/>
         <source>ambiguous option: %1 (%2?)</source>
-        <translation type="unfinished"></translation>
+        <translation>tvetydig valg: %1 (%2?)</translation>
     </message>
     <message>
         <location line="+16"/>
         <location line="+59"/>
         <location line="+16"/>
         <source>%1 option requires an argument</source>
-        <translation type="unfinished"></translation>
+        <translation>valget %1 krever et argument</translation>
     </message>
     <message>
         <location line="-73"/>
         <source>%1 option does not take a value</source>
-        <translation type="unfinished"></translation>
+        <translation>valget %1 tar ingen verdi</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -234,17 +236,17 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+53"/>
         <source>--patch needs one file or folder to apply the patch to (got %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>--patch trenger én fil eller mappe å bruke endringsfilen på (fikk %1)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>can’t auto-merge with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>kan ikke flette automatisk med en endringsfil</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>can’t load a comparison file with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>kan ikke laste inn en sammenligningsfil med en endringsfil</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -281,14 +283,14 @@ a &lt;file&gt; argument to create a blank pane.</source>
 %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/preferences.cpp" line="+104"/>
+        <location filename="../src/ui/preferences.cpp" line="+108"/>
         <source>Select a Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Velg en stil</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Select</source>
-        <translation type="unfinished"></translation>
+        <translation>Velg</translation>
     </message>
     <message>
         <location filename="../src/ui/recent.cpp" line="+76"/>
@@ -302,7 +304,8 @@ a &lt;file&gt; argument to create a blank pane.</source>
         <location filename="../src/ui/singleinstance.cpp" line="+50"/>
         <source>Meld Qt couldn’t open the comparison: a different version of Meld Qt is running.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Meld Qt kunne ikke åpne sammenligningen: en annen versjon av Meld Qt kjører.
+</translation>
     </message>
 </context>
 <context>
@@ -391,35 +394,35 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+10"/>
         <source>The conflict markers in “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfliktmarkørene i «%1» kan ikke leses.</translation>
     </message>
     <message numerus="yes">
         <location line="+17"/>
         <source>%n unresolved conflicts</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n uløst konflikt</numerusform>
+            <numerusform>%n uløste konflikter</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts show the common ancestor’s text, which the local and remote versions changed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfliktene viser teksten til den felles forgjengeren, som den lokale og den eksterne versjonen endret.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts are empty, to be filled from the local and remote versions.</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfliktene er tomme, og fylles fra den lokale og den eksterne versjonen.</translation>
     </message>
     <message>
         <location line="+42"/>
         <source>local</source>
-        <translation type="unfinished"></translation>
+        <translation>lokal</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>remote</source>
-        <translation type="unfinished"></translation>
+        <translation>ekstern</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -447,12 +450,12 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+16"/>
         <source>Folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Mappe %1</translation>
     </message>
     <message>
         <location line="+81"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Søk</translation>
     </message>
     <message>
         <location line="+88"/>
@@ -487,28 +490,28 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+54"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Endringsfilen «%1» kan ikke leses.</translation>
     </message>
     <message>
         <location line="+102"/>
         <location line="+28"/>
         <source>Scanning %1</source>
-        <translation type="unfinished">Gjennomsøker %1</translation>
+        <translation>Gjennomsøker %1</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>%1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: %2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Permission denied</source>
-        <translation type="unfinished"></translation>
+        <translation>Tilgang nektet</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>: Dangling symlink</source>
-        <translation type="unfinished"></translation>
+        <translation>: Brutt symbolsk lenke</translation>
     </message>
     <message>
         <location line="+99"/>
@@ -658,7 +661,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+164"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunne ikke opprette mappen %1</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -735,7 +738,7 @@ til %2.
     <message>
         <location line="+144"/>
         <source>empty folder</source>
-        <translation type="unfinished"></translation>
+        <translation>tom mappe</translation>
     </message>
 </context>
 <context>
@@ -853,37 +856,39 @@ til %2.
     <message>
         <location line="+13"/>
         <source>There was a problem opening “%1”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det oppstod et problem ved åpning av «%1».</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The file could not be decoded using the candidate encodings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Filen kunne ikke dekodes med de aktuelle tegnkodingene.</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Line %1 exceeded maximum line length (%2 &gt; %3).
 
 Loading files with very long lines may make Meld Qt slow or unresponsive.</source>
-        <translation type="unfinished"></translation>
+        <translation>Linje %1 overskred maksimal linjelengde (%2 &gt; %3).
+
+Å laste inn filer med svært lange linjer kan gjøre Meld Qt tregt eller føre til at det slutter å svare.</translation>
     </message>
     <message numerus="yes">
         <location line="+39"/>
         <source>%1 has %n unresolved merge conflicts.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 har en uløst flettekonflikt.</numerusform>
+            <numerusform>%1 har %n uløste flettekonflikter.</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The local and remote versions can be merged in a 3-way comparison.</source>
-        <translation type="unfinished"></translation>
+        <translation>Den lokale og den eksterne versjonen kan flettes i en treveis sammenligning.</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Resolve</source>
-        <translation type="unfinished"></translation>
+        <translation>Løs</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -903,7 +908,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+64"/>
         <source>Computing differences</source>
-        <translation type="unfinished"></translation>
+        <translation>Beregner forskjeller</translation>
     </message>
     <message>
         <location line="+117"/>
@@ -992,15 +997,15 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message numerus="yes">
         <location line="+41"/>
         <source>%n conflicts aren’t resolved</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>En konflikt er ikke løst</numerusform>
+            <numerusform>%n konflikter er ikke løst</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>If you save the merge now, the conflicts are saved as they are here, without conflict markers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hvis du lagrer flettingen nå, lagres konfliktene slik de er her, uten konfliktmarkører.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1140,7 +1145,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+6"/>
         <source>File %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Fil %1</translation>
     </message>
     <message>
         <location line="+128"/>
@@ -1291,12 +1296,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+19"/>
         <source>Visual diff and merge tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Visuelt verktøy for sammenligning og fletting</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Built with Qt %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Bygget med Qt %1</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1309,7 +1314,7 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
     <message>
         <location line="+3"/>
         <source>Translated by</source>
-        <translation type="unfinished"></translation>
+        <translation>Oversatt av</translation>
     </message>
 </context>
 <context>
@@ -1388,12 +1393,12 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
     <message>
         <location line="-383"/>
         <source>Header bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Toppfelt</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>New Comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Ny sammenligning</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1403,7 +1408,7 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
     <message>
         <location line="+1"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Lukk</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1419,7 +1424,7 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
     <message>
         <location line="-894"/>
         <source>Quit</source>
-        <translation type="unfinished"></translation>
+        <translation>Avslutt</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1440,22 +1445,22 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
     <message>
         <location line="-959"/>
         <source>Previous Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Forrige fane</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Next Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Neste fane</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Move Tab Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Flytt fane til venstre</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Move Tab Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Flytt fane til høyre</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -1465,7 +1470,7 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
     <message>
         <location line="+11"/>
         <source>Previous Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Forrige endring</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1475,7 +1480,7 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
     <message>
         <location line="+1"/>
         <source>Next Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Neste endring</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1485,7 +1490,7 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
     <message>
         <location line="+4"/>
         <source>Previous Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>Forrige konflikt</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1495,7 +1500,7 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
     <message>
         <location line="+1"/>
         <source>Next Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>Neste konflikt</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1505,7 +1510,7 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
     <message>
         <location line="+7"/>
         <source>Push to Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Dytt til venstre</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1515,7 +1520,7 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
     <message>
         <location line="+1"/>
         <source>Push to Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Dytt til høyre</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1550,7 +1555,7 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
     <message>
         <location line="+6"/>
         <source>Delete Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Slett endring</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1610,7 +1615,7 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
         <location line="+22"/>
         <location line="+6"/>
         <source>Main Menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Hovedmeny</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -1715,12 +1720,12 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
     <message>
         <location line="+17"/>
         <source>No recent comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen nylige sammenligninger</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Clear Recent Comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>Tøm nylige sammenligninger</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -1736,14 +1741,14 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
         <location line="+65"/>
         <location line="+17"/>
         <source>%1 - Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 - Meld Qt</translation>
     </message>
     <message>
         <location line="+26"/>
         <location line="+146"/>
         <location line="+16"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunne ikke åpne sammenligningen</translation>
     </message>
     <message>
         <location line="+43"/>
@@ -1758,7 +1763,7 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
     <message>
         <location line="+11"/>
         <source>Select what to compare, and the patch to apply to it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Velg hva som skal sammenlignes, og endringsfilen som skal brukes på det.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1766,12 +1771,14 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
         <source>The patch “%1” can’t be read.
 
 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Endringsfilen «%1» kan ikke leses.
+
+%2</translation>
     </message>
     <message>
         <location line="+66"/>
         <source>Opening archive “%1”…</source>
-        <translation type="unfinished"></translation>
+        <translation>Åpner arkivet «%1» …</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1781,17 +1788,17 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
     <message>
         <location line="+2"/>
         <source>Opening Archive</source>
-        <translation type="unfinished"></translation>
+        <translation>Åpner arkiv</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Couldn’t open archive %1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunne ikke åpne arkivet %1: %2</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Failed to open archive</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunne ikke åpne arkivet</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -1807,7 +1814,7 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
     <message>
         <location line="+28"/>
         <source>The patch “%1” doesn’t exist</source>
-        <translation type="unfinished"></translation>
+        <translation>Endringsfilen «%1» finnes ikke</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -2150,22 +2157,22 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
     <message>
         <location line="+7"/>
         <source>Compare with a &amp;patch</source>
-        <translation type="unfinished"></translation>
+        <translation>Sammenlign med en &amp;endringsfil</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the folder with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>Sammenlign mappen med hvordan en endringsfil ville endret den</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the file with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>Sammenlign filen med hvordan en endringsfil ville endret den</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Select Patch File</source>
-        <translation type="unfinished"></translation>
+        <translation>Velg endringsfil</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2215,12 +2222,12 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
     <message>
         <location line="+70"/>
         <source>Patches (*.patch *.diff)</source>
-        <translation type="unfinished"></translation>
+        <translation>Endringsfiler (*.patch *.diff)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>All files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>Alle filer (*)</translation>
     </message>
 </context>
 <context>
@@ -2229,27 +2236,27 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
         <location filename="../src/ui/patchcomparison.cpp" line="+24"/>
         <location line="+41"/>
         <source>The patch “%1” can’t be applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Endringsfilen «%1» kan ikke brukes på «%2».</translation>
     </message>
     <message>
         <location line="-34"/>
         <source>The patch deletes this file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Endringsfilen sletter denne filen.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The patch “%1” was applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Endringsfilen «%1» ble brukt på «%2».</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>%1 with %2 applied</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 med %2 brukt</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Endringsfilen «%1» kan ikke leses.</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2369,7 +2376,7 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
     <message>
         <location line="+3"/>
         <source>Follow System Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Følg systemstilen</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2387,7 +2394,22 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
         <translation>Grensesnittstil</translation>
     </message>
     <message>
+        <location line="+5"/>
+        <source>System Language</source>
+        <translation>Systemspråk</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Language</source>
+        <translation>Språk</translation>
+    </message>
+    <message>
         <location line="+3"/>
+        <source>The language will change when Meld Qt is next started.</source>
+        <translation>Språket endres neste gang Meld Qt startes.</translation>
+    </message>
+    <message>
+        <location line="+14"/>
         <source>Use Custom Font</source>
         <translation>Bruk tilpasset skrift</translation>
     </message>
@@ -2419,12 +2441,12 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
     <message>
         <location line="+1"/>
         <source>At Any Character</source>
-        <translation type="unfinished"></translation>
+        <translation>Ved hvilket som helst tegn</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>At Word Boundaries</source>
-        <translation type="unfinished"></translation>
+        <translation>Ved ordgrenser</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2499,22 +2521,22 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
     <message>
         <location line="+1"/>
         <source>Use {file} and {line} to refer to the file and line being opened</source>
-        <translation type="unfinished"></translation>
+        <translation>Bruk {file} og {line} for å vise til filen og linjen som åpnes</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Application</source>
-        <translation type="unfinished"></translation>
+        <translation>Program</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in the running Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>Åpne sammenligninger i Meld Qt som kjører</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Comparisons opened from the command line or other programs open in a new window of a Meld Qt that&apos;s already running, instead of starting another Meld Qt. This applies to Meld Qt started after the change.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sammenligninger som åpnes fra kommandolinjen eller andre programmer, åpnes i et nytt vindu i en Meld Qt som allerede kjører, i stedet for å starte en ny Meld Qt. Dette gjelder Meld Qt som startes etter endringen.</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -2609,7 +2631,7 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
     <message>
         <location line="+5"/>
         <source>Order when comparing file revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>Rekkefølge ved sammenligning av filrevisjoner</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2624,17 +2646,17 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
     <message>
         <location line="+5"/>
         <source>Order when merging files</source>
-        <translation type="unfinished"></translation>
+        <translation>Rekkefølge ved fletting av filer</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Show the common ancestor in conflicts from conflict markers</source>
-        <translation type="unfinished"></translation>
+        <translation>Vis den felles forgjengeren i konflikter fra konfliktmarkører</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Merges of files with diff3-style conflict markers start with the common ancestor’s text in conflicts, rather than nothing</source>
-        <translation type="unfinished"></translation>
+        <translation>Fletting av filer med konfliktmarkører i diff3-stil starter med teksten til den felles forgjengeren i konflikter, i stedet for ingenting</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2684,7 +2706,7 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
     <message>
         <location line="+1"/>
         <source>When performing file comparisons, you may ignore certain types of changes. Each pattern here is a python regular expression which replaces matching text with the empty string before comparison is performed. If the expression contains groups, only the groups are replaced.</source>
-        <translation type="unfinished"></translation>
+        <translation>Når du sammenligner filer, kan du ignorere visse typer endringer. Hvert mønster her er et regulært uttrykk i Python som erstatter tekst som passer med en tom streng før sammenligningen utføres. Hvis uttrykket inneholder grupper, erstattes bare gruppene.</translation>
     </message>
 </context>
 <context>
@@ -2799,27 +2821,27 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
     <message>
         <location line="+18"/>
         <source>%1 — %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 — %2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>The file isn’t in %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Filen er ikke i %1.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 (%2, %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2, %3)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (working, %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (arbeidskopi, %2)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (%2, working)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2, arbeidskopi)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -2859,7 +2881,7 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
     <message>
         <location line="+25"/>
         <source>working copy</source>
-        <translation type="unfinished"></translation>
+        <translation>arbeidskopi</translation>
     </message>
     <message>
         <location line="+67"/>
@@ -2886,7 +2908,7 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
         <location line="+1"/>
         <location line="+1"/>
         <source>Next Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Neste endring</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2897,12 +2919,12 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
         <location line="+1"/>
         <location line="+1"/>
         <source>Previous Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Forrige endring</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>Oppdater</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2945,7 +2967,7 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
     <message>
         <location line="-754"/>
         <source>Push</source>
-        <translation type="unfinished"></translation>
+        <translation>Dytt</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2989,7 +3011,7 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
     <message>
         <location line="+1"/>
         <source>Pull</source>
-        <translation type="unfinished"></translation>
+        <translation>Dra</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -3014,42 +3036,42 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
     <message>
         <location line="+30"/>
         <source>The commit, tag or tree that changes are compared with</source>
-        <translation type="unfinished"></translation>
+        <translation>Innleggingen, taggen eller treet som endringene sammenlignes med</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The working copy, or a commit, tag or tree, whose changes are shown</source>
-        <translation type="unfinished"></translation>
+        <translation>Arbeidskopien, eller en innlegging, tagg eller et tre, der endringene vises</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Swap</source>
-        <translation type="unfinished"></translation>
+        <translation>Bytt</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Swap the revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>Bytt om revisjonene</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Tilbakestill</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the working copy with the current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>Sammenlign arbeidskopien med gjeldende innlegging</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Changes from</source>
-        <translation type="unfinished"></translation>
+        <translation>Endringer fra</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>to</source>
-        <translation type="unfinished"></translation>
+        <translation>til</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -3059,17 +3081,17 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
     <message>
         <location line="+28"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Søk</translation>
     </message>
     <message>
         <location line="+102"/>
         <source>The files as they are now, which can be changed</source>
-        <translation type="unfinished"></translation>
+        <translation>Filene slik de er nå, som kan endres</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>Unknown revision</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukjent revisjon</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -3080,7 +3102,7 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
     <message>
         <location line="+5"/>
         <source>%1 → %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 → %2</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3095,12 +3117,12 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
     <message>
         <location line="+40"/>
         <source>Scanning %1</source>
-        <translation type="unfinished">Gjennomsøker %1</translation>
+        <translation>Gjennomsøker %1</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>No such file or directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen slik fil eller mappe</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -3115,13 +3137,14 @@ Kjetil Sørlund &lt;translate@sorlund.no&gt; 2026</translation>
     <message>
         <location line="+157"/>
         <source>Error running command</source>
-        <translation type="unfinished"></translation>
+        <translation>Feil ved kjøring av kommando</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>While running &apos;%1&apos;
 Error: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Under kjøring av «%1»
+Feil: %2</translation>
     </message>
     <message>
         <location line="+58"/>
@@ -3169,7 +3192,7 @@ Error: %2</source>
     <message>
         <location line="+38"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunne ikke åpne sammenligningen</translation>
     </message>
 </context>
 <context>
@@ -3177,12 +3200,12 @@ Error: %2</source>
     <message>
         <location filename="../src/core/conflictmarkers.cpp" line="+134"/>
         <source>Line %1: a conflict starts inside the conflict that starts at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Linje %1: en konflikt starter inne i konflikten som starter på linje %2.</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>The conflict that starts at line %1 doesn’t end.</source>
-        <translation type="unfinished"></translation>
+        <translation>Konflikten som starter på linje %1, slutter ikke.</translation>
     </message>
 </context>
 <context>
@@ -3190,135 +3213,135 @@ Error: %2</source>
     <message>
         <location filename="../src/core/patch.cpp" line="+176"/>
         <source>Line %1 of the patch: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Linje %1 i endringsfilen: %2</translation>
     </message>
     <message>
         <location line="+96"/>
         <source>malformed hunk header</source>
-        <translation type="unfinished"></translation>
+        <translation>feilformet blokkhode</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>unexpected line in a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>uventet linje i en blokk</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>the hunk has more lines than its header says</source>
-        <translation type="unfinished"></translation>
+        <translation>blokken har flere linjer enn hodet sier</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>the patch ends in the middle of a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>endringsfilen slutter midt i en blokk</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Only unified diffs can be applied; this is a context diff.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bare enhetlige differ kan brukes; dette er en kontekstdiff.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>No changes were found in the patch.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fant ingen endringer i endringsfilen.</translation>
     </message>
     <message>
         <location line="+122"/>
         <source>Hunk #%1 doesn’t match the file at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Blokk #%1 samsvarer ikke med filen på linje %2.</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>Hunk #%1 applied at line %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Blokk #%1 brukt på linje %2</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source> (offset %n lines)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform> (forskyvning %n linje)</numerusform>
+            <numerusform> (forskyvning %n linjer)</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source> with fuzz %1</source>
-        <translation type="unfinished"></translation>
+        <translation> med uskarphet %1</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+186"/>
         <source>Binary changes can’t be applied.</source>
-        <translation type="unfinished"></translation>
+        <translation>Binære endringer kan ikke brukes.</translation>
     </message>
     <message>
         <location line="-174"/>
         <source>The patch creates this file, which is already as it would create it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Endringsfilen oppretter denne filen, som allerede er slik den ville blitt opprettet.</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+190"/>
         <source>The patch creates this file, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>Endringsfilen oppretter denne filen, men den finnes allerede.</translation>
     </message>
     <message>
         <location line="-178"/>
         <source>The patch seems to be applied already: its changes are in the file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Endringsfilen ser ut til å være brukt allerede: endringene finnes i filen.</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source>%1 of %n hunks can’t be applied.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 av %n blokk kan ikke brukes.</numerusform>
+            <numerusform>%1 av %n blokker kan ikke brukes.</numerusform>
         </translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch deletes this file, but it has other contents than the patch removes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Endringsfilen sletter denne filen, men den har annet innhold enn det endringsfilen fjerner.</translation>
     </message>
     <message>
         <location line="+75"/>
         <source>The patch changes several files called %1:</source>
-        <translation type="unfinished"></translation>
+        <translation>Endringsfilen endrer flere filer med navnet %1:</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The patch doesn’t change %1. It changes:</source>
-        <translation type="unfinished"></translation>
+        <translation>Endringsfilen endrer ikke %1. Den endrer:</translation>
     </message>
     <message>
         <location line="+73"/>
         <source>The patch changes %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Endringsfilen endrer %1, som ikke er i mappen.</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The patch deletes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Endringsfilen sletter denne filen, men den er ikke i mappen.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch makes this file from %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Endringsfilen lager denne filen fra %1, som ikke er i mappen.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>The patch makes this file from %1, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>Endringsfilen lager denne filen fra %1, men den finnes allerede.</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>The patch changes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Endringsfilen endrer denne filen, men den er ikke i mappen.</translation>
     </message>
     <message>
         <location line="+106"/>
         <source>The file isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Filen er ikke i mappen.</translation>
     </message>
 </context>
 <context>
@@ -3462,22 +3485,22 @@ Error: %2</source>
     <message>
         <location line="+98"/>
         <source>The current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>Gjeldende innlegging</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>“%1” isn’t a commit, tag or tree in this repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>«%1» er ikke en innlegging, tagg eller et tre i dette depotet.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 isn’t in the repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 er ikke i depotet.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>%1 isn’t in %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 er ikke i %2.</translation>
     </message>
     <message>
         <location line="+84"/>

@@ -6,22 +6,22 @@
     <message>
         <location filename="../src/core/archive.cpp" line="+381"/>
         <source>Couldn’t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezin izan da %1 karpeta sortu</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>No installed program can extract this archive. Install bsdtar (from libarchive) or 7-Zip.</source>
-        <translation type="unfinished"></translation>
+        <translation>Instalatutako programa batek ere ezin du artxibo hau erauzi. Instalatu bsdtar (libarchive-koa) edo 7-Zip.</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>%1 crashed</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 kraskatu egin da</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>%1 failed with status %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 huts egin du %2 egoerarekin</translation>
     </message>
 </context>
 <context>
@@ -29,22 +29,22 @@
     <message>
         <location filename="../src/ui/dirdiff.cpp" line="+88"/>
         <source>Couldn&apos;t create link %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezin izan da %1 esteka sortu</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Not a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez da fitxategia</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Couldn&apos;t replace %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezin izan da %1 ordeztu</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezin izan da %1 karpeta sortu</translation>
     </message>
     <message>
         <location filename="../src/ui/externalhelpers.cpp" line="+58"/>
@@ -54,12 +54,12 @@
     <message>
         <location line="+1"/>
         <source>External opening of files of type “%1” is not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez da onartzen “%1” motako fitxategiak kanpoan irekitzea</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>ezezaguna</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -69,17 +69,17 @@
     <message>
         <location line="+1"/>
         <source>Couldn&apos;t run “%1”</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezin izan da “%1” exekutatu</translation>
     </message>
     <message>
         <location filename="../src/ui/meldapp.cpp" line="+37"/>
         <source>show program&apos;s version number and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>erakutsi programaren bertsio-zenbakia eta irten</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>show this help message and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>erakutsi laguntza-mezu hau eta irten</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -94,12 +94,12 @@
     <message>
         <location line="+2"/>
         <source>Open comparisons in an already running instance (single-instance mode)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ireki konparazioak dagoeneko exekutatzen ari den instantzia batean (instantzia bakarreko modua)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in a new instance, even in single-instance mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Ireki konparazioak instantzia berri batean, instantzia bakarreko moduan ere</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -130,7 +130,7 @@
     <message>
         <location line="+2"/>
         <source>Compare a file or folder with what a patch would make of it</source>
-        <translation type="unfinished"></translation>
+        <translation>Konparatu fitxategi edo karpeta bat adabaki batek bertan egingo lukeenarekin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -159,7 +159,7 @@
     <message>
         <location line="-4"/>
         <source>Start a comparison against a blank pane</source>
-        <translation type="unfinished"></translation>
+        <translation>Hasi konparazio bat panel huts batekin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -174,24 +174,26 @@
     <message>
         <location line="+1"/>
         <source>patch</source>
-        <translation type="unfinished"></translation>
+        <translation>adabakia</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare with a patch applied</source>
-        <translation type="unfinished"></translation>
+        <translation>Konparatu aplikatutako adabaki batekin</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Usage:</source>
-        <translation type="unfinished"></translation>
+        <translation>Erabilera:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>
 For file comparisons, the special argument @blank may be used instead of
 a &lt;file&gt; argument to create a blank pane.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+Fitxategien konparazioetan, @blank argumentu berezia erabil daiteke &lt;fitxategia&gt;
+argumentuaren ordez, panel huts bat sortzeko.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -201,30 +203,30 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+1"/>
         <source>Options:</source>
-        <translation type="unfinished"></translation>
+        <translation>Aukerak:</translation>
     </message>
     <message>
         <location line="+42"/>
         <location line="+9"/>
         <source>no such option: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ez dago horrelako aukerarik: %1</translation>
     </message>
     <message>
         <location line="-8"/>
         <source>ambiguous option: %1 (%2?)</source>
-        <translation type="unfinished"></translation>
+        <translation>aukera anbiguoa: %1 (%2?)</translation>
     </message>
     <message>
         <location line="+16"/>
         <location line="+59"/>
         <location line="+16"/>
         <source>%1 option requires an argument</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 aukerak argumentu bat behar du</translation>
     </message>
     <message>
         <location line="-73"/>
         <source>%1 option does not take a value</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 aukerak ez du baliorik onartzen</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -234,17 +236,17 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+53"/>
         <source>--patch needs one file or folder to apply the patch to (got %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>--patch aukerak fitxategi edo karpeta bat behar du adabakia aplikatzeko (%1 eman dira)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>can’t auto-merge with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>ezin da automatikoki batu adabaki batekin</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>can’t load a comparison file with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>ezin da konparazio-fitxategi bat kargatu adabaki batekin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -281,14 +283,14 @@ a &lt;file&gt; argument to create a blank pane.</source>
 %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/preferences.cpp" line="+104"/>
+        <location filename="../src/ui/preferences.cpp" line="+108"/>
         <source>Select a Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Hautatu estilo bat</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Select</source>
-        <translation type="unfinished"></translation>
+        <translation>Hautatu</translation>
     </message>
     <message>
         <location filename="../src/ui/recent.cpp" line="+76"/>
@@ -302,7 +304,8 @@ a &lt;file&gt; argument to create a blank pane.</source>
         <location filename="../src/ui/singleinstance.cpp" line="+50"/>
         <source>Meld Qt couldn’t open the comparison: a different version of Meld Qt is running.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Meld Qt-k ezin izan du konparazioa ireki: Meld Qt-ren beste bertsio bat exekutatzen ari da.
+</translation>
     </message>
 </context>
 <context>
@@ -339,12 +342,12 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location filename="../src/ui/actiongutter.cpp" line="+346"/>
         <source>Copy Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopiatu goian</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Copy Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopiatu behean</translation>
     </message>
 </context>
 <context>
@@ -358,7 +361,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+8"/>
         <source>Changed Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Aldatutako fitxategiak</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -391,35 +394,35 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+10"/>
         <source>The conflict markers in “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezin dira irakurri “%1” fitxategiko gatazka-markak.</translation>
     </message>
     <message numerus="yes">
         <location line="+17"/>
         <source>%n unresolved conflicts</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Ebatzi gabeko gatazka %n</numerusform>
+            <numerusform>Ebatzi gabeko %n gatazka</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts show the common ancestor’s text, which the local and remote versions changed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gatazkek arbaso komunaren testua erakusten dute, bertsio lokalak eta urrunekoak aldatu dutena.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts are empty, to be filled from the local and remote versions.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gatazkak hutsik daude, bertsio lokaletik eta urrunekotik betetzeko.</translation>
     </message>
     <message>
         <location line="+42"/>
         <source>local</source>
-        <translation type="unfinished"></translation>
+        <translation>lokala</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>remote</source>
-        <translation type="unfinished"></translation>
+        <translation>urrunekoa</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -447,12 +450,12 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+16"/>
         <source>Folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1. karpeta</translation>
     </message>
     <message>
         <location line="+81"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Bilatu</translation>
     </message>
     <message>
         <location line="+88"/>
@@ -487,7 +490,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+54"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezin da “%1” adabakia irakurri.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -498,22 +501,22 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+36"/>
         <source>%1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: %2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Permission denied</source>
-        <translation type="unfinished"></translation>
+        <translation>Baimena ukatuta</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>: Dangling symlink</source>
-        <translation type="unfinished"></translation>
+        <translation>: Esteka sinboliko eten bat</translation>
     </message>
     <message>
         <location line="+99"/>
         <source>Done</source>
-        <translation type="unfinished"></translation>
+        <translation>Eginda</translation>
     </message>
     <message>
         <location line="+162"/>
@@ -553,7 +556,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+13"/>
         <source>Folder %1 is being compared to itself</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 karpeta bere buruarekin konparatzen</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -583,12 +586,12 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+2"/>
         <source>Files had mismatched leading or trailing whitespace</source>
-        <translation type="unfinished"></translation>
+        <translation>Fitxategiek bat ez datozen hasierako edo amaierako zuriuneak zituzten</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>This comparison found some files that differed only in leading or trailing whitespace. Their names appear as:</source>
-        <translation type="unfinished"></translation>
+        <translation>Konparazio honek hasierako edo amaierako zuriuneetan soilik desberdinak diren zenbait fitxategi aurkitu ditu. Haien izenak:</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -658,7 +661,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+164"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezin izan da %1 karpeta sortu</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -702,7 +705,7 @@ to %2.
     <message>
         <location line="+24"/>
         <source>Error deleting %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Errorea %1 ezabatzean</translation>
     </message>
 </context>
 <context>
@@ -735,7 +738,7 @@ to %2.
     <message>
         <location line="+144"/>
         <source>empty folder</source>
-        <translation type="unfinished"></translation>
+        <translation>karpeta hutsa</translation>
     </message>
 </context>
 <context>
@@ -853,37 +856,39 @@ to %2.
     <message>
         <location line="+13"/>
         <source>There was a problem opening “%1”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Arazo bat gertatu da “%1” irekitzean.</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The file could not be decoded using the candidate encodings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezin izan da fitxategia deskodetu hautagai diren kodeketekin.</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Line %1 exceeded maximum line length (%2 &gt; %3).
 
 Loading files with very long lines may make Meld Qt slow or unresponsive.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1. lerroak gehienezko lerro-luzera gainditu du (%2 &gt; %3).
+
+Oso lerro luzeak dituzten fitxategiak kargatzeak Meld Qt motel edo erantzunik gabe utz dezake.</translation>
     </message>
     <message numerus="yes">
         <location line="+39"/>
         <source>%1 has %n unresolved merge conflicts.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 fitxategiak ebatzi gabeko batze-gatazka bat du.</numerusform>
+            <numerusform>%1 fitxategiak ebatzi gabeko %n batze-gatazka ditu.</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The local and remote versions can be merged in a 3-way comparison.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bertsio lokala eta urrunekoa hiru norabideko konparazio batean batu daitezke.</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Resolve</source>
-        <translation type="unfinished"></translation>
+        <translation>Ebatzi</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -903,12 +908,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+64"/>
         <source>Computing differences</source>
-        <translation type="unfinished"></translation>
+        <translation>Desberdintasunak kalkulatzen</translation>
     </message>
     <message>
         <location line="+117"/>
         <source>File %1 is being compared to itself</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 fitxategia bere buruarekin konparatzen</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -972,7 +977,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+20"/>
         <source>&amp;Load anyway</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kargatu hala ere</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -992,15 +997,15 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message numerus="yes">
         <location line="+41"/>
         <source>%n conflicts aren’t resolved</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Gatazka bat ez dago ebatzita</numerusform>
+            <numerusform>%n gatazka ez daude ebatzita</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>If you save the merge now, the conflicts are saved as they are here, without conflict markers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Batzea orain gordetzen baduzu, gatazkak hemen dauden bezala gordeko dira, gatazka-markarik gabe.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1033,7 +1038,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="-18"/>
         <source>File “%1” contains characters that can’t be encoded using its current encoding “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>“%1” fitxategiak dituen zenbait karaktere ezin dira kodetu “%2” kodeketa erabilita.</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1089,7 +1094,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+6"/>
         <source>Open documents contain unsaved changes. Changes which are not saved will be permanently lost.</source>
-        <translation type="unfinished"></translation>
+        <translation>Irekitako dokumentuek gorde gabeko aldaketak dituzte. Gordetzen ez diren aldaketak betiko galduko dira.</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1130,7 +1135,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+15"/>
         <source>Select File</source>
-        <translation type="unfinished"></translation>
+        <translation>Hautatu fitxategia</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1140,7 +1145,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+6"/>
         <source>File %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1. fitxategia</translation>
     </message>
     <message>
         <location line="+128"/>
@@ -1291,12 +1296,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+19"/>
         <source>Visual diff and merge tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Desberdintasunak ikusteko eta batzeko tresna bisuala</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Built with Qt %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Qt %1 bertsioarekin eraikia</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1307,7 +1312,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+3"/>
         <source>Translated by</source>
-        <translation type="unfinished"></translation>
+        <translation>Itzultzaileak</translation>
     </message>
 </context>
 <context>
@@ -1386,12 +1391,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="-383"/>
         <source>Header bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Goiburu-barra</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>New Comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Konparazio berria</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1401,7 +1406,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Itxi</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1448,12 +1453,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+2"/>
         <source>Move Tab Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Eraman fitxa ezkerrera</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Move Tab Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Eraman fitxa eskuinera</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -1483,7 +1488,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+4"/>
         <source>Previous Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>Aurreko gatazka</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1493,7 +1498,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Next Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>Hurrengo gatazka</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1548,7 +1553,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+6"/>
         <source>Delete Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezabatu aldaketa</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1608,7 +1613,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <location line="+22"/>
         <location line="+6"/>
         <source>Main Menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Menu nagusia</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -1668,22 +1673,22 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+2"/>
         <source>Zoom In</source>
-        <translation type="unfinished"></translation>
+        <translation>Handiagotu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Zoom Out</source>
-        <translation type="unfinished"></translation>
+        <translation>Txikiagotu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reset Zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Berrezarri zooma</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Swap Panes</source>
-        <translation type="unfinished"></translation>
+        <translation>Trukatu panelak</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1713,12 +1718,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+17"/>
         <source>No recent comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez dago azken konparaziorik</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Clear Recent Comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>Garbitu azken konparazioak</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -1734,14 +1739,14 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <location line="+65"/>
         <location line="+17"/>
         <source>%1 - Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 - Meld Qt</translation>
     </message>
     <message>
         <location line="+26"/>
         <location line="+146"/>
         <location line="+16"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezin izan da konparazioa ireki</translation>
     </message>
     <message>
         <location line="+43"/>
@@ -1756,7 +1761,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+11"/>
         <source>Select what to compare, and the patch to apply to it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hautatu zer konparatu eta horri aplikatu beharreko adabakia.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1764,12 +1769,14 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <source>The patch “%1” can’t be read.
 
 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezin da “%1” adabakia irakurri.
+
+%2</translation>
     </message>
     <message>
         <location line="+66"/>
         <source>Opening archive “%1”…</source>
-        <translation type="unfinished"></translation>
+        <translation>“%1” artxiboa irekitzen…</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1779,17 +1786,17 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+2"/>
         <source>Opening Archive</source>
-        <translation type="unfinished"></translation>
+        <translation>Artxiboa irekitzen</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Couldn’t open archive %1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezin izan da %1 artxiboa ireki: %2</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Failed to open archive</source>
-        <translation type="unfinished"></translation>
+        <translation>Huts egin du artxiboa irekitzean</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -1805,7 +1812,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+28"/>
         <source>The patch “%1” doesn’t exist</source>
-        <translation type="unfinished"></translation>
+        <translation>“%1” adabakia ez da existitzen</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -2065,17 +2072,17 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Zoom in</source>
-        <translation type="unfinished"></translation>
+        <translation>Handiagotu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Zoom out</source>
-        <translation type="unfinished"></translation>
+        <translation>Txikiagotu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reset zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Berrezarri zooma</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2148,22 +2155,22 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+7"/>
         <source>Compare with a &amp;patch</source>
-        <translation type="unfinished"></translation>
+        <translation>Konparatu &amp;adabaki batekin</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the folder with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>Konparatu karpeta adabaki batek nola aldatuko lukeenarekin</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the file with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>Konparatu fitxategia adabaki batek nola aldatuko lukeenarekin</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Select Patch File</source>
-        <translation type="unfinished"></translation>
+        <translation>Hautatu adabaki-fitxategia</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2198,7 +2205,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+5"/>
         <source>Select Version-controlled Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Hautatu bertsio-kontrolpeko karpeta</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -2213,12 +2220,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+70"/>
         <source>Patches (*.patch *.diff)</source>
-        <translation type="unfinished"></translation>
+        <translation>Adabakiak (*.patch *.diff)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>All files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>Fitxategi guztiak (*)</translation>
     </message>
 </context>
 <context>
@@ -2227,27 +2234,27 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <location filename="../src/ui/patchcomparison.cpp" line="+24"/>
         <location line="+41"/>
         <source>The patch “%1” can’t be applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezin da “%1” adabakia “%2” fitxategiari aplikatu.</translation>
     </message>
     <message>
         <location line="-34"/>
         <source>The patch deletes this file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Adabakiak fitxategi hau ezabatzen du.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The patch “%1” was applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>“%1” adabakia “%2” fitxategiari aplikatu zaio.</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>%1 with %2 applied</source>
-        <translation type="unfinished"></translation>
+        <translation>%1, %2 aplikatuta</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezin da “%1” adabakia irakurri.</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2347,7 +2354,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Folder Comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Karpeten konparazioa</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2362,32 +2369,47 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+15"/>
         <source>Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>Itxura</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Follow System Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Jarraitu sistemaren estiloa</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Light</source>
-        <translation type="unfinished"></translation>
+        <translation>Argia</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Dark</source>
-        <translation type="unfinished"></translation>
+        <translation>Iluna</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Interface Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Interfazearen estiloa</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>System Language</source>
+        <translation>Sistemaren hizkuntza</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Language</source>
+        <translation>Hizkuntza</translation>
     </message>
     <message>
         <location line="+3"/>
+        <source>The language will change when Meld Qt is next started.</source>
+        <translation>Hizkuntza Meld Qt hurrengoan abiarazten denean aldatuko da.</translation>
+    </message>
+    <message>
+        <location line="+14"/>
         <source>Use Custom Font</source>
-        <translation type="unfinished"></translation>
+        <translation>Erabili letra-tipo pertsonalizatua</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -2397,12 +2419,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+12"/>
         <source>Use Syntax Highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>Erabili sintaxiaren nabarmentzea</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Color Scheme</source>
-        <translation type="unfinished"></translation>
+        <translation>Kolore-eskema</translation>
     </message>
     <message>
         <location line="+33"/>
@@ -2412,32 +2434,32 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+3"/>
         <source>Never</source>
-        <translation type="unfinished"></translation>
+        <translation>Inoiz ez</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>At Any Character</source>
-        <translation type="unfinished"></translation>
+        <translation>Edozein karakteretan</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>At Word Boundaries</source>
-        <translation type="unfinished"></translation>
+        <translation>Hitzen mugetan</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Wrap Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Itzulbiratu testua</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Highlight Current Line</source>
-        <translation type="unfinished"></translation>
+        <translation>Nabarmendu uneko lerroa</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show Line Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Erakutsi lerro-zenbakiak</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2447,7 +2469,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+4"/>
         <source>Indentation</source>
-        <translation type="unfinished"></translation>
+        <translation>Koska</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2457,17 +2479,17 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>Zuriuneak</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Tab character</source>
-        <translation type="unfinished"></translation>
+        <translation>Tabulazio-karakterea</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Indentation Size</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Koskaren tamaina</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2487,37 +2509,37 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Use custom text editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Erabili testu-editore pertsonalizatua</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Custom Editor Command</source>
-        <translation type="unfinished"></translation>
+        <translation>Editore pertsonalizatuaren komandoa</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use {file} and {line} to refer to the file and line being opened</source>
-        <translation type="unfinished"></translation>
+        <translation>Erabili {file} eta {line} irekitzen den fitxategiari eta lerroari erreferentzia egiteko</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Application</source>
-        <translation type="unfinished"></translation>
+        <translation>Aplikazioa</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in the running Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>Ireki konparazioak exekutatzen ari den Meld Qt-n</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Comparisons opened from the command line or other programs open in a new window of a Meld Qt that&apos;s already running, instead of starting another Meld Qt. This applies to Meld Qt started after the change.</source>
-        <translation type="unfinished"></translation>
+        <translation>Komando-lerrotik edo beste programetatik irekitako konparazioak dagoeneko exekutatzen ari den Meld Qt baten leiho berri batean irekitzen dira, beste Meld Qt bat abiarazi ordez. Aldaketaren ondoren abiarazitako Meld Qt-ri aplikatzen zaio.</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Comparison Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Konparazio-aukerak</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2552,7 +2574,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+10"/>
         <source>Timestamp resolution</source>
-        <translation type="unfinished"></translation>
+        <translation>Data-zigiluaren bereizmena</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2607,7 +2629,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+5"/>
         <source>Order when comparing file revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>Fitxategien berrikuspenak konparatzean erabiltzen den ordena</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2622,32 +2644,32 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+5"/>
         <source>Order when merging files</source>
-        <translation type="unfinished"></translation>
+        <translation>Fitxategiak batzean erabiltzen den ordena</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Show the common ancestor in conflicts from conflict markers</source>
-        <translation type="unfinished"></translation>
+        <translation>Erakutsi arbaso komuna gatazka-marketatik datozen gatazketan</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Merges of files with diff3-style conflict markers start with the common ancestor’s text in conflicts, rather than nothing</source>
-        <translation type="unfinished"></translation>
+        <translation>diff3 estiloko gatazka-markak dituzten fitxategien batzeak arbaso komunaren testuarekin hasten dira gatazketan, hutsik egon beharrean</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Commit Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Egikaritze-mezua</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show right margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Erakutsi eskuineko marjina</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Margin position</source>
-        <translation type="unfinished"></translation>
+        <translation>Marjinaren posizioa</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2682,7 +2704,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>When performing file comparisons, you may ignore certain types of changes. Each pattern here is a python regular expression which replaces matching text with the empty string before comparison is performed. If the expression contains groups, only the groups are replaced.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fitxategiak konparatzean, zenbait aldaketa mota ezikusi ditzakezu. Hemengo eredu bakoitza Python-eko adierazpen erregular bat da, eta konparazioa egin aurretik bat datorren testua kate hutsarekin ordezten du. Adierazpenak taldeak baditu, taldeak soilik ordeztuko dira.</translation>
     </message>
 </context>
 <context>
@@ -2797,27 +2819,27 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+18"/>
         <source>%1 — %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 — %2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>The file isn’t in %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fitxategia ez dago %1 kokalekuan.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 (%2, %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2, %3)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (working, %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (lanekoa, %2)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (%2, working)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2, lanekoa)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -2857,7 +2879,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+25"/>
         <source>working copy</source>
-        <translation type="unfinished"></translation>
+        <translation>laneko kopia</translation>
     </message>
     <message>
         <location line="+67"/>
@@ -2867,7 +2889,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+2"/>
         <source>&amp;Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Garbitu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2917,12 +2939,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <location line="+2"/>
         <location line="+758"/>
         <source>&amp;Unstage</source>
-        <translation type="unfinished"></translation>
+        <translation>Kendu &amp;gordailutik</translation>
     </message>
     <message>
         <location line="-758"/>
         <source>Remove staged changes</source>
-        <translation type="unfinished"></translation>
+        <translation>Kendu gordailuko aldaketak</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2987,7 +3009,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Pull</source>
-        <translation type="unfinished"></translation>
+        <translation>Ekarri</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -3007,47 +3029,47 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+8"/>
         <source>Unknown folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Karpeta ezezaguna</translation>
     </message>
     <message>
         <location line="+30"/>
         <source>The commit, tag or tree that changes are compared with</source>
-        <translation type="unfinished"></translation>
+        <translation>Aldaketak konparatzeko erabiltzen den egikaritzea, etiketa edo zuhaitza</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The working copy, or a commit, tag or tree, whose changes are shown</source>
-        <translation type="unfinished"></translation>
+        <translation>Laneko kopia, edo egikaritze, etiketa edo zuhaitz bat, zeinen aldaketak erakusten diren</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Swap</source>
-        <translation type="unfinished"></translation>
+        <translation>Trukatu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Swap the revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>Trukatu berrikuspenak</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Berrezarri</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the working copy with the current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>Konparatu laneko kopia uneko egikaritzearekin</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Changes from</source>
-        <translation type="unfinished"></translation>
+        <translation>Aldaketak hemendik:</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>to</source>
-        <translation type="unfinished"></translation>
+        <translation>hona:</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -3057,17 +3079,17 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+28"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Bilatu</translation>
     </message>
     <message>
         <location line="+102"/>
         <source>The files as they are now, which can be changed</source>
-        <translation type="unfinished"></translation>
+        <translation>Fitxategiak orain dauden bezala, alda daitezke</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>Unknown revision</source>
-        <translation type="unfinished"></translation>
+        <translation>Berrikuspen ezezaguna</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -3078,7 +3100,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+5"/>
         <source>%1 → %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 → %2</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3098,7 +3120,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+20"/>
         <source>No such file or directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez dago horrelako fitxategi edo direktoriorik</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -3113,13 +3135,14 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+157"/>
         <source>Error running command</source>
-        <translation type="unfinished"></translation>
+        <translation>Errorea komandoa exekutatzean</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>While running &apos;%1&apos;
 Error: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>“%1” exekutatzean
+Errorea: %2</translation>
     </message>
     <message>
         <location line="+58"/>
@@ -3162,12 +3185,12 @@ Error: %2</source>
     <message>
         <location line="+22"/>
         <source>Error deleting %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Errorea %1 ezabatzean</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezin izan da konparazioa ireki</translation>
     </message>
 </context>
 <context>
@@ -3175,12 +3198,12 @@ Error: %2</source>
     <message>
         <location filename="../src/core/conflictmarkers.cpp" line="+134"/>
         <source>Line %1: a conflict starts inside the conflict that starts at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1. lerroa: gatazka bat %2. lerroan hasten den gatazkaren barruan hasten da.</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>The conflict that starts at line %1 doesn’t end.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1. lerroan hasten den gatazka ez da amaitzen.</translation>
     </message>
 </context>
 <context>
@@ -3188,135 +3211,135 @@ Error: %2</source>
     <message>
         <location filename="../src/core/patch.cpp" line="+176"/>
         <source>Line %1 of the patch: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Adabakiaren %1. lerroa: %2</translation>
     </message>
     <message>
         <location line="+96"/>
         <source>malformed hunk header</source>
-        <translation type="unfinished"></translation>
+        <translation>zatiaren goiburu okerra</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>unexpected line in a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>ustekabeko lerroa zati batean</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>the hunk has more lines than its header says</source>
-        <translation type="unfinished"></translation>
+        <translation>zatiak bere goiburuak dioena baino lerro gehiago ditu</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>the patch ends in the middle of a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>adabakia zati baten erdian amaitzen da</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Only unified diffs can be applied; this is a context diff.</source>
-        <translation type="unfinished"></translation>
+        <translation>Diff bateratuak soilik aplika daitezke; hau testuinguru-diff bat da.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>No changes were found in the patch.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez da aldaketarik aurkitu adabakian.</translation>
     </message>
     <message>
         <location line="+122"/>
         <source>Hunk #%1 doesn’t match the file at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1. zatia ez dator bat fitxategiarekin %2. lerroan.</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>Hunk #%1 applied at line %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1. zatia %2. lerroan aplikatu da</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source> (offset %n lines)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform> (lerro %n desplazatuta)</numerusform>
+            <numerusform> (%n lerro desplazatuta)</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source> with fuzz %1</source>
-        <translation type="unfinished"></translation>
+        <translation> %1 zehaztasun ezarekin</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+186"/>
         <source>Binary changes can’t be applied.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezin dira aldaketa bitarrak aplikatu.</translation>
     </message>
     <message>
         <location line="-174"/>
         <source>The patch creates this file, which is already as it would create it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Adabakiak fitxategi hau sortzen du, baina dagoeneko adabakiak sortuko lukeen bezalakoa da.</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+190"/>
         <source>The patch creates this file, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>Adabakiak fitxategi hau sortzen du, baina dagoeneko existitzen da.</translation>
     </message>
     <message>
         <location line="-178"/>
         <source>The patch seems to be applied already: its changes are in the file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Badirudi adabakia dagoeneko aplikatuta dagoela: bere aldaketak fitxategian daude.</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source>%1 of %n hunks can’t be applied.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Ezin da aplikatu zati %n(e)tik %1.</numerusform>
+            <numerusform>Ezin dira aplikatu %n zatietatik %1.</numerusform>
         </translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch deletes this file, but it has other contents than the patch removes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Adabakiak fitxategi hau ezabatzen du, baina adabakiak kentzen duenaz bestelako edukia du.</translation>
     </message>
     <message>
         <location line="+75"/>
         <source>The patch changes several files called %1:</source>
-        <translation type="unfinished"></translation>
+        <translation>Adabakiak %1 izeneko zenbait fitxategi aldatzen ditu:</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The patch doesn’t change %1. It changes:</source>
-        <translation type="unfinished"></translation>
+        <translation>Adabakiak ez du %1 aldatzen. Hauek aldatzen ditu:</translation>
     </message>
     <message>
         <location line="+73"/>
         <source>The patch changes %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Adabakiak %1 aldatzen du, eta hori ez dago karpetan.</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The patch deletes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Adabakiak fitxategi hau ezabatzen du, baina ez dago karpetan.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch makes this file from %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Adabakiak fitxategi hau %1 fitxategitik sortzen du, eta hori ez dago karpetan.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>The patch makes this file from %1, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>Adabakiak fitxategi hau %1 fitxategitik sortzen du, baina dagoeneko existitzen da.</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>The patch changes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Adabakiak fitxategi hau aldatzen du, baina ez dago karpetan.</translation>
     </message>
     <message>
         <location line="+106"/>
         <source>The file isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fitxategia ez dago karpetan.</translation>
     </message>
 </context>
 <context>
@@ -3335,12 +3358,12 @@ Error: %2</source>
         <location line="+2"/>
         <location line="+0"/>
         <source>Delete Permanently?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezabatu betiko?</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>“%1” can’t be put in the trash. Do you want to delete it permanently?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezin da “%1” zakarrontzira bota. Betiko ezabatu nahi duzu?</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3460,22 +3483,22 @@ Error: %2</source>
     <message>
         <location line="+98"/>
         <source>The current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>Uneko egikaritzea</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>“%1” isn’t a commit, tag or tree in this repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>“%1” ez da biltegi honetako egikaritze, etiketa edo zuhaitz bat.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 isn’t in the repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 ez dago biltegian.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>%1 isn’t in %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 ez dago %2 kokalekuan.</translation>
     </message>
     <message>
         <location line="+84"/>

@@ -6,22 +6,22 @@
     <message>
         <location filename="../src/core/archive.cpp" line="+381"/>
         <source>Couldn’t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>फोल्डर %1 नहीं बनाया जा सका</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>No installed program can extract this archive. Install bsdtar (from libarchive) or 7-Zip.</source>
-        <translation type="unfinished"></translation>
+        <translation>कोई भी स्थापित प्रोग्राम इस आर्काइव को निकाल नहीं सकता। bsdtar (libarchive से) या 7-Zip स्थापित करें।</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>%1 crashed</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 क्रैश हो गया</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>%1 failed with status %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 स्थिति %2 के साथ विफल रहा</translation>
     </message>
 </context>
 <context>
@@ -29,22 +29,22 @@
     <message>
         <location filename="../src/ui/dirdiff.cpp" line="+88"/>
         <source>Couldn&apos;t create link %1</source>
-        <translation type="unfinished"></translation>
+        <translation>लिंक %1 नहीं बनाया जा सका</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Not a file</source>
-        <translation type="unfinished"></translation>
+        <translation>फाइल नहीं है</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Couldn&apos;t replace %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 को बदला नहीं जा सका</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>फोल्डर %1 नहीं बनाया जा सका</translation>
     </message>
     <message>
         <location filename="../src/ui/externalhelpers.cpp" line="+58"/>
@@ -54,12 +54,12 @@
     <message>
         <location line="+1"/>
         <source>External opening of files of type “%1” is not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>“%1” प्रकार की फाइलों को बाहरी रूप से खोलना समर्थित नहीं है</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>अज्ञात</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -69,17 +69,17 @@
     <message>
         <location line="+1"/>
         <source>Couldn&apos;t run “%1”</source>
-        <translation type="unfinished"></translation>
+        <translation>“%1” को चलाया नहीं जा सका</translation>
     </message>
     <message>
         <location filename="../src/ui/meldapp.cpp" line="+37"/>
         <source>show program&apos;s version number and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>प्रोग्राम का संस्करण क्रमांक दिखाएं और बाहर निकलें</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>show this help message and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>यह सहायता संदेश दिखाएं और बाहर निकलें</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -94,12 +94,12 @@
     <message>
         <location line="+2"/>
         <source>Open comparisons in an already running instance (single-instance mode)</source>
-        <translation type="unfinished"></translation>
+        <translation>तुलनाओं को पहले से चल रहे इंस्टेंस में खोलें (एकल-इंस्टेंस मोड)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in a new instance, even in single-instance mode</source>
-        <translation type="unfinished"></translation>
+        <translation>तुलनाओं को नए इंस्टेंस में खोलें, एकल-इंस्टेंस मोड में भी</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -125,12 +125,12 @@
     <message>
         <location line="+2"/>
         <source>Load a saved comparison from a Meld Qt comparison file</source>
-        <translation type="unfinished"></translation>
+        <translation>मेल्ड Qt तुलना फाइल से सहेजी गई तुलना लोड करें</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Compare a file or folder with what a patch would make of it</source>
-        <translation type="unfinished"></translation>
+        <translation>किसी फाइल या फोल्डर की तुलना उससे करें जो पैच उसे बना देगा</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -159,7 +159,7 @@
     <message>
         <location line="-4"/>
         <source>Start a comparison against a blank pane</source>
-        <translation type="unfinished"></translation>
+        <translation>खाली फलक के साथ तुलना शुरू करें</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -174,57 +174,59 @@
     <message>
         <location line="+1"/>
         <source>patch</source>
-        <translation type="unfinished"></translation>
+        <translation>पैच</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare with a patch applied</source>
-        <translation type="unfinished"></translation>
+        <translation>लागू किए गए पैच के साथ तुलना करें</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Usage:</source>
-        <translation type="unfinished"></translation>
+        <translation>उपयोग:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>
 For file comparisons, the special argument @blank may be used instead of
 a &lt;file&gt; argument to create a blank pane.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+फाइल तुलनाओं के लिए, खाली फलक बनाने हेतु &lt;फाइल&gt; तर्क के स्थान पर
+विशेष तर्क @blank का उपयोग किया जा सकता है।</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Meld Qt is a file and directory comparison tool.</source>
-        <translation type="unfinished"></translation>
+        <translation>मेल्ड Qt एक फाइल और निर्देशिका तुलना उपकरण है।</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Options:</source>
-        <translation type="unfinished"></translation>
+        <translation>विकल्प:</translation>
     </message>
     <message>
         <location line="+42"/>
         <location line="+9"/>
         <source>no such option: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ऐसा कोई विकल्प नहीं: %1</translation>
     </message>
     <message>
         <location line="-8"/>
         <source>ambiguous option: %1 (%2?)</source>
-        <translation type="unfinished"></translation>
+        <translation>अस्पष्ट विकल्प: %1 (%2?)</translation>
     </message>
     <message>
         <location line="+16"/>
         <location line="+59"/>
         <location line="+16"/>
         <source>%1 option requires an argument</source>
-        <translation type="unfinished"></translation>
+        <translation>विकल्प %1 के लिए एक तर्क आवश्यक है</translation>
     </message>
     <message>
         <location line="-73"/>
         <source>%1 option does not take a value</source>
-        <translation type="unfinished"></translation>
+        <translation>विकल्प %1 कोई मान नहीं लेता</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -234,17 +236,17 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+53"/>
         <source>--patch needs one file or folder to apply the patch to (got %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>--patch को पैच लागू करने के लिए एक फाइल या फोल्डर चाहिए (%1 मिले)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>can’t auto-merge with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>पैच के साथ स्वतः विलय नहीं किया जा सकता</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>can’t load a comparison file with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>पैच के साथ तुलना फाइल लोड नहीं की जा सकती</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -281,14 +283,14 @@ a &lt;file&gt; argument to create a blank pane.</source>
 %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/preferences.cpp" line="+104"/>
+        <location filename="../src/ui/preferences.cpp" line="+108"/>
         <source>Select a Style</source>
-        <translation type="unfinished"></translation>
+        <translation>शैली चुनें</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Select</source>
-        <translation type="unfinished"></translation>
+        <translation>चुनें</translation>
     </message>
     <message>
         <location filename="../src/ui/recent.cpp" line="+76"/>
@@ -302,7 +304,8 @@ a &lt;file&gt; argument to create a blank pane.</source>
         <location filename="../src/ui/singleinstance.cpp" line="+50"/>
         <source>Meld Qt couldn’t open the comparison: a different version of Meld Qt is running.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>मेल्ड Qt तुलना नहीं खोल सका: मेल्ड Qt का एक भिन्न संस्करण चल रहा है।
+</translation>
     </message>
 </context>
 <context>
@@ -339,12 +342,12 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location filename="../src/ui/actiongutter.cpp" line="+346"/>
         <source>Copy Up</source>
-        <translation type="unfinished"></translation>
+        <translation>ऊपर कॉपी करें</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Copy Down</source>
-        <translation type="unfinished"></translation>
+        <translation>नीचे कॉपी करें</translation>
     </message>
 </context>
 <context>
@@ -358,7 +361,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+8"/>
         <source>Changed Files</source>
-        <translation type="unfinished"></translation>
+        <translation>परिवर्तित फाइलें</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -391,35 +394,35 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+10"/>
         <source>The conflict markers in “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>“%1” में टकराव चिह्न पढ़े नहीं जा सकते।</translation>
     </message>
     <message numerus="yes">
         <location line="+17"/>
         <source>%n unresolved conflicts</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n अनसुलझा टकराव</numerusform>
+            <numerusform>%n अनसुलझे टकराव</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts show the common ancestor’s text, which the local and remote versions changed.</source>
-        <translation type="unfinished"></translation>
+        <translation>टकराव साझा पूर्वज का पाठ दिखाते हैं, जिसे स्थानीय और रिमोट संस्करणों ने बदला।</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts are empty, to be filled from the local and remote versions.</source>
-        <translation type="unfinished"></translation>
+        <translation>टकराव खाली हैं, जिन्हें स्थानीय और रिमोट संस्करणों से भरा जाना है।</translation>
     </message>
     <message>
         <location line="+42"/>
         <source>local</source>
-        <translation type="unfinished"></translation>
+        <translation>स्थानीय</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>remote</source>
-        <translation type="unfinished"></translation>
+        <translation>रिमोट</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -447,12 +450,12 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+16"/>
         <source>Folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>फोल्डर %1</translation>
     </message>
     <message>
         <location line="+81"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>खोजें</translation>
     </message>
     <message>
         <location line="+88"/>
@@ -487,7 +490,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+54"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>पैच “%1” पढ़ा नहीं जा सकता।</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -498,22 +501,22 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+36"/>
         <source>%1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: %2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Permission denied</source>
-        <translation type="unfinished"></translation>
+        <translation>अनुमति अस्वीकृत</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>: Dangling symlink</source>
-        <translation type="unfinished"></translation>
+        <translation>: टूटी हुई प्रतीकात्मक कड़ी</translation>
     </message>
     <message>
         <location line="+99"/>
         <source>Done</source>
-        <translation type="unfinished"></translation>
+        <translation>हो गया</translation>
     </message>
     <message>
         <location line="+162"/>
@@ -553,7 +556,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+13"/>
         <source>Folder %1 is being compared to itself</source>
-        <translation type="unfinished"></translation>
+        <translation>फोल्डर %1 की तुलना स्वयं से की जा रही है</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -658,7 +661,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+164"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>फोल्डर %1 नहीं बनाया जा सका</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -701,7 +704,7 @@ to %2.
     <message>
         <location line="+24"/>
         <source>Error deleting %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 मिटाने में त्रुटि</translation>
     </message>
 </context>
 <context>
@@ -734,7 +737,7 @@ to %2.
     <message>
         <location line="+144"/>
         <source>empty folder</source>
-        <translation type="unfinished"></translation>
+        <translation>खाली फोल्डर</translation>
     </message>
 </context>
 <context>
@@ -852,37 +855,39 @@ to %2.
     <message>
         <location line="+13"/>
         <source>There was a problem opening “%1”.</source>
-        <translation type="unfinished"></translation>
+        <translation>“%1” खोलने में समस्या हुई।</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The file could not be decoded using the candidate encodings.</source>
-        <translation type="unfinished"></translation>
+        <translation>फाइल को उम्मीदवार एन्कोडिंग का उपयोग करके डिकोड नहीं किया जा सका।</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Line %1 exceeded maximum line length (%2 &gt; %3).
 
 Loading files with very long lines may make Meld Qt slow or unresponsive.</source>
-        <translation type="unfinished"></translation>
+        <translation>पंक्ति %1 अधिकतम पंक्ति लंबाई से अधिक है (%2 &gt; %3)।
+
+बहुत लंबी पंक्तियों वाली फाइलें लोड करने से मेल्ड Qt धीमा या अनुत्तरदायी हो सकता है।</translation>
     </message>
     <message numerus="yes">
         <location line="+39"/>
         <source>%1 has %n unresolved merge conflicts.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 में %n अनसुलझा विलय टकराव है।</numerusform>
+            <numerusform>%1 में %n अनसुलझे विलय टकराव हैं।</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The local and remote versions can be merged in a 3-way comparison.</source>
-        <translation type="unfinished"></translation>
+        <translation>स्थानीय और रिमोट संस्करणों को त्रि-मार्गी तुलना में विलय किया जा सकता है।</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Resolve</source>
-        <translation type="unfinished"></translation>
+        <translation>सुलझाएं</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -902,12 +907,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+64"/>
         <source>Computing differences</source>
-        <translation type="unfinished"></translation>
+        <translation>अंतर की गणना हो रही है</translation>
     </message>
     <message>
         <location line="+117"/>
         <source>File %1 is being compared to itself</source>
-        <translation type="unfinished"></translation>
+        <translation>फाइल %1 की तुलना स्वयं से की जा रही है</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -956,7 +961,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Some changes were not highlighted because they were too large. You can force Meld Qt to take longer to highlight larger changes, though this may be slow.</source>
-        <translation type="unfinished"></translation>
+        <translation>कुछ परिवर्तन इसलिए चिन्हांकित नहीं किये गये क्योंकि वे बहुत बड़े थे। आप बड़े परिवर्तनों को चिन्हांकित करने के लिए मेल्ड Qt को अधिक समय लेने के लिए बाध्य कर सकते हैं, हालांकि यह धीमा हो सकता है।</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -971,7 +976,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+20"/>
         <source>&amp;Load anyway</source>
-        <translation type="unfinished"></translation>
+        <translation>फिर भी लोड करें (&amp;L)</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -991,15 +996,15 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message numerus="yes">
         <location line="+41"/>
         <source>%n conflicts aren’t resolved</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n टकराव सुलझाया नहीं गया</numerusform>
+            <numerusform>%n टकराव सुलझाए नहीं गए</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>If you save the merge now, the conflicts are saved as they are here, without conflict markers.</source>
-        <translation type="unfinished"></translation>
+        <translation>यदि आप अभी विलय सहेजते हैं, तो टकराव बिना टकराव चिह्नों के, जैसे यहां हैं वैसे ही सहेजे जाएंगे।</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1032,7 +1037,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="-18"/>
         <source>File “%1” contains characters that can’t be encoded using its current encoding “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>फाइल “%1” में ऐसे वर्ण हैं जिन्हें इसके वर्तमान एन्कोडिंग “%2” का प्रयोग करके एन्कोड नहीं किया जा सकता है।</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1088,7 +1093,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+6"/>
         <source>Open documents contain unsaved changes. Changes which are not saved will be permanently lost.</source>
-        <translation type="unfinished"></translation>
+        <translation>खुले दस्तावेज़ों में बिना सहेजे परिवर्तन हैं। जो परिवर्तन सहेजे नहीं जाएंगे वे स्थायी रूप से खो जाएंगे।</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1129,7 +1134,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+15"/>
         <source>Select File</source>
-        <translation type="unfinished"></translation>
+        <translation>फाइल चुनें</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1139,7 +1144,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+6"/>
         <source>File %1</source>
-        <translation type="unfinished"></translation>
+        <translation>फाइल %1</translation>
     </message>
     <message>
         <location line="+128"/>
@@ -1285,17 +1290,17 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+77"/>
         <source>About Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>मेल्ड Qt के बारे में</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Visual diff and merge tool</source>
-        <translation type="unfinished"></translation>
+        <translation>दृश्य अंतर और विलय उपकरण</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Built with Qt %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Qt %1 के साथ निर्मित</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1306,7 +1311,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+3"/>
         <source>Translated by</source>
-        <translation type="unfinished"></translation>
+        <translation>अनुवादक</translation>
     </message>
 </context>
 <context>
@@ -1380,17 +1385,17 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <location line="+5"/>
         <location line="+12"/>
         <source>Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>मेल्ड Qt</translation>
     </message>
     <message>
         <location line="-383"/>
         <source>Header bar</source>
-        <translation type="unfinished"></translation>
+        <translation>शीर्ष पट्टी</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>New Comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>नई तुलना</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1400,7 +1405,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>बंद करें</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1416,7 +1421,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="-894"/>
         <source>Quit</source>
-        <translation type="unfinished"></translation>
+        <translation>बाहर निकलें</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1426,7 +1431,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>&amp;About Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>मेल्ड Qt के बारे में (&amp;A)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1437,22 +1442,22 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="-959"/>
         <source>Previous Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>पिछला टैब</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Next Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>अगला टैब</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Move Tab Left</source>
-        <translation type="unfinished"></translation>
+        <translation>टैब को बाएं ले जाएं</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Move Tab Right</source>
-        <translation type="unfinished"></translation>
+        <translation>टैब को दाएं ले जाएं</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -1462,7 +1467,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+11"/>
         <source>Previous Change</source>
-        <translation type="unfinished"></translation>
+        <translation>पिछला परिवर्तन</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1472,7 +1477,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Next Change</source>
-        <translation type="unfinished"></translation>
+        <translation>अगला परिवर्तन</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1482,7 +1487,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+4"/>
         <source>Previous Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>पिछला टकराव</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1492,7 +1497,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Next Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>अगला टकराव</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1502,7 +1507,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+7"/>
         <source>Push to Left</source>
-        <translation type="unfinished"></translation>
+        <translation>बाईं ओर पुश करें</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1512,7 +1517,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Push to Right</source>
-        <translation type="unfinished"></translation>
+        <translation>दाईं ओर पुश करें</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1547,7 +1552,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+6"/>
         <source>Delete Change</source>
-        <translation type="unfinished"></translation>
+        <translation>परिवर्तन हटाएं</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1607,7 +1612,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <location line="+22"/>
         <location line="+6"/>
         <source>Main Menu</source>
-        <translation type="unfinished"></translation>
+        <translation>मुख्य मेनू</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -1667,22 +1672,22 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+2"/>
         <source>Zoom In</source>
-        <translation type="unfinished"></translation>
+        <translation>ज़ूम इन</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Zoom Out</source>
-        <translation type="unfinished"></translation>
+        <translation>ज़ूम आउट</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reset Zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>ज़ूम रीसेट करें</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Swap Panes</source>
-        <translation type="unfinished"></translation>
+        <translation>फलक अदला-बदली करें</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1712,12 +1717,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+17"/>
         <source>No recent comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>कोई हाल की तुलना नहीं</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Clear Recent Comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>हाल की तुलनाएं साफ़ करें</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -1733,14 +1738,14 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <location line="+65"/>
         <location line="+17"/>
         <source>%1 - Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 - मेल्ड Qt</translation>
     </message>
     <message>
         <location line="+26"/>
         <location line="+146"/>
         <location line="+16"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>तुलना नहीं खोली जा सकी</translation>
     </message>
     <message>
         <location line="+43"/>
@@ -1755,7 +1760,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+11"/>
         <source>Select what to compare, and the patch to apply to it.</source>
-        <translation type="unfinished"></translation>
+        <translation>चुनें कि किसकी तुलना करनी है, और उस पर लागू करने के लिए पैच।</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1763,12 +1768,14 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <source>The patch “%1” can’t be read.
 
 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>पैच “%1” पढ़ा नहीं जा सकता।
+
+%2</translation>
     </message>
     <message>
         <location line="+66"/>
         <source>Opening archive “%1”…</source>
-        <translation type="unfinished"></translation>
+        <translation>आर्काइव “%1” खोला जा रहा है…</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1778,23 +1785,23 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+2"/>
         <source>Opening Archive</source>
-        <translation type="unfinished"></translation>
+        <translation>आर्काइव खोला जा रहा है</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Couldn’t open archive %1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>आर्काइव %1 नहीं खोला जा सका: %2</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Failed to open archive</source>
-        <translation type="unfinished"></translation>
+        <translation>आर्काइव खोलने में विफल</translation>
     </message>
     <message>
         <location line="+26"/>
         <location line="+38"/>
         <source>Cannot compare a non-existent file</source>
-        <translation type="unfinished"></translation>
+        <translation>अस्तित्वहीन फाइल की तुलना नहीं की जा सकती</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -1804,7 +1811,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+28"/>
         <source>The patch “%1” doesn’t exist</source>
-        <translation type="unfinished"></translation>
+        <translation>पैच “%1” मौजूद नहीं है</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -1824,7 +1831,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Quit Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>मेल्ड Qt से बाहर निकलें</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2064,17 +2071,17 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Zoom in</source>
-        <translation type="unfinished"></translation>
+        <translation>ज़ूम इन</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Zoom out</source>
-        <translation type="unfinished"></translation>
+        <translation>ज़ूम आउट</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reset zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>ज़ूम रीसेट करें</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2147,22 +2154,22 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+7"/>
         <source>Compare with a &amp;patch</source>
-        <translation type="unfinished"></translation>
+        <translation>पैच के साथ तुलना करें (&amp;P)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the folder with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>फोल्डर की तुलना इससे करें कि पैच उसे कैसे बदलेगा</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the file with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>फाइल की तुलना इससे करें कि पैच उसे कैसे बदलेगा</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Select Patch File</source>
-        <translation type="unfinished"></translation>
+        <translation>पैच फाइल चुनें</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2197,7 +2204,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+5"/>
         <source>Select Version-controlled Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>संस्करण-नियंत्रित फोल्डर चुनें</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -2212,12 +2219,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+70"/>
         <source>Patches (*.patch *.diff)</source>
-        <translation type="unfinished"></translation>
+        <translation>पैच (*.patch *.diff)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>All files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>सभी फाइलें (*)</translation>
     </message>
 </context>
 <context>
@@ -2226,27 +2233,27 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <location filename="../src/ui/patchcomparison.cpp" line="+24"/>
         <location line="+41"/>
         <source>The patch “%1” can’t be applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>पैच “%1” को “%2” पर लागू नहीं किया जा सकता।</translation>
     </message>
     <message>
         <location line="-34"/>
         <source>The patch deletes this file.</source>
-        <translation type="unfinished"></translation>
+        <translation>पैच इस फाइल को हटा देता है।</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The patch “%1” was applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>पैच “%1” को “%2” पर लागू किया गया।</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>%1 with %2 applied</source>
-        <translation type="unfinished"></translation>
+        <translation>%2 लागू किया गया %1</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>पैच “%1” पढ़ा नहीं जा सकता।</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2346,7 +2353,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Folder Comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>फोल्डर तुलना</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2356,37 +2363,52 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Filters</source>
-        <translation type="unfinished"></translation>
+        <translation>फ़िल्टर</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>रूप</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Follow System Style</source>
-        <translation type="unfinished"></translation>
+        <translation>सिस्टम शैली का पालन करें</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Light</source>
-        <translation type="unfinished"></translation>
+        <translation>हल्का</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Dark</source>
-        <translation type="unfinished"></translation>
+        <translation>गहरा</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Interface Style</source>
-        <translation type="unfinished"></translation>
+        <translation>इंटरफ़ेस शैली</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>System Language</source>
+        <translation>सिस्टम भाषा</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Language</source>
+        <translation>भाषा</translation>
     </message>
     <message>
         <location line="+3"/>
+        <source>The language will change when Meld Qt is next started.</source>
+        <translation>भाषा Meld Qt के अगली बार शुरू होने पर बदलेगी।</translation>
+    </message>
+    <message>
+        <location line="+14"/>
         <source>Use Custom Font</source>
-        <translation type="unfinished"></translation>
+        <translation>कस्टम फ़ॉन्ट का उपयोग करें</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -2396,12 +2418,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+12"/>
         <source>Use Syntax Highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>सिंटैक्स हाइलाइटिंग का उपयोग करें</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Color Scheme</source>
-        <translation type="unfinished"></translation>
+        <translation>रंग योजना</translation>
     </message>
     <message>
         <location line="+33"/>
@@ -2411,32 +2433,32 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+3"/>
         <source>Never</source>
-        <translation type="unfinished"></translation>
+        <translation>कभी नहीं</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>At Any Character</source>
-        <translation type="unfinished"></translation>
+        <translation>किसी भी वर्ण पर</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>At Word Boundaries</source>
-        <translation type="unfinished"></translation>
+        <translation>शब्द सीमाओं पर</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Wrap Text</source>
-        <translation type="unfinished"></translation>
+        <translation>पाठ लपेटें</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Highlight Current Line</source>
-        <translation type="unfinished"></translation>
+        <translation>वर्तमान पंक्ति को हाइलाइट करें</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show Line Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>पंक्ति संख्याएं दिखाएं</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2446,7 +2468,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+4"/>
         <source>Indentation</source>
-        <translation type="unfinished"></translation>
+        <translation>इंडेंटेशन</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2456,17 +2478,17 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>रिक्त स्थान</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Tab character</source>
-        <translation type="unfinished"></translation>
+        <translation>टैब वर्ण</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Indentation Size</source>
-        <translation type="unfinished"></translation>
+        <translation>इंडेंटेशन आकार (&amp;I)</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2486,37 +2508,37 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Use custom text editor</source>
-        <translation type="unfinished"></translation>
+        <translation>कस्टम पाठ संपादक का उपयोग करें</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Custom Editor Command</source>
-        <translation type="unfinished"></translation>
+        <translation>कस्टम संपादक कमांड</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use {file} and {line} to refer to the file and line being opened</source>
-        <translation type="unfinished"></translation>
+        <translation>खोली जा रही फाइल और पंक्ति को संदर्भित करने के लिए {file} और {line} का उपयोग करें</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Application</source>
-        <translation type="unfinished"></translation>
+        <translation>अनुप्रयोग</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in the running Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>चल रहे मेल्ड Qt में तुलनाएं खोलें</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Comparisons opened from the command line or other programs open in a new window of a Meld Qt that&apos;s already running, instead of starting another Meld Qt. This applies to Meld Qt started after the change.</source>
-        <translation type="unfinished"></translation>
+        <translation>कमांड लाइन या अन्य प्रोग्रामों से खोली गई तुलनाएं, दूसरा मेल्ड Qt शुरू करने के बजाय, पहले से चल रहे मेल्ड Qt की नई विंडो में खुलती हैं। यह परिवर्तन के बाद शुरू किए गए मेल्ड Qt पर लागू होता है।</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Comparison Options</source>
-        <translation type="unfinished"></translation>
+        <translation>तुलना विकल्प</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2551,7 +2573,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+10"/>
         <source>Timestamp resolution</source>
-        <translation type="unfinished"></translation>
+        <translation>टाइमस्टैम्प विभेदन</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2606,7 +2628,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+5"/>
         <source>Order when comparing file revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>फाइल संशोधनों की तुलना करते समय क्रम</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2621,32 +2643,32 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+5"/>
         <source>Order when merging files</source>
-        <translation type="unfinished"></translation>
+        <translation>फाइलों का विलय करते समय क्रम</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Show the common ancestor in conflicts from conflict markers</source>
-        <translation type="unfinished"></translation>
+        <translation>टकराव चिह्नों से आए टकरावों में साझा पूर्वज दिखाएं</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Merges of files with diff3-style conflict markers start with the common ancestor’s text in conflicts, rather than nothing</source>
-        <translation type="unfinished"></translation>
+        <translation>diff3-शैली टकराव चिह्नों वाली फाइलों का विलय, टकरावों में खाली के बजाय साझा पूर्वज के पाठ से शुरू होता है</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Commit Message</source>
-        <translation type="unfinished"></translation>
+        <translation>कमिट संदेश</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show right margin</source>
-        <translation type="unfinished"></translation>
+        <translation>दायां हाशिया दिखाएं</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Margin position</source>
-        <translation type="unfinished"></translation>
+        <translation>हाशिया स्थिति</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2681,7 +2703,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>When performing file comparisons, you may ignore certain types of changes. Each pattern here is a python regular expression which replaces matching text with the empty string before comparison is performed. If the expression contains groups, only the groups are replaced.</source>
-        <translation type="unfinished"></translation>
+        <translation>फाइल तुलनाएं करते समय, आप कुछ प्रकार के परिवर्तनों को अनदेखा कर सकते हैं। यहां प्रत्येक पैटर्न एक पायथन रेगुलर एक्सप्रेशन है जो तुलना किए जाने से पहले मेल खाते पाठ को खाली स्ट्रिंग से बदल देता है। यदि एक्सप्रेशन में समूह हैं, तो केवल समूहों को बदला जाता है।</translation>
     </message>
 </context>
 <context>
@@ -2796,27 +2818,27 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+18"/>
         <source>%1 — %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 — %2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>The file isn’t in %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>फाइल %1 में नहीं है।</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 (%2, %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2, %3)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (working, %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (कार्यरत, %2)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (%2, working)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2, कार्यरत)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -2856,7 +2878,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+25"/>
         <source>working copy</source>
-        <translation type="unfinished"></translation>
+        <translation>कार्यरत प्रति</translation>
     </message>
     <message>
         <location line="+67"/>
@@ -2866,7 +2888,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+2"/>
         <source>&amp;Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>साफ़ करें (&amp;C)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2883,7 +2905,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <location line="+1"/>
         <location line="+1"/>
         <source>Next Change</source>
-        <translation type="unfinished"></translation>
+        <translation>अगला परिवर्तन</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2894,12 +2916,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <location line="+1"/>
         <location line="+1"/>
         <source>Previous Change</source>
-        <translation type="unfinished"></translation>
+        <translation>पिछला परिवर्तन</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>ताज़ा करें</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2916,12 +2938,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <location line="+2"/>
         <location line="+758"/>
         <source>&amp;Unstage</source>
-        <translation type="unfinished"></translation>
+        <translation>अनस्टेज करें (&amp;U)</translation>
     </message>
     <message>
         <location line="-758"/>
         <source>Remove staged changes</source>
-        <translation type="unfinished"></translation>
+        <translation>स्टेज किए गए परिवर्तन हटाएं</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2942,7 +2964,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="-754"/>
         <source>Push</source>
-        <translation type="unfinished"></translation>
+        <translation>पुश करें</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2986,7 +3008,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Pull</source>
-        <translation type="unfinished"></translation>
+        <translation>पुल करें</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -3006,47 +3028,47 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+8"/>
         <source>Unknown folder</source>
-        <translation type="unfinished"></translation>
+        <translation>अज्ञात फोल्डर</translation>
     </message>
     <message>
         <location line="+30"/>
         <source>The commit, tag or tree that changes are compared with</source>
-        <translation type="unfinished"></translation>
+        <translation>वह कमिट, टैग या ट्री जिससे परिवर्तनों की तुलना की जाती है</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The working copy, or a commit, tag or tree, whose changes are shown</source>
-        <translation type="unfinished"></translation>
+        <translation>कार्यरत प्रति, या कोई कमिट, टैग या ट्री, जिसके परिवर्तन दिखाए जाते हैं</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Swap</source>
-        <translation type="unfinished"></translation>
+        <translation>अदला-बदली करें</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Swap the revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>संशोधनों की अदला-बदली करें</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>रीसेट करें</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the working copy with the current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>कार्यरत प्रति की तुलना वर्तमान कमिट से करें</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Changes from</source>
-        <translation type="unfinished"></translation>
+        <translation>परिवर्तन यहां से</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>to</source>
-        <translation type="unfinished"></translation>
+        <translation>तक</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -3056,17 +3078,17 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+28"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>खोजें</translation>
     </message>
     <message>
         <location line="+102"/>
         <source>The files as they are now, which can be changed</source>
-        <translation type="unfinished"></translation>
+        <translation>फाइलें जैसी वे अभी हैं, जिन्हें बदला जा सकता है</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>Unknown revision</source>
-        <translation type="unfinished"></translation>
+        <translation>अज्ञात संशोधन</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -3077,7 +3099,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+5"/>
         <source>%1 → %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 → %2</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3097,7 +3119,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+20"/>
         <source>No such file or directory</source>
-        <translation type="unfinished"></translation>
+        <translation>ऐसी कोई फाइल या निर्देशिका नहीं</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -3112,13 +3134,14 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+157"/>
         <source>Error running command</source>
-        <translation type="unfinished"></translation>
+        <translation>कमांड चलाने में त्रुटि</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>While running &apos;%1&apos;
 Error: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;%1&apos; चलाते समय
+त्रुटि: %2</translation>
     </message>
     <message>
         <location line="+58"/>
@@ -3161,12 +3184,12 @@ Error: %2</source>
     <message>
         <location line="+22"/>
         <source>Error deleting %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 मिटाने में त्रुटि</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>तुलना नहीं खोली जा सकी</translation>
     </message>
 </context>
 <context>
@@ -3174,12 +3197,12 @@ Error: %2</source>
     <message>
         <location filename="../src/core/conflictmarkers.cpp" line="+134"/>
         <source>Line %1: a conflict starts inside the conflict that starts at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>पंक्ति %1: एक टकराव पंक्ति %2 पर शुरू होने वाले टकराव के अंदर शुरू होता है।</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>The conflict that starts at line %1 doesn’t end.</source>
-        <translation type="unfinished"></translation>
+        <translation>पंक्ति %1 पर शुरू होने वाला टकराव समाप्त नहीं होता।</translation>
     </message>
 </context>
 <context>
@@ -3187,135 +3210,135 @@ Error: %2</source>
     <message>
         <location filename="../src/core/patch.cpp" line="+176"/>
         <source>Line %1 of the patch: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>पैच की पंक्ति %1: %2</translation>
     </message>
     <message>
         <location line="+96"/>
         <source>malformed hunk header</source>
-        <translation type="unfinished"></translation>
+        <translation>विकृत हंक शीर्षलेख</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>unexpected line in a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>हंक में अनपेक्षित पंक्ति</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>the hunk has more lines than its header says</source>
-        <translation type="unfinished"></translation>
+        <translation>हंक में उसके शीर्षलेख में बताई गई पंक्तियों से अधिक पंक्तियां हैं</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>the patch ends in the middle of a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>पैच एक हंक के बीच में समाप्त होता है</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Only unified diffs can be applied; this is a context diff.</source>
-        <translation type="unfinished"></translation>
+        <translation>केवल एकीकृत डिफ़ लागू किए जा सकते हैं; यह संदर्भ डिफ़ है।</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>No changes were found in the patch.</source>
-        <translation type="unfinished"></translation>
+        <translation>पैच में कोई परिवर्तन नहीं मिला।</translation>
     </message>
     <message>
         <location line="+122"/>
         <source>Hunk #%1 doesn’t match the file at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>हंक #%1 पंक्ति %2 पर फाइल से मेल नहीं खाता।</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>Hunk #%1 applied at line %2</source>
-        <translation type="unfinished"></translation>
+        <translation>हंक #%1 पंक्ति %2 पर लागू किया गया</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source> (offset %n lines)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform> (%n पंक्ति का विस्थापन)</numerusform>
+            <numerusform> (%n पंक्तियों का विस्थापन)</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source> with fuzz %1</source>
-        <translation type="unfinished"></translation>
+        <translation> %1 अस्पष्टता के साथ</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+186"/>
         <source>Binary changes can’t be applied.</source>
-        <translation type="unfinished"></translation>
+        <translation>बाइनरी परिवर्तन लागू नहीं किए जा सकते।</translation>
     </message>
     <message>
         <location line="-174"/>
         <source>The patch creates this file, which is already as it would create it.</source>
-        <translation type="unfinished"></translation>
+        <translation>पैच यह फाइल बनाता है, जो पहले से वैसी ही है जैसी पैच उसे बनाएगा।</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+190"/>
         <source>The patch creates this file, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>पैच यह फाइल बनाता है, लेकिन यह पहले से मौजूद है।</translation>
     </message>
     <message>
         <location line="-178"/>
         <source>The patch seems to be applied already: its changes are in the file.</source>
-        <translation type="unfinished"></translation>
+        <translation>पैच पहले से लागू लगता है: इसके परिवर्तन फाइल में हैं।</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source>%1 of %n hunks can’t be applied.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n हंक में से %1 लागू नहीं किया जा सकता।</numerusform>
+            <numerusform>%n हंक में से %1 लागू नहीं किए जा सकते।</numerusform>
         </translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch deletes this file, but it has other contents than the patch removes.</source>
-        <translation type="unfinished"></translation>
+        <translation>पैच इस फाइल को हटाता है, लेकिन इसकी सामग्री उससे भिन्न है जो पैच हटाता है।</translation>
     </message>
     <message>
         <location line="+75"/>
         <source>The patch changes several files called %1:</source>
-        <translation type="unfinished"></translation>
+        <translation>पैच %1 नाम की कई फाइलों को बदलता है:</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The patch doesn’t change %1. It changes:</source>
-        <translation type="unfinished"></translation>
+        <translation>पैच %1 को नहीं बदलता। यह बदलता है:</translation>
     </message>
     <message>
         <location line="+73"/>
         <source>The patch changes %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>पैच %1 को बदलता है, जो फोल्डर में नहीं है।</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The patch deletes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>पैच इस फाइल को हटाता है, लेकिन यह फोल्डर में नहीं है।</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch makes this file from %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>पैच यह फाइल %1 से बनाता है, जो फोल्डर में नहीं है।</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>The patch makes this file from %1, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>पैच यह फाइल %1 से बनाता है, लेकिन यह पहले से मौजूद है।</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>The patch changes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>पैच इस फाइल को बदलता है, लेकिन यह फोल्डर में नहीं है।</translation>
     </message>
     <message>
         <location line="+106"/>
         <source>The file isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>फाइल फोल्डर में नहीं है।</translation>
     </message>
 </context>
 <context>
@@ -3334,12 +3357,12 @@ Error: %2</source>
         <location line="+2"/>
         <location line="+0"/>
         <source>Delete Permanently?</source>
-        <translation type="unfinished"></translation>
+        <translation>स्थायी रूप से हटाएं?</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>“%1” can’t be put in the trash. Do you want to delete it permanently?</source>
-        <translation type="unfinished"></translation>
+        <translation>“%1” को रद्दी में नहीं डाला जा सकता। क्या आप इसे स्थायी रूप से हटाना चाहते हैं?</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3459,22 +3482,22 @@ Error: %2</source>
     <message>
         <location line="+98"/>
         <source>The current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>वर्तमान कमिट</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>“%1” isn’t a commit, tag or tree in this repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>“%1” इस रिपोजिटरी में कोई कमिट, टैग या ट्री नहीं है।</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 isn’t in the repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 रिपोजिटरी में नहीं है।</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>%1 isn’t in %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1, %2 में नहीं है।</translation>
     </message>
     <message>
         <location line="+84"/>

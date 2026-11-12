@@ -6,22 +6,22 @@
     <message>
         <location filename="../src/core/archive.cpp" line="+381"/>
         <source>Couldn’t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie można utworzyć katalogu %1</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>No installed program can extract this archive. Install bsdtar (from libarchive) or 7-Zip.</source>
-        <translation type="unfinished"></translation>
+        <translation>Żaden zainstalowany program nie może rozpakować tego archiwum. Proszę zainstalować bsdtar (z libarchive) lub 7-Zip.</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>%1 crashed</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 uległ awarii</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>%1 failed with status %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 się nie powiódł ze stanem %2</translation>
     </message>
 </context>
 <context>
@@ -29,57 +29,57 @@
     <message>
         <location filename="../src/ui/dirdiff.cpp" line="+88"/>
         <source>Couldn&apos;t create link %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie można utworzyć dowiązania %1</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Not a file</source>
-        <translation type="unfinished"></translation>
+        <translation>To nie jest plik</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Couldn&apos;t replace %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie można zastąpić %1</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie można utworzyć katalogu %1</translation>
     </message>
     <message>
         <location filename="../src/ui/externalhelpers.cpp" line="+58"/>
         <source>Unsupported file type</source>
-        <translation type="unfinished"></translation>
+        <translation>Nieobsługiwany typ pliku</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>External opening of files of type “%1” is not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Zewnętrzne otwieranie plików typu „%1” nie jest obsługiwane</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>nieznany</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Failed to launch custom editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Uruchomienie własnego edytora się nie powiodło</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Couldn&apos;t run “%1”</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie można uruchomić „%1”</translation>
     </message>
     <message>
         <location filename="../src/ui/meldapp.cpp" line="+37"/>
         <source>show program&apos;s version number and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>wyświetla numer wersji programu i kończy działanie</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>show this help message and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>wyświetla ten komunikat pomocy i kończy działanie</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -94,12 +94,12 @@
     <message>
         <location line="+2"/>
         <source>Open comparisons in an already running instance (single-instance mode)</source>
-        <translation type="unfinished"></translation>
+        <translation>Otwiera porównania w już uruchomionym wystąpieniu (tryb jednego wystąpienia)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in a new instance, even in single-instance mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Otwiera porównania w nowym wystąpieniu, nawet w trybie jednego wystąpienia</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -130,7 +130,7 @@
     <message>
         <location line="+2"/>
         <source>Compare a file or folder with what a patch would make of it</source>
-        <translation type="unfinished"></translation>
+        <translation>Porównuje plik lub katalog z tym, co zrobiłaby z niego poprawka</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -159,7 +159,7 @@
     <message>
         <location line="-4"/>
         <source>Start a comparison against a blank pane</source>
-        <translation type="unfinished"></translation>
+        <translation>Rozpoczyna porównanie z pustym panelem</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -174,24 +174,26 @@
     <message>
         <location line="+1"/>
         <source>patch</source>
-        <translation type="unfinished"></translation>
+        <translation>poprawka</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare with a patch applied</source>
-        <translation type="unfinished"></translation>
+        <translation>Porównuje z zastosowaną poprawką</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Usage:</source>
-        <translation type="unfinished"></translation>
+        <translation>Użycie:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>
 For file comparisons, the special argument @blank may be used instead of
 a &lt;file&gt; argument to create a blank pane.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+Podczas porównywania plików można użyć specjalnego argumentu @blank zamiast
+argumentu &lt;plik&gt;, aby utworzyć pusty panel.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -201,30 +203,30 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+1"/>
         <source>Options:</source>
-        <translation type="unfinished"></translation>
+        <translation>Opcje:</translation>
     </message>
     <message>
         <location line="+42"/>
         <location line="+9"/>
         <source>no such option: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>nie ma takiej opcji: %1</translation>
     </message>
     <message>
         <location line="-8"/>
         <source>ambiguous option: %1 (%2?)</source>
-        <translation type="unfinished"></translation>
+        <translation>niejednoznaczna opcja: %1 (%2?)</translation>
     </message>
     <message>
         <location line="+16"/>
         <location line="+59"/>
         <location line="+16"/>
         <source>%1 option requires an argument</source>
-        <translation type="unfinished"></translation>
+        <translation>opcja %1 wymaga argumentu</translation>
     </message>
     <message>
         <location line="-73"/>
         <source>%1 option does not take a value</source>
-        <translation type="unfinished"></translation>
+        <translation>opcja %1 nie przyjmuje wartości</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -234,17 +236,17 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+53"/>
         <source>--patch needs one file or folder to apply the patch to (got %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>--patch wymaga jednego pliku lub katalogu, do którego zostanie zastosowana poprawka (podano %1)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>can’t auto-merge with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>nie można automatycznie scalić z poprawką</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>can’t load a comparison file with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>nie można wczytać pliku porównania z poprawką</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -281,14 +283,14 @@ a &lt;file&gt; argument to create a blank pane.</source>
 %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/preferences.cpp" line="+104"/>
+        <location filename="../src/ui/preferences.cpp" line="+108"/>
         <source>Select a Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Wybór stylu</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Select</source>
-        <translation type="unfinished"></translation>
+        <translation>Wybierz</translation>
     </message>
     <message>
         <location filename="../src/ui/recent.cpp" line="+76"/>
@@ -302,7 +304,8 @@ a &lt;file&gt; argument to create a blank pane.</source>
         <location filename="../src/ui/singleinstance.cpp" line="+50"/>
         <source>Meld Qt couldn’t open the comparison: a different version of Meld Qt is running.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Meld Qt nie może otworzyć porównania: działa inna wersja Meld Qt.
+</translation>
     </message>
 </context>
 <context>
@@ -339,12 +342,12 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location filename="../src/ui/actiongutter.cpp" line="+346"/>
         <source>Copy Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Skopiuj w górę</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Copy Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Skopiuj w dół</translation>
     </message>
 </context>
 <context>
@@ -358,7 +361,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+8"/>
         <source>Changed Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Zmienione pliki</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -391,36 +394,36 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+10"/>
         <source>The conflict markers in “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie można odczytać znaczników konfliktów w „%1”.</translation>
     </message>
     <message numerus="yes">
         <location line="+17"/>
         <source>%n unresolved conflicts</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n nierozwiązany konflikt</numerusform>
+            <numerusform>%n nierozwiązane konflikty</numerusform>
+            <numerusform>%n nierozwiązanych konfliktów</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts show the common ancestor’s text, which the local and remote versions changed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Konflikty pokazują tekst wspólnego przodka, który zmieniły wersja lokalna i zdalna.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts are empty, to be filled from the local and remote versions.</source>
-        <translation type="unfinished"></translation>
+        <translation>Konflikty są puste i trzeba je wypełnić z wersji lokalnej i zdalnej.</translation>
     </message>
     <message>
         <location line="+42"/>
         <source>local</source>
-        <translation type="unfinished"></translation>
+        <translation>lokalne</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>remote</source>
-        <translation type="unfinished"></translation>
+        <translation>zdalne</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -448,12 +451,12 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+16"/>
         <source>Folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Katalog %1</translation>
     </message>
     <message>
         <location line="+81"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyszukiwanie</translation>
     </message>
     <message>
         <location line="+88"/>
@@ -488,7 +491,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+54"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie można odczytać poprawki „%1”.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -499,22 +502,22 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+36"/>
         <source>%1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: %2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Permission denied</source>
-        <translation type="unfinished"></translation>
+        <translation>Odmowa dostępu</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>: Dangling symlink</source>
-        <translation type="unfinished"></translation>
+        <translation>: Wiszące dowiązanie symboliczne</translation>
     </message>
     <message>
         <location line="+99"/>
         <source>Done</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukończono</translation>
     </message>
     <message>
         <location line="+162"/>
@@ -554,7 +557,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+13"/>
         <source>Folder %1 is being compared to itself</source>
-        <translation type="unfinished"></translation>
+        <translation>Katalog %1 jest porównywany z&#xa0;samym sobą</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -584,12 +587,12 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+2"/>
         <source>Files had mismatched leading or trailing whitespace</source>
-        <translation type="unfinished"></translation>
+        <translation>Pliki miały niepasujące białe znaki na początku lub na końcu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>This comparison found some files that differed only in leading or trailing whitespace. Their names appear as:</source>
-        <translation type="unfinished"></translation>
+        <translation>To porównanie znalazło pliki różniące się tylko białymi znakami na początku lub na końcu. Ich nazwy to:</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -659,7 +662,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+164"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie można utworzyć katalogu %1</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -703,7 +706,7 @@ do %2.
     <message>
         <location line="+24"/>
         <source>Error deleting %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Błąd podczas usuwania %1</translation>
     </message>
 </context>
 <context>
@@ -736,7 +739,7 @@ do %2.
     <message>
         <location line="+144"/>
         <source>empty folder</source>
-        <translation type="unfinished"></translation>
+        <translation>pusty katalog</translation>
     </message>
 </context>
 <context>
@@ -854,38 +857,40 @@ do %2.
     <message>
         <location line="+13"/>
         <source>There was a problem opening “%1”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wystąpił problem podczas otwierania „%1”.</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The file could not be decoded using the candidate encodings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie można zdekodować pliku żadnym z możliwych kodowań.</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Line %1 exceeded maximum line length (%2 &gt; %3).
 
 Loading files with very long lines may make Meld Qt slow or unresponsive.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wiersz %1 przekracza maksymalną długość wiersza (%2 &gt; %3).
+
+Wczytywanie plików z bardzo długimi wierszami może spowolnić Meld Qt lub spowodować, że przestanie on odpowiadać.</translation>
     </message>
     <message numerus="yes">
         <location line="+39"/>
         <source>%1 has %n unresolved merge conflicts.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 ma %n nierozwiązany konflikt scalania.</numerusform>
+            <numerusform>%1 ma %n nierozwiązane konflikty scalania.</numerusform>
+            <numerusform>%1 ma %n nierozwiązanych konfliktów scalania.</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The local and remote versions can be merged in a 3-way comparison.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wersję lokalną i zdalną można scalić w porównaniu trójstronnym.</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Resolve</source>
-        <translation type="unfinished"></translation>
+        <translation>Rozwiąż</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -905,12 +910,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+64"/>
         <source>Computing differences</source>
-        <translation type="unfinished"></translation>
+        <translation>Obliczanie różnic</translation>
     </message>
     <message>
         <location line="+117"/>
         <source>File %1 is being compared to itself</source>
-        <translation type="unfinished"></translation>
+        <translation>Plik %1 jest porównywany z&#xa0;samym sobą</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -974,7 +979,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+20"/>
         <source>&amp;Load anyway</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Wczytaj mimo to</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -994,16 +999,16 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message numerus="yes">
         <location line="+41"/>
         <source>%n conflicts aren’t resolved</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n konflikt nie jest rozwiązany</numerusform>
+            <numerusform>%n konflikty nie są rozwiązane</numerusform>
+            <numerusform>%n konfliktów nie jest rozwiązanych</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>If you save the merge now, the conflicts are saved as they are here, without conflict markers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jeśli scalenie zostanie teraz zapisane, konflikty zostaną zapisane tak, jak są tutaj, bez znaczników konfliktów.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1036,7 +1041,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="-18"/>
         <source>File “%1” contains characters that can’t be encoded using its current encoding “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Plik „%1” zawiera znaki, których nie można zakodować za pomocą jego obecnego kodowania, „%2”.</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1092,7 +1097,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+6"/>
         <source>Open documents contain unsaved changes. Changes which are not saved will be permanently lost.</source>
-        <translation type="unfinished"></translation>
+        <translation>Otwarte dokumenty zawierają niezapisane zmiany. Niezapisane zmiany zostaną trwale utracone.</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1133,7 +1138,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+15"/>
         <source>Select File</source>
-        <translation type="unfinished"></translation>
+        <translation>Wybór pliku</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1143,7 +1148,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+6"/>
         <source>File %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Plik %1</translation>
     </message>
     <message>
         <location line="+128"/>
@@ -1224,12 +1229,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+13"/>
         <source>Previous Result</source>
-        <translation type="unfinished"></translation>
+        <translation>Poprzedni wynik</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Next Result</source>
-        <translation type="unfinished"></translation>
+        <translation>Następny wynik</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1289,17 +1294,17 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+77"/>
         <source>About Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>O programie Meld Qt</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Visual diff and merge tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Narzędzie do wizualnego porównywania i scalania</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Built with Qt %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Zbudowano za pomocą Qt %1</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1312,7 +1317,7 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+3"/>
         <source>Translated by</source>
-        <translation type="unfinished"></translation>
+        <translation>Tłumaczenie</translation>
     </message>
 </context>
 <context>
@@ -1391,12 +1396,12 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="-383"/>
         <source>Header bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Pasek nagłówka</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>New Comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Nowe porównanie</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1406,7 +1411,7 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+1"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Zamknij</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1422,7 +1427,7 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="-894"/>
         <source>Quit</source>
-        <translation type="unfinished"></translation>
+        <translation>Zakończ</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1432,7 +1437,7 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+1"/>
         <source>&amp;About Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;O programie Meld Qt</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1443,22 +1448,22 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="-959"/>
         <source>Previous Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Poprzednia karta</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Next Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Następna karta</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Move Tab Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Przesuń kartę w lewo</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Move Tab Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Przesuń kartę w prawo</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -1468,7 +1473,7 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+11"/>
         <source>Previous Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Poprzednia zmiana</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1478,7 +1483,7 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+1"/>
         <source>Next Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Następna zmiana</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1488,7 +1493,7 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+4"/>
         <source>Previous Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>Poprzedni konflikt</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1498,7 +1503,7 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+1"/>
         <source>Next Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>Następny konflikt</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1508,7 +1513,7 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+7"/>
         <source>Push to Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Przenieś w lewo</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1518,7 +1523,7 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+1"/>
         <source>Push to Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Przenieś w prawo</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1553,7 +1558,7 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+6"/>
         <source>Delete Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Usuń zmianę</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1613,7 +1618,7 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
         <location line="+22"/>
         <location line="+6"/>
         <source>Main Menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Menu główne</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -1673,22 +1678,22 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+2"/>
         <source>Zoom In</source>
-        <translation type="unfinished"></translation>
+        <translation>Powiększ</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Zoom Out</source>
-        <translation type="unfinished"></translation>
+        <translation>Pomniejsz</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reset Zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Przywróć powiększenie</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Swap Panes</source>
-        <translation type="unfinished"></translation>
+        <translation>Zamień panele</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1718,12 +1723,12 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+17"/>
         <source>No recent comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>Brak ostatnich porównań</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Clear Recent Comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyczyść ostatnie porównania</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -1739,14 +1744,14 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
         <location line="+65"/>
         <location line="+17"/>
         <source>%1 - Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 - Meld Qt</translation>
     </message>
     <message>
         <location line="+26"/>
         <location line="+146"/>
         <location line="+16"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie można otworzyć porównania</translation>
     </message>
     <message>
         <location line="+43"/>
@@ -1761,7 +1766,7 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+11"/>
         <source>Select what to compare, and the patch to apply to it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Proszę wybrać, co porównać, i poprawkę, którą należy do tego zastosować.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1769,12 +1774,14 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
         <source>The patch “%1” can’t be read.
 
 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie można odczytać poprawki „%1”.
+
+%2</translation>
     </message>
     <message>
         <location line="+66"/>
         <source>Opening archive “%1”…</source>
-        <translation type="unfinished"></translation>
+        <translation>Otwieranie archiwum „%1”…</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1784,23 +1791,23 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+2"/>
         <source>Opening Archive</source>
-        <translation type="unfinished"></translation>
+        <translation>Otwieranie archiwum</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Couldn’t open archive %1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie można otworzyć archiwum %1: %2</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Failed to open archive</source>
-        <translation type="unfinished"></translation>
+        <translation>Otwarcie archiwum się nie powiodło</translation>
     </message>
     <message>
         <location line="+26"/>
         <location line="+38"/>
         <source>Cannot compare a non-existent file</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie można porównać nieistniejącego pliku</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -1810,7 +1817,7 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+28"/>
         <source>The patch “%1” doesn’t exist</source>
-        <translation type="unfinished"></translation>
+        <translation>Poprawka „%1” nie istnieje</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -2070,17 +2077,17 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+1"/>
         <source>Zoom in</source>
-        <translation type="unfinished"></translation>
+        <translation>Powiększ</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Zoom out</source>
-        <translation type="unfinished"></translation>
+        <translation>Pomniejsz</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reset zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Przywróć powiększenie</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2153,22 +2160,22 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+7"/>
         <source>Compare with a &amp;patch</source>
-        <translation type="unfinished"></translation>
+        <translation>Porównaj z &amp;poprawką</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the folder with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>Porównuje katalog z tym, jak zmieniłaby go poprawka</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the file with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>Porównuje plik z tym, jak zmieniłaby go poprawka</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Select Patch File</source>
-        <translation type="unfinished"></translation>
+        <translation>Wybór pliku poprawki</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2203,7 +2210,7 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+5"/>
         <source>Select Version-controlled Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Wybór katalogu pod kontrolą wersji</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -2218,12 +2225,12 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+70"/>
         <source>Patches (*.patch *.diff)</source>
-        <translation type="unfinished"></translation>
+        <translation>Poprawki (*.patch *.diff)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>All files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>Wszystkie pliki (*)</translation>
     </message>
 </context>
 <context>
@@ -2232,27 +2239,27 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
         <location filename="../src/ui/patchcomparison.cpp" line="+24"/>
         <location line="+41"/>
         <source>The patch “%1” can’t be applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie można zastosować poprawki „%1” do „%2”.</translation>
     </message>
     <message>
         <location line="-34"/>
         <source>The patch deletes this file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Poprawka usuwa ten plik.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The patch “%1” was applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zastosowano poprawkę „%1” do „%2”.</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>%1 with %2 applied</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 z zastosowaną %2</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie można odczytać poprawki „%1”.</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2334,7 +2341,7 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+1"/>
         <source>View the folder in file manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyświetl katalog w menedżerze plików</translation>
     </message>
 </context>
 <context>
@@ -2352,7 +2359,7 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+1"/>
         <source>Folder Comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Porównywanie katalogów</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2362,37 +2369,52 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+1"/>
         <source>Filters</source>
-        <translation type="unfinished"></translation>
+        <translation>Filtry</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>Wygląd</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Follow System Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Zgodnie ze stylem systemu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Light</source>
-        <translation type="unfinished"></translation>
+        <translation>Jasny</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Dark</source>
-        <translation type="unfinished"></translation>
+        <translation>Ciemny</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Interface Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Styl interfejsu</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>System Language</source>
+        <translation>Język systemu</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Language</source>
+        <translation>Język</translation>
     </message>
     <message>
         <location line="+3"/>
+        <source>The language will change when Meld Qt is next started.</source>
+        <translation>Język zmieni się przy następnym uruchomieniu programu Meld Qt.</translation>
+    </message>
+    <message>
+        <location line="+14"/>
         <source>Use Custom Font</source>
-        <translation type="unfinished"></translation>
+        <translation>Własna czcionka</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -2402,12 +2424,12 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+12"/>
         <source>Use Syntax Highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyróżnianie składni</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Color Scheme</source>
-        <translation type="unfinished"></translation>
+        <translation>Schemat kolorów</translation>
     </message>
     <message>
         <location line="+33"/>
@@ -2417,32 +2439,32 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+3"/>
         <source>Never</source>
-        <translation type="unfinished"></translation>
+        <translation>Nigdy</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>At Any Character</source>
-        <translation type="unfinished"></translation>
+        <translation>Na dowolnym znaku</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>At Word Boundaries</source>
-        <translation type="unfinished"></translation>
+        <translation>Na granicach słów</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Wrap Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Zawijanie tekstu</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Highlight Current Line</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyróżnianie bieżącego wiersza</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show Line Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Numery wierszy</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2452,7 +2474,7 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+4"/>
         <source>Indentation</source>
-        <translation type="unfinished"></translation>
+        <translation>Wcięcia</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2462,17 +2484,17 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+1"/>
         <source>Spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>Spacje</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Tab character</source>
-        <translation type="unfinished"></translation>
+        <translation>Znak tabulacji</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Indentation Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Rozmiar &amp;wcięcia</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2492,37 +2514,37 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+1"/>
         <source>Use custom text editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Własny edytor tekstu</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Custom Editor Command</source>
-        <translation type="unfinished"></translation>
+        <translation>Polecenie własnego edytora</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use {file} and {line} to refer to the file and line being opened</source>
-        <translation type="unfinished"></translation>
+        <translation>{file} i {line} odnoszą się do otwieranego pliku i wiersza</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Application</source>
-        <translation type="unfinished"></translation>
+        <translation>Program</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in the running Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>Otwieranie porównań w działającym Meld Qt</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Comparisons opened from the command line or other programs open in a new window of a Meld Qt that&apos;s already running, instead of starting another Meld Qt. This applies to Meld Qt started after the change.</source>
-        <translation type="unfinished"></translation>
+        <translation>Porównania otwierane z wiersza poleceń lub innych programów są otwierane w nowym oknie już działającego Meld Qt zamiast uruchamiania kolejnego Meld Qt. Dotyczy to Meld Qt uruchomionego po zmianie.</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Comparison Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Opcje porównywania</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2552,12 +2574,12 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+0"/>
         <source>Ignore timestamp</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignorowanie czasu modyfikacji</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Timestamp resolution</source>
-        <translation type="unfinished"></translation>
+        <translation>Rozdzielczość czasu modyfikacji</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2612,7 +2634,7 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+5"/>
         <source>Order when comparing file revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>Kolejność podczas porównywania wersji plików</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2627,32 +2649,32 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+5"/>
         <source>Order when merging files</source>
-        <translation type="unfinished"></translation>
+        <translation>Kolejność podczas scalania plików</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Show the common ancestor in conflicts from conflict markers</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyświetlanie wspólnego przodka w konfliktach ze znaczników konfliktów</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Merges of files with diff3-style conflict markers start with the common ancestor’s text in conflicts, rather than nothing</source>
-        <translation type="unfinished"></translation>
+        <translation>Scalanie plików ze znacznikami konfliktów w stylu diff3 zaczyna się w konfliktach od tekstu wspólnego przodka zamiast od niczego</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Commit Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Opis zatwierdzenia</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show right margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Prawy margines</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Margin position</source>
-        <translation type="unfinished"></translation>
+        <translation>Położenie marginesu</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2687,7 +2709,7 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+1"/>
         <source>When performing file comparisons, you may ignore certain types of changes. Each pattern here is a python regular expression which replaces matching text with the empty string before comparison is performed. If the expression contains groups, only the groups are replaced.</source>
-        <translation type="unfinished"></translation>
+        <translation>Podczas porównywania plików można ignorować pewne rodzaje zmian. Każdy wzorzec jest wyrażeniem regularnym języka Python, które przed porównaniem zastępuje pasujący tekst pustym ciągiem. Jeśli wyrażenie zawiera grupy, zastępowane są tylko grupy.</translation>
     </message>
 </context>
 <context>
@@ -2802,27 +2824,27 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+18"/>
         <source>%1 — %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 — %2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>The file isn’t in %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Plik nie znajduje się w %1.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 (%2, %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2, %3)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (working, %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (kopia robocza, %2)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (%2, working)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2, kopia robocza)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -2862,7 +2884,7 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+25"/>
         <source>working copy</source>
-        <translation type="unfinished"></translation>
+        <translation>kopia robocza</translation>
     </message>
     <message>
         <location line="+67"/>
@@ -2872,7 +2894,7 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+2"/>
         <source>&amp;Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Wyczyść</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2889,7 +2911,7 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
         <location line="+1"/>
         <location line="+1"/>
         <source>Next Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Następna zmiana</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2900,12 +2922,12 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
         <location line="+1"/>
         <location line="+1"/>
         <source>Previous Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Poprzednia zmiana</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>Odśwież</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2922,12 +2944,12 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
         <location line="+2"/>
         <location line="+758"/>
         <source>&amp;Unstage</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Usuń z przechowalni</translation>
     </message>
     <message>
         <location line="-758"/>
         <source>Remove staged changes</source>
-        <translation type="unfinished"></translation>
+        <translation>Usuwa zmiany z przechowalni</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2948,7 +2970,7 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="-754"/>
         <source>Push</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyślij</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2992,7 +3014,7 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+1"/>
         <source>Pull</source>
-        <translation type="unfinished"></translation>
+        <translation>Pobierz</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -3012,47 +3034,47 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+8"/>
         <source>Unknown folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Nieznany katalog</translation>
     </message>
     <message>
         <location line="+30"/>
         <source>The commit, tag or tree that changes are compared with</source>
-        <translation type="unfinished"></translation>
+        <translation>Zatwierdzenie, etykieta lub drzewo, z którym porównywane są zmiany</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The working copy, or a commit, tag or tree, whose changes are shown</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopia robocza albo zatwierdzenie, etykieta lub drzewo, którego zmiany są wyświetlane</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Swap</source>
-        <translation type="unfinished"></translation>
+        <translation>Zamień</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Swap the revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>Zamienia wersje miejscami</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Przywróć</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the working copy with the current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>Porównuje kopię roboczą z bieżącym zatwierdzeniem</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Changes from</source>
-        <translation type="unfinished"></translation>
+        <translation>Zmiany od</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>to</source>
-        <translation type="unfinished"></translation>
+        <translation>do</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -3062,17 +3084,17 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+28"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyszukiwanie</translation>
     </message>
     <message>
         <location line="+102"/>
         <source>The files as they are now, which can be changed</source>
-        <translation type="unfinished"></translation>
+        <translation>Pliki w obecnym stanie, które można zmieniać</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>Unknown revision</source>
-        <translation type="unfinished"></translation>
+        <translation>Nieznana wersja</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -3083,7 +3105,7 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+5"/>
         <source>%1 → %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 → %2</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3103,7 +3125,7 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+20"/>
         <source>No such file or directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie ma takiego pliku lub katalogu</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -3118,13 +3140,14 @@ Aviary.pl &lt;community-poland@mozilla.org&gt;, 2011-2023</translation>
     <message>
         <location line="+157"/>
         <source>Error running command</source>
-        <translation type="unfinished"></translation>
+        <translation>Błąd podczas wykonywania polecenia</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>While running &apos;%1&apos;
 Error: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Podczas wykonywania „%1”
+Błąd: %2</translation>
     </message>
     <message>
         <location line="+58"/>
@@ -3167,12 +3190,12 @@ Error: %2</source>
     <message>
         <location line="+22"/>
         <source>Error deleting %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Błąd podczas usuwania %1</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie można otworzyć porównania</translation>
     </message>
 </context>
 <context>
@@ -3180,12 +3203,12 @@ Error: %2</source>
     <message>
         <location filename="../src/core/conflictmarkers.cpp" line="+134"/>
         <source>Line %1: a conflict starts inside the conflict that starts at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wiersz %1: konflikt zaczyna się wewnątrz konfliktu rozpoczynającego się w wierszu %2.</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>The conflict that starts at line %1 doesn’t end.</source>
-        <translation type="unfinished"></translation>
+        <translation>Konflikt rozpoczynający się w wierszu %1 się nie kończy.</translation>
     </message>
 </context>
 <context>
@@ -3193,137 +3216,137 @@ Error: %2</source>
     <message>
         <location filename="../src/core/patch.cpp" line="+176"/>
         <source>Line %1 of the patch: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Wiersz %1 poprawki: %2</translation>
     </message>
     <message>
         <location line="+96"/>
         <source>malformed hunk header</source>
-        <translation type="unfinished"></translation>
+        <translation>błędny nagłówek fragmentu</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>unexpected line in a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>nieoczekiwany wiersz we fragmencie</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>the hunk has more lines than its header says</source>
-        <translation type="unfinished"></translation>
+        <translation>fragment ma więcej wierszy, niż podaje jego nagłówek</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>the patch ends in the middle of a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>poprawka kończy się w środku fragmentu</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Only unified diffs can be applied; this is a context diff.</source>
-        <translation type="unfinished"></translation>
+        <translation>Można stosować tylko ujednolicone różnice; to jest różnica kontekstowa.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>No changes were found in the patch.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie odnaleziono żadnych zmian w poprawce.</translation>
     </message>
     <message>
         <location line="+122"/>
         <source>Hunk #%1 doesn’t match the file at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fragment nr %1 nie pasuje do pliku w wierszu %2.</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>Hunk #%1 applied at line %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Zastosowano fragment nr %1 w wierszu %2</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source> (offset %n lines)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform> (przesunięcie o %n wiersz)</numerusform>
+            <numerusform> (przesunięcie o %n wiersze)</numerusform>
+            <numerusform> (przesunięcie o %n wierszy)</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source> with fuzz %1</source>
-        <translation type="unfinished"></translation>
+        <translation> z rozmyciem %1</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+186"/>
         <source>Binary changes can’t be applied.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie można zastosować zmian binarnych.</translation>
     </message>
     <message>
         <location line="-174"/>
         <source>The patch creates this file, which is already as it would create it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Poprawka tworzy ten plik, który już jest taki, jaki by utworzyła.</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+190"/>
         <source>The patch creates this file, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>Poprawka tworzy ten plik, ale on już istnieje.</translation>
     </message>
     <message>
         <location line="-178"/>
         <source>The patch seems to be applied already: its changes are in the file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Poprawka wygląda na już zastosowaną: jej zmiany są w pliku.</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source>%1 of %n hunks can’t be applied.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Nie można zastosować %1 z %n fragmentu.</numerusform>
+            <numerusform>Nie można zastosować %1 z %n fragmentów.</numerusform>
+            <numerusform>Nie można zastosować %1 z %n fragmentów.</numerusform>
         </translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch deletes this file, but it has other contents than the patch removes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Poprawka usuwa ten plik, ale ma on inną zawartość niż ta, którą usuwa poprawka.</translation>
     </message>
     <message>
         <location line="+75"/>
         <source>The patch changes several files called %1:</source>
-        <translation type="unfinished"></translation>
+        <translation>Poprawka zmienia kilka plików o nazwie %1:</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The patch doesn’t change %1. It changes:</source>
-        <translation type="unfinished"></translation>
+        <translation>Poprawka nie zmienia %1. Zmienia:</translation>
     </message>
     <message>
         <location line="+73"/>
         <source>The patch changes %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Poprawka zmienia %1, który nie znajduje się w katalogu.</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The patch deletes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Poprawka usuwa ten plik, ale nie znajduje się on w katalogu.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch makes this file from %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Poprawka tworzy ten plik z %1, który nie znajduje się w katalogu.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>The patch makes this file from %1, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>Poprawka tworzy ten plik z %1, ale on już istnieje.</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>The patch changes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Poprawka zmienia ten plik, ale nie znajduje się on w katalogu.</translation>
     </message>
     <message>
         <location line="+106"/>
         <source>The file isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Plik nie znajduje się w katalogu.</translation>
     </message>
 </context>
 <context>
@@ -3342,12 +3365,12 @@ Error: %2</source>
         <location line="+2"/>
         <location line="+0"/>
         <source>Delete Permanently?</source>
-        <translation type="unfinished"></translation>
+        <translation>Usunąć trwale?</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>“%1” can’t be put in the trash. Do you want to delete it permanently?</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie można przenieść „%1” do kosza. Usunąć go trwale?</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3469,22 +3492,22 @@ Error: %2</source>
     <message>
         <location line="+98"/>
         <source>The current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>Bieżące zatwierdzenie</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>“%1” isn’t a commit, tag or tree in this repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>„%1” nie jest zatwierdzeniem, etykietą ani drzewem w tym repozytorium.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 isn’t in the repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 nie znajduje się w repozytorium.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>%1 isn’t in %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 nie znajduje się w %2.</translation>
     </message>
     <message>
         <location line="+84"/>

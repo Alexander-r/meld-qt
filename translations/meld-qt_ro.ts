@@ -6,22 +6,22 @@
     <message>
         <location filename="../src/core/archive.cpp" line="+381"/>
         <source>Couldn’t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Nu s-a putut crea dosarul %1</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>No installed program can extract this archive. Install bsdtar (from libarchive) or 7-Zip.</source>
-        <translation type="unfinished"></translation>
+        <translation>Niciun program instalat nu poate extrage această arhivă. Instalați bsdtar (din libarchive) sau 7-Zip.</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>%1 crashed</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 s-a prăbușit</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>%1 failed with status %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 a eșuat cu starea %2</translation>
     </message>
 </context>
 <context>
@@ -29,22 +29,22 @@
     <message>
         <location filename="../src/ui/dirdiff.cpp" line="+88"/>
         <source>Couldn&apos;t create link %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Nu s-a putut crea legătura %1</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Not a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Nu este un fișier</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Couldn&apos;t replace %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Nu s-a putut înlocui %1</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Nu s-a putut crea dosarul %1</translation>
     </message>
     <message>
         <location filename="../src/ui/externalhelpers.cpp" line="+58"/>
@@ -54,12 +54,12 @@
     <message>
         <location line="+1"/>
         <source>External opening of files of type “%1” is not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Deschiderea externă a fișierelor de tipul „%1” nu este suportată</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>necunoscut</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -69,17 +69,17 @@
     <message>
         <location line="+1"/>
         <source>Couldn&apos;t run “%1”</source>
-        <translation type="unfinished"></translation>
+        <translation>Nu s-a putut rula „%1”</translation>
     </message>
     <message>
         <location filename="../src/ui/meldapp.cpp" line="+37"/>
         <source>show program&apos;s version number and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>afișează numărul versiunii programului și ieși</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>show this help message and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>afișează acest mesaj de ajutor și ieși</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -94,12 +94,12 @@
     <message>
         <location line="+2"/>
         <source>Open comparisons in an already running instance (single-instance mode)</source>
-        <translation type="unfinished"></translation>
+        <translation>Deschide comparațiile într-o instanță deja pornită (modul cu instanță unică)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in a new instance, even in single-instance mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Deschide comparațiile într-o instanță nouă, chiar și în modul cu instanță unică</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -130,7 +130,7 @@
     <message>
         <location line="+2"/>
         <source>Compare a file or folder with what a patch would make of it</source>
-        <translation type="unfinished"></translation>
+        <translation>Compară un fișier sau dosar cu ce ar face un petic din el</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -159,7 +159,7 @@
     <message>
         <location line="-4"/>
         <source>Start a comparison against a blank pane</source>
-        <translation type="unfinished"></translation>
+        <translation>Pornește o comparație cu un panou gol</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -174,24 +174,26 @@
     <message>
         <location line="+1"/>
         <source>patch</source>
-        <translation type="unfinished"></translation>
+        <translation>petic</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare with a patch applied</source>
-        <translation type="unfinished"></translation>
+        <translation>Compară cu un petic aplicat</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Usage:</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilizare:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>
 For file comparisons, the special argument @blank may be used instead of
 a &lt;file&gt; argument to create a blank pane.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+Pentru comparații de fișiere, argumentul special @blank poate fi folosit în locul
+unui argument &lt;fișier&gt; pentru a crea un panou gol.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -201,30 +203,30 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+1"/>
         <source>Options:</source>
-        <translation type="unfinished"></translation>
+        <translation>Opțiuni:</translation>
     </message>
     <message>
         <location line="+42"/>
         <location line="+9"/>
         <source>no such option: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>opțiune inexistentă: %1</translation>
     </message>
     <message>
         <location line="-8"/>
         <source>ambiguous option: %1 (%2?)</source>
-        <translation type="unfinished"></translation>
+        <translation>opțiune ambiguă: %1 (%2?)</translation>
     </message>
     <message>
         <location line="+16"/>
         <location line="+59"/>
         <location line="+16"/>
         <source>%1 option requires an argument</source>
-        <translation type="unfinished"></translation>
+        <translation>opțiunea %1 necesită un argument</translation>
     </message>
     <message>
         <location line="-73"/>
         <source>%1 option does not take a value</source>
-        <translation type="unfinished"></translation>
+        <translation>opțiunea %1 nu acceptă o valoare</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -234,17 +236,17 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+53"/>
         <source>--patch needs one file or folder to apply the patch to (got %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>--patch are nevoie de un fișier sau dosar căruia să i se aplice peticul (s-au primit %1)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>can’t auto-merge with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>nu se poate îmbina automat cu un petic</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>can’t load a comparison file with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>nu se poate încărca un fișier de comparație cu un petic</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -281,14 +283,14 @@ a &lt;file&gt; argument to create a blank pane.</source>
 %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/preferences.cpp" line="+104"/>
+        <location filename="../src/ui/preferences.cpp" line="+108"/>
         <source>Select a Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Selectați un stil</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Select</source>
-        <translation type="unfinished"></translation>
+        <translation>Selectează</translation>
     </message>
     <message>
         <location filename="../src/ui/recent.cpp" line="+76"/>
@@ -302,7 +304,8 @@ a &lt;file&gt; argument to create a blank pane.</source>
         <location filename="../src/ui/singleinstance.cpp" line="+50"/>
         <source>Meld Qt couldn’t open the comparison: a different version of Meld Qt is running.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Meld Qt nu a putut deschide comparația: rulează o altă versiune de Meld Qt.
+</translation>
     </message>
 </context>
 <context>
@@ -339,12 +342,12 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location filename="../src/ui/actiongutter.cpp" line="+346"/>
         <source>Copy Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Copiază sus</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Copy Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Copiază jos</translation>
     </message>
 </context>
 <context>
@@ -358,7 +361,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+8"/>
         <source>Changed Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Fișiere modificate</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -391,36 +394,36 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+10"/>
         <source>The conflict markers in “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Marcajele de conflict din „%1” nu pot fi citite.</translation>
     </message>
     <message numerus="yes">
         <location line="+17"/>
         <source>%n unresolved conflicts</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n conflict nerezolvat</numerusform>
+            <numerusform>%n conflicte nerezolvate</numerusform>
+            <numerusform>%n de conflicte nerezolvate</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts show the common ancestor’s text, which the local and remote versions changed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Conflictele arată textul strămoșului comun, pe care versiunile locală și de la distanță l-au modificat.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts are empty, to be filled from the local and remote versions.</source>
-        <translation type="unfinished"></translation>
+        <translation>Conflictele sunt goale și trebuie completate din versiunile locală și de la distanță.</translation>
     </message>
     <message>
         <location line="+42"/>
         <source>local</source>
-        <translation type="unfinished"></translation>
+        <translation>local</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>remote</source>
-        <translation type="unfinished"></translation>
+        <translation>la distanță</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -448,12 +451,12 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+16"/>
         <source>Folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Dosarul %1</translation>
     </message>
     <message>
         <location line="+81"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Caută</translation>
     </message>
     <message>
         <location line="+88"/>
@@ -488,7 +491,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+54"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Peticul „%1” nu poate fi citit.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -499,22 +502,22 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+36"/>
         <source>%1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: %2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Permission denied</source>
-        <translation type="unfinished"></translation>
+        <translation>Permisiune refuzată</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>: Dangling symlink</source>
-        <translation type="unfinished"></translation>
+        <translation>: Legătură simbolică orfană</translation>
     </message>
     <message>
         <location line="+99"/>
         <source>Done</source>
-        <translation type="unfinished"></translation>
+        <translation>Terminat</translation>
     </message>
     <message>
         <location line="+162"/>
@@ -554,7 +557,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+13"/>
         <source>Folder %1 is being compared to itself</source>
-        <translation type="unfinished"></translation>
+        <translation>Dosarul %1 este comparat cu el însuși</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -659,7 +662,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+164"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Nu s-a putut crea dosarul %1</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -703,7 +706,7 @@ to %2.
     <message>
         <location line="+24"/>
         <source>Error deleting %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Eroare la ștergerea %1</translation>
     </message>
 </context>
 <context>
@@ -736,7 +739,7 @@ to %2.
     <message>
         <location line="+144"/>
         <source>empty folder</source>
-        <translation type="unfinished"></translation>
+        <translation>dosar gol</translation>
     </message>
 </context>
 <context>
@@ -854,38 +857,40 @@ to %2.
     <message>
         <location line="+13"/>
         <source>There was a problem opening “%1”.</source>
-        <translation type="unfinished"></translation>
+        <translation>A apărut o problemă la deschiderea „%1”.</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The file could not be decoded using the candidate encodings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fișierul nu a putut fi decodat folosind codările candidate.</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Line %1 exceeded maximum line length (%2 &gt; %3).
 
 Loading files with very long lines may make Meld Qt slow or unresponsive.</source>
-        <translation type="unfinished"></translation>
+        <translation>Linia %1 a depășit lungimea maximă a liniei (%2 &gt; %3).
+
+Încărcarea fișierelor cu linii foarte lungi poate face Meld Qt lent sau să nu mai răspundă.</translation>
     </message>
     <message numerus="yes">
         <location line="+39"/>
         <source>%1 has %n unresolved merge conflicts.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 are %n conflict de îmbinare nerezolvat.</numerusform>
+            <numerusform>%1 are %n conflicte de îmbinare nerezolvate.</numerusform>
+            <numerusform>%1 are %n de conflicte de îmbinare nerezolvate.</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The local and remote versions can be merged in a 3-way comparison.</source>
-        <translation type="unfinished"></translation>
+        <translation>Versiunile locală și de la distanță pot fi îmbinate într-o comparație în trei căi.</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Resolve</source>
-        <translation type="unfinished"></translation>
+        <translation>Rezolvă</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -905,12 +910,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+64"/>
         <source>Computing differences</source>
-        <translation type="unfinished"></translation>
+        <translation>Se calculează diferențele</translation>
     </message>
     <message>
         <location line="+117"/>
         <source>File %1 is being compared to itself</source>
-        <translation type="unfinished"></translation>
+        <translation>Fișierul %1 este comparat cu el însuși</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -974,7 +979,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+20"/>
         <source>&amp;Load anyway</source>
-        <translation type="unfinished"></translation>
+        <translation>Î&amp;ncarcă oricum</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -994,16 +999,16 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message numerus="yes">
         <location line="+41"/>
         <source>%n conflicts aren’t resolved</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n conflict nu este rezolvat</numerusform>
+            <numerusform>%n conflicte nu sunt rezolvate</numerusform>
+            <numerusform>%n de conflicte nu sunt rezolvate</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>If you save the merge now, the conflicts are saved as they are here, without conflict markers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dacă salvați îmbinarea acum, conflictele sunt salvate așa cum sunt aici, fără marcaje de conflict.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1036,7 +1041,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="-18"/>
         <source>File “%1” contains characters that can’t be encoded using its current encoding “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fișierul „%1” conține caractere care nu pot fi codificare cu codarea curentă „%2”.</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1092,7 +1097,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+6"/>
         <source>Open documents contain unsaved changes. Changes which are not saved will be permanently lost.</source>
-        <translation type="unfinished"></translation>
+        <translation>Documentele deschise conțin modificări nesalvate. Modificările care nu sunt salvate vor fi pierdute definitiv.</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1133,7 +1138,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+15"/>
         <source>Select File</source>
-        <translation type="unfinished"></translation>
+        <translation>Selectați fișierul</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1143,7 +1148,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+6"/>
         <source>File %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Fișierul %1</translation>
     </message>
     <message>
         <location line="+128"/>
@@ -1294,12 +1299,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+19"/>
         <source>Visual diff and merge tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Instrument vizual de comparare și îmbinare</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Built with Qt %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Construit cu Qt %1</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1311,7 +1316,7 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
     <message>
         <location line="+3"/>
         <source>Translated by</source>
-        <translation type="unfinished"></translation>
+        <translation>Tradus de</translation>
     </message>
 </context>
 <context>
@@ -1390,12 +1395,12 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
     <message>
         <location line="-383"/>
         <source>Header bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Bară de antet</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>New Comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Comparație nouă</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1405,7 +1410,7 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
     <message>
         <location line="+1"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Închide</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1442,22 +1447,22 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
     <message>
         <location line="-959"/>
         <source>Previous Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Tabul anterior</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Next Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Tabul următor</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Move Tab Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Mută tabul la stânga</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Move Tab Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Mută tabul la dreapta</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -1497,7 +1502,7 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
     <message>
         <location line="+1"/>
         <source>Next Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>Conflictul următor</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1552,7 +1557,7 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
     <message>
         <location line="+6"/>
         <source>Delete Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Șterge modificarea</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1612,7 +1617,7 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
         <location line="+22"/>
         <location line="+6"/>
         <source>Main Menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Meniu principal</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -1672,22 +1677,22 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
     <message>
         <location line="+2"/>
         <source>Zoom In</source>
-        <translation type="unfinished"></translation>
+        <translation>Mărește</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Zoom Out</source>
-        <translation type="unfinished"></translation>
+        <translation>Micșorează</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reset Zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Resetează zoomul</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Swap Panes</source>
-        <translation type="unfinished"></translation>
+        <translation>Interschimbă panourile</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1717,12 +1722,12 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
     <message>
         <location line="+17"/>
         <source>No recent comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>Nicio comparație recentă</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Clear Recent Comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>Curăță comparațiile recente</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -1738,14 +1743,14 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
         <location line="+65"/>
         <location line="+17"/>
         <source>%1 - Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 - Meld Qt</translation>
     </message>
     <message>
         <location line="+26"/>
         <location line="+146"/>
         <location line="+16"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Nu s-a putut deschide comparația</translation>
     </message>
     <message>
         <location line="+43"/>
@@ -1760,7 +1765,7 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
     <message>
         <location line="+11"/>
         <source>Select what to compare, and the patch to apply to it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selectați ce să fie comparat și peticul care să i se aplice.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1768,12 +1773,14 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
         <source>The patch “%1” can’t be read.
 
 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Peticul „%1” nu poate fi citit.
+
+%2</translation>
     </message>
     <message>
         <location line="+66"/>
         <source>Opening archive “%1”…</source>
-        <translation type="unfinished"></translation>
+        <translation>Se deschide arhiva „%1”…</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1783,23 +1790,23 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
     <message>
         <location line="+2"/>
         <source>Opening Archive</source>
-        <translation type="unfinished"></translation>
+        <translation>Se deschide arhiva</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Couldn’t open archive %1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Nu s-a putut deschide arhiva %1: %2</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Failed to open archive</source>
-        <translation type="unfinished"></translation>
+        <translation>Deschiderea arhivei a eșuat</translation>
     </message>
     <message>
         <location line="+26"/>
         <location line="+38"/>
         <source>Cannot compare a non-existent file</source>
-        <translation type="unfinished"></translation>
+        <translation>Nu se poate compara un fișier inexistent</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -1809,7 +1816,7 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
     <message>
         <location line="+28"/>
         <source>The patch “%1” doesn’t exist</source>
-        <translation type="unfinished"></translation>
+        <translation>Peticul „%1” nu există</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -2069,17 +2076,17 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
     <message>
         <location line="+1"/>
         <source>Zoom in</source>
-        <translation type="unfinished"></translation>
+        <translation>Mărește</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Zoom out</source>
-        <translation type="unfinished"></translation>
+        <translation>Micșorează</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reset zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Resetează zoomul</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2152,22 +2159,22 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
     <message>
         <location line="+7"/>
         <source>Compare with a &amp;patch</source>
-        <translation type="unfinished"></translation>
+        <translation>Compară cu un &amp;petic</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the folder with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>Compară dosarul cu felul în care l-ar modifica un petic</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the file with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>Compară fișierul cu felul în care l-ar modifica un petic</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Select Patch File</source>
-        <translation type="unfinished"></translation>
+        <translation>Selectați fișierul petic</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2202,7 +2209,7 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
     <message>
         <location line="+5"/>
         <source>Select Version-controlled Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Selectați un dosar sub controlul versiunilor</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -2217,12 +2224,12 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
     <message>
         <location line="+70"/>
         <source>Patches (*.patch *.diff)</source>
-        <translation type="unfinished"></translation>
+        <translation>Petice (*.patch *.diff)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>All files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>Toate fișierele (*)</translation>
     </message>
 </context>
 <context>
@@ -2231,27 +2238,27 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
         <location filename="../src/ui/patchcomparison.cpp" line="+24"/>
         <location line="+41"/>
         <source>The patch “%1” can’t be applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Peticul „%1” nu poate fi aplicat pe „%2”.</translation>
     </message>
     <message>
         <location line="-34"/>
         <source>The patch deletes this file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Peticul șterge acest fișier.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The patch “%1” was applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Peticul „%1” a fost aplicat pe „%2”.</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>%1 with %2 applied</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 cu %2 aplicat</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Peticul „%1” nu poate fi citit.</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2351,7 +2358,7 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
     <message>
         <location line="+1"/>
         <source>Folder Comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Comparație de dosare</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2366,32 +2373,47 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
     <message>
         <location line="+15"/>
         <source>Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>Aspect</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Follow System Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Urmează stilul sistemului</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Light</source>
-        <translation type="unfinished"></translation>
+        <translation>Luminos</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Dark</source>
-        <translation type="unfinished"></translation>
+        <translation>Întunecat</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Interface Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Stilul interfeței</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>System Language</source>
+        <translation>Limba sistemului</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Language</source>
+        <translation>Limbă</translation>
     </message>
     <message>
         <location line="+3"/>
+        <source>The language will change when Meld Qt is next started.</source>
+        <translation>Limba se va schimba la următoarea pornire a Meld Qt.</translation>
+    </message>
+    <message>
+        <location line="+14"/>
         <source>Use Custom Font</source>
-        <translation type="unfinished"></translation>
+        <translation>Folosește un font personalizat</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -2401,12 +2423,12 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
     <message>
         <location line="+12"/>
         <source>Use Syntax Highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>Folosește evidențierea sintaxei</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Color Scheme</source>
-        <translation type="unfinished"></translation>
+        <translation>Schemă de culori</translation>
     </message>
     <message>
         <location line="+33"/>
@@ -2416,32 +2438,32 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
     <message>
         <location line="+3"/>
         <source>Never</source>
-        <translation type="unfinished"></translation>
+        <translation>Niciodată</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>At Any Character</source>
-        <translation type="unfinished"></translation>
+        <translation>La orice caracter</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>At Word Boundaries</source>
-        <translation type="unfinished"></translation>
+        <translation>La limitele cuvintelor</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Wrap Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Încadrează textul</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Highlight Current Line</source>
-        <translation type="unfinished"></translation>
+        <translation>Evidențiază linia curentă</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show Line Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Afișează numerele liniilor</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2451,7 +2473,7 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
     <message>
         <location line="+4"/>
         <source>Indentation</source>
-        <translation type="unfinished"></translation>
+        <translation>Indentare</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2461,17 +2483,17 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
     <message>
         <location line="+1"/>
         <source>Spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>Spații</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Tab character</source>
-        <translation type="unfinished"></translation>
+        <translation>Caracter tab</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Indentation Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Mărimea &amp;indentării</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2491,37 +2513,37 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
     <message>
         <location line="+1"/>
         <source>Use custom text editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Folosește un editor de text personalizat</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Custom Editor Command</source>
-        <translation type="unfinished"></translation>
+        <translation>Comanda editorului personalizat</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use {file} and {line} to refer to the file and line being opened</source>
-        <translation type="unfinished"></translation>
+        <translation>Folosiți {file} și {line} pentru a vă referi la fișierul și linia care se deschid</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Application</source>
-        <translation type="unfinished"></translation>
+        <translation>Aplicație</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in the running Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>Deschide comparațiile în Meld Qt pornit</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Comparisons opened from the command line or other programs open in a new window of a Meld Qt that&apos;s already running, instead of starting another Meld Qt. This applies to Meld Qt started after the change.</source>
-        <translation type="unfinished"></translation>
+        <translation>Comparațiile deschise din linia de comandă sau din alte programe se deschid într-o fereastră nouă a unui Meld Qt deja pornit, în loc să pornească un alt Meld Qt. Se aplică pentru Meld Qt pornit după modificare.</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Comparison Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Opțiuni de comparare</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2556,7 +2578,7 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
     <message>
         <location line="+10"/>
         <source>Timestamp resolution</source>
-        <translation type="unfinished"></translation>
+        <translation>Rezoluția marcajelor de timp</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2611,7 +2633,7 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
     <message>
         <location line="+5"/>
         <source>Order when comparing file revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>Ordinea la compararea reviziilor fișierelor</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2626,32 +2648,32 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
     <message>
         <location line="+5"/>
         <source>Order when merging files</source>
-        <translation type="unfinished"></translation>
+        <translation>Ordinea la îmbinarea fișierelor</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Show the common ancestor in conflicts from conflict markers</source>
-        <translation type="unfinished"></translation>
+        <translation>Afișează strămoșul comun în conflictele din marcajele de conflict</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Merges of files with diff3-style conflict markers start with the common ancestor’s text in conflicts, rather than nothing</source>
-        <translation type="unfinished"></translation>
+        <translation>Îmbinările fișierelor cu marcaje de conflict în stil diff3 încep cu textul strămoșului comun în conflicte, în loc de nimic</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Commit Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Mesaj de comitere</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show right margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Afișează marginea dreaptă</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Margin position</source>
-        <translation type="unfinished"></translation>
+        <translation>Poziția marginii</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2686,7 +2708,7 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
     <message>
         <location line="+1"/>
         <source>When performing file comparisons, you may ignore certain types of changes. Each pattern here is a python regular expression which replaces matching text with the empty string before comparison is performed. If the expression contains groups, only the groups are replaced.</source>
-        <translation type="unfinished"></translation>
+        <translation>Când comparați fișiere, puteți ignora anumite tipuri de modificări. Fiecare model de aici este o expresie regulată Python care înlocuiește textul care se potrivește cu un șir gol înainte de efectuarea comparației. Dacă expresia conține grupuri, doar grupurile sunt înlocuite.</translation>
     </message>
 </context>
 <context>
@@ -2801,27 +2823,27 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
     <message>
         <location line="+18"/>
         <source>%1 — %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 — %2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>The file isn’t in %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fișierul nu este în %1.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 (%2, %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2, %3)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (working, %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (în lucru, %2)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (%2, working)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2, în lucru)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -2861,7 +2883,7 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
     <message>
         <location line="+25"/>
         <source>working copy</source>
-        <translation type="unfinished"></translation>
+        <translation>copie de lucru</translation>
     </message>
     <message>
         <location line="+67"/>
@@ -2871,7 +2893,7 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
     <message>
         <location line="+2"/>
         <source>&amp;Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Curăță</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2921,12 +2943,12 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
         <location line="+2"/>
         <location line="+758"/>
         <source>&amp;Unstage</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Scoate din index</translation>
     </message>
     <message>
         <location line="-758"/>
         <source>Remove staged changes</source>
-        <translation type="unfinished"></translation>
+        <translation>Elimină modificările din index</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2947,7 +2969,7 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
     <message>
         <location line="-754"/>
         <source>Push</source>
-        <translation>Îm_pinge</translation>
+        <translation>Împinge</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2991,7 +3013,7 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
     <message>
         <location line="+1"/>
         <source>Pull</source>
-        <translation type="unfinished"></translation>
+        <translation>Trage</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -3011,47 +3033,47 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
     <message>
         <location line="+8"/>
         <source>Unknown folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Dosar necunoscut</translation>
     </message>
     <message>
         <location line="+30"/>
         <source>The commit, tag or tree that changes are compared with</source>
-        <translation type="unfinished"></translation>
+        <translation>Comiterea, eticheta sau arborele cu care sunt comparate modificările</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The working copy, or a commit, tag or tree, whose changes are shown</source>
-        <translation type="unfinished"></translation>
+        <translation>Copia de lucru, sau o comitere, etichetă sau arbore, ale cărei modificări sunt afișate</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Swap</source>
-        <translation type="unfinished"></translation>
+        <translation>Interschimbă</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Swap the revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>Interschimbă reviziile</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Resetează</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the working copy with the current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>Compară copia de lucru cu comiterea curentă</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Changes from</source>
-        <translation type="unfinished"></translation>
+        <translation>Modificări de la</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>to</source>
-        <translation type="unfinished"></translation>
+        <translation>până la</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -3061,17 +3083,17 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
     <message>
         <location line="+28"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Caută</translation>
     </message>
     <message>
         <location line="+102"/>
         <source>The files as they are now, which can be changed</source>
-        <translation type="unfinished"></translation>
+        <translation>Fișierele așa cum sunt acum, care pot fi modificate</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>Unknown revision</source>
-        <translation type="unfinished"></translation>
+        <translation>Revizie necunoscută</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -3082,7 +3104,7 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
     <message>
         <location line="+5"/>
         <source>%1 → %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 → %2</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3102,7 +3124,7 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
     <message>
         <location line="+20"/>
         <source>No such file or directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Nu există un astfel de fișier sau director</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -3117,13 +3139,14 @@ Daniel Șerbănescu &lt;daniel [at] serbanescu [dot] dk&gt;, 2021-2022,2024</tra
     <message>
         <location line="+157"/>
         <source>Error running command</source>
-        <translation type="unfinished"></translation>
+        <translation>Eroare la rularea comenzii</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>While running &apos;%1&apos;
 Error: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>La rularea „%1”
+Eroare: %2</translation>
     </message>
     <message>
         <location line="+58"/>
@@ -3166,12 +3189,12 @@ Error: %2</source>
     <message>
         <location line="+22"/>
         <source>Error deleting %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Eroare la ștergerea %1</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Nu s-a putut deschide comparația</translation>
     </message>
 </context>
 <context>
@@ -3179,12 +3202,12 @@ Error: %2</source>
     <message>
         <location filename="../src/core/conflictmarkers.cpp" line="+134"/>
         <source>Line %1: a conflict starts inside the conflict that starts at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Linia %1: un conflict începe în interiorul conflictului care începe la linia %2.</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>The conflict that starts at line %1 doesn’t end.</source>
-        <translation type="unfinished"></translation>
+        <translation>Conflictul care începe la linia %1 nu se termină.</translation>
     </message>
 </context>
 <context>
@@ -3192,137 +3215,137 @@ Error: %2</source>
     <message>
         <location filename="../src/core/patch.cpp" line="+176"/>
         <source>Line %1 of the patch: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Linia %1 a peticului: %2</translation>
     </message>
     <message>
         <location line="+96"/>
         <source>malformed hunk header</source>
-        <translation type="unfinished"></translation>
+        <translation>antet de bucată malformat</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>unexpected line in a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>linie neașteptată într-o bucată</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>the hunk has more lines than its header says</source>
-        <translation type="unfinished"></translation>
+        <translation>bucata are mai multe linii decât indică antetul său</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>the patch ends in the middle of a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>peticul se termină în mijlocul unei bucăți</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Only unified diffs can be applied; this is a context diff.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pot fi aplicate doar diff-uri unificate; acesta este un diff de context.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>No changes were found in the patch.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nu s-au găsit modificări în petic.</translation>
     </message>
     <message>
         <location line="+122"/>
         <source>Hunk #%1 doesn’t match the file at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bucata nr. %1 nu se potrivește cu fișierul la linia %2.</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>Hunk #%1 applied at line %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Bucata nr. %1 a fost aplicată la linia %2</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source> (offset %n lines)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform> (decalaj de %n linie)</numerusform>
+            <numerusform> (decalaj de %n linii)</numerusform>
+            <numerusform> (decalaj de %n de linii)</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source> with fuzz %1</source>
-        <translation type="unfinished"></translation>
+        <translation> cu imprecizie %1</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+186"/>
         <source>Binary changes can’t be applied.</source>
-        <translation type="unfinished"></translation>
+        <translation>Modificările binare nu pot fi aplicate.</translation>
     </message>
     <message>
         <location line="-174"/>
         <source>The patch creates this file, which is already as it would create it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Peticul creează acest fișier, care este deja așa cum l-ar crea.</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+190"/>
         <source>The patch creates this file, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>Peticul creează acest fișier, dar acesta există deja.</translation>
     </message>
     <message>
         <location line="-178"/>
         <source>The patch seems to be applied already: its changes are in the file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Peticul pare deja aplicat: modificările sale sunt în fișier.</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source>%1 of %n hunks can’t be applied.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 din %n bucată nu poate fi aplicată.</numerusform>
+            <numerusform>%1 din %n bucăți nu pot fi aplicate.</numerusform>
+            <numerusform>%1 din %n de bucăți nu pot fi aplicate.</numerusform>
         </translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch deletes this file, but it has other contents than the patch removes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Peticul șterge acest fișier, dar acesta are alt conținut decât cel pe care îl elimină peticul.</translation>
     </message>
     <message>
         <location line="+75"/>
         <source>The patch changes several files called %1:</source>
-        <translation type="unfinished"></translation>
+        <translation>Peticul modifică mai multe fișiere numite %1:</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The patch doesn’t change %1. It changes:</source>
-        <translation type="unfinished"></translation>
+        <translation>Peticul nu modifică %1. Modifică:</translation>
     </message>
     <message>
         <location line="+73"/>
         <source>The patch changes %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Peticul modifică %1, care nu este în dosar.</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The patch deletes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Peticul șterge acest fișier, dar acesta nu este în dosar.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch makes this file from %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Peticul creează acest fișier din %1, care nu este în dosar.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>The patch makes this file from %1, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>Peticul creează acest fișier din %1, dar acesta există deja.</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>The patch changes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Peticul modifică acest fișier, dar acesta nu este în dosar.</translation>
     </message>
     <message>
         <location line="+106"/>
         <source>The file isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fișierul nu este în dosar.</translation>
     </message>
 </context>
 <context>
@@ -3341,12 +3364,12 @@ Error: %2</source>
         <location line="+2"/>
         <location line="+0"/>
         <source>Delete Permanently?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ștergeți definitiv?</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>“%1” can’t be put in the trash. Do you want to delete it permanently?</source>
-        <translation type="unfinished"></translation>
+        <translation>„%1” nu poate fi mutat la gunoi. Doriți să îl ștergeți definitiv?</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3468,22 +3491,22 @@ Error: %2</source>
     <message>
         <location line="+98"/>
         <source>The current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>Comiterea curentă</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>“%1” isn’t a commit, tag or tree in this repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>„%1” nu este o comitere, etichetă sau arbore din acest depozit.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 isn’t in the repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 nu este în depozit.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>%1 isn’t in %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 nu este în %2.</translation>
     </message>
     <message>
         <location line="+84"/>

@@ -6,22 +6,22 @@
     <message>
         <location filename="../src/core/archive.cpp" line="+381"/>
         <source>Couldn’t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>No s&apos;ha pogut crear la carpeta %1</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>No installed program can extract this archive. Install bsdtar (from libarchive) or 7-Zip.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cap programa instal·lat pot extreure aquest arxiu. Instal·leu bsdtar (de libarchive) o 7-Zip.</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>%1 crashed</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 ha fallat</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>%1 failed with status %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 ha fallat amb l&apos;estat %2</translation>
     </message>
 </context>
 <context>
@@ -29,57 +29,57 @@
     <message>
         <location filename="../src/ui/dirdiff.cpp" line="+88"/>
         <source>Couldn&apos;t create link %1</source>
-        <translation type="unfinished"></translation>
+        <translation>No s&apos;ha pogut crear l&apos;enllaç %1</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Not a file</source>
-        <translation type="unfinished"></translation>
+        <translation>No és un fitxer</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Couldn&apos;t replace %1</source>
-        <translation type="unfinished"></translation>
+        <translation>No s&apos;ha pogut reemplaçar %1</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>No s&apos;ha pogut crear la carpeta %1</translation>
     </message>
     <message>
         <location filename="../src/ui/externalhelpers.cpp" line="+58"/>
         <source>Unsupported file type</source>
-        <translation type="unfinished"></translation>
+        <translation>Tipus de fitxer no admès</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>External opening of files of type “%1” is not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>No s&apos;admet l&apos;obertura externa de fitxers del tipus «%1»</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>desconegut</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Failed to launch custom editor</source>
-        <translation type="unfinished"></translation>
+        <translation>No s&apos;ha pogut iniciar l&apos;editor personalitzat</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Couldn&apos;t run “%1”</source>
-        <translation type="unfinished"></translation>
+        <translation>No s&apos;ha pogut executar «%1»</translation>
     </message>
     <message>
         <location filename="../src/ui/meldapp.cpp" line="+37"/>
         <source>show program&apos;s version number and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>mostra el número de versió del programa i surt</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>show this help message and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>mostra aquest missatge d&apos;ajuda i surt</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -94,12 +94,12 @@
     <message>
         <location line="+2"/>
         <source>Open comparisons in an already running instance (single-instance mode)</source>
-        <translation type="unfinished"></translation>
+        <translation>Obre les comparacions en una instància que ja s&apos;està executant (mode d&apos;instància única)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in a new instance, even in single-instance mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Obre les comparacions en una instància nova, fins i tot en el mode d&apos;instància única</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -130,7 +130,7 @@
     <message>
         <location line="+2"/>
         <source>Compare a file or folder with what a patch would make of it</source>
-        <translation type="unfinished"></translation>
+        <translation>Compara un fitxer o carpeta amb el que en faria un pedaç</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -159,7 +159,7 @@
     <message>
         <location line="-4"/>
         <source>Start a comparison against a blank pane</source>
-        <translation type="unfinished"></translation>
+        <translation>Inicia una comparació amb una subfinestra buida</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -174,24 +174,26 @@
     <message>
         <location line="+1"/>
         <source>patch</source>
-        <translation type="unfinished"></translation>
+        <translation>pedaç</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare with a patch applied</source>
-        <translation type="unfinished"></translation>
+        <translation>Compara amb un pedaç aplicat</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Usage:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ús:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>
 For file comparisons, the special argument @blank may be used instead of
 a &lt;file&gt; argument to create a blank pane.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+Per a les comparacions de fitxers, es pot utilitzar l&apos;argument especial @blank en lloc
+d&apos;un argument &lt;fitxer&gt; per a crear una subfinestra buida.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -201,30 +203,30 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+1"/>
         <source>Options:</source>
-        <translation type="unfinished"></translation>
+        <translation>Opcions:</translation>
     </message>
     <message>
         <location line="+42"/>
         <location line="+9"/>
         <source>no such option: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>no existeix l&apos;opció: %1</translation>
     </message>
     <message>
         <location line="-8"/>
         <source>ambiguous option: %1 (%2?)</source>
-        <translation type="unfinished"></translation>
+        <translation>opció ambigua: %1 (%2?)</translation>
     </message>
     <message>
         <location line="+16"/>
         <location line="+59"/>
         <location line="+16"/>
         <source>%1 option requires an argument</source>
-        <translation type="unfinished"></translation>
+        <translation>l&apos;opció %1 requereix un argument</translation>
     </message>
     <message>
         <location line="-73"/>
         <source>%1 option does not take a value</source>
-        <translation type="unfinished"></translation>
+        <translation>l&apos;opció %1 no admet cap valor</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -234,17 +236,17 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+53"/>
         <source>--patch needs one file or folder to apply the patch to (got %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>--patch necessita un fitxer o carpeta on aplicar el pedaç (se n&apos;han rebut %1)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>can’t auto-merge with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>no es pot fusionar automàticament amb un pedaç</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>can’t load a comparison file with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>no es pot carregar un fitxer de comparació amb un pedaç</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -281,14 +283,14 @@ a &lt;file&gt; argument to create a blank pane.</source>
 %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/preferences.cpp" line="+104"/>
+        <location filename="../src/ui/preferences.cpp" line="+108"/>
         <source>Select a Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleccioneu un estil</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Select</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecciona</translation>
     </message>
     <message>
         <location filename="../src/ui/recent.cpp" line="+76"/>
@@ -302,7 +304,8 @@ a &lt;file&gt; argument to create a blank pane.</source>
         <location filename="../src/ui/singleinstance.cpp" line="+50"/>
         <source>Meld Qt couldn’t open the comparison: a different version of Meld Qt is running.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>El Meld Qt no ha pogut obrir la comparació: s&apos;està executant una altra versió del Meld Qt.
+</translation>
     </message>
 </context>
 <context>
@@ -339,12 +342,12 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location filename="../src/ui/actiongutter.cpp" line="+346"/>
         <source>Copy Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Copia amunt</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Copy Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Copia avall</translation>
     </message>
 </context>
 <context>
@@ -358,7 +361,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+8"/>
         <source>Changed Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Fitxers modificats</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -391,35 +394,35 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+10"/>
         <source>The conflict markers in “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>No es poden llegir les marques de conflicte de «%1».</translation>
     </message>
     <message numerus="yes">
         <location line="+17"/>
         <source>%n unresolved conflicts</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n conflicte sense resoldre</numerusform>
+            <numerusform>%n conflictes sense resoldre</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts show the common ancestor’s text, which the local and remote versions changed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Els conflictes mostren el text de l&apos;avantpassat comú, que les versions local i remota han modificat.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts are empty, to be filled from the local and remote versions.</source>
-        <translation type="unfinished"></translation>
+        <translation>Els conflictes són buits, per a omplir-los a partir de les versions local i remota.</translation>
     </message>
     <message>
         <location line="+42"/>
         <source>local</source>
-        <translation type="unfinished"></translation>
+        <translation>local</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>remote</source>
-        <translation type="unfinished"></translation>
+        <translation>remot</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -437,7 +440,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location filename="../src/ui/dirdiff.cpp" line="+281"/>
         <source>Select Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleccioneu una carpeta</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -447,12 +450,12 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+16"/>
         <source>Folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Carpeta %1</translation>
     </message>
     <message>
         <location line="+81"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Cerca</translation>
     </message>
     <message>
         <location line="+88"/>
@@ -472,12 +475,12 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+1"/>
         <source>Ignore Filename Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignora les majúscules i minúscules dels noms de fitxer</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Normalize Unicode Paths</source>
-        <translation type="unfinished"></translation>
+        <translation>Normalitza els camins Unicode</translation>
     </message>
     <message>
         <location line="+239"/>
@@ -487,7 +490,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+54"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>No es pot llegir el pedaç «%1».</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -498,22 +501,22 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+36"/>
         <source>%1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: %2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Permission denied</source>
-        <translation type="unfinished"></translation>
+        <translation>S&apos;ha denegat el permís</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>: Dangling symlink</source>
-        <translation type="unfinished"></translation>
+        <translation>: Enllaç simbòlic penjant</translation>
     </message>
     <message>
         <location line="+99"/>
         <source>Done</source>
-        <translation type="unfinished"></translation>
+        <translation>Fet</translation>
     </message>
     <message>
         <location line="+162"/>
@@ -553,7 +556,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+13"/>
         <source>Folder %1 is being compared to itself</source>
-        <translation type="unfinished"></translation>
+        <translation>S&apos;està comparant la carpeta %1 amb ella mateixa</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -583,12 +586,12 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+2"/>
         <source>Files had mismatched leading or trailing whitespace</source>
-        <translation type="unfinished"></translation>
+        <translation>Els fitxers tenien espais inicials o finals que no coincidien</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>This comparison found some files that differed only in leading or trailing whitespace. Their names appear as:</source>
-        <translation type="unfinished"></translation>
+        <translation>Aquesta comparació ha trobat fitxers que només es diferencien en els espais inicials o finals. Els seus noms són:</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -603,37 +606,37 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+15"/>
         <source>Folder comparison:</source>
-        <translation type="unfinished"></translation>
+        <translation>Comparació de carpetes:</translation>
     </message>
     <message>
         <location line="+377"/>
         <source>&amp;Compare Selected Files</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Compara els fitxers seleccionats</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Mark Selected File</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Marca el fitxer seleccionat</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare &amp;with Marked File</source>
-        <translation type="unfinished"></translation>
+        <translation>Compara &amp;amb el fitxer marcat</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Copy to &amp;Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Copia a l&apos;&amp;esquerra</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy to &amp;Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Copia a la &amp;dreta</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&amp;Delete Selected</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Suprimeix els seleccionats</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -658,7 +661,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+164"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>No s&apos;ha pogut crear la carpeta %1</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -702,7 +705,7 @@ a %2.
     <message>
         <location line="+24"/>
         <source>Error deleting %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Error en suprimir %1</translation>
     </message>
 </context>
 <context>
@@ -735,7 +738,7 @@ a %2.
     <message>
         <location line="+144"/>
         <source>empty folder</source>
-        <translation type="unfinished"></translation>
+        <translation>carpeta buida</translation>
     </message>
 </context>
 <context>
@@ -793,17 +796,17 @@ a %2.
     <message>
         <location line="+1"/>
         <source>Move Synchronization Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Mou el punt de sincronització</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Match Synchronization Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Fes coincidir el punt de sincronització</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Remove Synchronization Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Elimina el punt de sincronització</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -823,27 +826,27 @@ a %2.
     <message>
         <location line="+21"/>
         <source>Can&apos;t swap unsaved files</source>
-        <translation type="unfinished"></translation>
+        <translation>No es poden intercanviar fitxers sense desar</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Files must be saved to disk before swapping panes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cal desar els fitxers al disc abans d&apos;intercanviar les subfinestres.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Can&apos;t swap version control comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>No es poden intercanviar comparacions de control de versions</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Swapping panes is not supported in version control mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>En el mode de control de versions no es poden intercanviar les subfinestres.</translation>
     </message>
     <message>
         <location line="+89"/>
         <source>File comparison:</source>
-        <translation type="unfinished"></translation>
+        <translation>Comparació de fitxers:</translation>
     </message>
     <message>
         <location line="+116"/>
@@ -853,37 +856,39 @@ a %2.
     <message>
         <location line="+13"/>
         <source>There was a problem opening “%1”.</source>
-        <translation type="unfinished"></translation>
+        <translation>S&apos;ha produït un problema en obrir «%1».</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The file could not be decoded using the candidate encodings.</source>
-        <translation type="unfinished"></translation>
+        <translation>No s&apos;ha pogut descodificar el fitxer amb les codificacions candidates.</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Line %1 exceeded maximum line length (%2 &gt; %3).
 
 Loading files with very long lines may make Meld Qt slow or unresponsive.</source>
-        <translation type="unfinished"></translation>
+        <translation>La línia %1 ha superat la longitud màxima de línia (%2 &gt; %3).
+
+Carregar fitxers amb línies molt llargues pot fer que el Meld Qt vagi lent o deixi de respondre.</translation>
     </message>
     <message numerus="yes">
         <location line="+39"/>
         <source>%1 has %n unresolved merge conflicts.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 té %n conflicte de fusió sense resoldre.</numerusform>
+            <numerusform>%1 té %n conflictes de fusió sense resoldre.</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The local and remote versions can be merged in a 3-way comparison.</source>
-        <translation type="unfinished"></translation>
+        <translation>Les versions local i remota es poden fusionar en una comparació de tres vies.</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Resolve</source>
-        <translation type="unfinished"></translation>
+        <translation>Resol</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -903,12 +908,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+64"/>
         <source>Computing differences</source>
-        <translation type="unfinished"></translation>
+        <translation>S&apos;estan calculant les diferències</translation>
     </message>
     <message>
         <location line="+117"/>
         <source>File %1 is being compared to itself</source>
-        <translation type="unfinished"></translation>
+        <translation>El fitxer %1 s&apos;està comparant amb ell mateix</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -972,7 +977,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+20"/>
         <source>&amp;Load anyway</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Carrega igualment</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -992,15 +997,15 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message numerus="yes">
         <location line="+41"/>
         <source>%n conflicts aren’t resolved</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n conflicte no està resolt</numerusform>
+            <numerusform>%n conflictes no estan resolts</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>If you save the merge now, the conflicts are saved as they are here, without conflict markers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si deseu la fusió ara, els conflictes es desaran tal com són aquí, sense marques de conflicte.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1033,7 +1038,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="-18"/>
         <source>File “%1” contains characters that can’t be encoded using its current encoding “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>El fitxer «%1» conté caràcters que no es poden codificar amb la codificació actual «%2».</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1089,7 +1094,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+6"/>
         <source>Open documents contain unsaved changes. Changes which are not saved will be permanently lost.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hi ha documents oberts amb canvis sense desar. Els canvis que no es desin es perdran permanentment.</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1130,7 +1135,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+15"/>
         <source>Select File</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleccioneu un fitxer</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1140,7 +1145,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+6"/>
         <source>File %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Fitxer %1</translation>
     </message>
     <message>
         <location line="+128"/>
@@ -1221,12 +1226,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+13"/>
         <source>Previous Result</source>
-        <translation type="unfinished"></translation>
+        <translation>Resultat anterior</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Next Result</source>
-        <translation type="unfinished"></translation>
+        <translation>Resultat següent</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1291,12 +1296,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+19"/>
         <source>Visual diff and merge tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Eina visual de comparació i fusió</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Built with Qt %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Construït amb Qt %1</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1312,7 +1317,7 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+3"/>
         <source>Translated by</source>
-        <translation type="unfinished"></translation>
+        <translation>Traduït per</translation>
     </message>
 </context>
 <context>
@@ -1320,12 +1325,12 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location filename="../src/ui/settings.cpp" line="+31"/>
         <source>Backups</source>
-        <translation type="unfinished"></translation>
+        <translation>Còpies de seguretat</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>OS-Specific Metadata</source>
-        <translation type="unfinished"></translation>
+        <translation>Metadades específiques del SO</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1335,47 +1340,47 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+2"/>
         <source>Binaries</source>
-        <translation type="unfinished"></translation>
+        <translation>Binaris</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Media</source>
-        <translation type="unfinished"></translation>
+        <translation>Multimèdia</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>CVS/SVN Keywords</source>
-        <translation type="unfinished"></translation>
+        <translation>Paraules clau de CVS/SVN</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>C++ Comment</source>
-        <translation type="unfinished"></translation>
+        <translation>Comentari de C++</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>C Comment</source>
-        <translation type="unfinished"></translation>
+        <translation>Comentari de C</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>All Whitespace</source>
-        <translation type="unfinished"></translation>
+        <translation>Tots els espais en blanc</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Leading Whitespace</source>
-        <translation type="unfinished"></translation>
+        <translation>Espais en blanc inicials</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Trailing Whitespace</source>
-        <translation type="unfinished"></translation>
+        <translation>Espais en blanc finals</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Script Comment</source>
-        <translation type="unfinished"></translation>
+        <translation>Comentari de script</translation>
     </message>
 </context>
 <context>
@@ -1391,12 +1396,12 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="-383"/>
         <source>Header bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Barra de capçalera</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>New Comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Comparació nova</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1406,12 +1411,12 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+1"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Tanca</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>&amp;Stop</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Atura</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1422,7 +1427,7 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="-894"/>
         <source>Quit</source>
-        <translation type="unfinished"></translation>
+        <translation>Surt</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1443,22 +1448,22 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="-959"/>
         <source>Previous Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Pestanya anterior</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Next Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Pestanya següent</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Move Tab Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Mou la pestanya a l&apos;esquerra</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Move Tab Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Mou la pestanya a la dreta</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -1468,7 +1473,7 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+11"/>
         <source>Previous Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Canvi anterior</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1478,7 +1483,7 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+1"/>
         <source>Next Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Canvi següent</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1488,7 +1493,7 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+4"/>
         <source>Previous Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>Conflicte anterior</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1498,7 +1503,7 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+1"/>
         <source>Next Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>Conflicte següent</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1508,7 +1513,7 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+7"/>
         <source>Push to Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Mou a l&apos;esquerra</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1518,7 +1523,7 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+1"/>
         <source>Push to Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Mou a la dreta</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1553,7 +1558,7 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+6"/>
         <source>Delete Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Suprimeix el canvi</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1565,7 +1570,7 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="-864"/>
         <source>Copy to Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Copia a l&apos;esquerra</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1576,7 +1581,7 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="-859"/>
         <source>Copy to Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Copia a la dreta</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1613,7 +1618,7 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
         <location line="+22"/>
         <location line="+6"/>
         <source>Main Menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Menú principal</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -1628,7 +1633,7 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+1"/>
         <source>Revert Files…</source>
-        <translation type="unfinished"></translation>
+        <translation>Reverteix els fitxers…</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1638,7 +1643,7 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+2"/>
         <source>Refresh Comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Actualitza la comparació</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1653,7 +1658,7 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+3"/>
         <source>&amp;View</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Visualitza</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1663,72 +1668,72 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+1"/>
         <source>Version Control Console</source>
-        <translation type="unfinished"></translation>
+        <translation>Consola del control de versions</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Lock Scrolling</source>
-        <translation type="unfinished"></translation>
+        <translation>Bloqueja el desplaçament</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Zoom In</source>
-        <translation type="unfinished"></translation>
+        <translation>Amplia</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Zoom Out</source>
-        <translation type="unfinished"></translation>
+        <translation>Redueix</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reset Zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Restableix el zoom</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Swap Panes</source>
-        <translation type="unfinished"></translation>
+        <translation>Intercanvia les subfinestres</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Comparació</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Merge All from &amp;Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Fusiona-ho tot des de l&apos;&amp;esquerra</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Merge All from &amp;Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Fusiona-ho tot des de la &amp;dreta</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Merge &amp;All</source>
-        <translation type="unfinished"></translation>
+        <translation>Fusiona-ho &amp;tot</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Format as &amp;Patch…</source>
-        <translation type="unfinished"></translation>
+        <translation>Formata com a &amp;pedaç…</translation>
     </message>
     <message>
         <location line="+17"/>
         <source>No recent comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>No hi ha comparacions recents</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Clear Recent Comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>Neteja les comparacions recents</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>File Status</source>
-        <translation type="unfinished"></translation>
+        <translation>Estat del fitxer</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1739,14 +1744,14 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
         <location line="+65"/>
         <location line="+17"/>
         <source>%1 - Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 - Meld Qt</translation>
     </message>
     <message>
         <location line="+26"/>
         <location line="+146"/>
         <location line="+16"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>No s&apos;ha pogut obrir la comparació</translation>
     </message>
     <message>
         <location line="+43"/>
@@ -1761,7 +1766,7 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+11"/>
         <source>Select what to compare, and the patch to apply to it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleccioneu què cal comparar i el pedaç que s&apos;hi ha d&apos;aplicar.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1769,12 +1774,14 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
         <source>The patch “%1” can’t be read.
 
 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>No es pot llegir el pedaç «%1».
+
+%2</translation>
     </message>
     <message>
         <location line="+66"/>
         <source>Opening archive “%1”…</source>
-        <translation type="unfinished"></translation>
+        <translation>S&apos;està obrint l&apos;arxiu «%1»…</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1784,23 +1791,23 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+2"/>
         <source>Opening Archive</source>
-        <translation type="unfinished"></translation>
+        <translation>S&apos;està obrint l&apos;arxiu</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Couldn’t open archive %1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>No s&apos;ha pogut obrir l&apos;arxiu %1: %2</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Failed to open archive</source>
-        <translation type="unfinished"></translation>
+        <translation>No s&apos;ha pogut obrir l&apos;arxiu</translation>
     </message>
     <message>
         <location line="+26"/>
         <location line="+38"/>
         <source>Cannot compare a non-existent file</source>
-        <translation type="unfinished"></translation>
+        <translation>No es pot comparar un fitxer que no existeix</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -1810,12 +1817,12 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+28"/>
         <source>The patch “%1” doesn’t exist</source>
-        <translation type="unfinished"></translation>
+        <translation>El pedaç «%1» no existeix</translation>
     </message>
     <message>
         <location line="+65"/>
         <source>Windows and Tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>Finestres i pestanyes</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1840,22 +1847,22 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+2"/>
         <source>Show preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostra les preferències</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Keyboard shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Dreceres de teclat</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Open menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Obre el menú</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Common Actions</source>
-        <translation type="unfinished"></translation>
+        <translation>Accions comunes</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1870,7 +1877,7 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+1"/>
         <source>Open externally</source>
-        <translation type="unfinished"></translation>
+        <translation>Obre externament</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1890,7 +1897,7 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+1"/>
         <source>Swap left and right panes</source>
-        <translation type="unfinished"></translation>
+        <translation>Intercanvia les subfinestres esquerra i dreta</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1990,7 +1997,7 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+1"/>
         <source>Go to line</source>
-        <translation type="unfinished"></translation>
+        <translation>Vés a la línia</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2070,17 +2077,17 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+1"/>
         <source>Zoom in</source>
-        <translation type="unfinished"></translation>
+        <translation>Amplia</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Zoom out</source>
-        <translation type="unfinished"></translation>
+        <translation>Redueix</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reset zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Restableix el zoom</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2090,12 +2097,12 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+5"/>
         <source>Expand the current folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Desplega la carpeta actual</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Collapse the current folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Replega la carpeta actual</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2153,22 +2160,22 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+7"/>
         <source>Compare with a &amp;patch</source>
-        <translation type="unfinished"></translation>
+        <translation>Compara amb un &amp;pedaç</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the folder with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>Compara la carpeta amb com la canviaria un pedaç</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the file with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>Compara el fitxer amb com el canviaria un pedaç</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Select Patch File</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleccioneu un fitxer de pedaç</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2203,7 +2210,7 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+5"/>
         <source>Select Version-controlled Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleccioneu una carpeta amb control de versions</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -2218,12 +2225,12 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+70"/>
         <source>Patches (*.patch *.diff)</source>
-        <translation type="unfinished"></translation>
+        <translation>Pedaços (*.patch *.diff)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>All files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>Tots els fitxers (*)</translation>
     </message>
 </context>
 <context>
@@ -2232,27 +2239,27 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
         <location filename="../src/ui/patchcomparison.cpp" line="+24"/>
         <location line="+41"/>
         <source>The patch “%1” can’t be applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>El pedaç «%1» no es pot aplicar a «%2».</translation>
     </message>
     <message>
         <location line="-34"/>
         <source>The patch deletes this file.</source>
-        <translation type="unfinished"></translation>
+        <translation>El pedaç suprimeix aquest fitxer.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The patch “%1” was applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>El pedaç «%1» s&apos;ha aplicat a «%2».</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>%1 with %2 applied</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 amb %2 aplicat</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>No es pot llegir el pedaç «%1».</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2324,7 +2331,7 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+1"/>
         <source>Copy the full path</source>
-        <translation type="unfinished"></translation>
+        <translation>Copia el camí complet</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2334,7 +2341,7 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+1"/>
         <source>View the folder in file manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Visualitza la carpeta al gestor de fitxers</translation>
     </message>
 </context>
 <context>
@@ -2352,7 +2359,7 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+1"/>
         <source>Folder Comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Comparació de carpetes</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2362,37 +2369,52 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+1"/>
         <source>Filters</source>
-        <translation type="unfinished"></translation>
+        <translation>Filtres</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>Aparença</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Follow System Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Segueix l&apos;estil del sistema</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Light</source>
-        <translation type="unfinished"></translation>
+        <translation>Clar</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Dark</source>
-        <translation type="unfinished"></translation>
+        <translation>Fosc</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Interface Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Estil de la interfície</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>System Language</source>
+        <translation>Llengua del sistema</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Language</source>
+        <translation>Llengua</translation>
     </message>
     <message>
         <location line="+3"/>
+        <source>The language will change when Meld Qt is next started.</source>
+        <translation>La llengua canviarà la pròxima vegada que s&apos;iniciï el Meld Qt.</translation>
+    </message>
+    <message>
+        <location line="+14"/>
         <source>Use Custom Font</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilitza un tipus de lletra personalitzat</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -2402,12 +2424,12 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+12"/>
         <source>Use Syntax Highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilitza el ressaltat de sintaxi</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Color Scheme</source>
-        <translation type="unfinished"></translation>
+        <translation>Esquema de colors</translation>
     </message>
     <message>
         <location line="+33"/>
@@ -2417,32 +2439,32 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+3"/>
         <source>Never</source>
-        <translation type="unfinished"></translation>
+        <translation>Mai</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>At Any Character</source>
-        <translation type="unfinished"></translation>
+        <translation>A qualsevol caràcter</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>At Word Boundaries</source>
-        <translation type="unfinished"></translation>
+        <translation>Als límits de les paraules</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Wrap Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Ajusta el text</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Highlight Current Line</source>
-        <translation type="unfinished"></translation>
+        <translation>Ressalta la línia actual</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show Line Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostra els números de línia</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2452,7 +2474,7 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+4"/>
         <source>Indentation</source>
-        <translation type="unfinished"></translation>
+        <translation>Sagnat</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2462,17 +2484,17 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+1"/>
         <source>Spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>Espais</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Tab character</source>
-        <translation type="unfinished"></translation>
+        <translation>Caràcter de tabulació</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Indentation Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Mida del &amp;sagnat</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2492,37 +2514,37 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+1"/>
         <source>Use custom text editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilitza un editor de text personalitzat</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Custom Editor Command</source>
-        <translation type="unfinished"></translation>
+        <translation>Ordre de l&apos;editor personalitzat</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use {file} and {line} to refer to the file and line being opened</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilitzeu {file} i {line} per a referir-vos al fitxer i a la línia que s&apos;obren</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Application</source>
-        <translation type="unfinished"></translation>
+        <translation>Aplicació</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in the running Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>Obre les comparacions al Meld Qt en execució</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Comparisons opened from the command line or other programs open in a new window of a Meld Qt that&apos;s already running, instead of starting another Meld Qt. This applies to Meld Qt started after the change.</source>
-        <translation type="unfinished"></translation>
+        <translation>Les comparacions obertes des de la línia d&apos;ordres o des d&apos;altres programes s&apos;obren en una finestra nova d&apos;un Meld Qt que ja s&apos;està executant, en lloc d&apos;iniciar-ne un altre. Això s&apos;aplica als Meld Qt iniciats després del canvi.</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Comparison Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Opcions de comparació</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2552,12 +2574,12 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+0"/>
         <source>Ignore timestamp</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignora la marca de temps</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Timestamp resolution</source>
-        <translation type="unfinished"></translation>
+        <translation>Resolució de la marca de temps</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2612,7 +2634,7 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+5"/>
         <source>Order when comparing file revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>Ordre en comparar revisions de fitxers</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2627,32 +2649,32 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+5"/>
         <source>Order when merging files</source>
-        <translation type="unfinished"></translation>
+        <translation>Ordre en fusionar fitxers</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Show the common ancestor in conflicts from conflict markers</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostra l&apos;avantpassat comú als conflictes de les marques de conflicte</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Merges of files with diff3-style conflict markers start with the common ancestor’s text in conflicts, rather than nothing</source>
-        <translation type="unfinished"></translation>
+        <translation>Les fusions de fitxers amb marques de conflicte d&apos;estil diff3 comencen amb el text de l&apos;avantpassat comú als conflictes, en lloc de no res</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Commit Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Missatge de publicació</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show right margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostra el marge dret</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Margin position</source>
-        <translation type="unfinished"></translation>
+        <translation>Posició del marge</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2687,7 +2709,7 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+1"/>
         <source>When performing file comparisons, you may ignore certain types of changes. Each pattern here is a python regular expression which replaces matching text with the empty string before comparison is performed. If the expression contains groups, only the groups are replaced.</source>
-        <translation type="unfinished"></translation>
+        <translation>En fer comparacions de fitxers, podeu ignorar certs tipus de canvis. Cada patró aquí és una expressió regular de Python que reemplaça el text coincident per una cadena buida abans de fer la comparació. Si l&apos;expressió conté grups, només es reemplacen els grups.</translation>
     </message>
 </context>
 <context>
@@ -2751,7 +2773,7 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="-206"/>
         <source>Flatten Folders</source>
-        <translation type="unfinished"></translation>
+        <translation>Aplana les carpetes</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2802,27 +2824,27 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+18"/>
         <source>%1 — %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 — %2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>The file isn’t in %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>El fitxer no és a %1.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 (%2, %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2, %3)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (working, %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (còpia de treball, %2)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (%2, working)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2, còpia de treball)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -2862,17 +2884,17 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+25"/>
         <source>working copy</source>
-        <translation type="unfinished"></translation>
+        <translation>còpia de treball</translation>
     </message>
     <message>
         <location line="+67"/>
         <source>Version Control Console</source>
-        <translation type="unfinished"></translation>
+        <translation>Consola del control de versions</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Neteja</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2889,7 +2911,7 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
         <location line="+1"/>
         <location line="+1"/>
         <source>Next Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Canvi següent</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2900,7 +2922,7 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
         <location line="+1"/>
         <location line="+1"/>
         <source>Previous Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Canvi anterior</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2922,12 +2944,12 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
         <location line="+2"/>
         <location line="+758"/>
         <source>&amp;Unstage</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Treu de l&apos;índex</translation>
     </message>
     <message>
         <location line="-758"/>
         <source>Remove staged changes</source>
-        <translation type="unfinished"></translation>
+        <translation>Treu els canvis de l&apos;índex</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2948,7 +2970,7 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="-754"/>
         <source>Push</source>
-        <translation type="unfinished"></translation>
+        <translation>Envia</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2992,7 +3014,7 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+1"/>
         <source>Pull</source>
-        <translation type="unfinished"></translation>
+        <translation>Rep</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -3002,7 +3024,7 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+49"/>
         <source>Select Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleccioneu una carpeta</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3012,47 +3034,47 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+8"/>
         <source>Unknown folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Carpeta desconeguda</translation>
     </message>
     <message>
         <location line="+30"/>
         <source>The commit, tag or tree that changes are compared with</source>
-        <translation type="unfinished"></translation>
+        <translation>La publicació, etiqueta o arbre amb què es comparen els canvis</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The working copy, or a commit, tag or tree, whose changes are shown</source>
-        <translation type="unfinished"></translation>
+        <translation>La còpia de treball, o una publicació, etiqueta o arbre, els canvis del qual es mostren</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Swap</source>
-        <translation type="unfinished"></translation>
+        <translation>Intercanvia</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Swap the revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>Intercanvia les revisions</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Restableix</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the working copy with the current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>Compara la còpia de treball amb la publicació actual</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Changes from</source>
-        <translation type="unfinished"></translation>
+        <translation>Canvis des de</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>to</source>
-        <translation type="unfinished"></translation>
+        <translation>a</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -3062,28 +3084,28 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+28"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Cerca</translation>
     </message>
     <message>
         <location line="+102"/>
         <source>The files as they are now, which can be changed</source>
-        <translation type="unfinished"></translation>
+        <translation>Els fitxers tal com són ara, que es poden modificar</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>Unknown revision</source>
-        <translation type="unfinished"></translation>
+        <translation>Revisió desconeguda</translation>
     </message>
     <message>
         <location line="+65"/>
         <source>%1 comparison:</source>
         <extracomment>This is the name of the version control system being used, e.g., &quot;Git&quot; or &quot;Subversion&quot;</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Comparació %1:</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>%1 → %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 → %2</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3103,7 +3125,7 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+20"/>
         <source>No such file or directory</source>
-        <translation type="unfinished"></translation>
+        <translation>No existeix el fitxer o directori</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -3118,13 +3140,14 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <message>
         <location line="+157"/>
         <source>Error running command</source>
-        <translation type="unfinished"></translation>
+        <translation>S&apos;ha produït un error en executar l&apos;ordre</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>While running &apos;%1&apos;
 Error: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>En executar «%1»
+Error: %2</translation>
     </message>
     <message>
         <location line="+58"/>
@@ -3167,12 +3190,12 @@ Error: %2</source>
     <message>
         <location line="+22"/>
         <source>Error deleting %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Error en suprimir %1</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>No s&apos;ha pogut obrir la comparació</translation>
     </message>
 </context>
 <context>
@@ -3180,12 +3203,12 @@ Error: %2</source>
     <message>
         <location filename="../src/core/conflictmarkers.cpp" line="+134"/>
         <source>Line %1: a conflict starts inside the conflict that starts at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Línia %1: un conflicte comença dins del conflicte que comença a la línia %2.</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>The conflict that starts at line %1 doesn’t end.</source>
-        <translation type="unfinished"></translation>
+        <translation>El conflicte que comença a la línia %1 no acaba.</translation>
     </message>
 </context>
 <context>
@@ -3193,135 +3216,135 @@ Error: %2</source>
     <message>
         <location filename="../src/core/patch.cpp" line="+176"/>
         <source>Line %1 of the patch: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Línia %1 del pedaç: %2</translation>
     </message>
     <message>
         <location line="+96"/>
         <source>malformed hunk header</source>
-        <translation type="unfinished"></translation>
+        <translation>capçalera de tros mal formada</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>unexpected line in a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>línia inesperada en un tros</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>the hunk has more lines than its header says</source>
-        <translation type="unfinished"></translation>
+        <translation>el tros té més línies de les que indica la capçalera</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>the patch ends in the middle of a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>el pedaç acaba enmig d&apos;un tros</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Only unified diffs can be applied; this is a context diff.</source>
-        <translation type="unfinished"></translation>
+        <translation>Només es poden aplicar diffs unificats; aquest és un diff de context.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>No changes were found in the patch.</source>
-        <translation type="unfinished"></translation>
+        <translation>No s&apos;ha trobat cap canvi al pedaç.</translation>
     </message>
     <message>
         <location line="+122"/>
         <source>Hunk #%1 doesn’t match the file at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>El tros núm. %1 no coincideix amb el fitxer a la línia %2.</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>Hunk #%1 applied at line %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Tros núm. %1 aplicat a la línia %2</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source> (offset %n lines)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform> (desplaçament de %n línia)</numerusform>
+            <numerusform> (desplaçament de %n línies)</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source> with fuzz %1</source>
-        <translation type="unfinished"></translation>
+        <translation> amb imprecisió %1</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+186"/>
         <source>Binary changes can’t be applied.</source>
-        <translation type="unfinished"></translation>
+        <translation>Els canvis binaris no es poden aplicar.</translation>
     </message>
     <message>
         <location line="-174"/>
         <source>The patch creates this file, which is already as it would create it.</source>
-        <translation type="unfinished"></translation>
+        <translation>El pedaç crea aquest fitxer, que ja és tal com el crearia.</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+190"/>
         <source>The patch creates this file, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>El pedaç crea aquest fitxer, però ja existeix.</translation>
     </message>
     <message>
         <location line="-178"/>
         <source>The patch seems to be applied already: its changes are in the file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sembla que el pedaç ja s&apos;ha aplicat: els seus canvis són al fitxer.</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source>%1 of %n hunks can’t be applied.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 de %n tros no es pot aplicar.</numerusform>
+            <numerusform>%1 de %n trossos no es poden aplicar.</numerusform>
         </translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch deletes this file, but it has other contents than the patch removes.</source>
-        <translation type="unfinished"></translation>
+        <translation>El pedaç suprimeix aquest fitxer, però té un contingut diferent del que el pedaç elimina.</translation>
     </message>
     <message>
         <location line="+75"/>
         <source>The patch changes several files called %1:</source>
-        <translation type="unfinished"></translation>
+        <translation>El pedaç modifica diversos fitxers anomenats %1:</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The patch doesn’t change %1. It changes:</source>
-        <translation type="unfinished"></translation>
+        <translation>El pedaç no modifica %1. Modifica:</translation>
     </message>
     <message>
         <location line="+73"/>
         <source>The patch changes %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>El pedaç modifica %1, que no és a la carpeta.</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The patch deletes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>El pedaç suprimeix aquest fitxer, però no és a la carpeta.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch makes this file from %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>El pedaç crea aquest fitxer a partir de %1, que no és a la carpeta.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>The patch makes this file from %1, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>El pedaç crea aquest fitxer a partir de %1, però ja existeix.</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>The patch changes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>El pedaç modifica aquest fitxer, però no és a la carpeta.</translation>
     </message>
     <message>
         <location line="+106"/>
         <source>The file isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>El fitxer no és a la carpeta.</translation>
     </message>
 </context>
 <context>
@@ -3340,12 +3363,12 @@ Error: %2</source>
         <location line="+2"/>
         <location line="+0"/>
         <source>Delete Permanently?</source>
-        <translation type="unfinished"></translation>
+        <translation>Voleu suprimir-ho permanentment?</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>“%1” can’t be put in the trash. Do you want to delete it permanently?</source>
-        <translation type="unfinished"></translation>
+        <translation>No es pot moure «%1» a la paperera. Voleu suprimir-lo permanentment?</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3465,22 +3488,22 @@ Error: %2</source>
     <message>
         <location line="+98"/>
         <source>The current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>La publicació actual</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>“%1” isn’t a commit, tag or tree in this repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>«%1» no és una publicació, etiqueta o arbre d&apos;aquest dipòsit.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 isn’t in the repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 no és al dipòsit.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>%1 isn’t in %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 no és a %2.</translation>
     </message>
     <message>
         <location line="+84"/>

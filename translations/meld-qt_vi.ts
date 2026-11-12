@@ -6,22 +6,22 @@
     <message>
         <location filename="../src/core/archive.cpp" line="+381"/>
         <source>Couldn’t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Không thể tạo thư mục %1</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>No installed program can extract this archive. Install bsdtar (from libarchive) or 7-Zip.</source>
-        <translation type="unfinished"></translation>
+        <translation>Không có chương trình nào đã cài đặt có thể giải nén kho lưu này. Hãy cài đặt bsdtar (từ libarchive) hoặc 7-Zip.</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>%1 crashed</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 bị sụp đổ</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>%1 failed with status %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 thất bại với trạng thái %2</translation>
     </message>
 </context>
 <context>
@@ -29,57 +29,57 @@
     <message>
         <location filename="../src/ui/dirdiff.cpp" line="+88"/>
         <source>Couldn&apos;t create link %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Không thể tạo liên kết %1</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Not a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Không phải tập tin</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Couldn&apos;t replace %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Không thể thay thế %1</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Không thể tạo thư mục %1</translation>
     </message>
     <message>
         <location filename="../src/ui/externalhelpers.cpp" line="+58"/>
         <source>Unsupported file type</source>
-        <translation type="unfinished"></translation>
+        <translation>Kiểu tập tin không được hỗ trợ</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>External opening of files of type “%1” is not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Không hỗ trợ mở tập tin kiểu “%1” bằng ứng dụng bên ngoài</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>không rõ</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Failed to launch custom editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Không thể chạy trình soạn thảo tùy chỉnh</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Couldn&apos;t run “%1”</source>
-        <translation type="unfinished"></translation>
+        <translation>Không thể chạy “%1”</translation>
     </message>
     <message>
         <location filename="../src/ui/meldapp.cpp" line="+37"/>
         <source>show program&apos;s version number and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>hiển thị số phiên bản của chương trình rồi thoát</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>show this help message and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>hiển thị trợ giúp này rồi thoát</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -89,17 +89,17 @@
     <message>
         <location line="+3"/>
         <source>Open a new tab in an already running instance</source>
-        <translation type="unfinished"></translation>
+        <translation>Mở một thẻ mới trong phiên bản đang chạy</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in an already running instance (single-instance mode)</source>
-        <translation type="unfinished"></translation>
+        <translation>Mở các phép so sánh trong một phiên bản đang chạy (chế độ một phiên bản)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in a new instance, even in single-instance mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Mở các phép so sánh trong một phiên bản mới, kể cả ở chế độ một phiên bản</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -120,22 +120,22 @@
     <message>
         <location line="+1"/>
         <source>Automatically merge files</source>
-        <translation type="unfinished"></translation>
+        <translation>Tự động hợp nhất các tập tin</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Load a saved comparison from a Meld Qt comparison file</source>
-        <translation type="unfinished"></translation>
+        <translation>Tải một phép so sánh đã lưu từ tập tin so sánh của Meld Qt</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Compare a file or folder with what a patch would make of it</source>
-        <translation type="unfinished"></translation>
+        <translation>So sánh một tập tin hoặc thư mục với kết quả mà một bản vá sẽ tạo ra</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Create a diff tab for the supplied files or folders</source>
-        <translation type="unfinished"></translation>
+        <translation>Tạo một thẻ so sánh cho các tập tin hoặc thư mục được cung cấp</translation>
     </message>
     <message>
         <location line="+56"/>
@@ -154,12 +154,12 @@
         <location line="+3"/>
         <location line="+2"/>
         <source>folder</source>
-        <translation type="unfinished"></translation>
+        <translation>thư mục</translation>
     </message>
     <message>
         <location line="-4"/>
         <source>Start a comparison against a blank pane</source>
-        <translation type="unfinished"></translation>
+        <translation>Bắt đầu so sánh với một khung trống</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -169,29 +169,31 @@
     <message>
         <location line="+2"/>
         <source>Start a 2- or 3-way folder comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Bắt đầu so sánh 2 hoặc 3 thư mục</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>patch</source>
-        <translation type="unfinished"></translation>
+        <translation>bản vá</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare with a patch applied</source>
-        <translation type="unfinished"></translation>
+        <translation>So sánh với bản vá đã áp dụng</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Usage:</source>
-        <translation type="unfinished"></translation>
+        <translation>Cách dùng:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>
 For file comparisons, the special argument @blank may be used instead of
 a &lt;file&gt; argument to create a blank pane.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+Khi so sánh tập tin, có thể dùng đối số đặc biệt @blank thay cho
+đối số &lt;tập tin&gt; để tạo một khung trống.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -201,30 +203,30 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+1"/>
         <source>Options:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tùy chọn:</translation>
     </message>
     <message>
         <location line="+42"/>
         <location line="+9"/>
         <source>no such option: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>không có tùy chọn: %1</translation>
     </message>
     <message>
         <location line="-8"/>
         <source>ambiguous option: %1 (%2?)</source>
-        <translation type="unfinished"></translation>
+        <translation>tùy chọn không rõ ràng: %1 (%2?)</translation>
     </message>
     <message>
         <location line="+16"/>
         <location line="+59"/>
         <location line="+16"/>
         <source>%1 option requires an argument</source>
-        <translation type="unfinished"></translation>
+        <translation>tùy chọn %1 cần một đối số</translation>
     </message>
     <message>
         <location line="-73"/>
         <source>%1 option does not take a value</source>
-        <translation type="unfinished"></translation>
+        <translation>tùy chọn %1 không nhận giá trị</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -234,64 +236,66 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+53"/>
         <source>--patch needs one file or folder to apply the patch to (got %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>--patch cần một tập tin hoặc thư mục để áp dụng bản vá (nhận được %1)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>can’t auto-merge with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>không thể tự động hợp nhất khi có bản vá</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>can’t load a comparison file with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>không thể tải tập tin so sánh khi có bản vá</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>too many arguments (wanted 0-3, got %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>quá nhiều đối số (cần 0-3, nhận được %1)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>can’t auto-merge less than 3 files</source>
-        <translation type="unfinished"></translation>
+        <translation>không thể tự động hợp nhất ít hơn 3 tập tin</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>can’t auto-merge directories</source>
-        <translation type="unfinished"></translation>
+        <translation>không thể tự động hợp nhất các thư mục</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Error: %1
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Lỗi: %1
+</translation>
     </message>
     <message>
         <location filename="../src/ui/patchdialog.cpp" line="+114"/>
         <source>Could not save file %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Không thể lưu tập tin %1.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Couldn’t save file due to:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Không thể lưu tập tin vì:
+%1</translation>
     </message>
     <message>
-        <location filename="../src/ui/preferences.cpp" line="+104"/>
+        <location filename="../src/ui/preferences.cpp" line="+108"/>
         <source>Select a Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Chọn kiểu dáng</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Select</source>
-        <translation type="unfinished"></translation>
+        <translation>Chọn</translation>
     </message>
     <message>
         <location filename="../src/ui/recent.cpp" line="+76"/>
         <source>Version control:</source>
-        <translation type="unfinished"></translation>
+        <translation>Quản lý phiên bản:</translation>
     </message>
 </context>
 <context>
@@ -300,7 +304,8 @@ a &lt;file&gt; argument to create a blank pane.</source>
         <location filename="../src/ui/singleinstance.cpp" line="+50"/>
         <source>Meld Qt couldn’t open the comparison: a different version of Meld Qt is running.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Meld Qt không thể mở phép so sánh: một phiên bản khác của Meld Qt đang chạy.
+</translation>
     </message>
 </context>
 <context>
@@ -313,17 +318,17 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location filename="../src/core/textfile.cpp" line="+26"/>
         <source>UNIX (LF)</source>
-        <translation type="unfinished"></translation>
+        <translation>UNIX (LF)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>DOS/Windows (CR-LF)</source>
-        <translation type="unfinished"></translation>
+        <translation>DOS/Windows (CR-LF)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Mac OS (CR)</source>
-        <translation type="unfinished"></translation>
+        <translation>Mac OS (CR)</translation>
     </message>
     <message>
         <location filename="../src/core/meldbuffer.cpp" line="+135"/>
@@ -337,12 +342,12 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location filename="../src/ui/actiongutter.cpp" line="+346"/>
         <source>Copy Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Chép lên</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Copy Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Chép xuống</translation>
     </message>
 </context>
 <context>
@@ -356,7 +361,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+8"/>
         <source>Changed Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Các tập tin đã thay đổi</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -366,12 +371,12 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+13"/>
         <source>Previous logs:</source>
-        <translation type="unfinished"></translation>
+        <translation>Các ghi chú trước:</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Hủy bỏ</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -384,49 +389,49 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location filename="../src/ui/conflictcomparison.cpp" line="+35"/>
         <source>There was a problem opening the file “%1”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Đã xảy ra lỗi khi mở tập tin “%1”.</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>The conflict markers in “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Không thể đọc các dấu xung đột trong “%1”.</translation>
     </message>
     <message numerus="yes">
         <location line="+17"/>
         <source>%n unresolved conflicts</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n xung đột chưa giải quyết</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts show the common ancestor’s text, which the local and remote versions changed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Các xung đột hiển thị văn bản của tổ tiên chung, mà phiên bản cục bộ và từ xa đã thay đổi.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts are empty, to be filled from the local and remote versions.</source>
-        <translation type="unfinished"></translation>
+        <translation>Các xung đột đang trống, cần được điền từ phiên bản cục bộ và từ xa.</translation>
     </message>
     <message>
         <location line="+42"/>
         <source>local</source>
-        <translation type="unfinished"></translation>
+        <translation>cục bộ</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>remote</source>
-        <translation type="unfinished"></translation>
+        <translation>từ xa</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>%1 (local, merge, remote)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (cục bộ, hợp nhất, từ xa)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>%1 (remote, merge, local)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (từ xa, hợp nhất, cục bộ)</translation>
     </message>
 </context>
 <context>
@@ -434,22 +439,22 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location filename="../src/ui/dirdiff.cpp" line="+281"/>
         <source>Select Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Chọn thư mục</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Select folder to open in this pane</source>
-        <translation type="unfinished"></translation>
+        <translation>Chọn thư mục để mở trong khung này</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Thư mục %1</translation>
     </message>
     <message>
         <location line="+81"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Tìm kiếm</translation>
     </message>
     <message>
         <location line="+88"/>
@@ -469,28 +474,28 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+1"/>
         <source>Ignore Filename Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Bỏ qua chữ hoa/thường trong tên tập tin</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Normalize Unicode Paths</source>
-        <translation type="unfinished"></translation>
+        <translation>Chuẩn hóa đường dẫn Unicode</translation>
     </message>
     <message>
         <location line="+239"/>
         <source>%1 (scanning…)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (đang quét…)</translation>
     </message>
     <message>
         <location line="+54"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Không thể đọc bản vá “%1”.</translation>
     </message>
     <message>
         <location line="+102"/>
         <location line="+28"/>
         <source>Scanning %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Đang quét %1</translation>
     </message>
     <message>
         <location line="+36"/>
@@ -500,42 +505,42 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+8"/>
         <source>Permission denied</source>
-        <translation type="unfinished"></translation>
+        <translation>Không đủ quyền</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>: Dangling symlink</source>
-        <translation type="unfinished"></translation>
+        <translation>: Liên kết mềm bị hỏng</translation>
     </message>
     <message>
         <location line="+99"/>
         <source>Done</source>
-        <translation type="unfinished"></translation>
+        <translation>Xong</translation>
     </message>
     <message>
         <location line="+162"/>
         <source>Folders have no differences</source>
-        <translation type="unfinished"></translation>
+        <translation>Các thư mục không có khác biệt</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Contents of scanned files in folders are identical.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nội dung các tập tin đã quét trong các thư mục là giống nhau.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Scanned files in folders appear identical, but contents have not been scanned.</source>
-        <translation type="unfinished"></translation>
+        <translation>Các tập tin đã quét trong các thư mục có vẻ giống nhau, nhưng nội dung chưa được quét.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>File filters are in use, so not all files have been scanned.</source>
-        <translation type="unfinished"></translation>
+        <translation>Đang dùng bộ lọc tập tin, vì thế không phải mọi tập tin đều đã được quét.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Text filters are in use and may be masking content differences.</source>
-        <translation type="unfinished"></translation>
+        <translation>Đang dùng bộ lọc văn bản và có thể che giấu khác biệt nội dung.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -550,7 +555,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+13"/>
         <source>Folder %1 is being compared to itself</source>
-        <translation type="unfinished"></translation>
+        <translation>Thư mục %1 đang được so sánh với chính nó</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -580,99 +585,100 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+2"/>
         <source>Files had mismatched leading or trailing whitespace</source>
-        <translation type="unfinished"></translation>
+        <translation>Các tập tin có khoảng trắng đầu hoặc cuối không khớp</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>This comparison found some files that differed only in leading or trailing whitespace. Their names appear as:</source>
-        <translation type="unfinished"></translation>
+        <translation>Phép so sánh này tìm thấy một số tập tin chỉ khác nhau ở khoảng trắng đầu hoặc cuối. Tên của chúng là:</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>“%1” hidden by “%2”</source>
-        <translation type="unfinished"></translation>
+        <translation>“%1” bị ẩn bởi “%2”</translation>
     </message>
     <message>
         <location line="+47"/>
         <source>No folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Không có thư mục</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Folder comparison:</source>
-        <translation type="unfinished"></translation>
+        <translation>So sánh thư mục:</translation>
     </message>
     <message>
         <location line="+377"/>
         <source>&amp;Compare Selected Files</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;So sánh các tập tin đã chọn</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Mark Selected File</source>
-        <translation type="unfinished"></translation>
+        <translation>Đánh &amp;dấu tập tin đã chọn</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare &amp;with Marked File</source>
-        <translation type="unfinished"></translation>
+        <translation>So sánh &amp;với tập tin đã đánh dấu</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Copy to &amp;Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Chép sang &amp;trái</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy to &amp;Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Chép sang &amp;phải</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&amp;Delete Selected</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Xóa các mục đã chọn</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Collapse Recursively</source>
-        <translation type="unfinished"></translation>
+        <translation>Thu gọn đệ quy</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Expand Recursively</source>
-        <translation type="unfinished"></translation>
+        <translation>Mở rộng đệ quy</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Open Externally</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Mở bằng ứng dụng ngoài</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&amp;Copy File Paths</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Chép đường dẫn tập tin</translation>
     </message>
     <message>
         <location line="+164"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Không thể tạo thư mục %1</translation>
     </message>
     <message>
         <location line="+9"/>
         <location line="+1"/>
         <source>Replace folder “%1”?</source>
-        <translation type="unfinished"></translation>
+        <translation>Thay thế thư mục “%1”?</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Another folder with the same name already exists in “%1”.
 If you replace the existing folder, all files in it will be lost.</source>
-        <translation type="unfinished"></translation>
+        <translation>Đã có một thư mục khác cùng tên trong “%1”.
+Nếu bạn thay thế thư mục hiện có, mọi tập tin trong đó sẽ bị mất.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Hủy bỏ</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -682,7 +688,7 @@ If you replace the existing folder, all files in it will be lost.</source>
     <message>
         <location line="+10"/>
         <source>Error copying file</source>
-        <translation type="unfinished"></translation>
+        <translation>Lỗi khi chép tập tin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -690,12 +696,15 @@ If you replace the existing folder, all files in it will be lost.</source>
 to %2.
 
 %3</source>
-        <translation type="unfinished"></translation>
+        <translation>Không thể chép %1
+vào %2.
+
+%3</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Error deleting %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Lỗi khi xóa %1</translation>
     </message>
 </context>
 <context>
@@ -708,27 +717,27 @@ to %2.
     <message>
         <location line="+2"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Kích thước</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Modification time</source>
-        <translation type="unfinished"></translation>
+        <translation>Thời gian sửa đổi</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Modification time (ISO)</source>
-        <translation type="unfinished"></translation>
+        <translation>Thời gian sửa đổi (ISO)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Permissions</source>
-        <translation type="unfinished"></translation>
+        <translation>Quyền hạn</translation>
     </message>
     <message>
         <location line="+144"/>
         <source>empty folder</source>
-        <translation type="unfinished"></translation>
+        <translation>thư mục trống</translation>
     </message>
 </context>
 <context>
@@ -736,171 +745,173 @@ to %2.
     <message>
         <location filename="../src/ui/filediff.cpp" line="+222"/>
         <source>Comparison results will be inaccurate</source>
-        <translation type="unfinished"></translation>
+        <translation>Kết quả so sánh sẽ không chính xác</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>A filter changed the number of lines in the file, which is unsupported. The comparison will not be accurate.</source>
-        <translation type="unfinished"></translation>
+        <translation>Một bộ lọc đã thay đổi số dòng trong tập tin, điều này không được hỗ trợ. Phép so sánh sẽ không chính xác.</translation>
     </message>
     <message>
         <location line="+697"/>
         <source>&amp;Undo</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Hoàn tác</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&amp;Redo</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Làm lại</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Cu&amp;t</source>
-        <translation type="unfinished"></translation>
+        <translation>Cắ&amp;t</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&amp;Copy</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Chép</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&amp;Paste</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Dán</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open Containing Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Mở thư mục chứa</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy Full Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Chép đường dẫn đầy đủ</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Add Synchronization Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Thêm điểm đồng bộ</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Move Synchronization Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Di chuyển điểm đồng bộ</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Match Synchronization Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Khớp điểm đồng bộ</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Remove Synchronization Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Gỡ bỏ điểm đồng bộ</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Clear Synchronization Points</source>
-        <translation type="unfinished"></translation>
+        <translation>Xóa các điểm đồng bộ</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Live comparison updating disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Đã tắt cập nhật phép so sánh trực tiếp</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Live updating of comparisons is disabled when synchronization points are active. You can still manually refresh the comparison, and live updates will resume when synchronization points are cleared.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cập nhật trực tiếp các phép so sánh bị tắt khi các điểm đồng bộ đang hoạt động. Bạn vẫn có thể làm mới phép so sánh thủ công, và cập nhật trực tiếp sẽ tiếp tục khi các điểm đồng bộ được xóa.</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Can&apos;t swap unsaved files</source>
-        <translation type="unfinished"></translation>
+        <translation>Không thể hoán đổi các tập tin chưa lưu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Files must be saved to disk before swapping panes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Phải lưu các tập tin vào đĩa trước khi hoán đổi các khung.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Can&apos;t swap version control comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>Không thể hoán đổi các phép so sánh quản lý phiên bản</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Swapping panes is not supported in version control mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>Không hỗ trợ hoán đổi khung ở chế độ quản lý phiên bản.</translation>
     </message>
     <message>
         <location line="+89"/>
         <source>File comparison:</source>
-        <translation type="unfinished"></translation>
+        <translation>So sánh tập tin:</translation>
     </message>
     <message>
         <location line="+116"/>
         <source>There was a problem opening the file “%1”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Đã xảy ra lỗi khi mở tập tin “%1”.</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>There was a problem opening “%1”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Đã xảy ra lỗi khi mở “%1”.</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The file could not be decoded using the candidate encodings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Không thể giải mã tập tin bằng các bảng mã ứng viên.</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Line %1 exceeded maximum line length (%2 &gt; %3).
 
 Loading files with very long lines may make Meld Qt slow or unresponsive.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dòng %1 vượt quá độ dài dòng tối đa (%2 &gt; %3).
+
+Việc tải tập tin có dòng rất dài có thể làm Meld Qt chậm hoặc không phản hồi.</translation>
     </message>
     <message numerus="yes">
         <location line="+39"/>
         <source>%1 has %n unresolved merge conflicts.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 có %n xung đột hợp nhất chưa giải quyết.</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The local and remote versions can be merged in a 3-way comparison.</source>
-        <translation type="unfinished"></translation>
+        <translation>Có thể hợp nhất phiên bản cục bộ và từ xa trong phép so sánh 3 chiều.</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Resolve</source>
-        <translation type="unfinished"></translation>
+        <translation>Giải quyết</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>File %1 appears to be a binary file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tập tin %1 có vẻ là tập tin nhị phân.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Do you want to open the file using the default application?</source>
-        <translation type="unfinished"></translation>
+        <translation>Bạn có muốn mở tập tin bằng ứng dụng mặc định không?</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Open</source>
-        <translation type="unfinished"></translation>
+        <translation>Mở</translation>
     </message>
     <message>
         <location line="+64"/>
         <source>Computing differences</source>
-        <translation type="unfinished"></translation>
+        <translation>Đang tính toán khác biệt</translation>
     </message>
     <message>
         <location line="+117"/>
         <source>File %1 is being compared to itself</source>
-        <translation type="unfinished"></translation>
+        <translation>Tập tin %1 đang được so sánh với chính nó</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -915,13 +926,14 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+3"/>
         <source>Files differ in line endings only</source>
-        <translation type="unfinished"></translation>
+        <translation>Các tập tin chỉ khác nhau ở ký tự kết thúc dòng</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Files are identical except for differing line endings:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Các tập tin giống nhau, chỉ khác ở ký tự kết thúc dòng:
+%1</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -943,142 +955,143 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+182"/>
         <source>Change highlighting incomplete</source>
-        <translation type="unfinished"></translation>
+        <translation>Tô sáng thay đổi chưa hoàn tất</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Some changes were not highlighted because they were too large. You can force Meld Qt to take longer to highlight larger changes, though this may be slow.</source>
-        <translation type="unfinished"></translation>
+        <translation>Một số thay đổi không được tô sáng vì chúng quá lớn. Bạn có thể buộc Meld Qt dành nhiều thời gian hơn để tô sáng các thay đổi lớn, dù việc này có thể chậm.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>&amp;Keep highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tiếp tục tô sáng</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Keep highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>Tiếp tục tô sáng</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>&amp;Load anyway</source>
-        <translation type="unfinished"></translation>
+        <translation>Vẫn &amp;tải</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Save Left Pane As</source>
-        <translation type="unfinished"></translation>
+        <translation>Lưu khung trái thành</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Save Middle Pane As</source>
-        <translation type="unfinished"></translation>
+        <translation>Lưu khung giữa thành</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Save Right Pane As</source>
-        <translation type="unfinished"></translation>
+        <translation>Lưu khung phải thành</translation>
     </message>
     <message numerus="yes">
         <location line="+41"/>
         <source>%n conflicts aren’t resolved</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n xung đột chưa được giải quyết</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>If you save the merge now, the conflicts are saved as they are here, without conflict markers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nếu bạn lưu kết quả hợp nhất bây giờ, các xung đột sẽ được lưu như ở đây, không có dấu xung đột.</translation>
     </message>
     <message>
         <location line="+2"/>
         <location line="+21"/>
         <source>Save Anyway</source>
-        <translation type="unfinished"></translation>
+        <translation>Vẫn lưu</translation>
     </message>
     <message>
         <location line="-20"/>
         <location line="+21"/>
         <source>Don’t Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Không lưu</translation>
     </message>
     <message>
         <location line="-5"/>
         <source>File %1 has changed on disk since it was opened</source>
-        <translation type="unfinished"></translation>
+        <translation>Tập tin %1 đã thay đổi trên đĩa từ khi được mở</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>If you save it, any external changes will be lost.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nếu bạn lưu nó, mọi thay đổi bên ngoài sẽ bị mất.</translation>
     </message>
     <message>
         <location line="+17"/>
         <location line="+19"/>
         <source>Could not save file %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Không thể lưu tập tin %1.</translation>
     </message>
     <message>
         <location line="-18"/>
         <source>File “%1” contains characters that can’t be encoded using its current encoding “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tập tin “%1” chứa các ký tự không thể mã hóa bằng bảng mã hiện tại “%2”.</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Couldn’t save file due to:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Không thể lưu tập tin vì:
+%1</translation>
     </message>
     <message>
         <location line="+56"/>
         <source>File %1 has changed on disk</source>
-        <translation type="unfinished"></translation>
+        <translation>Tập tin %1 đã thay đổi trên đĩa</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Do you want to reload the file?</source>
-        <translation type="unfinished"></translation>
+        <translation>Bạn có muốn tải lại tập tin không?</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>&amp;Reload</source>
-        <translation type="unfinished"></translation>
+        <translation>Tải &amp;lại</translation>
     </message>
     <message>
         <location line="+36"/>
         <location line="+1"/>
         <source>Discard unsaved changes to documents?</source>
-        <translation type="unfinished"></translation>
+        <translation>Loại bỏ các thay đổi chưa lưu trong tài liệu?</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Changes made to the following documents will be permanently lost:</source>
-        <translation type="unfinished"></translation>
+        <translation>Các thay đổi trong những tài liệu sau sẽ bị mất vĩnh viễn:</translation>
     </message>
     <message>
         <location line="+2"/>
         <location line="+75"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Hủy bỏ</translation>
     </message>
     <message>
         <location line="-74"/>
         <location line="+75"/>
         <source>&amp;Discard</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Loại bỏ</translation>
     </message>
     <message>
         <location line="-26"/>
         <location line="+2"/>
         <source>Save changes to documents before closing?</source>
-        <translation type="unfinished"></translation>
+        <translation>Lưu các thay đổi trong tài liệu trước khi đóng?</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Open documents contain unsaved changes. Changes which are not saved will be permanently lost.</source>
-        <translation type="unfinished"></translation>
+        <translation>Các tài liệu đang mở có thay đổi chưa lưu. Những thay đổi không được lưu sẽ bị mất vĩnh viễn.</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1089,47 +1102,47 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <location line="+65"/>
         <location line="+1"/>
         <source>Mark conflict as resolved?</source>
-        <translation type="unfinished"></translation>
+        <translation>Đánh dấu xung đột là đã giải quyết?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>If the conflict was resolved successfully, you may mark it as resolved now.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nếu xung đột đã được giải quyết thành công, bạn có thể đánh dấu nó là đã giải quyết ngay bây giờ.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Hủy bỏ</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Mark &amp;Resolved</source>
-        <translation type="unfinished"></translation>
+        <translation>Đánh dấu đã &amp;giải quyết</translation>
     </message>
     <message>
         <location filename="../src/ui/filediff_layout.cpp" line="+261"/>
         <source>This file can not be written to. You may click here to unlock this file and make changes anyway, but these changes must be saved to a new file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Không thể ghi vào tập tin này. Bạn có thể nhấn vào đây để mở khóa và vẫn thay đổi, nhưng những thay đổi này phải được lưu vào một tập tin mới.</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Save file in this pane</source>
-        <translation type="unfinished"></translation>
+        <translation>Lưu tập tin trong khung này</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Select File</source>
-        <translation type="unfinished"></translation>
+        <translation>Chọn tập tin</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Open file in this pane</source>
-        <translation type="unfinished"></translation>
+        <translation>Mở tập tin trong khung này</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>File %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Tập tin %1</translation>
     </message>
     <message>
         <location line="+128"/>
@@ -1144,12 +1157,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+2"/>
         <source>Highlight current line</source>
-        <translation type="unfinished"></translation>
+        <translation>Tô sáng dòng hiện tại</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Text wrapping</source>
-        <translation type="unfinished"></translation>
+        <translation>Ngắt dòng văn bản</translation>
     </message>
 </context>
 <context>
@@ -1210,22 +1223,22 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+13"/>
         <source>Previous Result</source>
-        <translation type="unfinished"></translation>
+        <translation>Kết quả trước</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Next Result</source>
-        <translation type="unfinished"></translation>
+        <translation>Kết quả tiếp theo</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Switch between Find and Find-and-Replace</source>
-        <translation type="unfinished"></translation>
+        <translation>Chuyển giữa Tìm và Tìm-và-Thay thế</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>&amp;Match case</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Phân biệt hoa/thường</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1235,12 +1248,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Regular e&amp;xpression</source>
-        <translation type="unfinished"></translation>
+        <translation>Biểu thức chính &amp;quy</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Wrapped</source>
-        <translation type="unfinished"></translation>
+        <translation>Đã quay vòng</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1264,27 +1277,28 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <location filename="../src/ui/meldapp.cpp" line="+89"/>
         <source>Error: %1
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Lỗi: %1
+</translation>
     </message>
     <message>
         <location line="+120"/>
         <source>Error reading saved comparison file</source>
-        <translation type="unfinished"></translation>
+        <translation>Lỗi khi đọc tập tin so sánh đã lưu</translation>
     </message>
     <message>
         <location line="+77"/>
         <source>About Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>Giới thiệu Meld Qt</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Visual diff and merge tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Công cụ so sánh và hợp nhất trực quan</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Built with Qt %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Được xây dựng với Qt %1</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1295,7 +1309,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+3"/>
         <source>Translated by</source>
-        <translation type="unfinished"></translation>
+        <translation>Dịch bởi</translation>
     </message>
 </context>
 <context>
@@ -1303,62 +1317,62 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location filename="../src/ui/settings.cpp" line="+31"/>
         <source>Backups</source>
-        <translation type="unfinished"></translation>
+        <translation>Bản sao lưu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>OS-Specific Metadata</source>
-        <translation type="unfinished"></translation>
+        <translation>Siêu dữ liệu riêng của HĐH</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Version Control</source>
-        <translation type="unfinished"></translation>
+        <translation>Quản lý phiên bản</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Binaries</source>
-        <translation type="unfinished"></translation>
+        <translation>Tập tin nhị phân</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Media</source>
-        <translation type="unfinished"></translation>
+        <translation>Đa phương tiện</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>CVS/SVN Keywords</source>
-        <translation type="unfinished"></translation>
+        <translation>Từ khóa CVS/SVN</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>C++ Comment</source>
-        <translation type="unfinished"></translation>
+        <translation>Ghi chú C++</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>C Comment</source>
-        <translation type="unfinished"></translation>
+        <translation>Ghi chú C</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>All Whitespace</source>
-        <translation type="unfinished"></translation>
+        <translation>Mọi khoảng trắng</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Leading Whitespace</source>
-        <translation type="unfinished"></translation>
+        <translation>Khoảng trắng đầu dòng</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Trailing Whitespace</source>
-        <translation type="unfinished"></translation>
+        <translation>Khoảng trắng cuối dòng</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Script Comment</source>
-        <translation type="unfinished"></translation>
+        <translation>Ghi chú script</translation>
     </message>
 </context>
 <context>
@@ -1374,12 +1388,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="-383"/>
         <source>Header bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Thanh tiêu đề</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>New Comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Phép so sánh mới</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1389,39 +1403,39 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Đóng</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>&amp;Stop</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Dừng</translation>
     </message>
     <message>
         <location line="+5"/>
         <location line="+901"/>
         <source>Fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Toàn màn hình</translation>
     </message>
     <message>
         <location line="-894"/>
         <source>Quit</source>
-        <translation type="unfinished"></translation>
+        <translation>Thoát</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&amp;Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tùy thích</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&amp;About Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Giới thiệu Meld Qt</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+973"/>
         <source>Keyboard Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Phím tắt</translation>
     </message>
     <message>
         <location line="-959"/>
@@ -1446,12 +1460,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+14"/>
         <source>Open a recent comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Mở một phép so sánh gần đây</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Previous Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Thay đổi trước</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1461,7 +1475,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Next Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Thay đổi tiếp theo</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1471,7 +1485,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+4"/>
         <source>Previous Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>Xung đột trước</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1481,7 +1495,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Next Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>Xung đột tiếp theo</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1491,7 +1505,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+7"/>
         <source>Push to Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Đẩy sang trái</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1501,7 +1515,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Push to Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Đẩy sang phải</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1531,12 +1545,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+3"/>
         <source>Copy chunks</source>
-        <translation type="unfinished"></translation>
+        <translation>Chép các đoạn</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Delete Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Xóa thay đổi</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1548,7 +1562,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="-864"/>
         <source>Copy to Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Chép sang trái</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1559,7 +1573,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="-859"/>
         <source>Copy to Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Chép sang phải</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1590,48 +1604,48 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+9"/>
         <source>Version Filters</source>
-        <translation type="unfinished"></translation>
+        <translation>Bộ lọc phiên bản</translation>
     </message>
     <message>
         <location line="+22"/>
         <location line="+6"/>
         <source>Main Menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Trình đơn chính</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Save As…</source>
-        <translation type="unfinished"></translation>
+        <translation>Lưu thành…</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Save A&amp;ll</source>
-        <translation type="unfinished"></translation>
+        <translation>Lưu &amp;tất cả</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Revert Files…</source>
-        <translation type="unfinished"></translation>
+        <translation>Hoàn nguyên tập tin…</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&amp;Open Externally</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Mở bằng ứng dụng ngoài</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Refresh Comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Làm mới phép so sánh</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Find…</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tìm…</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&amp;Replace…</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Thay thế…</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1641,110 +1655,110 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+2"/>
         <source>Overview Map</source>
-        <translation type="unfinished"></translation>
+        <translation>Bản đồ tổng quan</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Version Control Console</source>
-        <translation type="unfinished"></translation>
+        <translation>Bảng điều khiển quản lý phiên bản</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Lock Scrolling</source>
-        <translation type="unfinished"></translation>
+        <translation>Khóa cuộn</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Zoom In</source>
-        <translation type="unfinished"></translation>
+        <translation>Phóng to</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Zoom Out</source>
-        <translation type="unfinished"></translation>
+        <translation>Thu nhỏ</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reset Zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Đặt lại mức thu phóng</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Swap Panes</source>
-        <translation type="unfinished"></translation>
+        <translation>Hoán đổi các khung</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;So sánh</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Merge All from &amp;Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Hợp nhất tất cả từ bên &amp;trái</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Merge All from &amp;Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Hợp nhất tất cả từ bên &amp;phải</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Merge &amp;All</source>
-        <translation type="unfinished"></translation>
+        <translation>Hợp nhất &amp;tất cả</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Format as &amp;Patch…</source>
-        <translation type="unfinished"></translation>
+        <translation>Định dạng thành &amp;bản vá…</translation>
     </message>
     <message>
         <location line="+17"/>
         <source>No recent comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>Không có phép so sánh gần đây</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Clear Recent Comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>Xóa các phép so sánh gần đây</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>File Status</source>
-        <translation type="unfinished"></translation>
+        <translation>Trạng thái tập tin</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Tên tập tin</translation>
     </message>
     <message>
         <location line="+65"/>
         <location line="+17"/>
         <source>%1 - Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 - Meld Qt</translation>
     </message>
     <message>
         <location line="+26"/>
         <location line="+146"/>
         <location line="+16"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Không thể mở phép so sánh</translation>
     </message>
     <message>
         <location line="+43"/>
         <source>Need three files to auto-merge, got: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Cần ba tập tin để tự động hợp nhất, nhận được: %1</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Cannot compare a mixture of files and directories</source>
-        <translation type="unfinished"></translation>
+        <translation>Không thể so sánh lẫn lộn tập tin và thư mục</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Select what to compare, and the patch to apply to it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Chọn thứ cần so sánh, và bản vá cần áp dụng cho nó.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1752,93 +1766,95 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <source>The patch “%1” can’t be read.
 
 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Không thể đọc bản vá “%1”.
+
+%2</translation>
     </message>
     <message>
         <location line="+66"/>
         <source>Opening archive “%1”…</source>
-        <translation type="unfinished"></translation>
+        <translation>Đang mở kho lưu “%1”…</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Hủy bỏ</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Opening Archive</source>
-        <translation type="unfinished"></translation>
+        <translation>Đang mở kho lưu</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Couldn’t open archive %1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Không thể mở kho lưu %1: %2</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Failed to open archive</source>
-        <translation type="unfinished"></translation>
+        <translation>Mở kho lưu thất bại</translation>
     </message>
     <message>
         <location line="+26"/>
         <location line="+38"/>
         <source>Cannot compare a non-existent file</source>
-        <translation type="unfinished"></translation>
+        <translation>Không thể so sánh một tập tin không tồn tại</translation>
     </message>
     <message>
         <location line="-23"/>
         <source>too many arguments (wanted 0-3, got %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>quá nhiều đối số (cần 0-3, nhận được %1)</translation>
     </message>
     <message>
         <location line="+28"/>
         <source>The patch “%1” doesn’t exist</source>
-        <translation type="unfinished"></translation>
+        <translation>Bản vá “%1” không tồn tại</translation>
     </message>
     <message>
         <location line="+65"/>
         <source>Windows and Tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>Cửa sổ và thẻ</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>New comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Phép so sánh mới</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Close a comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Đóng một phép so sánh</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Quit Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>Thoát Meld Qt</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>Chung</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Show preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiện tùy thích</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Keyboard shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Phím tắt</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Open menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Mở trình đơn</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Common Actions</source>
-        <translation type="unfinished"></translation>
+        <translation>Thao tác chung</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1848,7 +1864,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Refresh comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Làm mới phép so sánh</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1858,22 +1874,22 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+2"/>
         <source>Panes</source>
-        <translation type="unfinished"></translation>
+        <translation>Các khung</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Previous comparison pane</source>
-        <translation type="unfinished"></translation>
+        <translation>Khung so sánh trước</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Next comparison pane</source>
-        <translation type="unfinished"></translation>
+        <translation>Khung so sánh tiếp theo</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Swap left and right panes</source>
-        <translation type="unfinished"></translation>
+        <translation>Hoán đổi khung trái và phải</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1883,12 +1899,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+2"/>
         <source>Go to previous change</source>
-        <translation type="unfinished"></translation>
+        <translation>Đi đến thay đổi trước</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Go to next change</source>
-        <translation type="unfinished"></translation>
+        <translation>Đi đến thay đổi tiếp theo</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1898,57 +1914,57 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+2"/>
         <source>Go to previous tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Đi đến thẻ trước</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Go to next tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Đi đến thẻ tiếp theo</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Switch to tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Chuyển sang thẻ</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Move tab left</source>
-        <translation type="unfinished"></translation>
+        <translation>Chuyển thẻ sang trái</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Move tab right</source>
-        <translation type="unfinished"></translation>
+        <translation>Chuyển thẻ sang phải</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Editing</source>
-        <translation type="unfinished"></translation>
+        <translation>Biên soạn</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Undo</source>
-        <translation type="unfinished"></translation>
+        <translation>Hoàn tác</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Redo</source>
-        <translation type="unfinished"></translation>
+        <translation>Làm lại</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Cut</source>
-        <translation type="unfinished"></translation>
+        <translation>Cắt</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy</source>
-        <translation type="unfinished"></translation>
+        <translation>Chép</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Paste</source>
-        <translation type="unfinished"></translation>
+        <translation>Dán</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1973,27 +1989,27 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Go to line</source>
-        <translation type="unfinished"></translation>
+        <translation>Đi đến dòng</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>File comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>So sánh tập tin</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Save current file</source>
-        <translation type="unfinished"></translation>
+        <translation>Lưu tập tin hiện tại</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Save current file to new path</source>
-        <translation type="unfinished"></translation>
+        <translation>Lưu tập tin hiện tại vào đường dẫn mới</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Save all files in comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Lưu mọi tập tin trong phép so sánh</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2008,92 +2024,92 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Push change to left</source>
-        <translation type="unfinished"></translation>
+        <translation>Đẩy thay đổi sang trái</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Push change to right</source>
-        <translation type="unfinished"></translation>
+        <translation>Đẩy thay đổi sang phải</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Pull change from left</source>
-        <translation type="unfinished"></translation>
+        <translation>Kéo thay đổi từ bên trái</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Pull change from right</source>
-        <translation type="unfinished"></translation>
+        <translation>Kéo thay đổi từ bên phải</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy change above left</source>
-        <translation type="unfinished"></translation>
+        <translation>Chép thay đổi lên phía trên bên trái</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy change below left</source>
-        <translation type="unfinished"></translation>
+        <translation>Chép thay đổi xuống phía dưới bên trái</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy change above right</source>
-        <translation type="unfinished"></translation>
+        <translation>Chép thay đổi lên phía trên bên phải</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy change below right</source>
-        <translation type="unfinished"></translation>
+        <translation>Chép thay đổi xuống phía dưới bên phải</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Show overview map</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiện bản đồ tổng quan</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Zoom in</source>
-        <translation type="unfinished"></translation>
+        <translation>Phóng to</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Zoom out</source>
-        <translation type="unfinished"></translation>
+        <translation>Thu nhỏ</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reset zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Đặt lại mức thu phóng</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Folder comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>So sánh thư mục</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Expand the current folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Mở rộng thư mục hiện tại</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Collapse the current folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Thu gọn thư mục hiện tại</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Version control comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>So sánh quản lý phiên bản</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Commit to version control</source>
-        <translation type="unfinished"></translation>
+        <translation>Chuyển giao vào quản lý phiên bản</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show/hide console output</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiện/ẩn kết xuất bảng điều khiển</translation>
     </message>
 </context>
 <context>
@@ -2111,7 +2127,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <location filename="../src/ui/newdifftab.cpp" line="+23"/>
         <location line="+18"/>
         <source>New comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Phép so sánh mới</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2121,92 +2137,92 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Thư mục</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Version control</source>
-        <translation type="unfinished"></translation>
+        <translation>Quản lý phiên bản</translation>
     </message>
     <message>
         <location line="+39"/>
         <source>&amp;3-way comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>So sánh &amp;3 chiều</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Compare with a &amp;patch</source>
-        <translation type="unfinished"></translation>
+        <translation>So sánh với &amp;bản vá</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the folder with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>So sánh thư mục với cách một bản vá sẽ thay đổi nó</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the file with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>So sánh tập tin với cách một bản vá sẽ thay đổi nó</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Select Patch File</source>
-        <translation type="unfinished"></translation>
+        <translation>Chọn tập tin bản vá</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Select First File</source>
-        <translation type="unfinished"></translation>
+        <translation>Chọn tập tin thứ nhất</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Select Second File</source>
-        <translation type="unfinished"></translation>
+        <translation>Chọn tập tin thứ hai</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Select Third File</source>
-        <translation type="unfinished"></translation>
+        <translation>Chọn tập tin thứ ba</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Select First Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Chọn thư mục thứ nhất</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Select Second Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Chọn thư mục thứ hai</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Select Third Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Chọn thư mục thứ ba</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Select Version-controlled Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Chọn thư mục được quản lý phiên bản</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>&amp;Blank comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>So sánh &amp;trống</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>C&amp;ompare</source>
-        <translation type="unfinished"></translation>
+        <translation>S&amp;o sánh</translation>
     </message>
     <message>
         <location line="+70"/>
         <source>Patches (*.patch *.diff)</source>
-        <translation type="unfinished"></translation>
+        <translation>Bản vá (*.patch *.diff)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>All files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>Mọi tập tin (*)</translation>
     </message>
 </context>
 <context>
@@ -2215,32 +2231,32 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <location filename="../src/ui/patchcomparison.cpp" line="+24"/>
         <location line="+41"/>
         <source>The patch “%1” can’t be applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Không thể áp dụng bản vá “%1” cho “%2”.</translation>
     </message>
     <message>
         <location line="-34"/>
         <source>The patch deletes this file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bản vá xóa tập tin này.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The patch “%1” was applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Đã áp dụng bản vá “%1” cho “%2”.</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>%1 with %2 applied</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 đã áp dụng %2</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Không thể đọc bản vá “%1”.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>There was a problem opening the file “%1”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Đã xảy ra lỗi khi mở tập tin “%1”.</translation>
     </message>
 </context>
 <context>
@@ -2248,7 +2264,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location filename="../src/ui/patchdialog.cpp" line="-86"/>
         <source>Format as Patch</source>
-        <translation type="unfinished"></translation>
+        <translation>Định dạng thành bản vá</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2278,13 +2294,13 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Hủy bỏ</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+36"/>
         <source>Save Patch</source>
-        <translation type="unfinished"></translation>
+        <translation>Lưu bản vá</translation>
     </message>
 </context>
 <context>
@@ -2292,7 +2308,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location filename="../src/ui/pathlabel.cpp" line="+92"/>
         <source>Unnamed file</source>
-        <translation type="unfinished"></translation>
+        <translation>Tập tin chưa đặt tên</translation>
     </message>
     <message>
         <location line="+109"/>
@@ -2302,22 +2318,22 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+14"/>
         <source>Copy Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Chép đường dẫn</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy the full path</source>
-        <translation type="unfinished"></translation>
+        <translation>Chép đường dẫn đầy đủ</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open Containing Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Mở thư mục chứa</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>View the folder in file manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Xem thư mục trong trình quản lý tập tin</translation>
     </message>
 </context>
 <context>
@@ -2335,12 +2351,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Folder Comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>So sánh thư mục</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Version Control</source>
-        <translation type="unfinished"></translation>
+        <translation>Quản lý phiên bản</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2350,32 +2366,47 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+15"/>
         <source>Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>Diện mạo</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Follow System Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Theo kiểu dáng hệ thống</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Light</source>
-        <translation type="unfinished"></translation>
+        <translation>Sáng</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Dark</source>
-        <translation type="unfinished"></translation>
+        <translation>Tối</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Interface Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Kiểu dáng giao diện</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>System Language</source>
+        <translation>Ngôn ngữ hệ thống</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Language</source>
+        <translation>Ngôn ngữ</translation>
     </message>
     <message>
         <location line="+3"/>
+        <source>The language will change when Meld Qt is next started.</source>
+        <translation>Ngôn ngữ sẽ thay đổi vào lần khởi động Meld Qt tiếp theo.</translation>
+    </message>
+    <message>
+        <location line="+14"/>
         <source>Use Custom Font</source>
-        <translation type="unfinished"></translation>
+        <translation>Dùng phông chữ tùy chỉnh</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -2385,12 +2416,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+12"/>
         <source>Use Syntax Highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>Dùng tô sáng cú pháp</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Color Scheme</source>
-        <translation type="unfinished"></translation>
+        <translation>Lược đồ màu</translation>
     </message>
     <message>
         <location line="+33"/>
@@ -2400,32 +2431,32 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+3"/>
         <source>Never</source>
-        <translation type="unfinished"></translation>
+        <translation>Không bao giờ</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>At Any Character</source>
-        <translation type="unfinished"></translation>
+        <translation>Tại bất kỳ ký tự nào</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>At Word Boundaries</source>
-        <translation type="unfinished"></translation>
+        <translation>Tại ranh giới từ</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Wrap Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Ngắt dòng văn bản</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Highlight Current Line</source>
-        <translation type="unfinished"></translation>
+        <translation>Tô sáng dòng hiện tại</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show Line Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiện số dòng</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2435,7 +2466,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+4"/>
         <source>Indentation</source>
-        <translation type="unfinished"></translation>
+        <translation>Thụt lề</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2445,102 +2476,102 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>Khoảng trắng</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Tab character</source>
-        <translation type="unfinished"></translation>
+        <translation>Ký tự tab</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Indentation Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Kích thước &amp;thụt lề</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Code Overview</source>
-        <translation type="unfinished"></translation>
+        <translation>Tổng quan mã</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show overview map</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiện bản đồ tổng quan</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>External Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Trình soạn thảo bên ngoài</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use custom text editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Dùng trình soạn thảo văn bản tùy chỉnh</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Custom Editor Command</source>
-        <translation type="unfinished"></translation>
+        <translation>Lệnh trình soạn thảo tùy chỉnh</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use {file} and {line} to refer to the file and line being opened</source>
-        <translation type="unfinished"></translation>
+        <translation>Dùng {file} và {line} để chỉ tập tin và dòng đang được mở</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Application</source>
-        <translation type="unfinished"></translation>
+        <translation>Ứng dụng</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in the running Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>Mở các phép so sánh trong Meld Qt đang chạy</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Comparisons opened from the command line or other programs open in a new window of a Meld Qt that&apos;s already running, instead of starting another Meld Qt. This applies to Meld Qt started after the change.</source>
-        <translation type="unfinished"></translation>
+        <translation>Các phép so sánh mở từ dòng lệnh hoặc chương trình khác sẽ mở trong một cửa sổ mới của Meld Qt đang chạy, thay vì khởi chạy một Meld Qt khác. Điều này áp dụng cho Meld Qt được khởi chạy sau khi thay đổi.</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Comparison Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Tùy chọn so sánh</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare files based only on size and timestamp</source>
-        <translation type="unfinished"></translation>
+        <translation>So sánh tập tin chỉ dựa trên kích thước và dấu thời gian</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>1ns (ext4)</source>
-        <translation type="unfinished"></translation>
+        <translation>1ns (ext4)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>100ns (NTFS)</source>
-        <translation type="unfinished"></translation>
+        <translation>100ns (NTFS)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>1s (ext2/ext3)</source>
-        <translation type="unfinished"></translation>
+        <translation>1s (ext2/ext3)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>2s (VFAT)</source>
-        <translation type="unfinished"></translation>
+        <translation>2s (VFAT)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Ignore timestamp</source>
-        <translation type="unfinished"></translation>
+        <translation>Bỏ qua dấu thời gian</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Timestamp resolution</source>
-        <translation type="unfinished"></translation>
+        <translation>Độ phân giải dấu thời gian</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2550,102 +2581,102 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Apply text filters during folder comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>Áp dụng bộ lọc văn bản khi so sánh thư mục</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Visible Columns</source>
-        <translation type="unfinished"></translation>
+        <translation>Các cột hiển thị</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Kích thước</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Modification time</source>
-        <translation type="unfinished"></translation>
+        <translation>Thời gian sửa đổi</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Modification time (ISO)</source>
-        <translation type="unfinished"></translation>
+        <translation>Thời gian sửa đổi (ISO)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Permissions</source>
-        <translation type="unfinished"></translation>
+        <translation>Quyền hạn</translation>
     </message>
     <message>
         <location line="+44"/>
         <source>Version Comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>So sánh phiên bản</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Left is remote, right is local</source>
-        <translation type="unfinished"></translation>
+        <translation>Bên trái là từ xa, bên phải là cục bộ</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Left is local, right is remote</source>
-        <translation type="unfinished"></translation>
+        <translation>Bên trái là cục bộ, bên phải là từ xa</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Order when comparing file revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>Thứ tự khi so sánh các bản sửa đổi của tập tin</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Remote, merge, local</source>
-        <translation type="unfinished"></translation>
+        <translation>Từ xa, hợp nhất, cục bộ</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Local, merge, remote</source>
-        <translation type="unfinished"></translation>
+        <translation>Cục bộ, hợp nhất, từ xa</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Order when merging files</source>
-        <translation type="unfinished"></translation>
+        <translation>Thứ tự khi hợp nhất tập tin</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Show the common ancestor in conflicts from conflict markers</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiện tổ tiên chung trong các xung đột từ dấu xung đột</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Merges of files with diff3-style conflict markers start with the common ancestor’s text in conflicts, rather than nothing</source>
-        <translation type="unfinished"></translation>
+        <translation>Việc hợp nhất các tập tin có dấu xung đột kiểu diff3 bắt đầu với văn bản của tổ tiên chung trong các xung đột, thay vì để trống</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Commit Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Ghi chú chuyển giao</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show right margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiện lề phải</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Margin position</source>
-        <translation type="unfinished"></translation>
+        <translation>Vị trí lề</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Automatically &amp;break lines at right margin on commit</source>
-        <translation type="unfinished"></translation>
+        <translation>Tự động &amp;ngắt dòng tại lề phải khi chuyển giao</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Filename filters</source>
-        <translation type="unfinished"></translation>
+        <translation>Bộ lọc tên tập tin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2655,22 +2686,22 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+10"/>
         <source>Change trimming</source>
-        <translation type="unfinished"></translation>
+        <translation>Cắt tỉa thay đổi</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Trim blank line differences from the start and end of changes</source>
-        <translation type="unfinished"></translation>
+        <translation>Cắt bỏ khác biệt dòng trống ở đầu và cuối các thay đổi</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Text filters</source>
-        <translation type="unfinished"></translation>
+        <translation>Bộ lọc văn bản</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>When performing file comparisons, you may ignore certain types of changes. Each pattern here is a python regular expression which replaces matching text with the empty string before comparison is performed. If the expression contains groups, only the groups are replaced.</source>
-        <translation type="unfinished"></translation>
+        <translation>Khi so sánh tập tin, bạn có thể bỏ qua một số loại thay đổi. Mỗi mẫu ở đây là một biểu thức chính quy Python, nó thay thế văn bản khớp bằng chuỗi rỗng trước khi so sánh. Nếu biểu thức có các nhóm, chỉ các nhóm bị thay thế.</translation>
     </message>
 </context>
 <context>
@@ -2678,12 +2709,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location filename="../src/ui/bufferselectors.cpp" line="+108"/>
         <source>Search highlight mode…</source>
-        <translation type="unfinished"></translation>
+        <translation>Chế độ tô sáng tìm kiếm…</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Plain Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Văn bản thuần</translation>
     </message>
 </context>
 <context>
@@ -2697,7 +2728,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+54"/>
         <source>Line you want to move the cursor to</source>
-        <translation type="unfinished"></translation>
+        <translation>Dòng bạn muốn di chuyển con trỏ đến</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -2726,7 +2757,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+2"/>
         <source>Extra</source>
-        <translation type="unfinished"></translation>
+        <translation>Thừa</translation>
     </message>
 </context>
 <context>
@@ -2734,7 +2765,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="-206"/>
         <source>Flatten Folders</source>
-        <translation type="unfinished"></translation>
+        <translation>Làm phẳng thư mục</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2749,7 +2780,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Unversioned</source>
-        <translation type="unfinished"></translation>
+        <translation>Không được quản lý phiên bản</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2759,103 +2790,103 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+250"/>
         <source>%1 (not found)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (không tìm thấy)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (%2 not installed)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (chưa cài %2)</translation>
     </message>
     <message>
         <location line="+4"/>
         <location line="+10"/>
         <source>%1 (invalid repository)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (kho không hợp lệ)</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>No valid version control system found in this folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Không tìm thấy hệ thống quản lý phiên bản hợp lệ trong thư mục này</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Choose which version control system to use</source>
-        <translation type="unfinished"></translation>
+        <translation>Chọn hệ thống quản lý phiên bản để dùng</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>%1 — %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 — %2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>The file isn’t in %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tập tin không có trong %1.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 (%2, %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2, %3)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (working, %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (đang làm việc, %2)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (%2, working)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2, đang làm việc)</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>%1 — local</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 — cục bộ</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>%1 — remote</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 — từ xa</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>%1 (local, merge, remote)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (cục bộ, hợp nhất, từ xa)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (remote, merge, local)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (từ xa, hợp nhất, cục bộ)</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>%1 — repository</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 — kho</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>%1 (working, repository)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (đang làm việc, kho)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (repository, working)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (kho, đang làm việc)</translation>
     </message>
     <message>
         <location line="+25"/>
         <source>working copy</source>
-        <translation type="unfinished"></translation>
+        <translation>bản sao làm việc</translation>
     </message>
     <message>
         <location line="+67"/>
         <source>Version Control Console</source>
-        <translation type="unfinished"></translation>
+        <translation>Bảng điều khiển quản lý phiên bản</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Xóa</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2866,29 +2897,29 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="-763"/>
         <source>&amp;Find…</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tìm…</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+1"/>
         <source>Next Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Thay đổi tiếp theo</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&amp;Open Externally</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Mở bằng ứng dụng ngoài</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+1"/>
         <source>Previous Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Thay đổi trước</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>Làm mới</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2899,28 +2930,28 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="-759"/>
         <source>Add to version control</source>
-        <translation type="unfinished"></translation>
+        <translation>Thêm vào quản lý phiên bản</translation>
     </message>
     <message>
         <location line="+2"/>
         <location line="+758"/>
         <source>&amp;Unstage</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Bỏ khỏi vùng chờ</translation>
     </message>
     <message>
         <location line="-758"/>
         <source>Remove staged changes</source>
-        <translation type="unfinished"></translation>
+        <translation>Bỏ các thay đổi trong vùng chờ</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Commit…</source>
-        <translation type="unfinished"></translation>
+        <translation>Chuyển giao…</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Commit changes to version control</source>
-        <translation type="unfinished"></translation>
+        <translation>Chuyển giao thay đổi vào quản lý phiên bản</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2931,12 +2962,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="-754"/>
         <source>Push</source>
-        <translation type="unfinished"></translation>
+        <translation>Đẩy lên</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Push local changes to remote</source>
-        <translation type="unfinished"></translation>
+        <translation>Đẩy các thay đổi cục bộ lên máy chủ từ xa</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2948,125 +2979,125 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="-1019"/>
         <source>Remove from version control</source>
-        <translation type="unfinished"></translation>
+        <translation>Gỡ bỏ khỏi quản lý phiên bản</translation>
     </message>
     <message>
         <location line="+2"/>
         <location line="+752"/>
         <source>Resolve Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>Giải quyết xung đột</translation>
     </message>
     <message>
         <location line="-751"/>
         <source>Mark as resolved in version control</source>
-        <translation type="unfinished"></translation>
+        <translation>Đánh dấu đã giải quyết trong quản lý phiên bản</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+747"/>
         <source>Re&amp;vert</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Hoàn nguyên</translation>
     </message>
     <message>
         <location line="-746"/>
         <source>Revert working copy to original state</source>
-        <translation type="unfinished"></translation>
+        <translation>Hoàn nguyên bản sao làm việc về trạng thái ban đầu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Pull</source>
-        <translation type="unfinished"></translation>
+        <translation>Kéo về</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Pull remote changes to the local repository</source>
-        <translation type="unfinished"></translation>
+        <translation>Kéo các thay đổi từ xa về kho cục bộ</translation>
     </message>
     <message>
         <location line="+49"/>
         <source>Select Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Chọn thư mục</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Open version controlled folder in this pane</source>
-        <translation type="unfinished"></translation>
+        <translation>Mở thư mục được quản lý phiên bản trong khung này</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Unknown folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Thư mục không rõ</translation>
     </message>
     <message>
         <location line="+30"/>
         <source>The commit, tag or tree that changes are compared with</source>
-        <translation type="unfinished"></translation>
+        <translation>Lần chuyển giao, thẻ đánh dấu hoặc cây mà các thay đổi được so sánh với</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The working copy, or a commit, tag or tree, whose changes are shown</source>
-        <translation type="unfinished"></translation>
+        <translation>Bản sao làm việc, hoặc một lần chuyển giao, thẻ đánh dấu hay cây, có các thay đổi được hiển thị</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Swap</source>
-        <translation type="unfinished"></translation>
+        <translation>Hoán đổi</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Swap the revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>Hoán đổi các bản sửa đổi</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Đặt lại</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the working copy with the current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>So sánh bản sao làm việc với lần chuyển giao hiện tại</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Changes from</source>
-        <translation type="unfinished"></translation>
+        <translation>Thay đổi từ</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>to</source>
-        <translation type="unfinished"></translation>
+        <translation>đến</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Console output</source>
-        <translation type="unfinished"></translation>
+        <translation>Kết xuất bảng điều khiển</translation>
     </message>
     <message>
         <location line="+28"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Tìm kiếm</translation>
     </message>
     <message>
         <location line="+102"/>
         <source>The files as they are now, which can be changed</source>
-        <translation type="unfinished"></translation>
+        <translation>Các tập tin như hiện tại, có thể thay đổi được</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>Unknown revision</source>
-        <translation type="unfinished"></translation>
+        <translation>Bản sửa đổi không rõ</translation>
     </message>
     <message>
         <location line="+65"/>
         <source>%1 comparison:</source>
         <extracomment>This is the name of the version control system being used, e.g., &quot;Git&quot; or &quot;Subversion&quot;</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>So sánh %1:</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>%1 → %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 → %2</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3076,17 +3107,17 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+28"/>
         <source>Scanning repository</source>
-        <translation type="unfinished"></translation>
+        <translation>Đang quét kho</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>Scanning %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Đang quét %1</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>No such file or directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Không có tập tin hoặc thư mục như vậy</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -3096,66 +3127,67 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+238"/>
         <source>Co&amp;mmit…</source>
-        <translation type="unfinished"></translation>
+        <translation>Chuyển &amp;giao…</translation>
     </message>
     <message>
         <location line="+157"/>
         <source>Error running command</source>
-        <translation type="unfinished"></translation>
+        <translation>Lỗi khi chạy lệnh</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>While running &apos;%1&apos;
 Error: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Khi chạy “%1”
+Lỗi: %2</translation>
     </message>
     <message>
         <location line="+58"/>
         <source>No files will be committed</source>
-        <translation type="unfinished"></translation>
+        <translation>Sẽ không có tập tin nào được chuyển giao</translation>
     </message>
     <message>
         <location line="+23"/>
         <location line="+1"/>
         <source>Push local commits to remote?</source>
-        <translation type="unfinished"></translation>
+        <translation>Đẩy các lần chuyển giao cục bộ lên máy chủ từ xa?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The commits to be pushed are determined by your version control system.</source>
-        <translation type="unfinished"></translation>
+        <translation>Các lần chuyển giao sẽ được đẩy lên do hệ thống quản lý phiên bản của bạn quyết định.</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+29"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Hủy bỏ</translation>
     </message>
     <message>
         <location line="-28"/>
         <source>&amp;Push commits</source>
-        <translation type="unfinished"></translation>
+        <translation>Đẩy các chuyển &amp;giao</translation>
     </message>
     <message>
         <location line="+23"/>
         <location line="+1"/>
         <source>Remove folder and all its files?</source>
-        <translation type="unfinished"></translation>
+        <translation>Gỡ bỏ thư mục và mọi tập tin trong đó?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>This will remove all selected files and folders, and all files within any selected folders, from version control.</source>
-        <translation type="unfinished"></translation>
+        <translation>Thao tác này sẽ gỡ bỏ mọi tập tin và thư mục đã chọn, cùng mọi tập tin trong các thư mục đã chọn, khỏi quản lý phiên bản.</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Error deleting %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Lỗi khi xóa %1</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Không thể mở phép so sánh</translation>
     </message>
 </context>
 <context>
@@ -3163,12 +3195,12 @@ Error: %2</source>
     <message>
         <location filename="../src/core/conflictmarkers.cpp" line="+134"/>
         <source>Line %1: a conflict starts inside the conflict that starts at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dòng %1: một xung đột bắt đầu bên trong xung đột bắt đầu tại dòng %2.</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>The conflict that starts at line %1 doesn’t end.</source>
-        <translation type="unfinished"></translation>
+        <translation>Xung đột bắt đầu tại dòng %1 không kết thúc.</translation>
     </message>
 </context>
 <context>
@@ -3176,133 +3208,133 @@ Error: %2</source>
     <message>
         <location filename="../src/core/patch.cpp" line="+176"/>
         <source>Line %1 of the patch: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Dòng %1 của bản vá: %2</translation>
     </message>
     <message>
         <location line="+96"/>
         <source>malformed hunk header</source>
-        <translation type="unfinished"></translation>
+        <translation>phần đầu đoạn bị hỏng</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>unexpected line in a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>dòng không mong đợi trong một đoạn</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>the hunk has more lines than its header says</source>
-        <translation type="unfinished"></translation>
+        <translation>đoạn có nhiều dòng hơn số mà phần đầu của nó ghi</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>the patch ends in the middle of a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>bản vá kết thúc giữa một đoạn</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Only unified diffs can be applied; this is a context diff.</source>
-        <translation type="unfinished"></translation>
+        <translation>Chỉ có thể áp dụng diff hợp nhất; đây là diff ngữ cảnh.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>No changes were found in the patch.</source>
-        <translation type="unfinished"></translation>
+        <translation>Không tìm thấy thay đổi nào trong bản vá.</translation>
     </message>
     <message>
         <location line="+122"/>
         <source>Hunk #%1 doesn’t match the file at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Đoạn #%1 không khớp với tập tin tại dòng %2.</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>Hunk #%1 applied at line %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Đã áp dụng đoạn #%1 tại dòng %2</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source> (offset %n lines)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform> (lệch %n dòng)</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source> with fuzz %1</source>
-        <translation type="unfinished"></translation>
+        <translation> với độ mờ %1</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+186"/>
         <source>Binary changes can’t be applied.</source>
-        <translation type="unfinished"></translation>
+        <translation>Không thể áp dụng thay đổi nhị phân.</translation>
     </message>
     <message>
         <location line="-174"/>
         <source>The patch creates this file, which is already as it would create it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bản vá tạo tập tin này, vốn đã giống như bản vá sẽ tạo.</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+190"/>
         <source>The patch creates this file, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bản vá tạo tập tin này, nhưng nó đã tồn tại.</translation>
     </message>
     <message>
         <location line="-178"/>
         <source>The patch seems to be applied already: its changes are in the file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bản vá có vẻ đã được áp dụng: các thay đổi của nó đã có trong tập tin.</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source>%1 of %n hunks can’t be applied.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 trong %n đoạn không thể áp dụng.</numerusform>
         </translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch deletes this file, but it has other contents than the patch removes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bản vá xóa tập tin này, nhưng nội dung của nó khác với những gì bản vá gỡ bỏ.</translation>
     </message>
     <message>
         <location line="+75"/>
         <source>The patch changes several files called %1:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bản vá thay đổi nhiều tập tin tên %1:</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The patch doesn’t change %1. It changes:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bản vá không thay đổi %1. Nó thay đổi:</translation>
     </message>
     <message>
         <location line="+73"/>
         <source>The patch changes %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bản vá thay đổi %1, vốn không có trong thư mục.</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The patch deletes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bản vá xóa tập tin này, nhưng nó không có trong thư mục.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch makes this file from %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bản vá tạo tập tin này từ %1, vốn không có trong thư mục.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>The patch makes this file from %1, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bản vá tạo tập tin này từ %1, nhưng nó đã tồn tại.</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>The patch changes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bản vá thay đổi tập tin này, nhưng nó không có trong thư mục.</translation>
     </message>
     <message>
         <location line="+106"/>
         <source>The file isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tập tin không có trong thư mục.</translation>
     </message>
 </context>
 <context>
@@ -3310,33 +3342,33 @@ Error: %2</source>
     <message>
         <location filename="../src/ui/trash.cpp" line="+36"/>
         <source>Deleting remote folders is not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Không hỗ trợ xóa thư mục từ xa</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Not a file or directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Không phải tập tin hoặc thư mục</translation>
     </message>
     <message>
         <location line="+2"/>
         <location line="+0"/>
         <source>Delete Permanently?</source>
-        <translation type="unfinished"></translation>
+        <translation>Xóa vĩnh viễn?</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>“%1” can’t be put in the trash. Do you want to delete it permanently?</source>
-        <translation type="unfinished"></translation>
+        <translation>Không thể đưa “%1” vào thùng rác. Bạn có muốn xóa vĩnh viễn không?</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Hủy bỏ</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&amp;Delete Permanently</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Xóa vĩnh viễn</translation>
     </message>
 </context>
 <context>
@@ -3344,22 +3376,22 @@ Error: %2</source>
     <message>
         <location filename="../src/core/vc/vc.cpp" line="+68"/>
         <source>Merged</source>
-        <translation type="unfinished"></translation>
+        <translation>Đã hợp nhất</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Base</source>
-        <translation type="unfinished"></translation>
+        <translation>Gốc</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Local</source>
-        <translation type="unfinished"></translation>
+        <translation>Cục bộ</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Remote</source>
-        <translation type="unfinished"></translation>
+        <translation>Từ xa</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -3369,17 +3401,17 @@ Error: %2</source>
     <message>
         <location line="+2"/>
         <source>Unversioned</source>
-        <translation type="unfinished"></translation>
+        <translation>Không được quản lý phiên bản</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Lỗi</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Newly added</source>
-        <translation type="unfinished"></translation>
+        <translation>Mới thêm vào</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -3389,97 +3421,97 @@ Error: %2</source>
     <message>
         <location line="+2"/>
         <source>Renamed</source>
-        <translation type="unfinished"></translation>
+        <translation>Đã đổi tên</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>Xung đột</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Removed</source>
-        <translation type="unfinished"></translation>
+        <translation>Đã gỡ bỏ</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Missing</source>
-        <translation type="unfinished"></translation>
+        <translation>Thiếu</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Not present</source>
-        <translation type="unfinished"></translation>
+        <translation>Không có mặt</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Scanning…</source>
-        <translation type="unfinished"></translation>
+        <translation>Đang quét…</translation>
     </message>
     <message>
         <location line="+673"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Không</translation>
     </message>
     <message numerus="yes">
         <location filename="../src/core/vc/git.cpp" line="+80"/>
         <source>%n unpushed commits</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n lần chuyển giao chưa đẩy lên</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source>%n branches</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n nhánh</numerusform>
         </translation>
     </message>
     <message>
         <location line="+3"/>
         <source>%1 in %2</source>
         <extracomment>The first is replaced by the translated &quot;%n unpushed commits&quot;, the second by the translated &quot;%n branches&quot;</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>%1 trong %2</translation>
     </message>
     <message>
         <location line="+98"/>
         <source>The current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>Lần chuyển giao hiện tại</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>“%1” isn’t a commit, tag or tree in this repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>“%1” không phải là lần chuyển giao, thẻ đánh dấu hoặc cây trong kho này.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 isn’t in the repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 không có trong kho.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>%1 isn’t in %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 không có trong %2.</translation>
     </message>
     <message>
         <location line="+84"/>
         <source>Mode changed from %1 to %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Chế độ đã thay đổi từ %1 thành %2</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Partially staged</source>
-        <translation type="unfinished"></translation>
+        <translation>Một phần trong vùng chờ</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Staged</source>
-        <translation type="unfinished"></translation>
+        <translation>Trong vùng chờ</translation>
     </message>
     <message>
         <location filename="../src/core/vc/svn.cpp" line="+193"/>
         <source>Rev %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Bản sửa đổi %1</translation>
     </message>
 </context>
 </TS>

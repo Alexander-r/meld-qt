@@ -6,22 +6,22 @@
     <message>
         <location filename="../src/core/archive.cpp" line="+381"/>
         <source>Couldn’t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Mape %1 ni mogoče ustvariti</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>No installed program can extract this archive. Install bsdtar (from libarchive) or 7-Zip.</source>
-        <translation type="unfinished"></translation>
+        <translation>Noben nameščen program ne more razširiti tega arhiva. Namestite bsdtar (iz libarchive) ali 7-Zip.</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>%1 crashed</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 se je sesul</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>%1 failed with status %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 je spodletel s stanjem %2</translation>
     </message>
 </context>
 <context>
@@ -29,22 +29,22 @@
     <message>
         <location filename="../src/ui/dirdiff.cpp" line="+88"/>
         <source>Couldn&apos;t create link %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Povezave %1 ni mogoče ustvariti</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Not a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Ni datoteka</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Couldn&apos;t replace %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 ni mogoče zamenjati</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Mape %1 ni mogoče ustvariti</translation>
     </message>
     <message>
         <location filename="../src/ui/externalhelpers.cpp" line="+58"/>
@@ -59,7 +59,7 @@
     <message>
         <location line="+1"/>
         <source>unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>neznano</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -69,17 +69,17 @@
     <message>
         <location line="+1"/>
         <source>Couldn&apos;t run “%1”</source>
-        <translation type="unfinished"></translation>
+        <translation>»%1« ni mogoče zagnati</translation>
     </message>
     <message>
         <location filename="../src/ui/meldapp.cpp" line="+37"/>
         <source>show program&apos;s version number and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>pokaži različico programa in končaj</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>show this help message and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>pokaži to sporočilo pomoči in končaj</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -94,12 +94,12 @@
     <message>
         <location line="+2"/>
         <source>Open comparisons in an already running instance (single-instance mode)</source>
-        <translation type="unfinished"></translation>
+        <translation>Odpri primerjave v že zagnanem primerku (način enega primerka)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in a new instance, even in single-instance mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Odpri primerjave v novem primerku, tudi v načinu enega primerka</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -130,7 +130,7 @@
     <message>
         <location line="+2"/>
         <source>Compare a file or folder with what a patch would make of it</source>
-        <translation type="unfinished"></translation>
+        <translation>Primerjaj datoteko ali mapo s tem, kar bi iz nje naredil popravek</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -159,7 +159,7 @@
     <message>
         <location line="-4"/>
         <source>Start a comparison against a blank pane</source>
-        <translation type="unfinished"></translation>
+        <translation>Začni primerjavo s praznim oknom</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -174,24 +174,26 @@
     <message>
         <location line="+1"/>
         <source>patch</source>
-        <translation type="unfinished"></translation>
+        <translation>popravek</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare with a patch applied</source>
-        <translation type="unfinished"></translation>
+        <translation>Primerjaj z uveljavljenim popravkom</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Usage:</source>
-        <translation type="unfinished"></translation>
+        <translation>Uporaba:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>
 For file comparisons, the special argument @blank may be used instead of
 a &lt;file&gt; argument to create a blank pane.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+Pri primerjavi datotek je mogoče namesto argumenta &lt;datoteka&gt; uporabiti
+posebni argument @blank, ki ustvari prazno okno.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -201,30 +203,30 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+1"/>
         <source>Options:</source>
-        <translation type="unfinished"></translation>
+        <translation>Možnosti:</translation>
     </message>
     <message>
         <location line="+42"/>
         <location line="+9"/>
         <source>no such option: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>možnost ne obstaja: %1</translation>
     </message>
     <message>
         <location line="-8"/>
         <source>ambiguous option: %1 (%2?)</source>
-        <translation type="unfinished"></translation>
+        <translation>dvoumna možnost: %1 (%2?)</translation>
     </message>
     <message>
         <location line="+16"/>
         <location line="+59"/>
         <location line="+16"/>
         <source>%1 option requires an argument</source>
-        <translation type="unfinished"></translation>
+        <translation>možnost %1 zahteva argument</translation>
     </message>
     <message>
         <location line="-73"/>
         <source>%1 option does not take a value</source>
-        <translation type="unfinished"></translation>
+        <translation>možnost %1 ne sprejme vrednosti</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -234,17 +236,17 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+53"/>
         <source>--patch needs one file or folder to apply the patch to (got %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>--patch zahteva eno datoteko ali mapo, na kateri bo uveljavljen popravek (podanih je %1)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>can’t auto-merge with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>samodejno združevanje s popravkom ni mogoče</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>can’t load a comparison file with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>datoteke primerjave ni mogoče naložiti s popravkom</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -281,14 +283,14 @@ a &lt;file&gt; argument to create a blank pane.</source>
 %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/preferences.cpp" line="+104"/>
+        <location filename="../src/ui/preferences.cpp" line="+108"/>
         <source>Select a Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Izbor sloga</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Select</source>
-        <translation type="unfinished"></translation>
+        <translation>Izberi</translation>
     </message>
     <message>
         <location filename="../src/ui/recent.cpp" line="+76"/>
@@ -302,7 +304,8 @@ a &lt;file&gt; argument to create a blank pane.</source>
         <location filename="../src/ui/singleinstance.cpp" line="+50"/>
         <source>Meld Qt couldn’t open the comparison: a different version of Meld Qt is running.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Meld Qt ne more odpreti primerjave: zagnana je druga različica Meld Qt.
+</translation>
     </message>
 </context>
 <context>
@@ -391,37 +394,37 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+10"/>
         <source>The conflict markers in “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Oznak sporov v »%1« ni mogoče prebrati.</translation>
     </message>
     <message numerus="yes">
         <location line="+17"/>
         <source>%n unresolved conflicts</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n nerazrešen spor</numerusform>
+            <numerusform>%n nerazrešena spora</numerusform>
+            <numerusform>%n nerazrešeni spori</numerusform>
+            <numerusform>%n nerazrešenih sporov</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts show the common ancestor’s text, which the local and remote versions changed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Spori prikazujejo besedilo skupnega prednika, ki sta ga spremenili krajevna in oddaljena različica.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts are empty, to be filled from the local and remote versions.</source>
-        <translation type="unfinished"></translation>
+        <translation>Spori so prazni in jih je treba zapolniti iz krajevne in oddaljene različice.</translation>
     </message>
     <message>
         <location line="+42"/>
         <source>local</source>
-        <translation type="unfinished"></translation>
+        <translation>krajevno</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>remote</source>
-        <translation type="unfinished"></translation>
+        <translation>oddaljeno</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -449,12 +452,12 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+16"/>
         <source>Folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Mapa %1</translation>
     </message>
     <message>
         <location line="+81"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Iskanje</translation>
     </message>
     <message>
         <location line="+88"/>
@@ -489,28 +492,28 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+54"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Popravka »%1« ni mogoče prebrati.</translation>
     </message>
     <message>
         <location line="+102"/>
         <location line="+28"/>
         <source>Scanning %1</source>
-        <translation type="unfinished">Prebiranje mape %1</translation>
+        <translation>Preiskovanje %1</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>%1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: %2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Permission denied</source>
-        <translation type="unfinished"></translation>
+        <translation>Dostop je zavrnjen</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>: Dangling symlink</source>
-        <translation type="unfinished"></translation>
+        <translation>: Viseča simbolna povezava</translation>
     </message>
     <message>
         <location line="+99"/>
@@ -660,7 +663,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+164"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Mape %1 ni mogoče ustvariti</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -737,7 +740,7 @@ v cilj %2.
     <message>
         <location line="+144"/>
         <source>empty folder</source>
-        <translation type="unfinished"></translation>
+        <translation>prazna mapa</translation>
     </message>
 </context>
 <context>
@@ -855,12 +858,12 @@ v cilj %2.
     <message>
         <location line="+13"/>
         <source>There was a problem opening “%1”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pri odpiranju »%1« je prišlo do napake.</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The file could not be decoded using the candidate encodings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Datoteke ni mogoče odkodirati z nobenim od mogočih kodiranj.</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -874,22 +877,22 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message numerus="yes">
         <location line="+39"/>
         <source>%1 has %n unresolved merge conflicts.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 ima %n nerazrešen spor združevanja.</numerusform>
+            <numerusform>%1 ima %n nerazrešena spora združevanja.</numerusform>
+            <numerusform>%1 ima %n nerazrešene spore združevanja.</numerusform>
+            <numerusform>%1 ima %n nerazrešenih sporov združevanja.</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The local and remote versions can be merged in a 3-way comparison.</source>
-        <translation type="unfinished"></translation>
+        <translation>Krajevno in oddaljeno različico je mogoče združiti v trismerni primerjavi.</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Resolve</source>
-        <translation type="unfinished"></translation>
+        <translation>Razreši</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -909,7 +912,7 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="+64"/>
         <source>Computing differences</source>
-        <translation type="unfinished"></translation>
+        <translation>Računanje razlik</translation>
     </message>
     <message>
         <location line="+117"/>
@@ -963,7 +966,7 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="+1"/>
         <source>Some changes were not highlighted because they were too large. You can force Meld Qt to take longer to highlight larger changes, though this may be slow.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nekaterih sprememb ni mogoče poudariti, ker so prevelike. Meld Qt lahko prisilite, da porabi več časa za poudarjanje večjih sprememb, vendar je postopek lahko zelo dolgotrajen.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -998,17 +1001,17 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message numerus="yes">
         <location line="+41"/>
         <source>%n conflicts aren’t resolved</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n spor ni razrešen</numerusform>
+            <numerusform>%n spora nista razrešena</numerusform>
+            <numerusform>%n spori niso razrešeni</numerusform>
+            <numerusform>%n sporov ni razrešenih</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>If you save the merge now, the conflicts are saved as they are here, without conflict markers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Če združitev shranite zdaj, bodo spori shranjeni takšni, kot so tukaj, brez oznak sporov.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1148,7 +1151,7 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="+6"/>
         <source>File %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Datoteka %1</translation>
     </message>
     <message>
         <location line="+128"/>
@@ -1294,17 +1297,17 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="+77"/>
         <source>About Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>O programu Meld Qt</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Visual diff and merge tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Orodje za vidno primerjavo in združevanje</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Built with Qt %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Izgrajeno s Qt %1</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1315,7 +1318,7 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="+3"/>
         <source>Translated by</source>
-        <translation type="unfinished"></translation>
+        <translation>Prevod</translation>
     </message>
 </context>
 <context>
@@ -1394,12 +1397,12 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="-383"/>
         <source>Header bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Naslovna vrstica</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>New Comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Nova primerjava</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1409,7 +1412,7 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="+1"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Zapri</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1425,7 +1428,7 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="-894"/>
         <source>Quit</source>
-        <translation type="unfinished"></translation>
+        <translation>Končaj</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1435,7 +1438,7 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="+1"/>
         <source>&amp;About Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;O programu Meld Qt</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1446,22 +1449,22 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="-959"/>
         <source>Previous Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Predhodni zavihek</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Next Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Naslednji zavihek</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Move Tab Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Premakni zavihek levo</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Move Tab Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Premakni zavihek desno</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -1471,7 +1474,7 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="+11"/>
         <source>Previous Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Predhodna sprememba</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1481,7 +1484,7 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="+1"/>
         <source>Next Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Naslednja sprememba</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1491,7 +1494,7 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="+4"/>
         <source>Previous Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>Predhodni spor</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1501,7 +1504,7 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="+1"/>
         <source>Next Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>Naslednji spor</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1511,7 +1514,7 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="+7"/>
         <source>Push to Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Potisni levo</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1521,7 +1524,7 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="+1"/>
         <source>Push to Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Potisni desno</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1556,7 +1559,7 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="+6"/>
         <source>Delete Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Izbriši spremembo</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1616,7 +1619,7 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
         <location line="+22"/>
         <location line="+6"/>
         <source>Main Menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Glavni meni</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -1721,12 +1724,12 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="+17"/>
         <source>No recent comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>Ni nedavnih primerjav</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Clear Recent Comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>Počisti nedavne primerjave</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -1742,14 +1745,14 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
         <location line="+65"/>
         <location line="+17"/>
         <source>%1 - Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 - Meld Qt</translation>
     </message>
     <message>
         <location line="+26"/>
         <location line="+146"/>
         <location line="+16"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Primerjave ni mogoče odpreti</translation>
     </message>
     <message>
         <location line="+43"/>
@@ -1764,7 +1767,7 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="+11"/>
         <source>Select what to compare, and the patch to apply to it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Izberite, kaj naj bo primerjano, in popravek, ki naj bo uveljavljen.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1772,12 +1775,14 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
         <source>The patch “%1” can’t be read.
 
 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Popravka »%1« ni mogoče prebrati.
+
+%2</translation>
     </message>
     <message>
         <location line="+66"/>
         <source>Opening archive “%1”…</source>
-        <translation type="unfinished"></translation>
+        <translation>Odpiranje arhiva »%1« …</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1787,17 +1792,17 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="+2"/>
         <source>Opening Archive</source>
-        <translation type="unfinished"></translation>
+        <translation>Odpiranje arhiva</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Couldn’t open archive %1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Arhiva %1 ni mogoče odpreti: %2</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Failed to open archive</source>
-        <translation type="unfinished"></translation>
+        <translation>Odpiranje arhiva je spodletelo</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -1813,7 +1818,7 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="+28"/>
         <source>The patch “%1” doesn’t exist</source>
-        <translation type="unfinished"></translation>
+        <translation>Popravek »%1« ne obstaja</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -1833,7 +1838,7 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="+1"/>
         <source>Quit Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>Končaj Meld Qt</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2156,22 +2161,22 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="+7"/>
         <source>Compare with a &amp;patch</source>
-        <translation type="unfinished"></translation>
+        <translation>Primerjaj s &amp;popravkom</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the folder with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>Primerjaj mapo s tem, kako bi jo spremenil popravek</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the file with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>Primerjaj datoteko s tem, kako bi jo spremenil popravek</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Select Patch File</source>
-        <translation type="unfinished"></translation>
+        <translation>Izbor datoteke popravka</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2221,12 +2226,12 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="+70"/>
         <source>Patches (*.patch *.diff)</source>
-        <translation type="unfinished"></translation>
+        <translation>Popravki (*.patch *.diff)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>All files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>Vse datoteke (*)</translation>
     </message>
 </context>
 <context>
@@ -2235,27 +2240,27 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
         <location filename="../src/ui/patchcomparison.cpp" line="+24"/>
         <location line="+41"/>
         <source>The patch “%1” can’t be applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Popravka »%1« ni mogoče uveljaviti na »%2«.</translation>
     </message>
     <message>
         <location line="-34"/>
         <source>The patch deletes this file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Popravek izbriše to datoteko.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The patch “%1” was applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Popravek »%1« je uveljavljen na »%2«.</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>%1 with %2 applied</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 z uveljavljenim %2</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Popravka »%1« ni mogoče prebrati.</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2375,7 +2380,7 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="+3"/>
         <source>Follow System Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Sledi slogu sistema</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2393,7 +2398,22 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
         <translation>Slog vmesnika</translation>
     </message>
     <message>
+        <location line="+5"/>
+        <source>System Language</source>
+        <translation>Sistemski jezik</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Language</source>
+        <translation>Jezik</translation>
+    </message>
+    <message>
         <location line="+3"/>
+        <source>The language will change when Meld Qt is next started.</source>
+        <translation>Jezik se bo spremenil ob naslednjem zagonu programa Meld Qt.</translation>
+    </message>
+    <message>
+        <location line="+14"/>
         <source>Use Custom Font</source>
         <translation>Uporabi pisavo po meri</translation>
     </message>
@@ -2425,12 +2445,12 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="+1"/>
         <source>At Any Character</source>
-        <translation type="unfinished"></translation>
+        <translation>Pri katerem koli znaku</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>At Word Boundaries</source>
-        <translation type="unfinished"></translation>
+        <translation>Na mejah besed</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2505,22 +2525,22 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="+1"/>
         <source>Use {file} and {line} to refer to the file and line being opened</source>
-        <translation type="unfinished"></translation>
+        <translation>Uporabite {file} in {line} za sklic na datoteko in vrstico, ki se odpira</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Application</source>
-        <translation type="unfinished"></translation>
+        <translation>Program</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in the running Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>Odpri primerjave v zagnanem Meld Qt</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Comparisons opened from the command line or other programs open in a new window of a Meld Qt that&apos;s already running, instead of starting another Meld Qt. This applies to Meld Qt started after the change.</source>
-        <translation type="unfinished"></translation>
+        <translation>Primerjave, odprte iz ukazne vrstice ali drugih programov, se odprejo v novem oknu že zagnanega Meld Qt, namesto da bi se zagnal nov Meld Qt. To velja za Meld Qt, zagnan po spremembi.</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -2615,7 +2635,7 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="+5"/>
         <source>Order when comparing file revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>Vrstni red pri primerjavi različic datotek</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2630,17 +2650,17 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="+5"/>
         <source>Order when merging files</source>
-        <translation type="unfinished"></translation>
+        <translation>Vrstni red pri združevanju datotek</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Show the common ancestor in conflicts from conflict markers</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokaži skupnega prednika v sporih iz oznak sporov</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Merges of files with diff3-style conflict markers start with the common ancestor’s text in conflicts, rather than nothing</source>
-        <translation type="unfinished"></translation>
+        <translation>Združevanja datotek z oznakami sporov v slogu diff3 se v sporih začnejo z besedilom skupnega prednika namesto s praznino</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2690,7 +2710,7 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="+1"/>
         <source>When performing file comparisons, you may ignore certain types of changes. Each pattern here is a python regular expression which replaces matching text with the empty string before comparison is performed. If the expression contains groups, only the groups are replaced.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pri primerjavi datotek je mogoče prezreti nekatere vrste sprememb. Vsak vzorec je regularni izraz Python, ki pred primerjavo zamenja ujemajoče besedilo s praznim nizom. Če izraz vsebuje skupine, so zamenjane le skupine.</translation>
     </message>
 </context>
 <context>
@@ -2805,27 +2825,27 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="+18"/>
         <source>%1 — %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 — %2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>The file isn’t in %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Datoteke ni v %1.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 (%2, %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2, %3)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (working, %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (delovno, %2)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (%2, working)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2, delovno)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -2865,7 +2885,7 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="+25"/>
         <source>working copy</source>
-        <translation type="unfinished"></translation>
+        <translation>delovna kopija</translation>
     </message>
     <message>
         <location line="+67"/>
@@ -2892,7 +2912,7 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
         <location line="+1"/>
         <location line="+1"/>
         <source>Next Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Naslednja sprememba</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2903,12 +2923,12 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
         <location line="+1"/>
         <location line="+1"/>
         <source>Previous Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Predhodna sprememba</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>Osveži</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2951,7 +2971,7 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="-754"/>
         <source>Push</source>
-        <translation type="unfinished"></translation>
+        <translation>Potisni</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2995,7 +3015,7 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="+1"/>
         <source>Pull</source>
-        <translation type="unfinished"></translation>
+        <translation>Potegni</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -3020,42 +3040,42 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="+30"/>
         <source>The commit, tag or tree that changes are compared with</source>
-        <translation type="unfinished"></translation>
+        <translation>Uveljavitev, oznaka ali drevo, s katerim se primerjajo spremembe</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The working copy, or a commit, tag or tree, whose changes are shown</source>
-        <translation type="unfinished"></translation>
+        <translation>Delovna kopija ali uveljavitev, oznaka ali drevo, katerega spremembe so prikazane</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Swap</source>
-        <translation type="unfinished"></translation>
+        <translation>Zamenjaj</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Swap the revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>Zamenjaj različici</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Ponastavi</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the working copy with the current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>Primerjaj delovno kopijo s trenutno uveljavitvijo</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Changes from</source>
-        <translation type="unfinished"></translation>
+        <translation>Spremembe od</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>to</source>
-        <translation type="unfinished"></translation>
+        <translation>do</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -3065,17 +3085,17 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="+28"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Iskanje</translation>
     </message>
     <message>
         <location line="+102"/>
         <source>The files as they are now, which can be changed</source>
-        <translation type="unfinished"></translation>
+        <translation>Datoteke, kot so zdaj, ki jih je mogoče spreminjati</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>Unknown revision</source>
-        <translation type="unfinished"></translation>
+        <translation>Neznana različica</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -3086,7 +3106,7 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="+5"/>
         <source>%1 → %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 → %2</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3101,12 +3121,12 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="+40"/>
         <source>Scanning %1</source>
-        <translation type="unfinished">Prebiranje mape %1</translation>
+        <translation>Preiskovanje %1</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>No such file or directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Datoteka ali mapa ne obstaja</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -3121,13 +3141,14 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <message>
         <location line="+157"/>
         <source>Error running command</source>
-        <translation type="unfinished"></translation>
+        <translation>Napaka med izvajanjem ukaza</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>While running &apos;%1&apos;
 Error: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Med izvajanjem »%1«
+Napaka: %2</translation>
     </message>
     <message>
         <location line="+58"/>
@@ -3175,7 +3196,7 @@ Error: %2</source>
     <message>
         <location line="+38"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Primerjave ni mogoče odpreti</translation>
     </message>
 </context>
 <context>
@@ -3183,12 +3204,12 @@ Error: %2</source>
     <message>
         <location filename="../src/core/conflictmarkers.cpp" line="+134"/>
         <source>Line %1: a conflict starts inside the conflict that starts at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vrstica %1: spor se začne znotraj spora, ki se začne v vrstici %2.</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>The conflict that starts at line %1 doesn’t end.</source>
-        <translation type="unfinished"></translation>
+        <translation>Spor, ki se začne v vrstici %1, se ne konča.</translation>
     </message>
 </context>
 <context>
@@ -3196,139 +3217,139 @@ Error: %2</source>
     <message>
         <location filename="../src/core/patch.cpp" line="+176"/>
         <source>Line %1 of the patch: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Vrstica %1 popravka: %2</translation>
     </message>
     <message>
         <location line="+96"/>
         <source>malformed hunk header</source>
-        <translation type="unfinished"></translation>
+        <translation>napačna glava kosa</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>unexpected line in a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>nepričakovana vrstica v kosu</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>the hunk has more lines than its header says</source>
-        <translation type="unfinished"></translation>
+        <translation>kos ima več vrstic, kot jih navaja glava</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>the patch ends in the middle of a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>popravek se konča sredi kosa</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Only unified diffs can be applied; this is a context diff.</source>
-        <translation type="unfinished"></translation>
+        <translation>Uveljaviti je mogoče le poenotene razlike; to je kontekstna razlika.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>No changes were found in the patch.</source>
-        <translation type="unfinished"></translation>
+        <translation>V popravku ni bilo najdenih sprememb.</translation>
     </message>
     <message>
         <location line="+122"/>
         <source>Hunk #%1 doesn’t match the file at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kos #%1 se ne ujema z datoteko v vrstici %2.</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>Hunk #%1 applied at line %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Kos #%1 je uveljavljen v vrstici %2</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source> (offset %n lines)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform> (zamik %n vrstica)</numerusform>
+            <numerusform> (zamik %n vrstici)</numerusform>
+            <numerusform> (zamik %n vrstice)</numerusform>
+            <numerusform> (zamik %n vrstic)</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source> with fuzz %1</source>
-        <translation type="unfinished"></translation>
+        <translation> z nenatančnostjo %1</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+186"/>
         <source>Binary changes can’t be applied.</source>
-        <translation type="unfinished"></translation>
+        <translation>Binarnih sprememb ni mogoče uveljaviti.</translation>
     </message>
     <message>
         <location line="-174"/>
         <source>The patch creates this file, which is already as it would create it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Popravek ustvari to datoteko, ki je že takšna, kot bi jo ustvaril.</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+190"/>
         <source>The patch creates this file, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>Popravek ustvari to datoteko, vendar že obstaja.</translation>
     </message>
     <message>
         <location line="-178"/>
         <source>The patch seems to be applied already: its changes are in the file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Popravek je videti že uveljavljen: njegove spremembe so v datoteki.</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source>%1 of %n hunks can’t be applied.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 od %n kosa ni mogoče uveljaviti.</numerusform>
+            <numerusform>%1 od %n kosov ni mogoče uveljaviti.</numerusform>
+            <numerusform>%1 od %n kosov ni mogoče uveljaviti.</numerusform>
+            <numerusform>%1 od %n kosov ni mogoče uveljaviti.</numerusform>
         </translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch deletes this file, but it has other contents than the patch removes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Popravek izbriše to datoteko, vendar je njena vsebina drugačna od tiste, ki jo popravek odstrani.</translation>
     </message>
     <message>
         <location line="+75"/>
         <source>The patch changes several files called %1:</source>
-        <translation type="unfinished"></translation>
+        <translation>Popravek spremeni več datotek z imenom %1:</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The patch doesn’t change %1. It changes:</source>
-        <translation type="unfinished"></translation>
+        <translation>Popravek ne spremeni %1. Spremeni:</translation>
     </message>
     <message>
         <location line="+73"/>
         <source>The patch changes %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Popravek spremeni %1, ki ga ni v mapi.</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The patch deletes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Popravek izbriše to datoteko, vendar je ni v mapi.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch makes this file from %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Popravek ustvari to datoteko iz %1, ki ga ni v mapi.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>The patch makes this file from %1, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>Popravek ustvari to datoteko iz %1, vendar že obstaja.</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>The patch changes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Popravek spremeni to datoteko, vendar je ni v mapi.</translation>
     </message>
     <message>
         <location line="+106"/>
         <source>The file isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Datoteke ni v mapi.</translation>
     </message>
 </context>
 <context>
@@ -3476,22 +3497,22 @@ Error: %2</source>
     <message>
         <location line="+98"/>
         <source>The current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>Trenutna uveljavitev</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>“%1” isn’t a commit, tag or tree in this repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>»%1« ni uveljavitev, oznaka ali drevo v tem skladišču.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 isn’t in the repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 ni v skladišču.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>%1 isn’t in %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 ni v %2.</translation>
     </message>
     <message>
         <location line="+84"/>

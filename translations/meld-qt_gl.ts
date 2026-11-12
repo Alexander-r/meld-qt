@@ -6,22 +6,22 @@
     <message>
         <location filename="../src/core/archive.cpp" line="+381"/>
         <source>Couldn’t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Non foi posíbel crear o cartafol %1</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>No installed program can extract this archive. Install bsdtar (from libarchive) or 7-Zip.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ningún programa instalado pode extraer este arquivo. Instale bsdtar (de libarchive) ou 7-Zip.</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>%1 crashed</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 fallou inesperadamente</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>%1 failed with status %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 fallou co estado %2</translation>
     </message>
 </context>
 <context>
@@ -29,57 +29,57 @@
     <message>
         <location filename="../src/ui/dirdiff.cpp" line="+88"/>
         <source>Couldn&apos;t create link %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Non foi posíbel crear a ligazón %1</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Not a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Non é un ficheiro</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Couldn&apos;t replace %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Non foi posíbel substituír %1</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Non foi posíbel crear o cartafol %1</translation>
     </message>
     <message>
         <location filename="../src/ui/externalhelpers.cpp" line="+58"/>
         <source>Unsupported file type</source>
-        <translation type="unfinished"></translation>
+        <translation>Tipo de ficheiro non admitido</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>External opening of files of type “%1” is not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Non se admite a apertura externa de ficheiros do tipo «%1»</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>descoñecido</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Failed to launch custom editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Produciuse un fallo ao iniciar o editor personalizado</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Couldn&apos;t run “%1”</source>
-        <translation type="unfinished"></translation>
+        <translation>Non foi posíbel executar «%1»</translation>
     </message>
     <message>
         <location filename="../src/ui/meldapp.cpp" line="+37"/>
         <source>show program&apos;s version number and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>mostrar o número de versión do programa e saír</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>show this help message and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>mostrar esta mensaxe de axuda e saír</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -94,12 +94,12 @@
     <message>
         <location line="+2"/>
         <source>Open comparisons in an already running instance (single-instance mode)</source>
-        <translation type="unfinished"></translation>
+        <translation>Abrir as comparacións nunha instancia xa en execución (modo de instancia única)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in a new instance, even in single-instance mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Abrir as comparacións nunha instancia nova, mesmo no modo de instancia única</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -130,7 +130,7 @@
     <message>
         <location line="+2"/>
         <source>Compare a file or folder with what a patch would make of it</source>
-        <translation type="unfinished"></translation>
+        <translation>Comparar un ficheiro ou cartafol co que faría un parche con el</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -159,7 +159,7 @@
     <message>
         <location line="-4"/>
         <source>Start a comparison against a blank pane</source>
-        <translation type="unfinished"></translation>
+        <translation>Iniciar unha comparación cun panel baleiro</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -174,24 +174,26 @@
     <message>
         <location line="+1"/>
         <source>patch</source>
-        <translation type="unfinished"></translation>
+        <translation>parche</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare with a patch applied</source>
-        <translation type="unfinished"></translation>
+        <translation>Comparar cun parche aplicado</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Usage:</source>
-        <translation type="unfinished"></translation>
+        <translation>Uso:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>
 For file comparisons, the special argument @blank may be used instead of
 a &lt;file&gt; argument to create a blank pane.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+Para as comparacións de ficheiros, pódese usar o argumento especial @blank no canto
+dun argumento &lt;ficheiro&gt; para crear un panel baleiro.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -201,30 +203,30 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+1"/>
         <source>Options:</source>
-        <translation type="unfinished"></translation>
+        <translation>Opcións:</translation>
     </message>
     <message>
         <location line="+42"/>
         <location line="+9"/>
         <source>no such option: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>non existe a opción: %1</translation>
     </message>
     <message>
         <location line="-8"/>
         <source>ambiguous option: %1 (%2?)</source>
-        <translation type="unfinished"></translation>
+        <translation>opción ambigua: %1 (%2?)</translation>
     </message>
     <message>
         <location line="+16"/>
         <location line="+59"/>
         <location line="+16"/>
         <source>%1 option requires an argument</source>
-        <translation type="unfinished"></translation>
+        <translation>a opción %1 require un argumento</translation>
     </message>
     <message>
         <location line="-73"/>
         <source>%1 option does not take a value</source>
-        <translation type="unfinished"></translation>
+        <translation>a opción %1 non acepta un valor</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -234,17 +236,17 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+53"/>
         <source>--patch needs one file or folder to apply the patch to (got %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>--patch precisa un ficheiro ou cartafol ao que aplicar o parche (recibiu %1)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>can’t auto-merge with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>non é posíbel combinar automaticamente cun parche</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>can’t load a comparison file with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>non é posíbel cargar un ficheiro de comparación cun parche</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -281,14 +283,14 @@ a &lt;file&gt; argument to create a blank pane.</source>
 %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/preferences.cpp" line="+104"/>
+        <location filename="../src/ui/preferences.cpp" line="+108"/>
         <source>Select a Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleccionar un estilo</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Select</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleccionar</translation>
     </message>
     <message>
         <location filename="../src/ui/recent.cpp" line="+76"/>
@@ -302,7 +304,8 @@ a &lt;file&gt; argument to create a blank pane.</source>
         <location filename="../src/ui/singleinstance.cpp" line="+50"/>
         <source>Meld Qt couldn’t open the comparison: a different version of Meld Qt is running.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Meld Qt non puido abrir a comparación: estase executando outra versión de Meld Qt.
+</translation>
     </message>
 </context>
 <context>
@@ -339,12 +342,12 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location filename="../src/ui/actiongutter.cpp" line="+346"/>
         <source>Copy Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Copiar arriba</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Copy Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Copiar abaixo</translation>
     </message>
 </context>
 <context>
@@ -358,7 +361,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+8"/>
         <source>Changed Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Ficheiros modificados</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -391,35 +394,35 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+10"/>
         <source>The conflict markers in “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Non é posíbel ler as marcas de conflito de «%1».</translation>
     </message>
     <message numerus="yes">
         <location line="+17"/>
         <source>%n unresolved conflicts</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n conflito sen resolver</numerusform>
+            <numerusform>%n conflitos sen resolver</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts show the common ancestor’s text, which the local and remote versions changed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Os conflitos mostran o texto do antecesor común, que as versións local e remota modificaron.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts are empty, to be filled from the local and remote versions.</source>
-        <translation type="unfinished"></translation>
+        <translation>Os conflitos están baleiros, para enchelos a partir das versións local e remota.</translation>
     </message>
     <message>
         <location line="+42"/>
         <source>local</source>
-        <translation type="unfinished"></translation>
+        <translation>local</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>remote</source>
-        <translation type="unfinished"></translation>
+        <translation>remoto</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -447,12 +450,12 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+16"/>
         <source>Folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Cartafol %1</translation>
     </message>
     <message>
         <location line="+81"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Buscar</translation>
     </message>
     <message>
         <location line="+88"/>
@@ -487,7 +490,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+54"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Non é posíbel ler o parche «%1».</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -498,22 +501,22 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+36"/>
         <source>%1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: %2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Permission denied</source>
-        <translation type="unfinished"></translation>
+        <translation>Permiso denegado</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>: Dangling symlink</source>
-        <translation type="unfinished"></translation>
+        <translation>: Ligazón simbólica rota</translation>
     </message>
     <message>
         <location line="+99"/>
         <source>Done</source>
-        <translation type="unfinished"></translation>
+        <translation>Feito</translation>
     </message>
     <message>
         <location line="+162"/>
@@ -553,7 +556,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+13"/>
         <source>Folder %1 is being compared to itself</source>
-        <translation type="unfinished"></translation>
+        <translation>O cartafol %1 está comparándose consigo mesmo</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -658,7 +661,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+164"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Non foi posíbel crear o cartafol %1</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -702,7 +705,7 @@ en %2.
     <message>
         <location line="+24"/>
         <source>Error deleting %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Produciuse un erro ao eliminar %1</translation>
     </message>
 </context>
 <context>
@@ -735,7 +738,7 @@ en %2.
     <message>
         <location line="+144"/>
         <source>empty folder</source>
-        <translation type="unfinished"></translation>
+        <translation>cartafol baleiro</translation>
     </message>
 </context>
 <context>
@@ -853,37 +856,39 @@ en %2.
     <message>
         <location line="+13"/>
         <source>There was a problem opening “%1”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Produciuse un problema ao abrir «%1».</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The file could not be decoded using the candidate encodings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Non foi posíbel descodificar o ficheiro con ningunha das codificacións candidatas.</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Line %1 exceeded maximum line length (%2 &gt; %3).
 
 Loading files with very long lines may make Meld Qt slow or unresponsive.</source>
-        <translation type="unfinished"></translation>
+        <translation>A liña %1 supera a lonxitude máxima de liña (%2 &gt; %3).
+
+Cargar ficheiros con liñas moi longas pode facer que Meld Qt sexa lento ou deixe de responder.</translation>
     </message>
     <message numerus="yes">
         <location line="+39"/>
         <source>%1 has %n unresolved merge conflicts.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 ten %n conflito de combinación sen resolver.</numerusform>
+            <numerusform>%1 ten %n conflitos de combinación sen resolver.</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The local and remote versions can be merged in a 3-way comparison.</source>
-        <translation type="unfinished"></translation>
+        <translation>As versións local e remota pódense combinar nunha comparación de tres vías.</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Resolve</source>
-        <translation type="unfinished"></translation>
+        <translation>Resolver</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -903,12 +908,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+64"/>
         <source>Computing differences</source>
-        <translation type="unfinished"></translation>
+        <translation>Calculando as diferenzas</translation>
     </message>
     <message>
         <location line="+117"/>
         <source>File %1 is being compared to itself</source>
-        <translation type="unfinished"></translation>
+        <translation>O ficheiro %1 está comparándose consigo mesmo</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -972,7 +977,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+20"/>
         <source>&amp;Load anyway</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Cargar de todos os xeitos</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -992,15 +997,15 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message numerus="yes">
         <location line="+41"/>
         <source>%n conflicts aren’t resolved</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n conflito non está resolto</numerusform>
+            <numerusform>%n conflitos non están resoltos</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>If you save the merge now, the conflicts are saved as they are here, without conflict markers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se garda a combinación agora, os conflitos gárdanse tal como están aquí, sen marcas de conflito.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1033,7 +1038,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="-18"/>
         <source>File “%1” contains characters that can’t be encoded using its current encoding “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>O ficheiro «%1» contén caracteres non codificábeis usando a codificación «%2» actual.</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1089,7 +1094,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+6"/>
         <source>Open documents contain unsaved changes. Changes which are not saved will be permanently lost.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hai documentos abertos con cambios sen gardar. Os cambios que non se garden perderanse permanentemente.</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1130,7 +1135,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+15"/>
         <source>Select File</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleccionar ficheiro</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1140,7 +1145,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+6"/>
         <source>File %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ficheiro %1</translation>
     </message>
     <message>
         <location line="+128"/>
@@ -1221,12 +1226,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+13"/>
         <source>Previous Result</source>
-        <translation type="unfinished"></translation>
+        <translation>Resultado anterior</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Next Result</source>
-        <translation type="unfinished"></translation>
+        <translation>Seguinte resultado</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1291,12 +1296,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+19"/>
         <source>Visual diff and merge tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Ferramenta visual de comparación e combinación</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Built with Qt %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Construído con Qt %1</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1309,7 +1314,7 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+3"/>
         <source>Translated by</source>
-        <translation type="unfinished"></translation>
+        <translation>Traducido por</translation>
     </message>
 </context>
 <context>
@@ -1317,12 +1322,12 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location filename="../src/ui/settings.cpp" line="+31"/>
         <source>Backups</source>
-        <translation type="unfinished"></translation>
+        <translation>Copias de seguranza</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>OS-Specific Metadata</source>
-        <translation type="unfinished"></translation>
+        <translation>Metadatos específicos do SO</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1332,12 +1337,12 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+2"/>
         <source>Binaries</source>
-        <translation type="unfinished"></translation>
+        <translation>Binarios</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Media</source>
-        <translation type="unfinished"></translation>
+        <translation>Multimedia</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1388,12 +1393,12 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="-383"/>
         <source>Header bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Barra de cabeceira</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>New Comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Comparación nova</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1403,7 +1408,7 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+1"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Pechar</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1419,7 +1424,7 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="-894"/>
         <source>Quit</source>
-        <translation type="unfinished"></translation>
+        <translation>Saír</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1440,22 +1445,22 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="-959"/>
         <source>Previous Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Lapela anterior</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Next Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Seguinte lapela</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Move Tab Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Mover a lapela á esquerda</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Move Tab Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Mover a lapela á dereita</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -1465,7 +1470,7 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+11"/>
         <source>Previous Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Cambio anterior</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1475,7 +1480,7 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+1"/>
         <source>Next Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Seguinte cambio</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1485,7 +1490,7 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+4"/>
         <source>Previous Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>Conflito anterior</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1495,7 +1500,7 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+1"/>
         <source>Next Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>Seguinte conflito</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1505,7 +1510,7 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+7"/>
         <source>Push to Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Empurrar á esquerda</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1515,7 +1520,7 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+1"/>
         <source>Push to Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Empurrar á dereita</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1550,7 +1555,7 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+6"/>
         <source>Delete Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Eliminar o cambio</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1610,7 +1615,7 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
         <location line="+22"/>
         <location line="+6"/>
         <source>Main Menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Menú principal</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -1670,22 +1675,22 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+2"/>
         <source>Zoom In</source>
-        <translation type="unfinished"></translation>
+        <translation>Ampliar</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Zoom Out</source>
-        <translation type="unfinished"></translation>
+        <translation>Reducir</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reset Zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Restabelecer a ampliación</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Swap Panes</source>
-        <translation type="unfinished"></translation>
+        <translation>Intercambiar os paneis</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1715,12 +1720,12 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+17"/>
         <source>No recent comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>Non hai comparacións recentes</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Clear Recent Comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>Limpar as comparacións recentes</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -1736,14 +1741,14 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
         <location line="+65"/>
         <location line="+17"/>
         <source>%1 - Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 - Meld Qt</translation>
     </message>
     <message>
         <location line="+26"/>
         <location line="+146"/>
         <location line="+16"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Non foi posíbel abrir a comparación</translation>
     </message>
     <message>
         <location line="+43"/>
@@ -1758,7 +1763,7 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+11"/>
         <source>Select what to compare, and the patch to apply to it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleccione que comparar e o parche que aplicarlle.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1766,12 +1771,14 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
         <source>The patch “%1” can’t be read.
 
 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Non é posíbel ler o parche «%1».
+
+%2</translation>
     </message>
     <message>
         <location line="+66"/>
         <source>Opening archive “%1”…</source>
-        <translation type="unfinished"></translation>
+        <translation>Abrindo o arquivo «%1»…</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1781,23 +1788,23 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+2"/>
         <source>Opening Archive</source>
-        <translation type="unfinished"></translation>
+        <translation>Abrindo o arquivo</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Couldn’t open archive %1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Non foi posíbel abrir o arquivo %1: %2</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Failed to open archive</source>
-        <translation type="unfinished"></translation>
+        <translation>Produciuse un fallo ao abrir o arquivo</translation>
     </message>
     <message>
         <location line="+26"/>
         <location line="+38"/>
         <source>Cannot compare a non-existent file</source>
-        <translation type="unfinished"></translation>
+        <translation>Non é posíbel comparar un ficheiro que non existe</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -1807,7 +1814,7 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+28"/>
         <source>The patch “%1” doesn’t exist</source>
-        <translation type="unfinished"></translation>
+        <translation>O parche «%1» non existe</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -2067,17 +2074,17 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+1"/>
         <source>Zoom in</source>
-        <translation type="unfinished"></translation>
+        <translation>Ampliar</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Zoom out</source>
-        <translation type="unfinished"></translation>
+        <translation>Reducir</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reset zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Restabelecer a ampliación</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2150,22 +2157,22 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+7"/>
         <source>Compare with a &amp;patch</source>
-        <translation type="unfinished"></translation>
+        <translation>Comparar cun &amp;parche</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the folder with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>Comparar o cartafol con como o cambiaría un parche</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the file with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>Comparar o ficheiro con como o cambiaría un parche</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Select Patch File</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleccionar o ficheiro de parche</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2200,7 +2207,7 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+5"/>
         <source>Select Version-controlled Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleccionar un cartafol con control de versións</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -2215,12 +2222,12 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+70"/>
         <source>Patches (*.patch *.diff)</source>
-        <translation type="unfinished"></translation>
+        <translation>Parches (*.patch *.diff)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>All files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>Todos os ficheiros (*)</translation>
     </message>
 </context>
 <context>
@@ -2229,27 +2236,27 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
         <location filename="../src/ui/patchcomparison.cpp" line="+24"/>
         <location line="+41"/>
         <source>The patch “%1” can’t be applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>O parche «%1» non se pode aplicar a «%2».</translation>
     </message>
     <message>
         <location line="-34"/>
         <source>The patch deletes this file.</source>
-        <translation type="unfinished"></translation>
+        <translation>O parche elimina este ficheiro.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The patch “%1” was applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>O parche «%1» aplicouse a «%2».</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>%1 with %2 applied</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 con %2 aplicado</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Non é posíbel ler o parche «%1».</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2349,7 +2356,7 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+1"/>
         <source>Folder Comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Comparación de cartafoles</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2359,37 +2366,52 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+1"/>
         <source>Filters</source>
-        <translation type="unfinished"></translation>
+        <translation>Filtros</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>Aparencia</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Follow System Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Seguir o estilo do sistema</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Light</source>
-        <translation type="unfinished"></translation>
+        <translation>Claro</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Dark</source>
-        <translation type="unfinished"></translation>
+        <translation>Escuro</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Interface Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Estilo da interface</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>System Language</source>
+        <translation>Idioma do sistema</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Language</source>
+        <translation>Idioma</translation>
     </message>
     <message>
         <location line="+3"/>
+        <source>The language will change when Meld Qt is next started.</source>
+        <translation>O idioma cambiará a próxima vez que se inicie Meld Qt.</translation>
+    </message>
+    <message>
+        <location line="+14"/>
         <source>Use Custom Font</source>
-        <translation type="unfinished"></translation>
+        <translation>Usar unha tipografía personalizada</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -2399,12 +2421,12 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+12"/>
         <source>Use Syntax Highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>Usar o realce de sintaxe</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Color Scheme</source>
-        <translation type="unfinished"></translation>
+        <translation>Esquema de cores</translation>
     </message>
     <message>
         <location line="+33"/>
@@ -2414,32 +2436,32 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+3"/>
         <source>Never</source>
-        <translation type="unfinished"></translation>
+        <translation>Nunca</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>At Any Character</source>
-        <translation type="unfinished"></translation>
+        <translation>En calquera carácter</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>At Word Boundaries</source>
-        <translation type="unfinished"></translation>
+        <translation>Nos límites das palabras</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Wrap Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Axustar o texto</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Highlight Current Line</source>
-        <translation type="unfinished"></translation>
+        <translation>Realzar a liña actual</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show Line Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar os números de liña</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2449,7 +2471,7 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+4"/>
         <source>Indentation</source>
-        <translation type="unfinished"></translation>
+        <translation>Sangría</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2459,17 +2481,17 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+1"/>
         <source>Spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>Espazos</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Tab character</source>
-        <translation type="unfinished"></translation>
+        <translation>Carácter de tabulación</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Indentation Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Tamaño da &amp;sangría</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2489,37 +2511,37 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+1"/>
         <source>Use custom text editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Usar un editor de texto personalizado</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Custom Editor Command</source>
-        <translation type="unfinished"></translation>
+        <translation>Orde do editor personalizado</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use {file} and {line} to refer to the file and line being opened</source>
-        <translation type="unfinished"></translation>
+        <translation>Use {file} e {line} para referirse ao ficheiro e á liña que se abren</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Application</source>
-        <translation type="unfinished"></translation>
+        <translation>Aplicación</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in the running Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>Abrir as comparacións no Meld Qt en execución</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Comparisons opened from the command line or other programs open in a new window of a Meld Qt that&apos;s already running, instead of starting another Meld Qt. This applies to Meld Qt started after the change.</source>
-        <translation type="unfinished"></translation>
+        <translation>As comparacións abertas desde a liña de ordes ou desde outros programas ábrense nunha xanela nova dun Meld Qt xa en execución, no canto de iniciar outro Meld Qt. Isto aplícase aos Meld Qt iniciados despois do cambio.</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Comparison Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Opcións de comparación</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2554,7 +2576,7 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+10"/>
         <source>Timestamp resolution</source>
-        <translation type="unfinished"></translation>
+        <translation>Resolución da marca de tempo</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2609,7 +2631,7 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+5"/>
         <source>Order when comparing file revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>Orde ao comparar revisións de ficheiros</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2624,32 +2646,32 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+5"/>
         <source>Order when merging files</source>
-        <translation type="unfinished"></translation>
+        <translation>Orde ao combinar ficheiros</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Show the common ancestor in conflicts from conflict markers</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar o antecesor común nos conflitos das marcas de conflito</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Merges of files with diff3-style conflict markers start with the common ancestor’s text in conflicts, rather than nothing</source>
-        <translation type="unfinished"></translation>
+        <translation>As combinacións de ficheiros con marcas de conflito de estilo diff3 comezan co texto do antecesor común nos conflitos, no canto de nada</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Commit Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Mensaxe de remisión</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show right margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar a marxe dereita</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Margin position</source>
-        <translation type="unfinished"></translation>
+        <translation>Posición da marxe</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2684,7 +2706,7 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+1"/>
         <source>When performing file comparisons, you may ignore certain types of changes. Each pattern here is a python regular expression which replaces matching text with the empty string before comparison is performed. If the expression contains groups, only the groups are replaced.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ao realizar comparacións de ficheiros, pode ignorar certos tipos de cambios. Cada patrón aquí é unha expresión regular de Python que substitúe o texto coincidente por unha cadea baleira antes de realizar a comparación. Se a expresión contén grupos, só se substitúen os grupos.</translation>
     </message>
 </context>
 <context>
@@ -2799,27 +2821,27 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+18"/>
         <source>%1 — %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 — %2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>The file isn’t in %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>O ficheiro non está en %1.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 (%2, %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2, %3)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (working, %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (funcionando, %2)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (%2, working)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2, funcionando)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -2859,7 +2881,7 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+25"/>
         <source>working copy</source>
-        <translation type="unfinished"></translation>
+        <translation>copia de traballo</translation>
     </message>
     <message>
         <location line="+67"/>
@@ -2869,7 +2891,7 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+2"/>
         <source>&amp;Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Limpar</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2886,7 +2908,7 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
         <location line="+1"/>
         <location line="+1"/>
         <source>Next Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Seguinte cambio</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2897,12 +2919,12 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
         <location line="+1"/>
         <location line="+1"/>
         <source>Previous Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Cambio anterior</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>Actualizar</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2919,12 +2941,12 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
         <location line="+2"/>
         <location line="+758"/>
         <source>&amp;Unstage</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Desfacer a preparación</translation>
     </message>
     <message>
         <location line="-758"/>
         <source>Remove staged changes</source>
-        <translation type="unfinished"></translation>
+        <translation>Retirar os cambios preparados</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2945,7 +2967,7 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="-754"/>
         <source>Push</source>
-        <translation type="unfinished"></translation>
+        <translation>Enviar</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2989,7 +3011,7 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+1"/>
         <source>Pull</source>
-        <translation type="unfinished"></translation>
+        <translation>Traer</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -3009,47 +3031,47 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+8"/>
         <source>Unknown folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Cartafol descoñecido</translation>
     </message>
     <message>
         <location line="+30"/>
         <source>The commit, tag or tree that changes are compared with</source>
-        <translation type="unfinished"></translation>
+        <translation>A remisión, etiqueta ou árbore coa que se comparan os cambios</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The working copy, or a commit, tag or tree, whose changes are shown</source>
-        <translation type="unfinished"></translation>
+        <translation>A copia de traballo, ou unha remisión, etiqueta ou árbore, cuxos cambios se mostran</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Swap</source>
-        <translation type="unfinished"></translation>
+        <translation>Intercambiar</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Swap the revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>Intercambiar as revisións</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Restabelecer</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the working copy with the current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>Comparar a copia de traballo coa remisión actual</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Changes from</source>
-        <translation type="unfinished"></translation>
+        <translation>Cambios desde</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>to</source>
-        <translation type="unfinished"></translation>
+        <translation>ata</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -3059,17 +3081,17 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+28"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Buscar</translation>
     </message>
     <message>
         <location line="+102"/>
         <source>The files as they are now, which can be changed</source>
-        <translation type="unfinished"></translation>
+        <translation>Os ficheiros tal como están agora, que se poden modificar</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>Unknown revision</source>
-        <translation type="unfinished"></translation>
+        <translation>Revisión descoñecida</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -3080,7 +3102,7 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+5"/>
         <source>%1 → %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 → %2</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3100,7 +3122,7 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+20"/>
         <source>No such file or directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Non existe o ficheiro ou cartafol</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -3115,13 +3137,14 @@ Proxecto Trasno - Tradución de software libre ao galego &lt;proxecto@trasno.net
     <message>
         <location line="+157"/>
         <source>Error running command</source>
-        <translation type="unfinished"></translation>
+        <translation>Produciuse un erro ao executar a orde</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>While running &apos;%1&apos;
 Error: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Ao executar «%1»
+Erro: %2</translation>
     </message>
     <message>
         <location line="+58"/>
@@ -3164,12 +3187,12 @@ Error: %2</source>
     <message>
         <location line="+22"/>
         <source>Error deleting %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Produciuse un erro ao eliminar %1</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Non foi posíbel abrir a comparación</translation>
     </message>
 </context>
 <context>
@@ -3177,12 +3200,12 @@ Error: %2</source>
     <message>
         <location filename="../src/core/conflictmarkers.cpp" line="+134"/>
         <source>Line %1: a conflict starts inside the conflict that starts at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Liña %1: un conflito comeza dentro do conflito que comeza na liña %2.</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>The conflict that starts at line %1 doesn’t end.</source>
-        <translation type="unfinished"></translation>
+        <translation>O conflito que comeza na liña %1 non remata.</translation>
     </message>
 </context>
 <context>
@@ -3190,135 +3213,135 @@ Error: %2</source>
     <message>
         <location filename="../src/core/patch.cpp" line="+176"/>
         <source>Line %1 of the patch: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Liña %1 do parche: %2</translation>
     </message>
     <message>
         <location line="+96"/>
         <source>malformed hunk header</source>
-        <translation type="unfinished"></translation>
+        <translation>cabeceira de fragmento mal formada</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>unexpected line in a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>liña inesperada nun fragmento</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>the hunk has more lines than its header says</source>
-        <translation type="unfinished"></translation>
+        <translation>o fragmento ten máis liñas das que indica a súa cabeceira</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>the patch ends in the middle of a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>o parche remata no medio dun fragmento</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Only unified diffs can be applied; this is a context diff.</source>
-        <translation type="unfinished"></translation>
+        <translation>Só se poden aplicar diffs unificados; este é un diff de contexto.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>No changes were found in the patch.</source>
-        <translation type="unfinished"></translation>
+        <translation>Non se atoparon cambios no parche.</translation>
     </message>
     <message>
         <location line="+122"/>
         <source>Hunk #%1 doesn’t match the file at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>O fragmento n.º %1 non coincide co ficheiro na liña %2.</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>Hunk #%1 applied at line %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Fragmento n.º %1 aplicado na liña %2</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source> (offset %n lines)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform> (desprazamento de %n liña)</numerusform>
+            <numerusform> (desprazamento de %n liñas)</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source> with fuzz %1</source>
-        <translation type="unfinished"></translation>
+        <translation> con imprecisión %1</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+186"/>
         <source>Binary changes can’t be applied.</source>
-        <translation type="unfinished"></translation>
+        <translation>Os cambios binarios non se poden aplicar.</translation>
     </message>
     <message>
         <location line="-174"/>
         <source>The patch creates this file, which is already as it would create it.</source>
-        <translation type="unfinished"></translation>
+        <translation>O parche crea este ficheiro, que xa está como o parche o crearía.</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+190"/>
         <source>The patch creates this file, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>O parche crea este ficheiro, pero xa existe.</translation>
     </message>
     <message>
         <location line="-178"/>
         <source>The patch seems to be applied already: its changes are in the file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Parece que o parche xa está aplicado: os seus cambios están no ficheiro.</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source>%1 of %n hunks can’t be applied.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 de %n fragmento non se pode aplicar.</numerusform>
+            <numerusform>%1 de %n fragmentos non se poden aplicar.</numerusform>
         </translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch deletes this file, but it has other contents than the patch removes.</source>
-        <translation type="unfinished"></translation>
+        <translation>O parche elimina este ficheiro, pero ten un contido distinto do que elimina o parche.</translation>
     </message>
     <message>
         <location line="+75"/>
         <source>The patch changes several files called %1:</source>
-        <translation type="unfinished"></translation>
+        <translation>O parche modifica varios ficheiros chamados %1:</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The patch doesn’t change %1. It changes:</source>
-        <translation type="unfinished"></translation>
+        <translation>O parche non modifica %1. Modifica:</translation>
     </message>
     <message>
         <location line="+73"/>
         <source>The patch changes %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>O parche modifica %1, que non está no cartafol.</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The patch deletes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>O parche elimina este ficheiro, pero non está no cartafol.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch makes this file from %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>O parche crea este ficheiro a partir de %1, que non está no cartafol.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>The patch makes this file from %1, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>O parche crea este ficheiro a partir de %1, pero xa existe.</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>The patch changes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>O parche modifica este ficheiro, pero non está no cartafol.</translation>
     </message>
     <message>
         <location line="+106"/>
         <source>The file isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>O ficheiro non está no cartafol.</translation>
     </message>
 </context>
 <context>
@@ -3337,12 +3360,12 @@ Error: %2</source>
         <location line="+2"/>
         <location line="+0"/>
         <source>Delete Permanently?</source>
-        <translation type="unfinished"></translation>
+        <translation>Eliminar permanentemente?</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>“%1” can’t be put in the trash. Do you want to delete it permanently?</source>
-        <translation type="unfinished"></translation>
+        <translation>Non é posíbel mover «%1» ao lixo. Quere eliminalo permanentemente?</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3462,22 +3485,22 @@ Error: %2</source>
     <message>
         <location line="+98"/>
         <source>The current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>A remisión actual</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>“%1” isn’t a commit, tag or tree in this repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>«%1» non é unha remisión, etiqueta ou árbore deste repositorio.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 isn’t in the repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 non está no repositorio.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>%1 isn’t in %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 non está en %2.</translation>
     </message>
     <message>
         <location line="+84"/>

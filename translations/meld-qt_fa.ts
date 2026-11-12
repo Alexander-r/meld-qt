@@ -6,22 +6,22 @@
     <message>
         <location filename="../src/core/archive.cpp" line="+381"/>
         <source>Couldn’t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ایجاد شاخهٔ %1 ممکن نبود</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>No installed program can extract this archive. Install bsdtar (from libarchive) or 7-Zip.</source>
-        <translation type="unfinished"></translation>
+        <translation>هیچ برنامهٔ نصب‌شده‌ای نمی‌تواند این بایگانی را باز کند. bsdtar (از libarchive) یا 7-Zip را نصب کنید.</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>%1 crashed</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 از کار افتاد</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>%1 failed with status %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 با وضعیت %2 شکست خورد</translation>
     </message>
 </context>
 <context>
@@ -29,118 +29,118 @@
     <message>
         <location filename="../src/ui/dirdiff.cpp" line="+88"/>
         <source>Couldn&apos;t create link %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ایجاد پیوند %1 ممکن نبود</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Not a file</source>
-        <translation type="unfinished"></translation>
+        <translation>پرونده نیست</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Couldn&apos;t replace %1</source>
-        <translation type="unfinished"></translation>
+        <translation>جایگزینی %1 ممکن نبود</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ایجاد شاخهٔ %1 ممکن نبود</translation>
     </message>
     <message>
         <location filename="../src/ui/externalhelpers.cpp" line="+58"/>
         <source>Unsupported file type</source>
-        <translation type="unfinished"></translation>
+        <translation>نوع پرونده پشتیبانی نمی‌شود</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>External opening of files of type “%1” is not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>باز کردن بیرونی پرونده‌های نوع «%1» پشتیبانی نمی‌شود</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>ناشناخته</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Failed to launch custom editor</source>
-        <translation type="unfinished"></translation>
+        <translation>راه‌اندازی ویراستار سفارشی شکست خورد</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Couldn&apos;t run “%1”</source>
-        <translation type="unfinished"></translation>
+        <translation>اجرای «%1» ممکن نبود</translation>
     </message>
     <message>
         <location filename="../src/ui/meldapp.cpp" line="+37"/>
         <source>show program&apos;s version number and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>نمایش شمارهٔ نگارش برنامه و خروج</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>show this help message and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>نمایش این پیام راهنما و خروج</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Set label to use instead of file name</source>
-        <translation type="unfinished"></translation>
+        <translation>تنظیم برچسب برای استفاده به جای نام پرونده</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Open a new tab in an already running instance</source>
-        <translation type="unfinished"></translation>
+        <translation>باز کردن زبانهٔ جدید در نمونه‌ای که از قبل در حال اجراست</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in an already running instance (single-instance mode)</source>
-        <translation type="unfinished"></translation>
+        <translation>باز کردن مقایسه‌ها در نمونه‌ای که از قبل در حال اجراست (حالت تک‌نمونه)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in a new instance, even in single-instance mode</source>
-        <translation type="unfinished"></translation>
+        <translation>باز کردن مقایسه‌ها در نمونهٔ جدید، حتی در حالت تک‌نمونه</translation>
     </message>
     <message>
         <location line="+2"/>
         <location line="+4"/>
         <source>Ignored for compatibility</source>
-        <translation type="unfinished"></translation>
+        <translation>برای سازگاری نادیده گرفته شد</translation>
     </message>
     <message>
         <location line="-1"/>
         <source>Automatically compare all differing files on startup</source>
-        <translation type="unfinished"></translation>
+        <translation>مقایسهٔ خودکار همهٔ پرونده‌های متفاوت هنگام آغاز</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Set the target file for saving a merge result</source>
-        <translation type="unfinished"></translation>
+        <translation>تنظیم پروندهٔ مقصد برای ذخیرهٔ نتیجهٔ ادغام</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Automatically merge files</source>
-        <translation type="unfinished"></translation>
+        <translation>ادغام خودکار پرونده‌ها</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Load a saved comparison from a Meld Qt comparison file</source>
-        <translation type="unfinished"></translation>
+        <translation>بار کردن مقایسهٔ ذخیره‌شده از پروندهٔ مقایسهٔ Meld Qt</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Compare a file or folder with what a patch would make of it</source>
-        <translation type="unfinished"></translation>
+        <translation>مقایسهٔ یک پرونده یا شاخه با آنچه یک وصله از آن می‌سازد</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Create a diff tab for the supplied files or folders</source>
-        <translation type="unfinished"></translation>
+        <translation>ایجاد زبانهٔ تفاوت برای پرونده‌ها یا شاخه‌های داده‌شده</translation>
     </message>
     <message>
         <location line="+56"/>
         <source>Start with an empty window</source>
-        <translation type="unfinished"></translation>
+        <translation>آغاز با پنجرهٔ خالی</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -154,112 +154,114 @@
         <location line="+3"/>
         <location line="+2"/>
         <source>folder</source>
-        <translation type="unfinished"></translation>
+        <translation>شاخه</translation>
     </message>
     <message>
         <location line="-4"/>
         <source>Start a comparison against a blank pane</source>
-        <translation type="unfinished"></translation>
+        <translation>آغاز مقایسه با یک قاب خالی</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Start a 2- or 3-way file comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>آغاز مقایسهٔ ۲ یا ۳ طرفهٔ پرونده‌ها</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Start a 2- or 3-way folder comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>آغاز مقایسهٔ ۲ یا ۳ طرفهٔ شاخه‌ها</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>patch</source>
-        <translation type="unfinished"></translation>
+        <translation>وصله</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare with a patch applied</source>
-        <translation type="unfinished"></translation>
+        <translation>مقایسه با وصلهٔ اعمال‌شده</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Usage:</source>
-        <translation type="unfinished"></translation>
+        <translation>استفاده:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>
 For file comparisons, the special argument @blank may be used instead of
 a &lt;file&gt; argument to create a blank pane.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+برای مقایسهٔ پرونده‌ها، می‌توان به جای آرگومان &lt;پرونده&gt; از آرگومان ویژهٔ @blank
+برای ایجاد قاب خالی استفاده کرد.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Meld Qt is a file and directory comparison tool.</source>
-        <translation type="unfinished"></translation>
+        <translation>Meld Qt ابزاری برای مقایسهٔ پرونده‌ها و شاخه‌ها است.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Options:</source>
-        <translation type="unfinished"></translation>
+        <translation>گزینه‌ها:</translation>
     </message>
     <message>
         <location line="+42"/>
         <location line="+9"/>
         <source>no such option: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>چنین گزینه‌ای وجود ندارد: %1</translation>
     </message>
     <message>
         <location line="-8"/>
         <source>ambiguous option: %1 (%2?)</source>
-        <translation type="unfinished"></translation>
+        <translation>گزینهٔ مبهم: %1 (%2؟)</translation>
     </message>
     <message>
         <location line="+16"/>
         <location line="+59"/>
         <location line="+16"/>
         <source>%1 option requires an argument</source>
-        <translation type="unfinished"></translation>
+        <translation>گزینهٔ %1 به یک آرگومان نیاز دارد</translation>
     </message>
     <message>
         <location line="-73"/>
         <source>%1 option does not take a value</source>
-        <translation type="unfinished"></translation>
+        <translation>گزینهٔ %1 مقداری نمی‌پذیرد</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>wrong number of arguments supplied to --diff</source>
-        <translation type="unfinished"></translation>
+        <translation>تعداد نادرست آرگومان برای --diff</translation>
     </message>
     <message>
         <location line="+53"/>
         <source>--patch needs one file or folder to apply the patch to (got %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>‏--patch به یک پرونده یا شاخه برای اعمال وصله نیاز دارد (%1 دریافت شد)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>can’t auto-merge with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>ادغام خودکار با وصله ممکن نیست</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>can’t load a comparison file with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>بار کردن پروندهٔ مقایسه با وصله ممکن نیست</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>too many arguments (wanted 0-3, got %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>آرگومان‌های بیش از حد (۰ تا ۳ لازم بود، %1 دریافت شد)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>can’t auto-merge less than 3 files</source>
-        <translation type="unfinished"></translation>
+        <translation>ادغام خودکار کمتر از ۳ پرونده ممکن نیست</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>can’t auto-merge directories</source>
-        <translation type="unfinished"></translation>
+        <translation>ادغام خودکار شاخه‌ها ممکن نیست</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -271,28 +273,29 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location filename="../src/ui/patchdialog.cpp" line="+114"/>
         <source>Could not save file %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>ذخیرهٔ پروندهٔ %1 ممکن نبود.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Couldn’t save file due to:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ذخیرهٔ پرونده ممکن نبود، به دلیل:
+%1</translation>
     </message>
     <message>
-        <location filename="../src/ui/preferences.cpp" line="+104"/>
+        <location filename="../src/ui/preferences.cpp" line="+108"/>
         <source>Select a Style</source>
-        <translation type="unfinished"></translation>
+        <translation>انتخاب سبک</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Select</source>
-        <translation type="unfinished"></translation>
+        <translation>انتخاب</translation>
     </message>
     <message>
         <location filename="../src/ui/recent.cpp" line="+76"/>
         <source>Version control:</source>
-        <translation type="unfinished"></translation>
+        <translation>واپایش نگارش:</translation>
     </message>
 </context>
 <context>
@@ -301,7 +304,8 @@ a &lt;file&gt; argument to create a blank pane.</source>
         <location filename="../src/ui/singleinstance.cpp" line="+50"/>
         <source>Meld Qt couldn’t open the comparison: a different version of Meld Qt is running.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Meld Qt نتوانست مقایسه را باز کند: نگارش دیگری از Meld Qt در حال اجراست.
+</translation>
     </message>
 </context>
 <context>
@@ -309,28 +313,28 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location filename="../src/core/misc.cpp" line="+152"/>
         <source>[None]</source>
-        <translation type="unfinished"></translation>
+        <translation>[هیچ]</translation>
     </message>
     <message>
         <location filename="../src/core/textfile.cpp" line="+26"/>
         <source>UNIX (LF)</source>
-        <translation type="unfinished"></translation>
+        <translation>UNIX (LF)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>DOS/Windows (CR-LF)</source>
-        <translation type="unfinished"></translation>
+        <translation>DOS/Windows (CR-LF)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Mac OS (CR)</source>
-        <translation type="unfinished"></translation>
+        <translation>Mac OS (CR)</translation>
     </message>
     <message>
         <location filename="../src/core/meldbuffer.cpp" line="+135"/>
         <source>&lt;unnamed&gt;</source>
         <extracomment>This is the label of a new, currently-unnamed file.</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>&lt;بی‌نام&gt;</translation>
     </message>
 </context>
 <context>
@@ -338,12 +342,12 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location filename="../src/ui/actiongutter.cpp" line="+346"/>
         <source>Copy Up</source>
-        <translation type="unfinished"></translation>
+        <translation>رونوشت به بالا</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Copy Down</source>
-        <translation type="unfinished"></translation>
+        <translation>رونوشت به پایین</translation>
     </message>
 </context>
 <context>
@@ -357,7 +361,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+8"/>
         <source>Changed Files</source>
-        <translation type="unfinished"></translation>
+        <translation>پرونده‌های تغییریافته</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -385,49 +389,49 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location filename="../src/ui/conflictcomparison.cpp" line="+35"/>
         <source>There was a problem opening the file “%1”.</source>
-        <translation type="unfinished"></translation>
+        <translation>هنگام باز کردن پروندهٔ «%1» مشکلی رخ داد.</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>The conflict markers in “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>خواندن نشانگرهای مغایرت در «%1» ممکن نیست.</translation>
     </message>
     <message numerus="yes">
         <location line="+17"/>
         <source>%n unresolved conflicts</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n مغایرت حل‌نشده</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts show the common ancestor’s text, which the local and remote versions changed.</source>
-        <translation type="unfinished"></translation>
+        <translation>مغایرت‌ها متن نیای مشترک را نشان می‌دهند که نگارش‌های محلّی و دوردست آن را تغییر داده‌اند.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts are empty, to be filled from the local and remote versions.</source>
-        <translation type="unfinished"></translation>
+        <translation>مغایرت‌ها خالی هستند و باید از نگارش‌های محلّی و دوردست پر شوند.</translation>
     </message>
     <message>
         <location line="+42"/>
         <source>local</source>
-        <translation type="unfinished"></translation>
+        <translation>محلّی</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>remote</source>
-        <translation type="unfinished"></translation>
+        <translation>دوردست</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>%1 (local, merge, remote)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (محلّی، ادغام، دوردست)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>%1 (remote, merge, local)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (دوردست، ادغام، محلّی)</translation>
     </message>
 </context>
 <context>
@@ -445,12 +449,12 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+16"/>
         <source>Folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>شاخهٔ %1</translation>
     </message>
     <message>
         <location line="+81"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>جست‌وجو</translation>
     </message>
     <message>
         <location line="+88"/>
@@ -480,68 +484,68 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+239"/>
         <source>%1 (scanning…)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (در حال پوییدن…)</translation>
     </message>
     <message>
         <location line="+54"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>خواندن وصلهٔ «%1» ممکن نیست.</translation>
     </message>
     <message>
         <location line="+102"/>
         <location line="+28"/>
         <source>Scanning %1</source>
-        <translation type="unfinished"></translation>
+        <translation>در حال پوییدن %1</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>%1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: %2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Permission denied</source>
-        <translation type="unfinished"></translation>
+        <translation>اجازه داده نشد</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>: Dangling symlink</source>
-        <translation type="unfinished"></translation>
+        <translation>: پیوند نمادین شکسته</translation>
     </message>
     <message>
         <location line="+99"/>
         <source>Done</source>
-        <translation type="unfinished"></translation>
+        <translation>انجام شد</translation>
     </message>
     <message>
         <location line="+162"/>
         <source>Folders have no differences</source>
-        <translation type="unfinished"></translation>
+        <translation>شاخه‌ها تفاوتی ندارند</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Contents of scanned files in folders are identical.</source>
-        <translation type="unfinished"></translation>
+        <translation>محتوای پرونده‌های پوییده‌شده در شاخه‌ها یکسان است.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Scanned files in folders appear identical, but contents have not been scanned.</source>
-        <translation type="unfinished"></translation>
+        <translation>پرونده‌های پوییده‌شده در شاخه‌ها یکسان به نظر می‌رسند، اما محتوای آن‌ها پوییده نشده است.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>File filters are in use, so not all files have been scanned.</source>
-        <translation type="unfinished"></translation>
+        <translation>پالایه‌های پرونده در حال استفاده‌اند، پس همهٔ پرونده‌ها پوییده نشده‌اند.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Text filters are in use and may be masking content differences.</source>
-        <translation type="unfinished"></translation>
+        <translation>پالایه‌های متن در حال استفاده‌اند و ممکن است تفاوت‌های محتوا را پنهان کنند.</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>Hi&amp;de</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;پنهان کردن</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -551,57 +555,57 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+13"/>
         <source>Folder %1 is being compared to itself</source>
-        <translation type="unfinished"></translation>
+        <translation>شاخهٔ %1 با خودش مقایسه می‌شود</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Multiple errors occurred while scanning this folder</source>
-        <translation type="unfinished"></translation>
+        <translation>هنگام پوییدن این شاخه چند خطا رخ داد</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Files with invalid encodings found</source>
-        <translation type="unfinished"></translation>
+        <translation>پرونده‌هایی با کدگذاری نامعتبر پیدا شد</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Some files were in an incorrect encoding. The names are something like:</source>
-        <translation type="unfinished"></translation>
+        <translation>برخی پرونده‌ها کدگذاری نادرستی داشتند. نام‌ها چیزی شبیه این‌ها هستند:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Files hidden by case insensitive comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>پرونده‌های پنهان‌شده با مقایسهٔ غیرحساس به بزرگی حروف</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are running a case insensitive comparison on a case sensitive filesystem. The following files in this folder are hidden:</source>
-        <translation type="unfinished"></translation>
+        <translation>شما یک مقایسهٔ غیرحساس به بزرگی حروف را روی سامانهٔ پرونده‌ای حساس به بزرگی حروف اجرا می‌کنید. پرونده‌های زیر در این شاخه پنهان شده‌اند:</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Files had mismatched leading or trailing whitespace</source>
-        <translation type="unfinished"></translation>
+        <translation>پرونده‌ها فاصله‌های آغازین یا پایانی ناهمخوان داشتند</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>This comparison found some files that differed only in leading or trailing whitespace. Their names appear as:</source>
-        <translation type="unfinished"></translation>
+        <translation>این مقایسه پرونده‌هایی پیدا کرد که فقط در فاصله‌های آغازین یا پایانی تفاوت داشتند. نام‌های آن‌ها:</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>“%1” hidden by “%2”</source>
-        <translation type="unfinished"></translation>
+        <translation>«%1» توسط «%2» پنهان شده است</translation>
     </message>
     <message>
         <location line="+47"/>
         <source>No folder</source>
-        <translation type="unfinished"></translation>
+        <translation>بدون شاخه</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Folder comparison:</source>
-        <translation type="unfinished"></translation>
+        <translation>مقایسهٔ شاخه‌ها:</translation>
     </message>
     <message>
         <location line="+377"/>
@@ -656,7 +660,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+164"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ایجاد شاخهٔ %1 ممکن نبود</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -668,7 +672,8 @@ a &lt;file&gt; argument to create a blank pane.</source>
         <location line="+1"/>
         <source>Another folder with the same name already exists in “%1”.
 If you replace the existing folder, all files in it will be lost.</source>
-        <translation type="unfinished"></translation>
+        <translation>شاخهٔ دیگری با همین نام از قبل در «%1» وجود دارد.
+اگر شاخهٔ موجود را جایگزین کنید، همهٔ پرونده‌های آن از دست می‌روند.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -683,7 +688,7 @@ If you replace the existing folder, all files in it will be lost.</source>
     <message>
         <location line="+10"/>
         <source>Error copying file</source>
-        <translation type="unfinished"></translation>
+        <translation>خطا در رونوشت پرونده</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -691,12 +696,15 @@ If you replace the existing folder, all files in it will be lost.</source>
 to %2.
 
 %3</source>
-        <translation type="unfinished"></translation>
+        <translation>رونوشت %1
+به %2 ممکن نبود.
+
+%3</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Error deleting %1</source>
-        <translation type="unfinished"></translation>
+        <translation>خطا در حذف %1</translation>
     </message>
 </context>
 <context>
@@ -714,12 +722,12 @@ to %2.
     <message>
         <location line="+2"/>
         <source>Modification time</source>
-        <translation type="unfinished"></translation>
+        <translation>زمان تغییر</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Modification time (ISO)</source>
-        <translation type="unfinished"></translation>
+        <translation>زمان تغییر (ISO)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -729,7 +737,7 @@ to %2.
     <message>
         <location line="+144"/>
         <source>empty folder</source>
-        <translation type="unfinished"></translation>
+        <translation>شاخهٔ خالی</translation>
     </message>
 </context>
 <context>
@@ -737,12 +745,12 @@ to %2.
     <message>
         <location filename="../src/ui/filediff.cpp" line="+222"/>
         <source>Comparison results will be inaccurate</source>
-        <translation type="unfinished"></translation>
+        <translation>نتایج مقایسه دقیق نخواهند بود</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>A filter changed the number of lines in the file, which is unsupported. The comparison will not be accurate.</source>
-        <translation type="unfinished"></translation>
+        <translation>یک پالایه تعداد خط‌های پرونده را تغییر داد، که پشتیبانی نمی‌شود. مقایسه دقیق نخواهد بود.</translation>
     </message>
     <message>
         <location line="+697"/>
@@ -782,111 +790,113 @@ to %2.
     <message>
         <location line="+2"/>
         <source>Add Synchronization Point</source>
-        <translation type="unfinished"></translation>
+        <translation>افزودن نقطهٔ همگام‌سازی</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Move Synchronization Point</source>
-        <translation type="unfinished"></translation>
+        <translation>جابه‌جایی نقطهٔ همگام‌سازی</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Match Synchronization Point</source>
-        <translation type="unfinished"></translation>
+        <translation>تطبیق نقطهٔ همگام‌سازی</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Remove Synchronization Point</source>
-        <translation type="unfinished"></translation>
+        <translation>برداشتن نقطهٔ همگام‌سازی</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Clear Synchronization Points</source>
-        <translation type="unfinished"></translation>
+        <translation>پاک کردن نقطه‌های همگام‌سازی</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Live comparison updating disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>به‌روزرسانی زندهٔ مقایسه غیرفعال است</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Live updating of comparisons is disabled when synchronization points are active. You can still manually refresh the comparison, and live updates will resume when synchronization points are cleared.</source>
-        <translation type="unfinished"></translation>
+        <translation>هنگامی که نقطه‌های همگام‌سازی فعال هستند، به‌روزرسانی زندهٔ مقایسه‌ها غیرفعال است. همچنان می‌توانید مقایسه را دستی تازه کنید و با پاک شدن نقطه‌های همگام‌سازی، به‌روزرسانی زنده از سر گرفته می‌شود.</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Can&apos;t swap unsaved files</source>
-        <translation type="unfinished"></translation>
+        <translation>جابه‌جایی پرونده‌های ذخیره‌نشده ممکن نیست</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Files must be saved to disk before swapping panes.</source>
-        <translation type="unfinished"></translation>
+        <translation>پیش از جابه‌جایی قاب‌ها باید پرونده‌ها روی دیسک ذخیره شوند.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Can&apos;t swap version control comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>جابه‌جایی مقایسه‌های واپایش نگارش ممکن نیست</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Swapping panes is not supported in version control mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>جابه‌جایی قاب‌ها در حالت واپایش نگارش پشتیبانی نمی‌شود.</translation>
     </message>
     <message>
         <location line="+89"/>
         <source>File comparison:</source>
-        <translation type="unfinished"></translation>
+        <translation>مقایسهٔ پرونده‌ها:</translation>
     </message>
     <message>
         <location line="+116"/>
         <source>There was a problem opening the file “%1”.</source>
-        <translation type="unfinished"></translation>
+        <translation>هنگام باز کردن پروندهٔ «%1» مشکلی رخ داد.</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>There was a problem opening “%1”.</source>
-        <translation type="unfinished"></translation>
+        <translation>هنگام باز کردن «%1» مشکلی رخ داد.</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The file could not be decoded using the candidate encodings.</source>
-        <translation type="unfinished"></translation>
+        <translation>رمزگشایی پرونده با کدگذاری‌های نامزد ممکن نبود.</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Line %1 exceeded maximum line length (%2 &gt; %3).
 
 Loading files with very long lines may make Meld Qt slow or unresponsive.</source>
-        <translation type="unfinished"></translation>
+        <translation>خط %1 از بیشینهٔ طول خط فراتر رفت (%2 &gt; %3).
+
+بار کردن پرونده‌هایی با خط‌های بسیار بلند ممکن است Meld Qt را کند یا بی‌پاسخ کند.</translation>
     </message>
     <message numerus="yes">
         <location line="+39"/>
         <source>%1 has %n unresolved merge conflicts.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 دارای %n مغایرت ادغام حل‌نشده است.</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The local and remote versions can be merged in a 3-way comparison.</source>
-        <translation type="unfinished"></translation>
+        <translation>نگارش‌های محلّی و دوردست را می‌توان در مقایسهٔ سه‌طرفه ادغام کرد.</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Resolve</source>
-        <translation type="unfinished"></translation>
+        <translation>حل کردن</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>File %1 appears to be a binary file.</source>
-        <translation type="unfinished"></translation>
+        <translation>به نظر می‌رسد پروندهٔ %1 یک پروندهٔ دودویی است.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Do you want to open the file using the default application?</source>
-        <translation type="unfinished"></translation>
+        <translation>می‌خواهید پرونده را با برنامهٔ پیش‌فرض باز کنید؟</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -896,40 +906,41 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+64"/>
         <source>Computing differences</source>
-        <translation type="unfinished"></translation>
+        <translation>در حال محاسبهٔ تفاوت‌ها</translation>
     </message>
     <message>
         <location line="+117"/>
         <source>File %1 is being compared to itself</source>
-        <translation type="unfinished"></translation>
+        <translation>پروندهٔ %1 با خودش مقایسه می‌شود</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>Files are identical</source>
-        <translation type="unfinished"></translation>
+        <translation>پرونده‌ها یکسان هستند</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Text filters are being used, and may be masking differences between files. Would you like to compare the unfiltered files?</source>
-        <translation type="unfinished"></translation>
+        <translation>پالایه‌های متن در حال استفاده‌اند و ممکن است تفاوت‌های میان پرونده‌ها را پنهان کنند. می‌خواهید پرونده‌های پالایش‌نشده را مقایسه کنید؟</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Files differ in line endings only</source>
-        <translation type="unfinished"></translation>
+        <translation>پرونده‌ها فقط در پایان خط‌ها تفاوت دارند</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Files are identical except for differing line endings:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>پرونده‌ها جز در پایان خط‌ها یکسان هستند:
+%1</translation>
     </message>
     <message>
         <location line="+5"/>
         <location line="+189"/>
         <location line="+20"/>
         <source>Hi&amp;de</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;پنهان کردن</translation>
     </message>
     <message>
         <location line="-209"/>
@@ -939,108 +950,109 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+2"/>
         <source>Show without filters</source>
-        <translation type="unfinished"></translation>
+        <translation>نمایش بدون پالایه</translation>
     </message>
     <message>
         <location line="+182"/>
         <source>Change highlighting incomplete</source>
-        <translation type="unfinished"></translation>
+        <translation>پررنگ سازی تغییرات ناقص است</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Some changes were not highlighted because they were too large. You can force Meld Qt to take longer to highlight larger changes, though this may be slow.</source>
-        <translation type="unfinished"></translation>
+        <translation>برخی تغییرات پررنگ نشدند چون بیش از حد بزرگ بودند. می‌توانید Meld Qt را وادار کنید برای پررنگ کردن تغییرات بزرگ‌تر زمان بیشتری صرف کند، هرچند ممکن است کند باشد.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>&amp;Keep highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ادامهٔ پررنگ سازی</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Keep highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>ادامهٔ پررنگ سازی</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>&amp;Load anyway</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;بار کردن در هر صورت</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Save Left Pane As</source>
-        <translation type="unfinished"></translation>
+        <translation>ذخیرهٔ قاب چپ به‌عنوان</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Save Middle Pane As</source>
-        <translation type="unfinished"></translation>
+        <translation>ذخیرهٔ قاب میانی به‌عنوان</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Save Right Pane As</source>
-        <translation type="unfinished"></translation>
+        <translation>ذخیرهٔ قاب راست به‌عنوان</translation>
     </message>
     <message numerus="yes">
         <location line="+41"/>
         <source>%n conflicts aren’t resolved</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n مغایرت حل نشده است</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>If you save the merge now, the conflicts are saved as they are here, without conflict markers.</source>
-        <translation type="unfinished"></translation>
+        <translation>اگر اکنون ادغام را ذخیره کنید، مغایرت‌ها همان‌گونه که اینجا هستند، بدون نشانگرهای مغایرت ذخیره می‌شوند.</translation>
     </message>
     <message>
         <location line="+2"/>
         <location line="+21"/>
         <source>Save Anyway</source>
-        <translation type="unfinished"></translation>
+        <translation>ذخیره در هر صورت</translation>
     </message>
     <message>
         <location line="-20"/>
         <location line="+21"/>
         <source>Don’t Save</source>
-        <translation type="unfinished"></translation>
+        <translation>ذخیره نکن</translation>
     </message>
     <message>
         <location line="-5"/>
         <source>File %1 has changed on disk since it was opened</source>
-        <translation type="unfinished"></translation>
+        <translation>پروندهٔ %1 از زمان باز شدن روی دیسک تغییر کرده است</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>If you save it, any external changes will be lost.</source>
-        <translation type="unfinished"></translation>
+        <translation>اگر آن را ذخیره کنید، همهٔ تغییرات بیرونی از دست می‌روند.</translation>
     </message>
     <message>
         <location line="+17"/>
         <location line="+19"/>
         <source>Could not save file %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>ذخیرهٔ پروندهٔ %1 ممکن نبود.</translation>
     </message>
     <message>
         <location line="-18"/>
         <source>File “%1” contains characters that can’t be encoded using its current encoding “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>پروندهٔ «%1» نویسه‌هایی دارد که با کدگذاری کنونی آن «%2» قابل کدگذاری نیستند.</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Couldn’t save file due to:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ذخیرهٔ پرونده ممکن نبود، به دلیل:
+%1</translation>
     </message>
     <message>
         <location line="+56"/>
         <source>File %1 has changed on disk</source>
-        <translation type="unfinished"></translation>
+        <translation>پروندهٔ %1 روی دیسک تغییر کرده است</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Do you want to reload the file?</source>
-        <translation type="unfinished"></translation>
+        <translation>می‌خواهید پرونده را دوباره بار کنید؟</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1051,12 +1063,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <location line="+36"/>
         <location line="+1"/>
         <source>Discard unsaved changes to documents?</source>
-        <translation type="unfinished"></translation>
+        <translation>تغییرات ذخیره‌نشدهٔ اسناد دور ریخته شوند؟</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Changes made to the following documents will be permanently lost:</source>
-        <translation type="unfinished"></translation>
+        <translation>تغییرات اسناد زیر برای همیشه از دست خواهند رفت:</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1074,12 +1086,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <location line="-26"/>
         <location line="+2"/>
         <source>Save changes to documents before closing?</source>
-        <translation type="unfinished"></translation>
+        <translation>پیش از بستن، تغییرات اسناد ذخیره شوند؟</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Open documents contain unsaved changes. Changes which are not saved will be permanently lost.</source>
-        <translation type="unfinished"></translation>
+        <translation>اسناد باز تغییرات ذخیره‌نشده دارند. تغییراتی که ذخیره نشوند برای همیشه از دست می‌روند.</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1090,12 +1102,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <location line="+65"/>
         <location line="+1"/>
         <source>Mark conflict as resolved?</source>
-        <translation type="unfinished"></translation>
+        <translation>مغایرت حل‌شده علامت زده شود؟</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>If the conflict was resolved successfully, you may mark it as resolved now.</source>
-        <translation type="unfinished"></translation>
+        <translation>اگر مغایرت با موفقیت حل شده است، اکنون می‌توانید آن را حل‌شده علامت بزنید.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1105,12 +1117,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Mark &amp;Resolved</source>
-        <translation type="unfinished"></translation>
+        <translation>علامت‌گذاری به‌عنوان &amp;حل‌شده</translation>
     </message>
     <message>
         <location filename="../src/ui/filediff_layout.cpp" line="+261"/>
         <source>This file can not be written to. You may click here to unlock this file and make changes anyway, but these changes must be saved to a new file.</source>
-        <translation type="unfinished"></translation>
+        <translation>نوشتن در این پرونده ممکن نیست. می‌توانید برای باز کردن قفل این پرونده و اعمال تغییرات اینجا کلیک کنید، اما این تغییرات باید در پروندهٔ جدیدی ذخیره شوند.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1120,7 +1132,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+15"/>
         <source>Select File</source>
-        <translation type="unfinished"></translation>
+        <translation>انتخاب پرونده</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1130,7 +1142,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+6"/>
         <source>File %1</source>
-        <translation type="unfinished"></translation>
+        <translation>پروندهٔ %1</translation>
     </message>
     <message>
         <location line="+128"/>
@@ -1140,7 +1152,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+2"/>
         <source>Show whitespace</source>
-        <translation type="unfinished"></translation>
+        <translation>نمایش فاصله‌ها</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1150,7 +1162,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+2"/>
         <source>Text wrapping</source>
-        <translation type="unfinished"></translation>
+        <translation>شکستن خط‌ها</translation>
     </message>
 </context>
 <context>
@@ -1198,7 +1210,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+2"/>
         <source>pattern</source>
-        <translation type="unfinished"></translation>
+        <translation>الگو</translation>
     </message>
 </context>
 <context>
@@ -1271,22 +1283,22 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+120"/>
         <source>Error reading saved comparison file</source>
-        <translation type="unfinished"></translation>
+        <translation>خطا در خواندن پروندهٔ مقایسهٔ ذخیره‌شده</translation>
     </message>
     <message>
         <location line="+77"/>
         <source>About Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>دربارهٔ Meld Qt</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Visual diff and merge tool</source>
-        <translation type="unfinished"></translation>
+        <translation>ابزار دیداری مقایسه و ادغام</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Built with Qt %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ساخته‌شده با Qt %1</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1297,7 +1309,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+3"/>
         <source>Translated by</source>
-        <translation type="unfinished"></translation>
+        <translation>ترجمه</translation>
     </message>
 </context>
 <context>
@@ -1305,12 +1317,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location filename="../src/ui/settings.cpp" line="+31"/>
         <source>Backups</source>
-        <translation type="unfinished"></translation>
+        <translation>پشتیبان‌ها</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>OS-Specific Metadata</source>
-        <translation type="unfinished"></translation>
+        <translation>فراداده‌های ویژهٔ سیستم‌عامل</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1320,47 +1332,47 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+2"/>
         <source>Binaries</source>
-        <translation type="unfinished"></translation>
+        <translation>دودویی‌ها</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Media</source>
-        <translation type="unfinished"></translation>
+        <translation>رسانه</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>CVS/SVN Keywords</source>
-        <translation type="unfinished"></translation>
+        <translation>کلیدواژه‌های CVS/SVN</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>C++ Comment</source>
-        <translation type="unfinished"></translation>
+        <translation>توضیح C++</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>C Comment</source>
-        <translation type="unfinished"></translation>
+        <translation>توضیح C</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>All Whitespace</source>
-        <translation type="unfinished"></translation>
+        <translation>همهٔ فاصله‌ها</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Leading Whitespace</source>
-        <translation type="unfinished"></translation>
+        <translation>فاصله‌های آغازین</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Trailing Whitespace</source>
-        <translation type="unfinished"></translation>
+        <translation>فاصله‌های پایانی</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Script Comment</source>
-        <translation type="unfinished"></translation>
+        <translation>توضیح اسکریپت</translation>
     </message>
 </context>
 <context>
@@ -1371,17 +1383,17 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <location line="+5"/>
         <location line="+12"/>
         <source>Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>Meld Qt</translation>
     </message>
     <message>
         <location line="-383"/>
         <source>Header bar</source>
-        <translation type="unfinished"></translation>
+        <translation>نوار سرآیند</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>New Comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>مقایسهٔ جدید</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1391,7 +1403,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>بستن</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1407,7 +1419,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="-894"/>
         <source>Quit</source>
-        <translation type="unfinished"></translation>
+        <translation>خروج</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1417,7 +1429,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>&amp;About Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;دربارهٔ Meld Qt</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1428,22 +1440,22 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="-959"/>
         <source>Previous Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>زبانهٔ پیشین</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Next Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>زبانهٔ بعدی</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Move Tab Left</source>
-        <translation type="unfinished"></translation>
+        <translation>انتقال زبانه به چپ</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Move Tab Right</source>
-        <translation type="unfinished"></translation>
+        <translation>انتقال زبانه به راست</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -1453,7 +1465,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+11"/>
         <source>Previous Change</source>
-        <translation type="unfinished"></translation>
+        <translation>تغییر پیشین</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1463,7 +1475,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Next Change</source>
-        <translation type="unfinished"></translation>
+        <translation>تغییر بعدی</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1473,7 +1485,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+4"/>
         <source>Previous Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>مغایرت پیشین</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1483,7 +1495,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Next Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>مغایرت بعدی</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1493,7 +1505,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+7"/>
         <source>Push to Left</source>
-        <translation type="unfinished"></translation>
+        <translation>فرستادن به چپ</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1503,7 +1515,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Push to Right</source>
-        <translation type="unfinished"></translation>
+        <translation>فرستادن به راست</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1513,32 +1525,32 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+4"/>
         <source>Copy change above the left chunk</source>
-        <translation type="unfinished"></translation>
+        <translation>رونوشت تغییر بالای تکهٔ چپ</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy change below the left chunk</source>
-        <translation type="unfinished"></translation>
+        <translation>رونوشت تغییر پایین تکهٔ چپ</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy change above the right chunk</source>
-        <translation type="unfinished"></translation>
+        <translation>رونوشت تغییر بالای تکهٔ راست</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy change below the right chunk</source>
-        <translation type="unfinished"></translation>
+        <translation>رونوشت تغییر پایین تکهٔ راست</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Copy chunks</source>
-        <translation type="unfinished"></translation>
+        <translation>رونوشت تکه‌ها</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Delete Change</source>
-        <translation type="unfinished"></translation>
+        <translation>حذف تغییر</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1598,7 +1610,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <location line="+22"/>
         <location line="+6"/>
         <source>Main Menu</source>
-        <translation type="unfinished"></translation>
+        <translation>فهرست اصلی</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -1658,22 +1670,22 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+2"/>
         <source>Zoom In</source>
-        <translation type="unfinished"></translation>
+        <translation>بزرگ‌نمایی</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Zoom Out</source>
-        <translation type="unfinished"></translation>
+        <translation>کوچک‌نمایی</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reset Zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>بازنشانی بزرگ‌نمایی</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Swap Panes</source>
-        <translation type="unfinished"></translation>
+        <translation>جابه‌جایی قاب‌ها</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1703,12 +1715,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+17"/>
         <source>No recent comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>مقایسهٔ اخیری وجود ندارد</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Clear Recent Comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>پاک کردن مقایسه‌های اخیر</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -1724,29 +1736,29 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <location line="+65"/>
         <location line="+17"/>
         <source>%1 - Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 - Meld Qt</translation>
     </message>
     <message>
         <location line="+26"/>
         <location line="+146"/>
         <location line="+16"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>باز کردن مقایسه ممکن نبود</translation>
     </message>
     <message>
         <location line="+43"/>
         <source>Need three files to auto-merge, got: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>برای ادغام خودکار سه پرونده لازم است، دریافت شد: %1</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Cannot compare a mixture of files and directories</source>
-        <translation type="unfinished"></translation>
+        <translation>مقایسهٔ آمیزه‌ای از پرونده‌ها و شاخه‌ها ممکن نیست</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Select what to compare, and the patch to apply to it.</source>
-        <translation type="unfinished"></translation>
+        <translation>انتخاب کنید چه چیزی مقایسه شود و وصله‌ای که باید روی آن اعمال شود.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1754,12 +1766,14 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <source>The patch “%1” can’t be read.
 
 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>خواندن وصلهٔ «%1» ممکن نیست.
+
+%2</translation>
     </message>
     <message>
         <location line="+66"/>
         <source>Opening archive “%1”…</source>
-        <translation type="unfinished"></translation>
+        <translation>در حال باز کردن بایگانی «%1»…</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1769,33 +1783,33 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+2"/>
         <source>Opening Archive</source>
-        <translation type="unfinished"></translation>
+        <translation>در حال باز کردن بایگانی</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Couldn’t open archive %1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>باز کردن بایگانی %1 ممکن نبود: %2</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Failed to open archive</source>
-        <translation type="unfinished"></translation>
+        <translation>باز کردن بایگانی شکست خورد</translation>
     </message>
     <message>
         <location line="+26"/>
         <location line="+38"/>
         <source>Cannot compare a non-existent file</source>
-        <translation type="unfinished"></translation>
+        <translation>مقایسهٔ پرونده‌ای که وجود ندارد ممکن نیست</translation>
     </message>
     <message>
         <location line="-23"/>
         <source>too many arguments (wanted 0-3, got %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>آرگومان‌های بیش از حد (۰ تا ۳ لازم بود، %1 دریافت شد)</translation>
     </message>
     <message>
         <location line="+28"/>
         <source>The patch “%1” doesn’t exist</source>
-        <translation type="unfinished"></translation>
+        <translation>وصلهٔ «%1» وجود ندارد</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -1815,7 +1829,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Quit Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>خروج از Meld Qt</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2055,17 +2069,17 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Zoom in</source>
-        <translation type="unfinished"></translation>
+        <translation>بزرگ‌نمایی</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Zoom out</source>
-        <translation type="unfinished"></translation>
+        <translation>کوچک‌نمایی</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reset zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>بازنشانی بزرگ‌نمایی</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2104,7 +2118,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <location filename="../src/ui/msgarea.cpp" line="+118"/>
         <location line="+22"/>
         <source>Hi&amp;de</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;پنهان کردن</translation>
     </message>
 </context>
 <context>
@@ -2138,22 +2152,22 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+7"/>
         <source>Compare with a &amp;patch</source>
-        <translation type="unfinished"></translation>
+        <translation>مقایسه با &amp;وصله</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the folder with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>مقایسهٔ شاخه با آنچه وصله از آن می‌سازد</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the file with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>مقایسهٔ پرونده با آنچه وصله از آن می‌سازد</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Select Patch File</source>
-        <translation type="unfinished"></translation>
+        <translation>انتخاب پروندهٔ وصله</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2188,7 +2202,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+5"/>
         <source>Select Version-controlled Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>انتخاب شاخهٔ تحت واپایش نگارش</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -2203,12 +2217,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+70"/>
         <source>Patches (*.patch *.diff)</source>
-        <translation type="unfinished"></translation>
+        <translation>وصله‌ها (*.patch *.diff)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>All files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>همهٔ پرونده‌ها (*)</translation>
     </message>
 </context>
 <context>
@@ -2217,32 +2231,32 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <location filename="../src/ui/patchcomparison.cpp" line="+24"/>
         <location line="+41"/>
         <source>The patch “%1” can’t be applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>اعمال وصلهٔ «%1» روی «%2» ممکن نیست.</translation>
     </message>
     <message>
         <location line="-34"/>
         <source>The patch deletes this file.</source>
-        <translation type="unfinished"></translation>
+        <translation>وصله این پرونده را حذف می‌کند.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The patch “%1” was applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>وصلهٔ «%1» روی «%2» اعمال شد.</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>%1 with %2 applied</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 با اعمال %2</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>خواندن وصلهٔ «%1» ممکن نیست.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>There was a problem opening the file “%1”.</source>
-        <translation type="unfinished"></translation>
+        <translation>هنگام باز کردن پروندهٔ «%1» مشکلی رخ داد.</translation>
     </message>
 </context>
 <context>
@@ -2255,22 +2269,22 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+4"/>
         <source>Use differences between:</source>
-        <translation type="unfinished"></translation>
+        <translation>استفاده از تفاوت‌های میان:</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Left and middle panes</source>
-        <translation type="unfinished"></translation>
+        <translation>قاب‌های چپ و میانی</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Middle and right panes</source>
-        <translation type="unfinished"></translation>
+        <translation>قاب‌های میانی و راست</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>&amp;Reverse patch direction</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;وارونه کردن جهت وصله</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -2294,7 +2308,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location filename="../src/ui/pathlabel.cpp" line="+92"/>
         <source>Unnamed file</source>
-        <translation type="unfinished"></translation>
+        <translation>پروندهٔ بی‌نام</translation>
     </message>
     <message>
         <location line="+109"/>
@@ -2304,12 +2318,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+14"/>
         <source>Copy Path</source>
-        <translation type="unfinished"></translation>
+        <translation>رونوشت مسیر</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy the full path</source>
-        <translation type="unfinished"></translation>
+        <translation>رونوشت مسیر کامل</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2319,7 +2333,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>View the folder in file manager</source>
-        <translation type="unfinished"></translation>
+        <translation>نمایش شاخه در مدیر پرونده</translation>
     </message>
 </context>
 <context>
@@ -2337,7 +2351,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Folder Comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>مقایسهٔ شاخه‌ها</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2347,37 +2361,52 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Filters</source>
-        <translation type="unfinished"></translation>
+        <translation>پالایه‌ها</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>ظاهر</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Follow System Style</source>
-        <translation type="unfinished"></translation>
+        <translation>پیروی از سبک سامانه</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Light</source>
-        <translation type="unfinished"></translation>
+        <translation>روشن</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Dark</source>
-        <translation type="unfinished"></translation>
+        <translation>تیره</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Interface Style</source>
-        <translation type="unfinished"></translation>
+        <translation>سبک رابط</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>System Language</source>
+        <translation>زبان سامانه</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Language</source>
+        <translation>زبان</translation>
     </message>
     <message>
         <location line="+3"/>
+        <source>The language will change when Meld Qt is next started.</source>
+        <translation>زبان در اجرای بعدی Meld Qt تغییر خواهد کرد.</translation>
+    </message>
+    <message>
+        <location line="+14"/>
         <source>Use Custom Font</source>
-        <translation type="unfinished"></translation>
+        <translation>استفاده از قلم سفارشی</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -2387,12 +2416,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+12"/>
         <source>Use Syntax Highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>استفاده از پررنگ سازی نحو</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Color Scheme</source>
-        <translation type="unfinished"></translation>
+        <translation>طرح رنگ</translation>
     </message>
     <message>
         <location line="+33"/>
@@ -2402,42 +2431,42 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+3"/>
         <source>Never</source>
-        <translation type="unfinished"></translation>
+        <translation>هرگز</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>At Any Character</source>
-        <translation type="unfinished"></translation>
+        <translation>در هر نویسه</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>At Word Boundaries</source>
-        <translation type="unfinished"></translation>
+        <translation>در مرز واژه‌ها</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Wrap Text</source>
-        <translation type="unfinished"></translation>
+        <translation>شکستن خط‌ها</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Highlight Current Line</source>
-        <translation type="unfinished"></translation>
+        <translation>پررنگ سازی خط کنونی</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show Line Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>نمایش شمارهٔ خط‌ها</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show whitespace</source>
-        <translation type="unfinished"></translation>
+        <translation>نمایش فاصله‌ها</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Indentation</source>
-        <translation type="unfinished"></translation>
+        <translation>تورفتگی</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2447,22 +2476,22 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>فاصله‌ها</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Tab character</source>
-        <translation type="unfinished"></translation>
+        <translation>نویسهٔ جهش</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Indentation Size</source>
-        <translation type="unfinished"></translation>
+        <translation>اندازهٔ &amp;تورفتگی</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Code Overview</source>
-        <translation type="unfinished"></translation>
+        <translation>نمای کلی کد</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2472,87 +2501,87 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+4"/>
         <source>External Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>ویراستار بیرونی</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use custom text editor</source>
-        <translation type="unfinished"></translation>
+        <translation>استفاده از ویراستار متن سفارشی</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Custom Editor Command</source>
-        <translation type="unfinished"></translation>
+        <translation>فرمان ویراستار سفارشی</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use {file} and {line} to refer to the file and line being opened</source>
-        <translation type="unfinished"></translation>
+        <translation>از {file} و {line} برای اشاره به پرونده و خطی که باز می‌شود استفاده کنید</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Application</source>
-        <translation type="unfinished"></translation>
+        <translation>برنامه</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in the running Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>باز کردن مقایسه‌ها در Meld Qt در حال اجرا</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Comparisons opened from the command line or other programs open in a new window of a Meld Qt that&apos;s already running, instead of starting another Meld Qt. This applies to Meld Qt started after the change.</source>
-        <translation type="unfinished"></translation>
+        <translation>مقایسه‌هایی که از خط فرمان یا برنامه‌های دیگر باز می‌شوند، به جای آغاز یک Meld Qt دیگر، در پنجرهٔ جدیدی از Meld Qt در حال اجرا باز می‌شوند. این برای Meld Qt آغازشده پس از این تغییر اعمال می‌شود.</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Comparison Options</source>
-        <translation type="unfinished"></translation>
+        <translation>گزینه‌های مقایسه</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare files based only on size and timestamp</source>
-        <translation type="unfinished"></translation>
+        <translation>مقایسهٔ پرونده‌ها فقط بر اساس اندازه و برچسب زمانی</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>1ns (ext4)</source>
-        <translation type="unfinished"></translation>
+        <translation>1ns (ext4)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>100ns (NTFS)</source>
-        <translation type="unfinished"></translation>
+        <translation>100ns (NTFS)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>1s (ext2/ext3)</source>
-        <translation type="unfinished"></translation>
+        <translation>1s (ext2/ext3)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>2s (VFAT)</source>
-        <translation type="unfinished"></translation>
+        <translation>2s (VFAT)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Ignore timestamp</source>
-        <translation type="unfinished"></translation>
+        <translation>نادیده گرفتن برچسب زمانی</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Timestamp resolution</source>
-        <translation type="unfinished"></translation>
+        <translation>دقت برچسب زمانی</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Ignore symbolic links</source>
-        <translation type="unfinished"></translation>
+        <translation>نادیده گرفتن پیوندهای نمادین</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Apply text filters during folder comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>اعمال پالایه‌های متن در مقایسهٔ شاخه‌ها</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2567,12 +2596,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Modification time</source>
-        <translation type="unfinished"></translation>
+        <translation>زمان تغییر</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Modification time (ISO)</source>
-        <translation type="unfinished"></translation>
+        <translation>زمان تغییر (ISO)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2582,97 +2611,97 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+44"/>
         <source>Version Comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>مقایسه‌های نگارش</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Left is remote, right is local</source>
-        <translation type="unfinished"></translation>
+        <translation>چپ دوردست و راست محلّی است</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Left is local, right is remote</source>
-        <translation type="unfinished"></translation>
+        <translation>چپ محلّی و راست دوردست است</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Order when comparing file revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>ترتیب هنگام مقایسهٔ نگارش‌های پرونده</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Remote, merge, local</source>
-        <translation type="unfinished"></translation>
+        <translation>دوردست، ادغام، محلّی</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Local, merge, remote</source>
-        <translation type="unfinished"></translation>
+        <translation>محلّی، ادغام، دوردست</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Order when merging files</source>
-        <translation type="unfinished"></translation>
+        <translation>ترتیب هنگام ادغام پرونده‌ها</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Show the common ancestor in conflicts from conflict markers</source>
-        <translation type="unfinished"></translation>
+        <translation>نمایش نیای مشترک در مغایرت‌های برآمده از نشانگرهای مغایرت</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Merges of files with diff3-style conflict markers start with the common ancestor’s text in conflicts, rather than nothing</source>
-        <translation type="unfinished"></translation>
+        <translation>ادغام پرونده‌هایی با نشانگرهای مغایرت به سبک diff3 در مغایرت‌ها با متن نیای مشترک آغاز می‌شود، به جای هیچ</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Commit Message</source>
-        <translation type="unfinished"></translation>
+        <translation>پیام ثبت</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show right margin</source>
-        <translation type="unfinished"></translation>
+        <translation>نمایش حاشیهٔ راست</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Margin position</source>
-        <translation type="unfinished"></translation>
+        <translation>جایگاه حاشیه</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Automatically &amp;break lines at right margin on commit</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;شکستن خودکار خط‌ها در حاشیهٔ راست هنگام ثبت</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Filename filters</source>
-        <translation type="unfinished"></translation>
+        <translation>پالایه‌های نام پرونده</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>When performing directory comparisons, you may filter out files and directories by name. Each pattern is a list of shell style wildcards separated by spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>هنگام مقایسهٔ شاخه‌ها، می‌توانید پرونده‌ها و شاخه‌ها را با نام پالایش کنید. هر الگو فهرستی از نویسه‌های جانشین به سبک پوسته است که با فاصله از هم جدا شده‌اند.</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Change trimming</source>
-        <translation type="unfinished"></translation>
+        <translation>پیرایش تغییرات</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Trim blank line differences from the start and end of changes</source>
-        <translation type="unfinished"></translation>
+        <translation>پیرایش تفاوت‌های خط‌های خالی از آغاز و پایان تغییرات</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Text filters</source>
-        <translation type="unfinished"></translation>
+        <translation>پالایه‌های متن</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>When performing file comparisons, you may ignore certain types of changes. Each pattern here is a python regular expression which replaces matching text with the empty string before comparison is performed. If the expression contains groups, only the groups are replaced.</source>
-        <translation type="unfinished"></translation>
+        <translation>هنگام مقایسهٔ پرونده‌ها، می‌توانید برخی انواع تغییرات را نادیده بگیرید. هر الگو در اینجا یک عبارت باقاعدهٔ پایتون است که پیش از انجام مقایسه، متن منطبق را با رشتهٔ خالی جایگزین می‌کند. اگر عبارت گروه داشته باشد، فقط گروه‌ها جایگزین می‌شوند.</translation>
     </message>
 </context>
 <context>
@@ -2699,13 +2728,13 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+54"/>
         <source>Line you want to move the cursor to</source>
-        <translation type="unfinished"></translation>
+        <translation>خطی که می‌خواهید مکان‌نما به آن برود</translation>
     </message>
     <message>
         <location line="+28"/>
         <location line="+20"/>
         <source>Ln %1, Col %2</source>
-        <translation type="unfinished"></translation>
+        <translation>خط %1، ستون %2</translation>
     </message>
 </context>
 <context>
@@ -2761,93 +2790,93 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+250"/>
         <source>%1 (not found)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (پیدا نشد)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (%2 not installed)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2 نصب نیست)</translation>
     </message>
     <message>
         <location line="+4"/>
         <location line="+10"/>
         <source>%1 (invalid repository)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (مخزن نامعتبر)</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>No valid version control system found in this folder</source>
-        <translation type="unfinished"></translation>
+        <translation>هیچ سامانهٔ واپایش نگارش معتبری در این شاخه پیدا نشد</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Choose which version control system to use</source>
-        <translation type="unfinished"></translation>
+        <translation>انتخاب سامانهٔ واپایش نگارشی که استفاده شود</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>%1 — %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 — %2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>The file isn’t in %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>پرونده در %1 نیست.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 (%2, %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2، %3)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (working, %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (کاری، %2)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (%2, working)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2، کاری)</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>%1 — local</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 — محلّی</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>%1 — remote</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 — دوردست</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>%1 (local, merge, remote)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (محلّی، ادغام، دوردست)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (remote, merge, local)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (دوردست، ادغام، محلّی)</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>%1 — repository</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 — مخزن</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>%1 (working, repository)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (کاری، مخزن)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (repository, working)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (مخزن، کاری)</translation>
     </message>
     <message>
         <location line="+25"/>
         <source>working copy</source>
-        <translation type="unfinished"></translation>
+        <translation>رونوشت کاری</translation>
     </message>
     <message>
         <location line="+67"/>
@@ -2857,13 +2886,13 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+2"/>
         <source>&amp;Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;پاک کردن</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+764"/>
         <source>&amp;Compare</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;مقایسه</translation>
     </message>
     <message>
         <location line="-763"/>
@@ -2874,7 +2903,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <location line="+1"/>
         <location line="+1"/>
         <source>Next Change</source>
-        <translation type="unfinished"></translation>
+        <translation>تغییر بعدی</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2885,12 +2914,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <location line="+1"/>
         <location line="+1"/>
         <source>Previous Change</source>
-        <translation type="unfinished"></translation>
+        <translation>تغییر پیشین</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>تازه کردن</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2901,28 +2930,28 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="-759"/>
         <source>Add to version control</source>
-        <translation type="unfinished"></translation>
+        <translation>افزودن به واپایش نگارش</translation>
     </message>
     <message>
         <location line="+2"/>
         <location line="+758"/>
         <source>&amp;Unstage</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;بیرون آوردن از صحنه</translation>
     </message>
     <message>
         <location line="-758"/>
         <source>Remove staged changes</source>
-        <translation type="unfinished"></translation>
+        <translation>برداشتن تغییرات صحنه‌گذاری‌شده</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Commit…</source>
-        <translation type="unfinished"></translation>
+        <translation>ثبت…</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Commit changes to version control</source>
-        <translation type="unfinished"></translation>
+        <translation>ثبت تغییرات در واپایش نگارش</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2933,12 +2962,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="-754"/>
         <source>Push</source>
-        <translation type="unfinished"></translation>
+        <translation>فرستادن</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Push local changes to remote</source>
-        <translation type="unfinished"></translation>
+        <translation>فرستادن تغییرات محلّی به دوردست</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2950,39 +2979,39 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="-1019"/>
         <source>Remove from version control</source>
-        <translation type="unfinished"></translation>
+        <translation>برداشتن از واپایش نگارش</translation>
     </message>
     <message>
         <location line="+2"/>
         <location line="+752"/>
         <source>Resolve Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>حل مغایرت</translation>
     </message>
     <message>
         <location line="-751"/>
         <source>Mark as resolved in version control</source>
-        <translation type="unfinished"></translation>
+        <translation>علامت‌گذاری به‌عنوان حل‌شده در واپایش نگارش</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+747"/>
         <source>Re&amp;vert</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;برگرداندن</translation>
     </message>
     <message>
         <location line="-746"/>
         <source>Revert working copy to original state</source>
-        <translation type="unfinished"></translation>
+        <translation>برگرداندن رونوشت کاری به حالت اولیه</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Pull</source>
-        <translation type="unfinished"></translation>
+        <translation>کشیدن</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Pull remote changes to the local repository</source>
-        <translation type="unfinished"></translation>
+        <translation>کشیدن تغییرات دوردست به مخزن محلّی</translation>
     </message>
     <message>
         <location line="+49"/>
@@ -2992,140 +3021,141 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+1"/>
         <source>Open version controlled folder in this pane</source>
-        <translation type="unfinished"></translation>
+        <translation>باز کردن شاخهٔ تحت واپایش نگارش در این قاب</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Unknown folder</source>
-        <translation type="unfinished"></translation>
+        <translation>شاخهٔ ناشناخته</translation>
     </message>
     <message>
         <location line="+30"/>
         <source>The commit, tag or tree that changes are compared with</source>
-        <translation type="unfinished"></translation>
+        <translation>ثبت، برچسب یا درختی که تغییرات با آن مقایسه می‌شوند</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The working copy, or a commit, tag or tree, whose changes are shown</source>
-        <translation type="unfinished"></translation>
+        <translation>رونوشت کاری یا یک ثبت، برچسب یا درخت که تغییراتش نمایش داده می‌شود</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Swap</source>
-        <translation type="unfinished"></translation>
+        <translation>جابه‌جایی</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Swap the revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>جابه‌جایی نگارش‌ها</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>بازنشانی</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the working copy with the current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>مقایسهٔ رونوشت کاری با ثبت کنونی</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Changes from</source>
-        <translation type="unfinished"></translation>
+        <translation>تغییرات از</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>to</source>
-        <translation type="unfinished"></translation>
+        <translation>تا</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Console output</source>
-        <translation type="unfinished"></translation>
+        <translation>خروجی پایانه</translation>
     </message>
     <message>
         <location line="+28"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>جست‌وجو</translation>
     </message>
     <message>
         <location line="+102"/>
         <source>The files as they are now, which can be changed</source>
-        <translation type="unfinished"></translation>
+        <translation>پرونده‌ها همان‌گونه که اکنون هستند، که می‌توان تغییرشان داد</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>Unknown revision</source>
-        <translation type="unfinished"></translation>
+        <translation>نگارش ناشناخته</translation>
     </message>
     <message>
         <location line="+65"/>
         <source>%1 comparison:</source>
         <extracomment>This is the name of the version control system being used, e.g., &quot;Git&quot; or &quot;Subversion&quot;</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>مقایسهٔ %1:</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>%1 → %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 → %2</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>%1 (%2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2)</translation>
     </message>
     <message>
         <location line="+28"/>
         <source>Scanning repository</source>
-        <translation type="unfinished"></translation>
+        <translation>در حال پوییدن مخزن</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>Scanning %1</source>
-        <translation type="unfinished"></translation>
+        <translation>در حال پوییدن %1</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>No such file or directory</source>
-        <translation type="unfinished"></translation>
+        <translation>چنین پرونده یا شاخه‌ای وجود ندارد</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>(Empty)</source>
-        <translation type="unfinished"></translation>
+        <translation>(خالی)</translation>
     </message>
     <message>
         <location line="+238"/>
         <source>Co&amp;mmit…</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ثبت…</translation>
     </message>
     <message>
         <location line="+157"/>
         <source>Error running command</source>
-        <translation type="unfinished"></translation>
+        <translation>خطا در اجرای فرمان</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>While running &apos;%1&apos;
 Error: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>هنگام اجرای «%1»
+خطا: %2</translation>
     </message>
     <message>
         <location line="+58"/>
         <source>No files will be committed</source>
-        <translation type="unfinished"></translation>
+        <translation>هیچ پرونده‌ای ثبت نخواهد شد</translation>
     </message>
     <message>
         <location line="+23"/>
         <location line="+1"/>
         <source>Push local commits to remote?</source>
-        <translation type="unfinished"></translation>
+        <translation>ثبت‌های محلّی به دوردست فرستاده شوند؟</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The commits to be pushed are determined by your version control system.</source>
-        <translation type="unfinished"></translation>
+        <translation>ثبت‌هایی که فرستاده می‌شوند را سامانهٔ واپایش نگارش شما تعیین می‌کند.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3136,28 +3166,28 @@ Error: %2</source>
     <message>
         <location line="-28"/>
         <source>&amp;Push commits</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;فرستادن ثبت‌ها</translation>
     </message>
     <message>
         <location line="+23"/>
         <location line="+1"/>
         <source>Remove folder and all its files?</source>
-        <translation type="unfinished"></translation>
+        <translation>شاخه و همهٔ پرونده‌های آن برداشته شوند؟</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>This will remove all selected files and folders, and all files within any selected folders, from version control.</source>
-        <translation type="unfinished"></translation>
+        <translation>این کار همهٔ پرونده‌ها و شاخه‌های انتخاب‌شده و همهٔ پرونده‌های درون شاخه‌های انتخاب‌شده را از واپایش نگارش برمی‌دارد.</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Error deleting %1</source>
-        <translation type="unfinished"></translation>
+        <translation>خطا در حذف %1</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>باز کردن مقایسه ممکن نبود</translation>
     </message>
 </context>
 <context>
@@ -3165,12 +3195,12 @@ Error: %2</source>
     <message>
         <location filename="../src/core/conflictmarkers.cpp" line="+134"/>
         <source>Line %1: a conflict starts inside the conflict that starts at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>خط %1: یک مغایرت درون مغایرتی آغاز می‌شود که در خط %2 آغاز شده است.</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>The conflict that starts at line %1 doesn’t end.</source>
-        <translation type="unfinished"></translation>
+        <translation>مغایرتی که در خط %1 آغاز می‌شود پایان نمی‌یابد.</translation>
     </message>
 </context>
 <context>
@@ -3178,133 +3208,133 @@ Error: %2</source>
     <message>
         <location filename="../src/core/patch.cpp" line="+176"/>
         <source>Line %1 of the patch: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>خط %1 از وصله: %2</translation>
     </message>
     <message>
         <location line="+96"/>
         <source>malformed hunk header</source>
-        <translation type="unfinished"></translation>
+        <translation>سرآیند تکهٔ نادرست</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>unexpected line in a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>خط غیرمنتظره در یک تکه</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>the hunk has more lines than its header says</source>
-        <translation type="unfinished"></translation>
+        <translation>تکه خط‌های بیشتری از آنچه سرآیندش می‌گوید دارد</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>the patch ends in the middle of a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>وصله در میانهٔ یک تکه پایان می‌یابد</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Only unified diffs can be applied; this is a context diff.</source>
-        <translation type="unfinished"></translation>
+        <translation>فقط تفاوت‌های یکپارچه قابل اعمال هستند؛ این یک تفاوت زمینه‌ای است.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>No changes were found in the patch.</source>
-        <translation type="unfinished"></translation>
+        <translation>هیچ تغییری در وصله پیدا نشد.</translation>
     </message>
     <message>
         <location line="+122"/>
         <source>Hunk #%1 doesn’t match the file at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>تکهٔ #%1 با پرونده در خط %2 همخوانی ندارد.</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>Hunk #%1 applied at line %2</source>
-        <translation type="unfinished"></translation>
+        <translation>تکهٔ #%1 در خط %2 اعمال شد</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source> (offset %n lines)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform> (جابه‌جایی %n خط)</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source> with fuzz %1</source>
-        <translation type="unfinished"></translation>
+        <translation> با تقریب %1</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+186"/>
         <source>Binary changes can’t be applied.</source>
-        <translation type="unfinished"></translation>
+        <translation>تغییرات دودویی قابل اعمال نیستند.</translation>
     </message>
     <message>
         <location line="-174"/>
         <source>The patch creates this file, which is already as it would create it.</source>
-        <translation type="unfinished"></translation>
+        <translation>وصله این پرونده را ایجاد می‌کند که از قبل همان‌گونه است که وصله می‌سازد.</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+190"/>
         <source>The patch creates this file, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>وصله این پرونده را ایجاد می‌کند، اما از قبل وجود دارد.</translation>
     </message>
     <message>
         <location line="-178"/>
         <source>The patch seems to be applied already: its changes are in the file.</source>
-        <translation type="unfinished"></translation>
+        <translation>به نظر می‌رسد وصله از قبل اعمال شده است: تغییراتش در پرونده هست.</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source>%1 of %n hunks can’t be applied.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 از %n تکه قابل اعمال نیست.</numerusform>
         </translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch deletes this file, but it has other contents than the patch removes.</source>
-        <translation type="unfinished"></translation>
+        <translation>وصله این پرونده را حذف می‌کند، اما محتوای آن با آنچه وصله برمی‌دارد متفاوت است.</translation>
     </message>
     <message>
         <location line="+75"/>
         <source>The patch changes several files called %1:</source>
-        <translation type="unfinished"></translation>
+        <translation>وصله چند پرونده با نام %1 را تغییر می‌دهد:</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The patch doesn’t change %1. It changes:</source>
-        <translation type="unfinished"></translation>
+        <translation>وصله %1 را تغییر نمی‌دهد. این‌ها را تغییر می‌دهد:</translation>
     </message>
     <message>
         <location line="+73"/>
         <source>The patch changes %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>وصله %1 را تغییر می‌دهد که در شاخه نیست.</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The patch deletes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>وصله این پرونده را حذف می‌کند، اما در شاخه نیست.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch makes this file from %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>وصله این پرونده را از %1 می‌سازد که در شاخه نیست.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>The patch makes this file from %1, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>وصله این پرونده را از %1 می‌سازد، اما از قبل وجود دارد.</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>The patch changes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>وصله این پرونده را تغییر می‌دهد، اما در شاخه نیست.</translation>
     </message>
     <message>
         <location line="+106"/>
         <source>The file isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>پرونده در شاخه نیست.</translation>
     </message>
 </context>
 <context>
@@ -3312,23 +3342,23 @@ Error: %2</source>
     <message>
         <location filename="../src/ui/trash.cpp" line="+36"/>
         <source>Deleting remote folders is not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>حذف شاخه‌های دوردست پشتیبانی نمی‌شود</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Not a file or directory</source>
-        <translation type="unfinished"></translation>
+        <translation>پرونده یا شاخه نیست</translation>
     </message>
     <message>
         <location line="+2"/>
         <location line="+0"/>
         <source>Delete Permanently?</source>
-        <translation type="unfinished"></translation>
+        <translation>برای همیشه حذف شود؟</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>“%1” can’t be put in the trash. Do you want to delete it permanently?</source>
-        <translation type="unfinished"></translation>
+        <translation>انتقال «%1» به زباله‌دان ممکن نیست. می‌خواهید آن را برای همیشه حذف کنید؟</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3346,12 +3376,12 @@ Error: %2</source>
     <message>
         <location filename="../src/core/vc/vc.cpp" line="+68"/>
         <source>Merged</source>
-        <translation type="unfinished"></translation>
+        <translation>ادغام‌شده</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Base</source>
-        <translation type="unfinished"></translation>
+        <translation>پایه</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -3361,7 +3391,7 @@ Error: %2</source>
     <message>
         <location line="+2"/>
         <source>Remote</source>
-        <translation type="unfinished"></translation>
+        <translation>دوردست</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -3381,7 +3411,7 @@ Error: %2</source>
     <message>
         <location line="+2"/>
         <source>Newly added</source>
-        <translation type="unfinished"></translation>
+        <translation>تازه افزوده‌شده</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -3391,17 +3421,17 @@ Error: %2</source>
     <message>
         <location line="+2"/>
         <source>Renamed</source>
-        <translation type="unfinished"></translation>
+        <translation>تغییر نام یافته</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>مغایرت</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Removed</source>
-        <translation type="unfinished"></translation>
+        <translation>برداشته‌شده</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -3411,7 +3441,7 @@ Error: %2</source>
     <message>
         <location line="+2"/>
         <source>Not present</source>
-        <translation type="unfinished"></translation>
+        <translation>موجود نیست</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -3426,62 +3456,62 @@ Error: %2</source>
     <message numerus="yes">
         <location filename="../src/core/vc/git.cpp" line="+80"/>
         <source>%n unpushed commits</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n ثبت فرستاده‌نشده</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source>%n branches</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n شاخهٔ مخزن</numerusform>
         </translation>
     </message>
     <message>
         <location line="+3"/>
         <source>%1 in %2</source>
         <extracomment>The first is replaced by the translated &quot;%n unpushed commits&quot;, the second by the translated &quot;%n branches&quot;</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>%1 در %2</translation>
     </message>
     <message>
         <location line="+98"/>
         <source>The current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>ثبت کنونی</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>“%1” isn’t a commit, tag or tree in this repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>«%1» یک ثبت، برچسب یا درخت در این مخزن نیست.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 isn’t in the repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 در مخزن نیست.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>%1 isn’t in %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 در %2 نیست.</translation>
     </message>
     <message>
         <location line="+84"/>
         <source>Mode changed from %1 to %2</source>
-        <translation type="unfinished"></translation>
+        <translation>حالت از %1 به %2 تغییر کرد</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Partially staged</source>
-        <translation type="unfinished"></translation>
+        <translation>بخشی صحنه‌گذاری‌شده</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Staged</source>
-        <translation type="unfinished"></translation>
+        <translation>صحنه‌گذاری‌شده</translation>
     </message>
     <message>
         <location filename="../src/core/vc/svn.cpp" line="+193"/>
         <source>Rev %1</source>
-        <translation type="unfinished"></translation>
+        <translation>نگارش %1</translation>
     </message>
 </context>
 </TS>

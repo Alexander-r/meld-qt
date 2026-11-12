@@ -6,22 +6,22 @@
     <message>
         <location filename="../src/core/archive.cpp" line="+381"/>
         <source>Couldn’t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Klarte ikkje å lage mappa %1</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>No installed program can extract this archive. Install bsdtar (from libarchive) or 7-Zip.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen installerte program kan pakke ut dette arkivet. Installer bsdtar (frå libarchive) eller 7-Zip.</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>%1 crashed</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 krasja</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>%1 failed with status %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 feila med status %2</translation>
     </message>
 </context>
 <context>
@@ -29,22 +29,22 @@
     <message>
         <location filename="../src/ui/dirdiff.cpp" line="+88"/>
         <source>Couldn&apos;t create link %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Klarte ikkje å lage lenkja %1</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Not a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Ikkje ei fil</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Couldn&apos;t replace %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Klarte ikkje å byte ut %1</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Klarte ikkje å lage mappa %1</translation>
     </message>
     <message>
         <location filename="../src/ui/externalhelpers.cpp" line="+58"/>
@@ -59,7 +59,7 @@
     <message>
         <location line="+1"/>
         <source>unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>ukjend</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -69,17 +69,17 @@
     <message>
         <location line="+1"/>
         <source>Couldn&apos;t run “%1”</source>
-        <translation type="unfinished"></translation>
+        <translation>Klarte ikkje å køyre «%1»</translation>
     </message>
     <message>
         <location filename="../src/ui/meldapp.cpp" line="+37"/>
         <source>show program&apos;s version number and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>vis versjonsnummeret til programmet og avslutt</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>show this help message and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>vis denne hjelpeteksten og avslutt</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -94,12 +94,12 @@
     <message>
         <location line="+2"/>
         <source>Open comparisons in an already running instance (single-instance mode)</source>
-        <translation type="unfinished"></translation>
+        <translation>Opna samanlikningar i ein instans som alt køyrer (einskildinstansmodus)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in a new instance, even in single-instance mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Opna samanlikningar i ein ny instans, også i einskildinstansmodus</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -130,7 +130,7 @@
     <message>
         <location line="+2"/>
         <source>Compare a file or folder with what a patch would make of it</source>
-        <translation type="unfinished"></translation>
+        <translation>Samanlikn ei fil eller mappe med det ein patch ville gjort med ho</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -159,7 +159,7 @@
     <message>
         <location line="-4"/>
         <source>Start a comparison against a blank pane</source>
-        <translation type="unfinished"></translation>
+        <translation>Start ei samanlikning mot eit tomt felt</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -174,24 +174,26 @@
     <message>
         <location line="+1"/>
         <source>patch</source>
-        <translation type="unfinished"></translation>
+        <translation>patch</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare with a patch applied</source>
-        <translation type="unfinished"></translation>
+        <translation>Samanlikn med ein patch brukt</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Usage:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bruk:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>
 For file comparisons, the special argument @blank may be used instead of
 a &lt;file&gt; argument to create a blank pane.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+For filsamanlikningar kan spesialargumentet @blank brukast i staden for
+eit &lt;fil&gt;-argument for å lage eit tomt felt.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -201,30 +203,30 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+1"/>
         <source>Options:</source>
-        <translation type="unfinished"></translation>
+        <translation>Val:</translation>
     </message>
     <message>
         <location line="+42"/>
         <location line="+9"/>
         <source>no such option: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ukjent val: %1</translation>
     </message>
     <message>
         <location line="-8"/>
         <source>ambiguous option: %1 (%2?)</source>
-        <translation type="unfinished"></translation>
+        <translation>tvetydig val: %1 (%2?)</translation>
     </message>
     <message>
         <location line="+16"/>
         <location line="+59"/>
         <location line="+16"/>
         <source>%1 option requires an argument</source>
-        <translation type="unfinished"></translation>
+        <translation>valet %1 krev eit argument</translation>
     </message>
     <message>
         <location line="-73"/>
         <source>%1 option does not take a value</source>
-        <translation type="unfinished"></translation>
+        <translation>valet %1 tek ingen verdi</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -234,17 +236,17 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+53"/>
         <source>--patch needs one file or folder to apply the patch to (got %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>--patch treng éi fil eller mappe å bruke patchen på (fekk %1)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>can’t auto-merge with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>kan ikkje slå saman automatisk med ein patch</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>can’t load a comparison file with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>kan ikkje lesa inn ei samanlikningsfil med ein patch</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -281,14 +283,14 @@ a &lt;file&gt; argument to create a blank pane.</source>
 %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/preferences.cpp" line="+104"/>
+        <location filename="../src/ui/preferences.cpp" line="+108"/>
         <source>Select a Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Vel ein stil</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Select</source>
-        <translation type="unfinished"></translation>
+        <translation>Vel</translation>
     </message>
     <message>
         <location filename="../src/ui/recent.cpp" line="+76"/>
@@ -302,7 +304,8 @@ a &lt;file&gt; argument to create a blank pane.</source>
         <location filename="../src/ui/singleinstance.cpp" line="+50"/>
         <source>Meld Qt couldn’t open the comparison: a different version of Meld Qt is running.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Meld Qt klarte ikkje å opna samanlikninga: ein annan versjon av Meld Qt køyrer.
+</translation>
     </message>
 </context>
 <context>
@@ -391,35 +394,35 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+10"/>
         <source>The conflict markers in “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfliktmerka i «%1» kan ikkje lesast.</translation>
     </message>
     <message numerus="yes">
         <location line="+17"/>
         <source>%n unresolved conflicts</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n uløyst konflikt</numerusform>
+            <numerusform>%n uløyste konfliktar</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts show the common ancestor’s text, which the local and remote versions changed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfliktane viser teksten til den felles forgjengaren, som den lokale og den eksterne versjonen endra.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts are empty, to be filled from the local and remote versions.</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfliktane er tomme, og blir fylte frå den lokale og den eksterne versjonen.</translation>
     </message>
     <message>
         <location line="+42"/>
         <source>local</source>
-        <translation type="unfinished"></translation>
+        <translation>lokal</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>remote</source>
-        <translation type="unfinished"></translation>
+        <translation>ekstern</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -447,12 +450,12 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+16"/>
         <source>Folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Mappe %1</translation>
     </message>
     <message>
         <location line="+81"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Søk</translation>
     </message>
     <message>
         <location line="+88"/>
@@ -487,7 +490,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+54"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Patchen «%1» kan ikkje lesast.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -498,17 +501,17 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+36"/>
         <source>%1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: %2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Permission denied</source>
-        <translation type="unfinished"></translation>
+        <translation>Tilgang nekta</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>: Dangling symlink</source>
-        <translation type="unfinished"></translation>
+        <translation>: Broten symbolsk lenkje</translation>
     </message>
     <message>
         <location line="+99"/>
@@ -658,7 +661,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+164"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Klarte ikkje å lage mappa %1</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -735,7 +738,7 @@ til %2.
     <message>
         <location line="+144"/>
         <source>empty folder</source>
-        <translation type="unfinished"></translation>
+        <translation>tom mappe</translation>
     </message>
 </context>
 <context>
@@ -853,12 +856,12 @@ til %2.
     <message>
         <location line="+13"/>
         <source>There was a problem opening “%1”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det oppstod eit problem ved opning av «%1».</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The file could not be decoded using the candidate encodings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fila kunne ikkje dekodast med nokon av dei aktuelle kodingane.</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -872,20 +875,20 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message numerus="yes">
         <location line="+39"/>
         <source>%1 has %n unresolved merge conflicts.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 har ein uløyst samanslåingskonflikt.</numerusform>
+            <numerusform>%1 har %n uløyste samanslåingskonfliktar.</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The local and remote versions can be merged in a 3-way comparison.</source>
-        <translation type="unfinished"></translation>
+        <translation>Den lokale og den eksterne versjonen kan slåast saman i ei treveges samanlikning.</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Resolve</source>
-        <translation type="unfinished"></translation>
+        <translation>Løys</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -905,7 +908,7 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="+64"/>
         <source>Computing differences</source>
-        <translation type="unfinished"></translation>
+        <translation>Reknar ut skilnader</translation>
     </message>
     <message>
         <location line="+117"/>
@@ -959,7 +962,7 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="+1"/>
         <source>Some changes were not highlighted because they were too large. You can force Meld Qt to take longer to highlight larger changes, though this may be slow.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nokre endringar vart ikkje utheva fordi dei var for store. Du kan tvinga Meld Qt til å bruka lengre tid på å utheva større endringar, men det kan gå seint.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -994,15 +997,15 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message numerus="yes">
         <location line="+41"/>
         <source>%n conflicts aren’t resolved</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Ein konflikt er ikkje løyst</numerusform>
+            <numerusform>%n konfliktar er ikkje løyste</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>If you save the merge now, the conflicts are saved as they are here, without conflict markers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Viss du lagrar samanslåinga no, blir konfliktane lagra slik dei er her, utan konfliktmerke.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1142,7 +1145,7 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="+6"/>
         <source>File %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Fil %1</translation>
     </message>
     <message>
         <location line="+128"/>
@@ -1293,12 +1296,12 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="+19"/>
         <source>Visual diff and merge tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Visuelt verktøy for samanlikning og samanslåing</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Built with Qt %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Bygd med Qt %1</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1309,7 +1312,7 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="+3"/>
         <source>Translated by</source>
-        <translation type="unfinished"></translation>
+        <translation>Omsett av</translation>
     </message>
 </context>
 <context>
@@ -1388,12 +1391,12 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="-383"/>
         <source>Header bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Toppfelt</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>New Comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Ny samanlikning</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1403,7 +1406,7 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="+1"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Lukk</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1419,7 +1422,7 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="-894"/>
         <source>Quit</source>
-        <translation type="unfinished"></translation>
+        <translation>Avslutt</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1440,22 +1443,22 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="-959"/>
         <source>Previous Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Førre fane</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Next Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Neste fane</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Move Tab Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Flytt fana til venstre</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Move Tab Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Flytt fana til høgre</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -1465,7 +1468,7 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="+11"/>
         <source>Previous Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Førre endring</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1475,7 +1478,7 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="+1"/>
         <source>Next Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Neste endring</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1485,7 +1488,7 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="+4"/>
         <source>Previous Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>Førre konflikt</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1495,7 +1498,7 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="+1"/>
         <source>Next Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>Neste konflikt</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1505,7 +1508,7 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="+7"/>
         <source>Push to Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Skyv til venstre</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1515,7 +1518,7 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="+1"/>
         <source>Push to Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Skyv til høgre</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1550,7 +1553,7 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="+6"/>
         <source>Delete Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Slett endring</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1610,7 +1613,7 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
         <location line="+22"/>
         <location line="+6"/>
         <source>Main Menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Hovudmeny</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -1715,12 +1718,12 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="+17"/>
         <source>No recent comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen nylege samanlikningar</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Clear Recent Comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>Tøm nylege samanlikningar</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -1736,14 +1739,14 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
         <location line="+65"/>
         <location line="+17"/>
         <source>%1 - Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 - Meld Qt</translation>
     </message>
     <message>
         <location line="+26"/>
         <location line="+146"/>
         <location line="+16"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Klarte ikkje å opna samanlikninga</translation>
     </message>
     <message>
         <location line="+43"/>
@@ -1758,7 +1761,7 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="+11"/>
         <source>Select what to compare, and the patch to apply to it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vel kva som skal samanliknast, og patchen som skal brukast på det.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1766,12 +1769,14 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
         <source>The patch “%1” can’t be read.
 
 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Patchen «%1» kan ikkje lesast.
+
+%2</translation>
     </message>
     <message>
         <location line="+66"/>
         <source>Opening archive “%1”…</source>
-        <translation type="unfinished"></translation>
+        <translation>Opnar arkivet «%1» …</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1781,17 +1786,17 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="+2"/>
         <source>Opening Archive</source>
-        <translation type="unfinished"></translation>
+        <translation>Opnar arkiv</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Couldn’t open archive %1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Klarte ikkje å opna arkivet %1: %2</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Failed to open archive</source>
-        <translation type="unfinished"></translation>
+        <translation>Klarte ikkje å opna arkivet</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -1807,7 +1812,7 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="+28"/>
         <source>The patch “%1” doesn’t exist</source>
-        <translation type="unfinished"></translation>
+        <translation>Patchen «%1» finst ikkje</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -2150,22 +2155,22 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="+7"/>
         <source>Compare with a &amp;patch</source>
-        <translation type="unfinished"></translation>
+        <translation>Samanlikn med ein &amp;patch</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the folder with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>Samanlikn mappa med korleis ein patch ville endra ho</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the file with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>Samanlikn fila med korleis ein patch ville endra ho</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Select Patch File</source>
-        <translation type="unfinished"></translation>
+        <translation>Vel patchfil</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2215,12 +2220,12 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="+70"/>
         <source>Patches (*.patch *.diff)</source>
-        <translation type="unfinished"></translation>
+        <translation>Patchar (*.patch *.diff)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>All files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>Alle filer (*)</translation>
     </message>
 </context>
 <context>
@@ -2229,27 +2234,27 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
         <location filename="../src/ui/patchcomparison.cpp" line="+24"/>
         <location line="+41"/>
         <source>The patch “%1” can’t be applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Patchen «%1» kan ikkje brukast på «%2».</translation>
     </message>
     <message>
         <location line="-34"/>
         <source>The patch deletes this file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Patchen slettar denne fila.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The patch “%1” was applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Patchen «%1» vart brukt på «%2».</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>%1 with %2 applied</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 med %2 brukt</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Patchen «%1» kan ikkje lesast.</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2369,7 +2374,7 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="+3"/>
         <source>Follow System Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Følg systemstilen</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2387,7 +2392,22 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
         <translation>Stil på grensesnittet</translation>
     </message>
     <message>
+        <location line="+5"/>
+        <source>System Language</source>
+        <translation>Systemspråk</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Language</source>
+        <translation>Språk</translation>
+    </message>
+    <message>
         <location line="+3"/>
+        <source>The language will change when Meld Qt is next started.</source>
+        <translation>Språket vert endra neste gong Meld Qt vert starta.</translation>
+    </message>
+    <message>
+        <location line="+14"/>
         <source>Use Custom Font</source>
         <translation>Bruk tilpassa skrifttype</translation>
     </message>
@@ -2419,12 +2439,12 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="+1"/>
         <source>At Any Character</source>
-        <translation type="unfinished"></translation>
+        <translation>Ved kva teikn som helst</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>At Word Boundaries</source>
-        <translation type="unfinished"></translation>
+        <translation>Ved ordgrenser</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2499,22 +2519,22 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="+1"/>
         <source>Use {file} and {line} to refer to the file and line being opened</source>
-        <translation type="unfinished"></translation>
+        <translation>Bruk {file} og {line} for å visa til fila og lina som blir opna</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Application</source>
-        <translation type="unfinished"></translation>
+        <translation>Program</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in the running Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>Opna samanlikningar i Meld Qt som køyrer</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Comparisons opened from the command line or other programs open in a new window of a Meld Qt that&apos;s already running, instead of starting another Meld Qt. This applies to Meld Qt started after the change.</source>
-        <translation type="unfinished"></translation>
+        <translation>Samanlikningar som blir opna frå kommandolinja eller andre program, blir opna i eit nytt vindauge i ein Meld Qt som alt køyrer, i staden for å starta ein ny Meld Qt. Dette gjeld Meld Qt som blir starta etter endringa.</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -2609,7 +2629,7 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="+5"/>
         <source>Order when comparing file revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>Rekkjefølgje ved samanlikning av filrevisjonar</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2624,17 +2644,17 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="+5"/>
         <source>Order when merging files</source>
-        <translation type="unfinished"></translation>
+        <translation>Rekkjefølgje ved samanslåing av filer</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Show the common ancestor in conflicts from conflict markers</source>
-        <translation type="unfinished"></translation>
+        <translation>Vis den felles forgjengaren i konfliktar frå konfliktmerke</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Merges of files with diff3-style conflict markers start with the common ancestor’s text in conflicts, rather than nothing</source>
-        <translation type="unfinished"></translation>
+        <translation>Samanslåingar av filer med konfliktmerke i diff3-stil startar med teksten til den felles forgjengaren i konfliktar, i staden for ingenting</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2684,7 +2704,7 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="+1"/>
         <source>When performing file comparisons, you may ignore certain types of changes. Each pattern here is a python regular expression which replaces matching text with the empty string before comparison is performed. If the expression contains groups, only the groups are replaced.</source>
-        <translation type="unfinished"></translation>
+        <translation>Når du samanliknar filer, kan du ignorera visse typar endringar. Kvart mønster her er eit regulært uttrykk i Python som byter ut tekst som passar med ein tom streng før samanlikninga blir utført. Viss uttrykket inneheld grupper, blir berre gruppene bytte ut.</translation>
     </message>
 </context>
 <context>
@@ -2799,27 +2819,27 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="+18"/>
         <source>%1 — %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 — %2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>The file isn’t in %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fila er ikkje i %1.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 (%2, %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2, %3)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (working, %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (arbeid, %2)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (%2, working)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2, arbeid)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -2859,7 +2879,7 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="+25"/>
         <source>working copy</source>
-        <translation type="unfinished"></translation>
+        <translation>arbeidskopi</translation>
     </message>
     <message>
         <location line="+67"/>
@@ -2886,7 +2906,7 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
         <location line="+1"/>
         <location line="+1"/>
         <source>Next Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Neste endring</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2897,12 +2917,12 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
         <location line="+1"/>
         <location line="+1"/>
         <source>Previous Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Førre endring</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>Oppdater</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2945,7 +2965,7 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="-754"/>
         <source>Push</source>
-        <translation type="unfinished"></translation>
+        <translation>Skyv</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2989,7 +3009,7 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="+1"/>
         <source>Pull</source>
-        <translation type="unfinished"></translation>
+        <translation>Hent</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -3014,42 +3034,42 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="+30"/>
         <source>The commit, tag or tree that changes are compared with</source>
-        <translation type="unfinished"></translation>
+        <translation>Commiten, taggen eller treet som endringane blir samanlikna med</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The working copy, or a commit, tag or tree, whose changes are shown</source>
-        <translation type="unfinished"></translation>
+        <translation>Arbeidskopien, eller ein commit, ein tagg eller eit tre, der endringane blir viste</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Swap</source>
-        <translation type="unfinished"></translation>
+        <translation>Byt om</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Swap the revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>Byt om revisjonane</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Tilbakestill</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the working copy with the current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>Samanlikn arbeidskopien med gjeldande commit</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Changes from</source>
-        <translation type="unfinished"></translation>
+        <translation>Endringar frå</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>to</source>
-        <translation type="unfinished"></translation>
+        <translation>til</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -3059,17 +3079,17 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="+28"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Søk</translation>
     </message>
     <message>
         <location line="+102"/>
         <source>The files as they are now, which can be changed</source>
-        <translation type="unfinished"></translation>
+        <translation>Filene slik dei er no, som kan endrast</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>Unknown revision</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukjend revisjon</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -3080,7 +3100,7 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="+5"/>
         <source>%1 → %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 → %2</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3100,7 +3120,7 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="+20"/>
         <source>No such file or directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Fila eller mappa finst ikkje</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -3115,13 +3135,14 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <message>
         <location line="+157"/>
         <source>Error running command</source>
-        <translation type="unfinished"></translation>
+        <translation>Feil ved køyring av kommando</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>While running &apos;%1&apos;
 Error: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Under køyring av «%1»
+Feil: %2</translation>
     </message>
     <message>
         <location line="+58"/>
@@ -3169,7 +3190,7 @@ Error: %2</source>
     <message>
         <location line="+38"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Klarte ikkje å opna samanlikninga</translation>
     </message>
 </context>
 <context>
@@ -3177,12 +3198,12 @@ Error: %2</source>
     <message>
         <location filename="../src/core/conflictmarkers.cpp" line="+134"/>
         <source>Line %1: a conflict starts inside the conflict that starts at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Line %1: ein konflikt startar inne i konflikten som startar på line %2.</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>The conflict that starts at line %1 doesn’t end.</source>
-        <translation type="unfinished"></translation>
+        <translation>Konflikten som startar på line %1, sluttar ikkje.</translation>
     </message>
 </context>
 <context>
@@ -3190,135 +3211,135 @@ Error: %2</source>
     <message>
         <location filename="../src/core/patch.cpp" line="+176"/>
         <source>Line %1 of the patch: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Line %1 i patchen: %2</translation>
     </message>
     <message>
         <location line="+96"/>
         <source>malformed hunk header</source>
-        <translation type="unfinished"></translation>
+        <translation>feilforma blokkhovud</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>unexpected line in a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>uventa line i ei blokk</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>the hunk has more lines than its header says</source>
-        <translation type="unfinished"></translation>
+        <translation>blokka har fleire liner enn hovudet seier</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>the patch ends in the middle of a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>patchen sluttar midt i ei blokk</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Only unified diffs can be applied; this is a context diff.</source>
-        <translation type="unfinished"></translation>
+        <translation>Berre einskaplege diffar kan brukast; dette er ein kontekstdiff.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>No changes were found in the patch.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fann ingen endringar i patchen.</translation>
     </message>
     <message>
         <location line="+122"/>
         <source>Hunk #%1 doesn’t match the file at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Blokk #%1 samsvarer ikkje med fila på line %2.</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>Hunk #%1 applied at line %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Blokk #%1 brukt på line %2</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source> (offset %n lines)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform> (forskyving %n line)</numerusform>
+            <numerusform> (forskyving %n liner)</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source> with fuzz %1</source>
-        <translation type="unfinished"></translation>
+        <translation> med uskarpleik %1</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+186"/>
         <source>Binary changes can’t be applied.</source>
-        <translation type="unfinished"></translation>
+        <translation>Binære endringar kan ikkje brukast.</translation>
     </message>
     <message>
         <location line="-174"/>
         <source>The patch creates this file, which is already as it would create it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Patchen lagar denne fila, som alt er slik han ville laga ho.</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+190"/>
         <source>The patch creates this file, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>Patchen lagar denne fila, men ho finst alt.</translation>
     </message>
     <message>
         <location line="-178"/>
         <source>The patch seems to be applied already: its changes are in the file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Patchen ser ut til å vera brukt alt: endringane finst i fila.</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source>%1 of %n hunks can’t be applied.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 av %n blokk kan ikkje brukast.</numerusform>
+            <numerusform>%1 av %n blokker kan ikkje brukast.</numerusform>
         </translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch deletes this file, but it has other contents than the patch removes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Patchen slettar denne fila, men ho har anna innhald enn det patchen fjernar.</translation>
     </message>
     <message>
         <location line="+75"/>
         <source>The patch changes several files called %1:</source>
-        <translation type="unfinished"></translation>
+        <translation>Patchen endrar fleire filer som heiter %1:</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The patch doesn’t change %1. It changes:</source>
-        <translation type="unfinished"></translation>
+        <translation>Patchen endrar ikkje %1. Han endrar:</translation>
     </message>
     <message>
         <location line="+73"/>
         <source>The patch changes %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Patchen endrar %1, som ikkje er i mappa.</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The patch deletes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Patchen slettar denne fila, men ho er ikkje i mappa.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch makes this file from %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Patchen lagar denne fila frå %1, som ikkje er i mappa.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>The patch makes this file from %1, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>Patchen lagar denne fila frå %1, men ho finst alt.</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>The patch changes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Patchen endrar denne fila, men ho er ikkje i mappa.</translation>
     </message>
     <message>
         <location line="+106"/>
         <source>The file isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fila er ikkje i mappa.</translation>
     </message>
 </context>
 <context>
@@ -3462,22 +3483,22 @@ Error: %2</source>
     <message>
         <location line="+98"/>
         <source>The current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>Gjeldande commit</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>“%1” isn’t a commit, tag or tree in this repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>«%1» er ikkje ein commit, ein tagg eller eit tre i dette lageret.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 isn’t in the repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 er ikkje i lageret.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>%1 isn’t in %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 er ikkje i %2.</translation>
     </message>
     <message>
         <location line="+84"/>

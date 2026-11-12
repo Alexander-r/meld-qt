@@ -6,22 +6,22 @@
     <message>
         <location filename="../src/core/archive.cpp" line="+381"/>
         <source>Couldn’t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>フォルダー %1 を作成できませんでした</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>No installed program can extract this archive. Install bsdtar (from libarchive) or 7-Zip.</source>
-        <translation type="unfinished"></translation>
+        <translation>この書庫を展開できるプログラムがインストールされていません。bsdtar (libarchive に含まれます) または 7-Zip をインストールしてください。</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>%1 crashed</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 がクラッシュしました</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>%1 failed with status %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 がステータス %2 で失敗しました</translation>
     </message>
 </context>
 <context>
@@ -29,22 +29,22 @@
     <message>
         <location filename="../src/ui/dirdiff.cpp" line="+88"/>
         <source>Couldn&apos;t create link %1</source>
-        <translation type="unfinished"></translation>
+        <translation>リンク %1 を作成できませんでした</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Not a file</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルではありません</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Couldn&apos;t replace %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 を置き換えられませんでした</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>フォルダー %1 を作成できませんでした</translation>
     </message>
     <message>
         <location filename="../src/ui/externalhelpers.cpp" line="+58"/>
@@ -59,7 +59,7 @@
     <message>
         <location line="+1"/>
         <source>unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>不明</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -69,17 +69,17 @@
     <message>
         <location line="+1"/>
         <source>Couldn&apos;t run “%1”</source>
-        <translation type="unfinished"></translation>
+        <translation>“%1” を実行できませんでした</translation>
     </message>
     <message>
         <location filename="../src/ui/meldapp.cpp" line="+37"/>
         <source>show program&apos;s version number and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>プログラムのバージョン番号を表示して終了する</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>show this help message and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>このヘルプメッセージを表示して終了する</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -94,12 +94,12 @@
     <message>
         <location line="+2"/>
         <source>Open comparisons in an already running instance (single-instance mode)</source>
-        <translation type="unfinished"></translation>
+        <translation>比較を実行中のインスタンスで開く (シングルインスタンスモード)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in a new instance, even in single-instance mode</source>
-        <translation type="unfinished"></translation>
+        <translation>シングルインスタンスモードでも、比較を新しいインスタンスで開く</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -130,7 +130,7 @@
     <message>
         <location line="+2"/>
         <source>Compare a file or folder with what a patch would make of it</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルまたはフォルダーを、パッチを適用した結果と比較する</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -159,7 +159,7 @@
     <message>
         <location line="-4"/>
         <source>Start a comparison against a blank pane</source>
-        <translation type="unfinished"></translation>
+        <translation>空のペインとの比較を開始する</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -174,24 +174,26 @@
     <message>
         <location line="+1"/>
         <source>patch</source>
-        <translation type="unfinished"></translation>
+        <translation>パッチ</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare with a patch applied</source>
-        <translation type="unfinished"></translation>
+        <translation>パッチを適用して比較する</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Usage:</source>
-        <translation type="unfinished"></translation>
+        <translation>使い方:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>
 For file comparisons, the special argument @blank may be used instead of
 a &lt;file&gt; argument to create a blank pane.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+ファイルの比較では、&lt;ファイル&gt; 引数の代わりに特別な引数 @blank を使って
+空のペインを作成できます。</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -201,30 +203,30 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+1"/>
         <source>Options:</source>
-        <translation type="unfinished"></translation>
+        <translation>オプション:</translation>
     </message>
     <message>
         <location line="+42"/>
         <location line="+9"/>
         <source>no such option: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>そのようなオプションはありません: %1</translation>
     </message>
     <message>
         <location line="-8"/>
         <source>ambiguous option: %1 (%2?)</source>
-        <translation type="unfinished"></translation>
+        <translation>あいまいなオプション: %1 (%2?)</translation>
     </message>
     <message>
         <location line="+16"/>
         <location line="+59"/>
         <location line="+16"/>
         <source>%1 option requires an argument</source>
-        <translation type="unfinished"></translation>
+        <translation>オプション %1 には引数が必要です</translation>
     </message>
     <message>
         <location line="-73"/>
         <source>%1 option does not take a value</source>
-        <translation type="unfinished"></translation>
+        <translation>オプション %1 は値を取りません</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -234,17 +236,17 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+53"/>
         <source>--patch needs one file or folder to apply the patch to (got %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>--patch にはパッチを適用するファイルまたはフォルダーが 1 つ必要です (%1 個指定されました)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>can’t auto-merge with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>パッチを使って自動マージすることはできません</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>can’t load a comparison file with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>パッチを使って比較ファイルを読み込むことはできません</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -281,14 +283,14 @@ a &lt;file&gt; argument to create a blank pane.</source>
 %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/preferences.cpp" line="+104"/>
+        <location filename="../src/ui/preferences.cpp" line="+108"/>
         <source>Select a Style</source>
-        <translation type="unfinished"></translation>
+        <translation>スタイルを選択</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Select</source>
-        <translation type="unfinished"></translation>
+        <translation>選択</translation>
     </message>
     <message>
         <location filename="../src/ui/recent.cpp" line="+76"/>
@@ -302,7 +304,8 @@ a &lt;file&gt; argument to create a blank pane.</source>
         <location filename="../src/ui/singleinstance.cpp" line="+50"/>
         <source>Meld Qt couldn’t open the comparison: a different version of Meld Qt is running.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Meld Qt は比較を開けませんでした: 別のバージョンの Meld Qt が実行中です。
+</translation>
     </message>
 </context>
 <context>
@@ -391,34 +394,34 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+10"/>
         <source>The conflict markers in “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>“%1” のコンフリクトマーカーを読み取れません。</translation>
     </message>
     <message numerus="yes">
         <location line="+17"/>
         <source>%n unresolved conflicts</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>未解決のコンフリクト %n 件</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts show the common ancestor’s text, which the local and remote versions changed.</source>
-        <translation type="unfinished"></translation>
+        <translation>コンフリクトには、ローカル版とリモート版が変更した共通の祖先のテキストが表示されます。</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts are empty, to be filled from the local and remote versions.</source>
-        <translation type="unfinished"></translation>
+        <translation>コンフリクトは空です。ローカル版とリモート版から埋めてください。</translation>
     </message>
     <message>
         <location line="+42"/>
         <source>local</source>
-        <translation type="unfinished"></translation>
+        <translation>ローカル</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>remote</source>
-        <translation type="unfinished"></translation>
+        <translation>リモート</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -446,12 +449,12 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+16"/>
         <source>Folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>フォルダー %1</translation>
     </message>
     <message>
         <location line="+81"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>検索</translation>
     </message>
     <message>
         <location line="+88"/>
@@ -486,7 +489,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+54"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>パッチ “%1” を読み取れません。</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -497,17 +500,17 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+36"/>
         <source>%1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: %2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Permission denied</source>
-        <translation type="unfinished"></translation>
+        <translation>アクセスが拒否されました</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>: Dangling symlink</source>
-        <translation type="unfinished"></translation>
+        <translation>: リンク切れのシンボリックリンク</translation>
     </message>
     <message>
         <location line="+99"/>
@@ -552,7 +555,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+13"/>
         <source>Folder %1 is being compared to itself</source>
-        <translation type="unfinished"></translation>
+        <translation>フォルダー %1 が自分自身と比較されています</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -657,7 +660,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+164"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>フォルダー %1 を作成できませんでした</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -702,7 +705,7 @@ to %2.
     <message>
         <location line="+24"/>
         <source>Error deleting %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 の削除中にエラーが発生しました</translation>
     </message>
 </context>
 <context>
@@ -735,7 +738,7 @@ to %2.
     <message>
         <location line="+144"/>
         <source>empty folder</source>
-        <translation type="unfinished"></translation>
+        <translation>空のフォルダー</translation>
     </message>
 </context>
 <context>
@@ -853,12 +856,12 @@ to %2.
     <message>
         <location line="+13"/>
         <source>There was a problem opening “%1”.</source>
-        <translation type="unfinished"></translation>
+        <translation>“%1” を開くときに問題が発生しました。</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The file could not be decoded using the candidate encodings.</source>
-        <translation type="unfinished"></translation>
+        <translation>候補のエンコーディングではファイルをデコードできませんでした。</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -872,19 +875,19 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message numerus="yes">
         <location line="+39"/>
         <source>%1 has %n unresolved merge conflicts.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 には未解決のマージのコンフリクトが %n 件あります。</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The local and remote versions can be merged in a 3-way comparison.</source>
-        <translation type="unfinished"></translation>
+        <translation>ローカル版とリモート版は 3 方向比較でマージできます。</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Resolve</source>
-        <translation type="unfinished"></translation>
+        <translation>解決</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -904,12 +907,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+64"/>
         <source>Computing differences</source>
-        <translation type="unfinished"></translation>
+        <translation>差分を計算しています</translation>
     </message>
     <message>
         <location line="+117"/>
         <source>File %1 is being compared to itself</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイル %1 が自分自身と比較されています</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -993,14 +996,14 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message numerus="yes">
         <location line="+41"/>
         <source>%n conflicts aren’t resolved</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n 件のコンフリクトが解決されていません</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>If you save the merge now, the conflicts are saved as they are here, without conflict markers.</source>
-        <translation type="unfinished"></translation>
+        <translation>今マージを保存すると、コンフリクトはコンフリクトマーカーなしで、ここにあるとおりに保存されます。</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1033,7 +1036,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="-18"/>
         <source>File “%1” contains characters that can’t be encoded using its current encoding “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>“%1”には現在のエンコーディング“%2”でエンコードできない文字が含まれています。</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1140,7 +1143,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+6"/>
         <source>File %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイル %1</translation>
     </message>
     <message>
         <location line="+128"/>
@@ -1291,12 +1294,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <message>
         <location line="+19"/>
         <source>Visual diff and merge tool</source>
-        <translation type="unfinished"></translation>
+        <translation>ビジュアルな差分・マージツール</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Built with Qt %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Qt %1 でビルド</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1311,7 +1314,7 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     <message>
         <location line="+3"/>
         <source>Translated by</source>
-        <translation type="unfinished"></translation>
+        <translation>翻訳者</translation>
     </message>
 </context>
 <context>
@@ -1390,12 +1393,12 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     <message>
         <location line="-383"/>
         <source>Header bar</source>
-        <translation type="unfinished"></translation>
+        <translation>ヘッダーバー</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>New Comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>新しい比較</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1405,7 +1408,7 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     <message>
         <location line="+1"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>閉じる</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1421,7 +1424,7 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     <message>
         <location line="-894"/>
         <source>Quit</source>
-        <translation type="unfinished"></translation>
+        <translation>終了</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1442,22 +1445,22 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     <message>
         <location line="-959"/>
         <source>Previous Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>前のタブ</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Next Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>次のタブ</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Move Tab Left</source>
-        <translation type="unfinished"></translation>
+        <translation>タブを左へ移動</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Move Tab Right</source>
-        <translation type="unfinished"></translation>
+        <translation>タブを右へ移動</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -1467,7 +1470,7 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     <message>
         <location line="+11"/>
         <source>Previous Change</source>
-        <translation type="unfinished"></translation>
+        <translation>前の変更</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1477,7 +1480,7 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     <message>
         <location line="+1"/>
         <source>Next Change</source>
-        <translation type="unfinished"></translation>
+        <translation>次の変更</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1487,7 +1490,7 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     <message>
         <location line="+4"/>
         <source>Previous Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>前のコンフリクト</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1497,7 +1500,7 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     <message>
         <location line="+1"/>
         <source>Next Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>次のコンフリクト</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1507,7 +1510,7 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     <message>
         <location line="+7"/>
         <source>Push to Left</source>
-        <translation type="unfinished"></translation>
+        <translation>左へ適用</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1517,7 +1520,7 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     <message>
         <location line="+1"/>
         <source>Push to Right</source>
-        <translation type="unfinished"></translation>
+        <translation>右へ適用</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1552,7 +1555,7 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     <message>
         <location line="+6"/>
         <source>Delete Change</source>
-        <translation type="unfinished"></translation>
+        <translation>変更を削除</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1612,7 +1615,7 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
         <location line="+22"/>
         <location line="+6"/>
         <source>Main Menu</source>
-        <translation type="unfinished"></translation>
+        <translation>メインメニュー</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -1717,12 +1720,12 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     <message>
         <location line="+17"/>
         <source>No recent comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>最近の比較はありません</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Clear Recent Comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>最近の比較を消去</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -1738,14 +1741,14 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
         <location line="+65"/>
         <location line="+17"/>
         <source>%1 - Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 - Meld Qt</translation>
     </message>
     <message>
         <location line="+26"/>
         <location line="+146"/>
         <location line="+16"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>比較を開けませんでした</translation>
     </message>
     <message>
         <location line="+43"/>
@@ -1760,7 +1763,7 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     <message>
         <location line="+11"/>
         <source>Select what to compare, and the patch to apply to it.</source>
-        <translation type="unfinished"></translation>
+        <translation>比較するものと、それに適用するパッチを選択してください。</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1768,12 +1771,14 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
         <source>The patch “%1” can’t be read.
 
 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>パッチ “%1” を読み取れません。
+
+%2</translation>
     </message>
     <message>
         <location line="+66"/>
         <source>Opening archive “%1”…</source>
-        <translation type="unfinished"></translation>
+        <translation>書庫 “%1” を開いています…</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1783,17 +1788,17 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     <message>
         <location line="+2"/>
         <source>Opening Archive</source>
-        <translation type="unfinished"></translation>
+        <translation>書庫を開いています</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Couldn’t open archive %1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>書庫 %1 を開けませんでした: %2</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Failed to open archive</source>
-        <translation type="unfinished"></translation>
+        <translation>書庫を開けませんでした</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -1809,7 +1814,7 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     <message>
         <location line="+28"/>
         <source>The patch “%1” doesn’t exist</source>
-        <translation type="unfinished"></translation>
+        <translation>パッチ “%1” は存在しません</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -2152,22 +2157,22 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     <message>
         <location line="+7"/>
         <source>Compare with a &amp;patch</source>
-        <translation type="unfinished"></translation>
+        <translation>パッチと比較(&amp;P)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the folder with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>フォルダーを、パッチによる変更後の状態と比較する</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the file with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルを、パッチによる変更後の状態と比較する</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Select Patch File</source>
-        <translation type="unfinished"></translation>
+        <translation>パッチファイルを選択</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2217,12 +2222,12 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     <message>
         <location line="+70"/>
         <source>Patches (*.patch *.diff)</source>
-        <translation type="unfinished"></translation>
+        <translation>パッチ (*.patch *.diff)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>All files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>すべてのファイル (*)</translation>
     </message>
 </context>
 <context>
@@ -2231,27 +2236,27 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
         <location filename="../src/ui/patchcomparison.cpp" line="+24"/>
         <location line="+41"/>
         <source>The patch “%1” can’t be applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>パッチ “%1” を “%2” に適用できません。</translation>
     </message>
     <message>
         <location line="-34"/>
         <source>The patch deletes this file.</source>
-        <translation type="unfinished"></translation>
+        <translation>パッチはこのファイルを削除します。</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The patch “%1” was applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>パッチ “%1” を “%2” に適用しました。</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>%1 with %2 applied</source>
-        <translation type="unfinished"></translation>
+        <translation>%2 を適用した %1</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>パッチ “%1” を読み取れません。</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2371,7 +2376,7 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     <message>
         <location line="+3"/>
         <source>Follow System Style</source>
-        <translation type="unfinished"></translation>
+        <translation>システムのスタイルに従う</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2389,7 +2394,22 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
         <translation>インターフェースのスタイル</translation>
     </message>
     <message>
+        <location line="+5"/>
+        <source>System Language</source>
+        <translation>システムの言語</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Language</source>
+        <translation>言語</translation>
+    </message>
+    <message>
         <location line="+3"/>
+        <source>The language will change when Meld Qt is next started.</source>
+        <translation>言語は Meld Qt の次回起動時に変更されます。</translation>
+    </message>
+    <message>
+        <location line="+14"/>
         <source>Use Custom Font</source>
         <translation>カスタムフォントを使う</translation>
     </message>
@@ -2421,12 +2441,12 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     <message>
         <location line="+1"/>
         <source>At Any Character</source>
-        <translation type="unfinished"></translation>
+        <translation>任意の文字で</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>At Word Boundaries</source>
-        <translation type="unfinished"></translation>
+        <translation>単語の境界で</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2501,22 +2521,22 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     <message>
         <location line="+1"/>
         <source>Use {file} and {line} to refer to the file and line being opened</source>
-        <translation type="unfinished"></translation>
+        <translation>{file} と {line} で、開くファイルと行を参照できます</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Application</source>
-        <translation type="unfinished"></translation>
+        <translation>アプリケーション</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in the running Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>実行中の Meld Qt で比較を開く</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Comparisons opened from the command line or other programs open in a new window of a Meld Qt that&apos;s already running, instead of starting another Meld Qt. This applies to Meld Qt started after the change.</source>
-        <translation type="unfinished"></translation>
+        <translation>コマンドラインや他のプログラムから開いた比較は、別の Meld Qt を起動する代わりに、実行中の Meld Qt の新しいウィンドウで開きます。この設定は変更後に起動した Meld Qt に適用されます。</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -2611,7 +2631,7 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     <message>
         <location line="+5"/>
         <source>Order when comparing file revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルのリビジョンを比較するときの順序</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2626,17 +2646,17 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     <message>
         <location line="+5"/>
         <source>Order when merging files</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルをマージするときの順序</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Show the common ancestor in conflicts from conflict markers</source>
-        <translation type="unfinished"></translation>
+        <translation>コンフリクトマーカーから得たコンフリクトに共通の祖先を表示する</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Merges of files with diff3-style conflict markers start with the common ancestor’s text in conflicts, rather than nothing</source>
-        <translation type="unfinished"></translation>
+        <translation>diff3 形式のコンフリクトマーカーを持つファイルのマージは、コンフリクト内を空ではなく共通の祖先のテキストで始めます</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2686,7 +2706,7 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     <message>
         <location line="+1"/>
         <source>When performing file comparisons, you may ignore certain types of changes. Each pattern here is a python regular expression which replaces matching text with the empty string before comparison is performed. If the expression contains groups, only the groups are replaced.</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルの比較時に、特定の種類の変更を無視できます。ここにある各パターンは Python の正規表現で、比較を行う前に一致したテキストを空の文字列に置き換えます。正規表現にグループが含まれる場合は、グループの部分のみが置き換えられます。</translation>
     </message>
 </context>
 <context>
@@ -2801,27 +2821,27 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     <message>
         <location line="+18"/>
         <source>%1 — %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 — %2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>The file isn’t in %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルは %1 にありません。</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 (%2, %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2、%3)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (working, %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (ワーキング、%2)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (%2, working)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2、ワーキング)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -2861,7 +2881,7 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     <message>
         <location line="+25"/>
         <source>working copy</source>
-        <translation type="unfinished"></translation>
+        <translation>作業コピー</translation>
     </message>
     <message>
         <location line="+67"/>
@@ -2888,7 +2908,7 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
         <location line="+1"/>
         <location line="+1"/>
         <source>Next Change</source>
-        <translation type="unfinished"></translation>
+        <translation>次の変更</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2899,12 +2919,12 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
         <location line="+1"/>
         <location line="+1"/>
         <source>Previous Change</source>
-        <translation type="unfinished"></translation>
+        <translation>前の変更</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>更新</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2947,7 +2967,7 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     <message>
         <location line="-754"/>
         <source>Push</source>
-        <translation type="unfinished"></translation>
+        <translation>プッシュ</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2991,7 +3011,7 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     <message>
         <location line="+1"/>
         <source>Pull</source>
-        <translation type="unfinished"></translation>
+        <translation>プル</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -3016,42 +3036,42 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     <message>
         <location line="+30"/>
         <source>The commit, tag or tree that changes are compared with</source>
-        <translation type="unfinished"></translation>
+        <translation>変更の比較対象となるコミット、タグ、またはツリー</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The working copy, or a commit, tag or tree, whose changes are shown</source>
-        <translation type="unfinished"></translation>
+        <translation>変更を表示する作業コピー、またはコミット、タグ、ツリー</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Swap</source>
-        <translation type="unfinished"></translation>
+        <translation>入れ替え</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Swap the revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>リビジョンを入れ替える</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>リセット</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the working copy with the current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>作業コピーを現在のコミットと比較する</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Changes from</source>
-        <translation type="unfinished"></translation>
+        <translation>変更の比較元</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>to</source>
-        <translation type="unfinished"></translation>
+        <translation>比較先</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -3061,17 +3081,17 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     <message>
         <location line="+28"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>検索</translation>
     </message>
     <message>
         <location line="+102"/>
         <source>The files as they are now, which can be changed</source>
-        <translation type="unfinished"></translation>
+        <translation>現在の状態のファイル (変更できます)</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>Unknown revision</source>
-        <translation type="unfinished"></translation>
+        <translation>不明なリビジョン</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -3082,7 +3102,7 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     <message>
         <location line="+5"/>
         <source>%1 → %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 → %2</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3102,7 +3122,7 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     <message>
         <location line="+20"/>
         <source>No such file or directory</source>
-        <translation type="unfinished"></translation>
+        <translation>そのようなファイルやディレクトリはありません</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -3117,13 +3137,14 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     <message>
         <location line="+157"/>
         <source>Error running command</source>
-        <translation type="unfinished"></translation>
+        <translation>コマンドの実行中にエラーが発生しました</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>While running &apos;%1&apos;
 Error: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>“%1” の実行中
+エラー: %2</translation>
     </message>
     <message>
         <location line="+58"/>
@@ -3166,12 +3187,12 @@ Error: %2</source>
     <message>
         <location line="+22"/>
         <source>Error deleting %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 の削除中にエラーが発生しました</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>比較を開けませんでした</translation>
     </message>
 </context>
 <context>
@@ -3179,12 +3200,12 @@ Error: %2</source>
     <message>
         <location filename="../src/core/conflictmarkers.cpp" line="+134"/>
         <source>Line %1: a conflict starts inside the conflict that starts at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 行目: %2 行目から始まるコンフリクトの中で別のコンフリクトが始まっています。</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>The conflict that starts at line %1 doesn’t end.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 行目から始まるコンフリクトが終わっていません。</translation>
     </message>
 </context>
 <context>
@@ -3192,133 +3213,133 @@ Error: %2</source>
     <message>
         <location filename="../src/core/patch.cpp" line="+176"/>
         <source>Line %1 of the patch: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>パッチの %1 行目: %2</translation>
     </message>
     <message>
         <location line="+96"/>
         <source>malformed hunk header</source>
-        <translation type="unfinished"></translation>
+        <translation>不正なハンクのヘッダー</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>unexpected line in a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>ハンク内に予期しない行があります</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>the hunk has more lines than its header says</source>
-        <translation type="unfinished"></translation>
+        <translation>ハンクの行数がヘッダーの記載より多くなっています</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>the patch ends in the middle of a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>パッチがハンクの途中で終わっています</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Only unified diffs can be applied; this is a context diff.</source>
-        <translation type="unfinished"></translation>
+        <translation>適用できるのは unified 形式の差分のみです。これは context 形式の差分です。</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>No changes were found in the patch.</source>
-        <translation type="unfinished"></translation>
+        <translation>パッチに変更が見つかりませんでした。</translation>
     </message>
     <message>
         <location line="+122"/>
         <source>Hunk #%1 doesn’t match the file at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>ハンク #%1 は %2 行目でファイルと一致しません。</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>Hunk #%1 applied at line %2</source>
-        <translation type="unfinished"></translation>
+        <translation>ハンク #%1 を %2 行目に適用しました</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source> (offset %n lines)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform> (%n 行のずれ)</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source> with fuzz %1</source>
-        <translation type="unfinished"></translation>
+        <translation> (ファズ %1)</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+186"/>
         <source>Binary changes can’t be applied.</source>
-        <translation type="unfinished"></translation>
+        <translation>バイナリの変更は適用できません。</translation>
     </message>
     <message>
         <location line="-174"/>
         <source>The patch creates this file, which is already as it would create it.</source>
-        <translation type="unfinished"></translation>
+        <translation>パッチはこのファイルを作成しますが、すでにパッチが作成するとおりの内容です。</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+190"/>
         <source>The patch creates this file, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>パッチはこのファイルを作成しますが、すでに存在します。</translation>
     </message>
     <message>
         <location line="-178"/>
         <source>The patch seems to be applied already: its changes are in the file.</source>
-        <translation type="unfinished"></translation>
+        <translation>パッチはすでに適用されているようです: 変更はファイルに含まれています。</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source>%1 of %n hunks can’t be applied.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n 個のハンクのうち %1 個を適用できません。</numerusform>
         </translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch deletes this file, but it has other contents than the patch removes.</source>
-        <translation type="unfinished"></translation>
+        <translation>パッチはこのファイルを削除しますが、パッチが削除する内容とは異なる内容です。</translation>
     </message>
     <message>
         <location line="+75"/>
         <source>The patch changes several files called %1:</source>
-        <translation type="unfinished"></translation>
+        <translation>パッチは %1 という名前の複数のファイルを変更します:</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The patch doesn’t change %1. It changes:</source>
-        <translation type="unfinished"></translation>
+        <translation>パッチは %1 を変更しません。変更するのは次のファイルです:</translation>
     </message>
     <message>
         <location line="+73"/>
         <source>The patch changes %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>パッチは %1 を変更しますが、フォルダーにありません。</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The patch deletes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>パッチはこのファイルを削除しますが、フォルダーにありません。</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch makes this file from %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>パッチはこのファイルを %1 から作成しますが、%1 はフォルダーにありません。</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>The patch makes this file from %1, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>パッチはこのファイルを %1 から作成しますが、すでに存在します。</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>The patch changes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>パッチはこのファイルを変更しますが、フォルダーにありません。</translation>
     </message>
     <message>
         <location line="+106"/>
         <source>The file isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルはフォルダーにありません。</translation>
     </message>
 </context>
 <context>
@@ -3342,7 +3363,7 @@ Error: %2</source>
     <message>
         <location line="+3"/>
         <source>“%1” can’t be put in the trash. Do you want to delete it permanently?</source>
-        <translation type="unfinished"></translation>
+        <translation>“%1”はゴミ箱に移動できません。完全に削除しますか?</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3460,22 +3481,22 @@ Error: %2</source>
     <message>
         <location line="+98"/>
         <source>The current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>現在のコミット</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>“%1” isn’t a commit, tag or tree in this repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>“%1” はこのリポジトリのコミット、タグ、ツリーではありません。</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 isn’t in the repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 はリポジトリにありません。</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>%1 isn’t in %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 は %2 にありません。</translation>
     </message>
     <message>
         <location line="+84"/>

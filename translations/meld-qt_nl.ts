@@ -6,22 +6,22 @@
     <message>
         <location filename="../src/core/archive.cpp" line="+381"/>
         <source>Couldn’t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Kon map %1 niet aanmaken</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>No installed program can extract this archive. Install bsdtar (from libarchive) or 7-Zip.</source>
-        <translation type="unfinished"></translation>
+        <translation>Geen enkel geïnstalleerd programma kan dit archief uitpakken. Installeer bsdtar (uit libarchive) of 7-Zip.</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>%1 crashed</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 is gecrasht</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>%1 failed with status %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 is mislukt met status %2</translation>
     </message>
 </context>
 <context>
@@ -29,22 +29,22 @@
     <message>
         <location filename="../src/ui/dirdiff.cpp" line="+88"/>
         <source>Couldn&apos;t create link %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Kon koppeling %1 niet aanmaken</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Not a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Geen bestand</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Couldn&apos;t replace %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Kon %1 niet vervangen</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Kon map %1 niet aanmaken</translation>
     </message>
     <message>
         <location filename="../src/ui/externalhelpers.cpp" line="+58"/>
@@ -59,7 +59,7 @@
     <message>
         <location line="+1"/>
         <source>unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>onbekend</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -69,17 +69,17 @@
     <message>
         <location line="+1"/>
         <source>Couldn&apos;t run “%1”</source>
-        <translation type="unfinished"></translation>
+        <translation>Kon ‘%1’ niet uitvoeren</translation>
     </message>
     <message>
         <location filename="../src/ui/meldapp.cpp" line="+37"/>
         <source>show program&apos;s version number and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>versienummer van het programma tonen en afsluiten</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>show this help message and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>deze hulptekst tonen en afsluiten</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -94,12 +94,12 @@
     <message>
         <location line="+2"/>
         <source>Open comparisons in an already running instance (single-instance mode)</source>
-        <translation type="unfinished"></translation>
+        <translation>Vergelijkingen openen in een al draaiende instantie (modus met één instantie)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in a new instance, even in single-instance mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Vergelijkingen openen in een nieuwe instantie, ook in de modus met één instantie</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -130,7 +130,7 @@
     <message>
         <location line="+2"/>
         <source>Compare a file or folder with what a patch would make of it</source>
-        <translation type="unfinished"></translation>
+        <translation>Een bestand of map vergelijken met wat een patch ervan zou maken</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -159,7 +159,7 @@
     <message>
         <location line="-4"/>
         <source>Start a comparison against a blank pane</source>
-        <translation type="unfinished"></translation>
+        <translation>Een vergelijking met een leeg paneel starten</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -174,24 +174,26 @@
     <message>
         <location line="+1"/>
         <source>patch</source>
-        <translation type="unfinished"></translation>
+        <translation>patch</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare with a patch applied</source>
-        <translation type="unfinished"></translation>
+        <translation>Vergelijken met een toegepaste patch</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Usage:</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebruik:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>
 For file comparisons, the special argument @blank may be used instead of
 a &lt;file&gt; argument to create a blank pane.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+Voor bestandsvergelijkingen kan het speciale argument @blank gebruikt worden in plaats van
+een &lt;bestand&gt;-argument om een leeg paneel aan te maken.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -201,30 +203,30 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+1"/>
         <source>Options:</source>
-        <translation type="unfinished"></translation>
+        <translation>Opties:</translation>
     </message>
     <message>
         <location line="+42"/>
         <location line="+9"/>
         <source>no such option: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>onbekende optie: %1</translation>
     </message>
     <message>
         <location line="-8"/>
         <source>ambiguous option: %1 (%2?)</source>
-        <translation type="unfinished"></translation>
+        <translation>dubbelzinnige optie: %1 (%2?)</translation>
     </message>
     <message>
         <location line="+16"/>
         <location line="+59"/>
         <location line="+16"/>
         <source>%1 option requires an argument</source>
-        <translation type="unfinished"></translation>
+        <translation>optie %1 vereist een argument</translation>
     </message>
     <message>
         <location line="-73"/>
         <source>%1 option does not take a value</source>
-        <translation type="unfinished"></translation>
+        <translation>optie %1 accepteert geen waarde</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -234,17 +236,17 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+53"/>
         <source>--patch needs one file or folder to apply the patch to (got %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>--patch heeft één bestand of map nodig om de patch op toe te passen (%1 gekregen)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>can’t auto-merge with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>automatisch samenvoegen met een patch is niet mogelijk</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>can’t load a comparison file with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>een vergelijkingsbestand kan niet met een patch geladen worden</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -281,14 +283,14 @@ a &lt;file&gt; argument to create a blank pane.</source>
 %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/preferences.cpp" line="+104"/>
+        <location filename="../src/ui/preferences.cpp" line="+108"/>
         <source>Select a Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecteer een stijl</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Select</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecteren</translation>
     </message>
     <message>
         <location filename="../src/ui/recent.cpp" line="+76"/>
@@ -302,7 +304,8 @@ a &lt;file&gt; argument to create a blank pane.</source>
         <location filename="../src/ui/singleinstance.cpp" line="+50"/>
         <source>Meld Qt couldn’t open the comparison: a different version of Meld Qt is running.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Meld Qt kon de vergelijking niet openen: er draait een andere versie van Meld Qt.
+</translation>
     </message>
 </context>
 <context>
@@ -391,35 +394,35 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+10"/>
         <source>The conflict markers in “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>De conflictmarkeringen in ‘%1’ kunnen niet gelezen worden.</translation>
     </message>
     <message numerus="yes">
         <location line="+17"/>
         <source>%n unresolved conflicts</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n onopgelost conflict</numerusform>
+            <numerusform>%n onopgeloste conflicten</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts show the common ancestor’s text, which the local and remote versions changed.</source>
-        <translation type="unfinished"></translation>
+        <translation>De conflicten tonen de tekst van de gemeenschappelijke voorouder, die de lokale versie en de versie op afstand gewijzigd hebben.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts are empty, to be filled from the local and remote versions.</source>
-        <translation type="unfinished"></translation>
+        <translation>De conflicten zijn leeg en worden gevuld vanuit de lokale versie en de versie op afstand.</translation>
     </message>
     <message>
         <location line="+42"/>
         <source>local</source>
-        <translation type="unfinished"></translation>
+        <translation>lokaal</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>remote</source>
-        <translation type="unfinished"></translation>
+        <translation>afstand</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -447,12 +450,12 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+16"/>
         <source>Folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Map %1</translation>
     </message>
     <message>
         <location line="+81"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoeken</translation>
     </message>
     <message>
         <location line="+88"/>
@@ -487,7 +490,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+54"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>De patch ‘%1’ kan niet gelezen worden.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -498,17 +501,17 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+36"/>
         <source>%1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: %2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Permission denied</source>
-        <translation type="unfinished"></translation>
+        <translation>Toegang geweigerd</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>: Dangling symlink</source>
-        <translation type="unfinished"></translation>
+        <translation>: Verweesde symbolische koppeling</translation>
     </message>
     <message>
         <location line="+99"/>
@@ -658,7 +661,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+164"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Kon map %1 niet aanmaken</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -735,7 +738,7 @@ naar %2.
     <message>
         <location line="+144"/>
         <source>empty folder</source>
-        <translation type="unfinished"></translation>
+        <translation>lege map</translation>
     </message>
 </context>
 <context>
@@ -853,12 +856,12 @@ naar %2.
     <message>
         <location line="+13"/>
         <source>There was a problem opening “%1”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Er is een probleem opgetreden bij het openen van ‘%1’.</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The file could not be decoded using the candidate encodings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Het bestand kon met geen van de mogelijke tekensets gedecodeerd worden.</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -872,20 +875,20 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message numerus="yes">
         <location line="+39"/>
         <source>%1 has %n unresolved merge conflicts.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 heeft een onopgelost samenvoegconflict.</numerusform>
+            <numerusform>%1 heeft %n onopgeloste samenvoegconflicten.</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The local and remote versions can be merged in a 3-way comparison.</source>
-        <translation type="unfinished"></translation>
+        <translation>De lokale versie en de versie op afstand kunnen in een drievoudige vergelijking samengevoegd worden.</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Resolve</source>
-        <translation type="unfinished"></translation>
+        <translation>Oplossen</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -905,7 +908,7 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message>
         <location line="+64"/>
         <source>Computing differences</source>
-        <translation type="unfinished"></translation>
+        <translation>Verschillen berekenen</translation>
     </message>
     <message>
         <location line="+117"/>
@@ -994,15 +997,15 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message numerus="yes">
         <location line="+41"/>
         <source>%n conflicts aren’t resolved</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Een conflict is niet opgelost</numerusform>
+            <numerusform>%n conflicten zijn niet opgelost</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>If you save the merge now, the conflicts are saved as they are here, without conflict markers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Als u de samenvoeging nu opslaat, worden de conflicten opgeslagen zoals ze hier zijn, zonder conflictmarkeringen.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1142,7 +1145,7 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message>
         <location line="+6"/>
         <source>File %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Bestand %1</translation>
     </message>
     <message>
         <location line="+128"/>
@@ -1293,12 +1296,12 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message>
         <location line="+19"/>
         <source>Visual diff and merge tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Visueel hulpmiddel om te vergelijken en samen te voegen</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Built with Qt %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebouwd met Qt %1</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1309,7 +1312,7 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message>
         <location line="+3"/>
         <source>Translated by</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertaald door</translation>
     </message>
 </context>
 <context>
@@ -1388,12 +1391,12 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message>
         <location line="-383"/>
         <source>Header bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopbalk</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>New Comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Nieuwe vergelijking</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1403,7 +1406,7 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message>
         <location line="+1"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Sluiten</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1419,7 +1422,7 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message>
         <location line="-894"/>
         <source>Quit</source>
-        <translation type="unfinished"></translation>
+        <translation>Afsluiten</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1440,22 +1443,22 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message>
         <location line="-959"/>
         <source>Previous Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Vorige tab</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Next Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Volgende tab</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Move Tab Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Tab naar links verplaatsen</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Move Tab Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Tab naar rechts verplaatsen</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -1465,7 +1468,7 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message>
         <location line="+11"/>
         <source>Previous Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Vorige wijziging</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1475,7 +1478,7 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message>
         <location line="+1"/>
         <source>Next Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Volgende wijziging</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1485,7 +1488,7 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message>
         <location line="+4"/>
         <source>Previous Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>Vorige conflict</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1495,7 +1498,7 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message>
         <location line="+1"/>
         <source>Next Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>Volgende conflict</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1505,7 +1508,7 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message>
         <location line="+7"/>
         <source>Push to Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Naar links pushen</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1515,7 +1518,7 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message>
         <location line="+1"/>
         <source>Push to Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Naar rechts pushen</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1550,7 +1553,7 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message>
         <location line="+6"/>
         <source>Delete Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Wijziging verwijderen</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1610,7 +1613,7 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
         <location line="+22"/>
         <location line="+6"/>
         <source>Main Menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Hoofdmenu</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -1715,12 +1718,12 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message>
         <location line="+17"/>
         <source>No recent comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>Geen recente vergelijkingen</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Clear Recent Comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>Recente vergelijkingen wissen</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -1736,14 +1739,14 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
         <location line="+65"/>
         <location line="+17"/>
         <source>%1 - Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 - Meld Qt</translation>
     </message>
     <message>
         <location line="+26"/>
         <location line="+146"/>
         <location line="+16"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Kon vergelijking niet openen</translation>
     </message>
     <message>
         <location line="+43"/>
@@ -1758,7 +1761,7 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message>
         <location line="+11"/>
         <source>Select what to compare, and the patch to apply to it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecteer wat vergeleken moet worden en de patch die erop toegepast moet worden.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1766,12 +1769,14 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
         <source>The patch “%1” can’t be read.
 
 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>De patch ‘%1’ kan niet gelezen worden.
+
+%2</translation>
     </message>
     <message>
         <location line="+66"/>
         <source>Opening archive “%1”…</source>
-        <translation type="unfinished"></translation>
+        <translation>Archief ‘%1’ openen…</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1781,17 +1786,17 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message>
         <location line="+2"/>
         <source>Opening Archive</source>
-        <translation type="unfinished"></translation>
+        <translation>Archief openen</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Couldn’t open archive %1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Kon archief %1 niet openen: %2</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Failed to open archive</source>
-        <translation type="unfinished"></translation>
+        <translation>Openen van archief mislukt</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -1807,7 +1812,7 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message>
         <location line="+28"/>
         <source>The patch “%1” doesn’t exist</source>
-        <translation type="unfinished"></translation>
+        <translation>De patch ‘%1’ bestaat niet</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -2150,22 +2155,22 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message>
         <location line="+7"/>
         <source>Compare with a &amp;patch</source>
-        <translation type="unfinished"></translation>
+        <translation>Vergelijken met een &amp;patch</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the folder with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>De map vergelijken met hoe een patch haar zou wijzigen</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the file with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>Het bestand vergelijken met hoe een patch het zou wijzigen</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Select Patch File</source>
-        <translation type="unfinished"></translation>
+        <translation>Patchbestand selecteren</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2215,12 +2220,12 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message>
         <location line="+70"/>
         <source>Patches (*.patch *.diff)</source>
-        <translation type="unfinished"></translation>
+        <translation>Patches (*.patch *.diff)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>All files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>Alle bestanden (*)</translation>
     </message>
 </context>
 <context>
@@ -2229,27 +2234,27 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
         <location filename="../src/ui/patchcomparison.cpp" line="+24"/>
         <location line="+41"/>
         <source>The patch “%1” can’t be applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>De patch ‘%1’ kan niet op ‘%2’ toegepast worden.</translation>
     </message>
     <message>
         <location line="-34"/>
         <source>The patch deletes this file.</source>
-        <translation type="unfinished"></translation>
+        <translation>De patch verwijdert dit bestand.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The patch “%1” was applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>De patch ‘%1’ is op ‘%2’ toegepast.</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>%1 with %2 applied</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 met %2 toegepast</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>De patch ‘%1’ kan niet gelezen worden.</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2369,7 +2374,7 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message>
         <location line="+3"/>
         <source>Follow System Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Systeemstijl volgen</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2387,7 +2392,22 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
         <translation>Stijl interface</translation>
     </message>
     <message>
+        <location line="+5"/>
+        <source>System Language</source>
+        <translation>Systeemtaal</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Language</source>
+        <translation>Taal</translation>
+    </message>
+    <message>
         <location line="+3"/>
+        <source>The language will change when Meld Qt is next started.</source>
+        <translation>De taal wordt gewijzigd wanneer Meld Qt de volgende keer wordt gestart.</translation>
+    </message>
+    <message>
+        <location line="+14"/>
         <source>Use Custom Font</source>
         <translation>Aangepast lettertype gebruiken</translation>
     </message>
@@ -2419,12 +2439,12 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message>
         <location line="+1"/>
         <source>At Any Character</source>
-        <translation type="unfinished"></translation>
+        <translation>Bij elk teken</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>At Word Boundaries</source>
-        <translation type="unfinished"></translation>
+        <translation>Bij woordgrenzen</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2499,22 +2519,22 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message>
         <location line="+1"/>
         <source>Use {file} and {line} to refer to the file and line being opened</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebruik {file} en {line} om naar het te openen bestand en de regel te verwijzen</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Application</source>
-        <translation type="unfinished"></translation>
+        <translation>Toepassing</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in the running Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>Vergelijkingen openen in de draaiende Meld Qt</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Comparisons opened from the command line or other programs open in a new window of a Meld Qt that&apos;s already running, instead of starting another Meld Qt. This applies to Meld Qt started after the change.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vergelijkingen die vanaf de opdrachtregel of vanuit andere programma’s geopend worden, openen in een nieuw venster van een Meld Qt die al draait, in plaats van een nieuwe Meld Qt te starten. Dit geldt voor Meld Qt dat na de wijziging gestart wordt.</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -2609,7 +2629,7 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message>
         <location line="+5"/>
         <source>Order when comparing file revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>Volgorde bij het vergelijken van bestandsrevisies</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2624,17 +2644,17 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message>
         <location line="+5"/>
         <source>Order when merging files</source>
-        <translation type="unfinished"></translation>
+        <translation>Volgorde bij het samenvoegen van bestanden</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Show the common ancestor in conflicts from conflict markers</source>
-        <translation type="unfinished"></translation>
+        <translation>De gemeenschappelijke voorouder tonen in conflicten uit conflictmarkeringen</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Merges of files with diff3-style conflict markers start with the common ancestor’s text in conflicts, rather than nothing</source>
-        <translation type="unfinished"></translation>
+        <translation>Samenvoegingen van bestanden met conflictmarkeringen in diff3-stijl beginnen in conflicten met de tekst van de gemeenschappelijke voorouder, in plaats van met niets</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2684,7 +2704,7 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message>
         <location line="+1"/>
         <source>When performing file comparisons, you may ignore certain types of changes. Each pattern here is a python regular expression which replaces matching text with the empty string before comparison is performed. If the expression contains groups, only the groups are replaced.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bij het vergelijken van bestanden kunt u bepaalde soorten wijzigingen negeren. Elk patroon hier is een reguliere expressie in Python die overeenkomende tekst vervangt door een lege tekenreeks voordat de vergelijking wordt uitgevoerd. Als de expressie groepen bevat, worden alleen de groepen vervangen.</translation>
     </message>
 </context>
 <context>
@@ -2799,27 +2819,27 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message>
         <location line="+18"/>
         <source>%1 — %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 — %2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>The file isn’t in %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Het bestand staat niet in %1.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 (%2, %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2, %3)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (working, %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (werk, %2)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (%2, working)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2, werk)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -2859,7 +2879,7 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message>
         <location line="+25"/>
         <source>working copy</source>
-        <translation type="unfinished"></translation>
+        <translation>werkkopie</translation>
     </message>
     <message>
         <location line="+67"/>
@@ -2886,7 +2906,7 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
         <location line="+1"/>
         <location line="+1"/>
         <source>Next Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Volgende wijziging</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2897,12 +2917,12 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
         <location line="+1"/>
         <location line="+1"/>
         <source>Previous Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Vorige wijziging</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>Verversen</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2945,7 +2965,7 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message>
         <location line="-754"/>
         <source>Push</source>
-        <translation type="unfinished"></translation>
+        <translation>Pushen</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2989,7 +3009,7 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message>
         <location line="+1"/>
         <source>Pull</source>
-        <translation type="unfinished"></translation>
+        <translation>Pullen</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -3014,42 +3034,42 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message>
         <location line="+30"/>
         <source>The commit, tag or tree that changes are compared with</source>
-        <translation type="unfinished"></translation>
+        <translation>De commit, tag of boom waarmee wijzigingen vergeleken worden</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The working copy, or a commit, tag or tree, whose changes are shown</source>
-        <translation type="unfinished"></translation>
+        <translation>De werkkopie, of een commit, tag of boom, waarvan de wijzigingen getoond worden</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Swap</source>
-        <translation type="unfinished"></translation>
+        <translation>Wisselen</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Swap the revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>De revisies wisselen</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Herstellen</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the working copy with the current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>De werkkopie vergelijken met de huidige commit</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Changes from</source>
-        <translation type="unfinished"></translation>
+        <translation>Wijzigingen van</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>to</source>
-        <translation type="unfinished"></translation>
+        <translation>tot</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -3059,17 +3079,17 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message>
         <location line="+28"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoeken</translation>
     </message>
     <message>
         <location line="+102"/>
         <source>The files as they are now, which can be changed</source>
-        <translation type="unfinished"></translation>
+        <translation>De bestanden zoals ze nu zijn, die gewijzigd kunnen worden</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>Unknown revision</source>
-        <translation type="unfinished"></translation>
+        <translation>Onbekende revisie</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -3080,7 +3100,7 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message>
         <location line="+5"/>
         <source>%1 → %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 → %2</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3100,7 +3120,7 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message>
         <location line="+20"/>
         <source>No such file or directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Bestand of map bestaat niet</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -3115,13 +3135,14 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <message>
         <location line="+157"/>
         <source>Error running command</source>
-        <translation type="unfinished"></translation>
+        <translation>Fout bij uitvoeren van opdracht</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>While running &apos;%1&apos;
 Error: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Tijdens het uitvoeren van ‘%1’
+Fout: %2</translation>
     </message>
     <message>
         <location line="+58"/>
@@ -3169,7 +3190,7 @@ Error: %2</source>
     <message>
         <location line="+38"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Kon vergelijking niet openen</translation>
     </message>
 </context>
 <context>
@@ -3177,12 +3198,12 @@ Error: %2</source>
     <message>
         <location filename="../src/core/conflictmarkers.cpp" line="+134"/>
         <source>Line %1: a conflict starts inside the conflict that starts at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Regel %1: een conflict begint binnen het conflict dat op regel %2 begint.</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>The conflict that starts at line %1 doesn’t end.</source>
-        <translation type="unfinished"></translation>
+        <translation>Het conflict dat op regel %1 begint, eindigt niet.</translation>
     </message>
 </context>
 <context>
@@ -3190,135 +3211,135 @@ Error: %2</source>
     <message>
         <location filename="../src/core/patch.cpp" line="+176"/>
         <source>Line %1 of the patch: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Regel %1 van de patch: %2</translation>
     </message>
     <message>
         <location line="+96"/>
         <source>malformed hunk header</source>
-        <translation type="unfinished"></translation>
+        <translation>ongeldige blokkop</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>unexpected line in a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>onverwachte regel in een blok</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>the hunk has more lines than its header says</source>
-        <translation type="unfinished"></translation>
+        <translation>het blok heeft meer regels dan de kop aangeeft</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>the patch ends in the middle of a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>de patch eindigt midden in een blok</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Only unified diffs can be applied; this is a context diff.</source>
-        <translation type="unfinished"></translation>
+        <translation>Alleen unified diffs kunnen toegepast worden; dit is een context-diff.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>No changes were found in the patch.</source>
-        <translation type="unfinished"></translation>
+        <translation>Er zijn geen wijzigingen in de patch gevonden.</translation>
     </message>
     <message>
         <location line="+122"/>
         <source>Hunk #%1 doesn’t match the file at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Blok #%1 komt niet overeen met het bestand op regel %2.</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>Hunk #%1 applied at line %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Blok #%1 toegepast op regel %2</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source> (offset %n lines)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform> (verschuiving %n regel)</numerusform>
+            <numerusform> (verschuiving %n regels)</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source> with fuzz %1</source>
-        <translation type="unfinished"></translation>
+        <translation> met onnauwkeurigheid %1</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+186"/>
         <source>Binary changes can’t be applied.</source>
-        <translation type="unfinished"></translation>
+        <translation>Binaire wijzigingen kunnen niet toegepast worden.</translation>
     </message>
     <message>
         <location line="-174"/>
         <source>The patch creates this file, which is already as it would create it.</source>
-        <translation type="unfinished"></translation>
+        <translation>De patch maakt dit bestand aan, dat al is zoals de patch het zou aanmaken.</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+190"/>
         <source>The patch creates this file, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>De patch maakt dit bestand aan, maar het bestaat al.</translation>
     </message>
     <message>
         <location line="-178"/>
         <source>The patch seems to be applied already: its changes are in the file.</source>
-        <translation type="unfinished"></translation>
+        <translation>De patch lijkt al toegepast te zijn: de wijzigingen staan in het bestand.</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source>%1 of %n hunks can’t be applied.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 van %n blok kan niet toegepast worden.</numerusform>
+            <numerusform>%1 van %n blokken kunnen niet toegepast worden.</numerusform>
         </translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch deletes this file, but it has other contents than the patch removes.</source>
-        <translation type="unfinished"></translation>
+        <translation>De patch verwijdert dit bestand, maar het heeft een andere inhoud dan wat de patch verwijdert.</translation>
     </message>
     <message>
         <location line="+75"/>
         <source>The patch changes several files called %1:</source>
-        <translation type="unfinished"></translation>
+        <translation>De patch wijzigt meerdere bestanden met de naam %1:</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The patch doesn’t change %1. It changes:</source>
-        <translation type="unfinished"></translation>
+        <translation>De patch wijzigt %1 niet. Hij wijzigt:</translation>
     </message>
     <message>
         <location line="+73"/>
         <source>The patch changes %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>De patch wijzigt %1, dat niet in de map staat.</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The patch deletes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>De patch verwijdert dit bestand, maar het staat niet in de map.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch makes this file from %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>De patch maakt dit bestand van %1, dat niet in de map staat.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>The patch makes this file from %1, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>De patch maakt dit bestand van %1, maar het bestaat al.</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>The patch changes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>De patch wijzigt dit bestand, maar het staat niet in de map.</translation>
     </message>
     <message>
         <location line="+106"/>
         <source>The file isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Het bestand staat niet in de map.</translation>
     </message>
 </context>
 <context>
@@ -3462,22 +3483,22 @@ Error: %2</source>
     <message>
         <location line="+98"/>
         <source>The current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>De huidige commit</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>“%1” isn’t a commit, tag or tree in this repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>‘%1’ is geen commit, tag of boom in deze opslagruimte.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 isn’t in the repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 staat niet in de opslagruimte.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>%1 isn’t in %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 staat niet in %2.</translation>
     </message>
     <message>
         <location line="+84"/>

@@ -6,22 +6,22 @@
     <message>
         <location filename="../src/core/archive.cpp" line="+381"/>
         <source>Couldn’t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Nelze vytvořit složku %1</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>No installed program can extract this archive. Install bsdtar (from libarchive) or 7-Zip.</source>
-        <translation type="unfinished"></translation>
+        <translation>Žádný nainstalovaný program nedokáže rozbalit tento archiv. Nainstalujte bsdtar (z libarchive) nebo 7-Zip.</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>%1 crashed</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 spadl</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>%1 failed with status %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 selhal se stavem %2</translation>
     </message>
 </context>
 <context>
@@ -29,22 +29,22 @@
     <message>
         <location filename="../src/ui/dirdiff.cpp" line="+88"/>
         <source>Couldn&apos;t create link %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Nelze vytvořit odkaz %1</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Not a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Nejedná se o soubor</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Couldn&apos;t replace %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Nelze nahradit %1</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Nelze vytvořit složku %1</translation>
     </message>
     <message>
         <location filename="../src/ui/externalhelpers.cpp" line="+58"/>
@@ -59,7 +59,7 @@
     <message>
         <location line="+1"/>
         <source>unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>neznámý</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -69,17 +69,17 @@
     <message>
         <location line="+1"/>
         <source>Couldn&apos;t run “%1”</source>
-        <translation type="unfinished"></translation>
+        <translation>Nelze spustit „%1“</translation>
     </message>
     <message>
         <location filename="../src/ui/meldapp.cpp" line="+37"/>
         <source>show program&apos;s version number and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>zobrazit číslo verze programu a skončit</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>show this help message and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>zobrazit tuto nápovědu a skončit</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -94,12 +94,12 @@
     <message>
         <location line="+2"/>
         <source>Open comparisons in an already running instance (single-instance mode)</source>
-        <translation type="unfinished"></translation>
+        <translation>Otevírat porovnání v již běžící instanci (režim jediné instance)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in a new instance, even in single-instance mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Otevírat porovnání v nové instanci, i v režimu jediné instance</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -130,7 +130,7 @@
     <message>
         <location line="+2"/>
         <source>Compare a file or folder with what a patch would make of it</source>
-        <translation type="unfinished"></translation>
+        <translation>Porovnat soubor nebo složku s tím, co by z nich udělala záplata</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -159,7 +159,7 @@
     <message>
         <location line="-4"/>
         <source>Start a comparison against a blank pane</source>
-        <translation type="unfinished"></translation>
+        <translation>Spustit porovnání s prázdným panelem</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -174,24 +174,26 @@
     <message>
         <location line="+1"/>
         <source>patch</source>
-        <translation type="unfinished"></translation>
+        <translation>záplata</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare with a patch applied</source>
-        <translation type="unfinished"></translation>
+        <translation>Porovnat s použitou záplatou</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Usage:</source>
-        <translation type="unfinished"></translation>
+        <translation>Použití:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>
 For file comparisons, the special argument @blank may be used instead of
 a &lt;file&gt; argument to create a blank pane.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+Při porovnávání souborů lze místo argumentu &lt;soubor&gt; použít speciální
+argument @blank, který vytvoří prázdný panel.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -201,30 +203,30 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+1"/>
         <source>Options:</source>
-        <translation type="unfinished"></translation>
+        <translation>Přepínače:</translation>
     </message>
     <message>
         <location line="+42"/>
         <location line="+9"/>
         <source>no such option: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>neznámý přepínač: %1</translation>
     </message>
     <message>
         <location line="-8"/>
         <source>ambiguous option: %1 (%2?)</source>
-        <translation type="unfinished"></translation>
+        <translation>nejednoznačný přepínač: %1 (%2?)</translation>
     </message>
     <message>
         <location line="+16"/>
         <location line="+59"/>
         <location line="+16"/>
         <source>%1 option requires an argument</source>
-        <translation type="unfinished"></translation>
+        <translation>přepínač %1 vyžaduje argument</translation>
     </message>
     <message>
         <location line="-73"/>
         <source>%1 option does not take a value</source>
-        <translation type="unfinished"></translation>
+        <translation>přepínač %1 nepřijímá hodnotu</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -234,17 +236,17 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+53"/>
         <source>--patch needs one file or folder to apply the patch to (got %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>--patch potřebuje jeden soubor nebo složku, na které se záplata použije (zadáno %1)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>can’t auto-merge with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>nelze automaticky sloučit se záplatou</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>can’t load a comparison file with a patch</source>
-        <translation type="unfinished"></translation>
+        <translation>nelze načíst soubor s porovnáním se záplatou</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -281,14 +283,14 @@ a &lt;file&gt; argument to create a blank pane.</source>
 %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/preferences.cpp" line="+104"/>
+        <location filename="../src/ui/preferences.cpp" line="+108"/>
         <source>Select a Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Výběr stylu</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Select</source>
-        <translation type="unfinished"></translation>
+        <translation>Vybrat</translation>
     </message>
     <message>
         <location filename="../src/ui/recent.cpp" line="+76"/>
@@ -302,7 +304,8 @@ a &lt;file&gt; argument to create a blank pane.</source>
         <location filename="../src/ui/singleinstance.cpp" line="+50"/>
         <source>Meld Qt couldn’t open the comparison: a different version of Meld Qt is running.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Meld Qt nemohl otevřít porovnání: běží jiná verze Meld Qt.
+</translation>
     </message>
 </context>
 <context>
@@ -391,36 +394,36 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+10"/>
         <source>The conflict markers in “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Značky konfliktů v „%1“ nelze přečíst.</translation>
     </message>
     <message numerus="yes">
         <location line="+17"/>
         <source>%n unresolved conflicts</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n nevyřešený konflikt</numerusform>
+            <numerusform>%n nevyřešené konflikty</numerusform>
+            <numerusform>%n nevyřešených konfliktů</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts show the common ancestor’s text, which the local and remote versions changed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Konflikty zobrazují text společného předka, který místní a vzdálená verze změnily.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Conflicts are empty, to be filled from the local and remote versions.</source>
-        <translation type="unfinished"></translation>
+        <translation>Konflikty jsou prázdné a je třeba je vyplnit z místní a vzdálené verze.</translation>
     </message>
     <message>
         <location line="+42"/>
         <source>local</source>
-        <translation type="unfinished"></translation>
+        <translation>místní</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>remote</source>
-        <translation type="unfinished"></translation>
+        <translation>vzdálený</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -448,12 +451,12 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+16"/>
         <source>Folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Složka %1</translation>
     </message>
     <message>
         <location line="+81"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Hledat</translation>
     </message>
     <message>
         <location line="+88"/>
@@ -488,28 +491,28 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+54"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Záplatu „%1“ nelze přečíst.</translation>
     </message>
     <message>
         <location line="+102"/>
         <location line="+28"/>
         <source>Scanning %1</source>
-        <translation type="unfinished">Prochází se %1</translation>
+        <translation>Prochází se %1</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>%1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: %2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Permission denied</source>
-        <translation type="unfinished"></translation>
+        <translation>Přístup odepřen</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>: Dangling symlink</source>
-        <translation type="unfinished"></translation>
+        <translation>: Neplatný symbolický odkaz</translation>
     </message>
     <message>
         <location line="+99"/>
@@ -554,7 +557,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+13"/>
         <source>Folder %1 is being compared to itself</source>
-        <translation type="unfinished"></translation>
+        <translation>Složka %1 je porovnávána sama se sebou</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -659,7 +662,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
     <message>
         <location line="+164"/>
         <source>Couldn&apos;t create folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Nelze vytvořit složku %1</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -703,7 +706,7 @@ do %2.
     <message>
         <location line="+24"/>
         <source>Error deleting %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Chyba při mazání %1</translation>
     </message>
 </context>
 <context>
@@ -736,7 +739,7 @@ do %2.
     <message>
         <location line="+144"/>
         <source>empty folder</source>
-        <translation type="unfinished"></translation>
+        <translation>prázdná složka</translation>
     </message>
 </context>
 <context>
@@ -854,12 +857,12 @@ do %2.
     <message>
         <location line="+13"/>
         <source>There was a problem opening “%1”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Při otevírání „%1“ nastal problém.</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The file could not be decoded using the candidate encodings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Soubor nelze dekódovat žádným z možných kódování.</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -873,21 +876,21 @@ Načítání souborů s velmi dlouhými řádky může způsobit zpomalení Meld
     <message numerus="yes">
         <location line="+39"/>
         <source>%1 has %n unresolved merge conflicts.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 má %n nevyřešený konflikt sloučení.</numerusform>
+            <numerusform>%1 má %n nevyřešené konflikty sloučení.</numerusform>
+            <numerusform>%1 má %n nevyřešených konfliktů sloučení.</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The local and remote versions can be merged in a 3-way comparison.</source>
-        <translation type="unfinished"></translation>
+        <translation>Místní a vzdálenou verzi lze sloučit v třícestném porovnání.</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Resolve</source>
-        <translation type="unfinished"></translation>
+        <translation>Vyřešit</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -907,12 +910,12 @@ Načítání souborů s velmi dlouhými řádky může způsobit zpomalení Meld
     <message>
         <location line="+64"/>
         <source>Computing differences</source>
-        <translation type="unfinished"></translation>
+        <translation>Počítají se rozdíly</translation>
     </message>
     <message>
         <location line="+117"/>
         <source>File %1 is being compared to itself</source>
-        <translation type="unfinished"></translation>
+        <translation>Soubor %1 je porovnáván sám se sebou</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -996,16 +999,16 @@ Načítání souborů s velmi dlouhými řádky může způsobit zpomalení Meld
     <message numerus="yes">
         <location line="+41"/>
         <source>%n conflicts aren’t resolved</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n konflikt není vyřešen</numerusform>
+            <numerusform>%n konflikty nejsou vyřešeny</numerusform>
+            <numerusform>%n konfliktů není vyřešeno</numerusform>
         </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>If you save the merge now, the conflicts are saved as they are here, without conflict markers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokud sloučení uložíte nyní, konflikty se uloží tak, jak jsou zde, bez značek konfliktů.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1038,7 +1041,7 @@ Načítání souborů s velmi dlouhými řádky může způsobit zpomalení Meld
     <message>
         <location line="-18"/>
         <source>File “%1” contains characters that can’t be encoded using its current encoding “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Soubor %1 obsahuje znaky, které nelze zakódovat pomocí jeho akuálního kódování „%2“.</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1145,7 +1148,7 @@ Načítání souborů s velmi dlouhými řádky může způsobit zpomalení Meld
     <message>
         <location line="+6"/>
         <source>File %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Soubor %1</translation>
     </message>
     <message>
         <location line="+128"/>
@@ -1296,12 +1299,12 @@ Načítání souborů s velmi dlouhými řádky může způsobit zpomalení Meld
     <message>
         <location line="+19"/>
         <source>Visual diff and merge tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Nástroj pro vizuální porovnání a slučování</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Built with Qt %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Sestaveno s Qt %1</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1316,7 +1319,7 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
     <message>
         <location line="+3"/>
         <source>Translated by</source>
-        <translation type="unfinished"></translation>
+        <translation>Překlad</translation>
     </message>
 </context>
 <context>
@@ -1395,12 +1398,12 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
     <message>
         <location line="-383"/>
         <source>Header bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Záhlaví</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>New Comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Nové porovnání</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1410,7 +1413,7 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
     <message>
         <location line="+1"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Zavřít</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1426,7 +1429,7 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
     <message>
         <location line="-894"/>
         <source>Quit</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukončit</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1447,22 +1450,22 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
     <message>
         <location line="-959"/>
         <source>Previous Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Předchozí karta</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Next Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Následující karta</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Move Tab Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Přesunout kartu doleva</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Move Tab Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Přesunout kartu doprava</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -1472,7 +1475,7 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
     <message>
         <location line="+11"/>
         <source>Previous Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Předchozí změna</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1482,7 +1485,7 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
     <message>
         <location line="+1"/>
         <source>Next Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Následující změna</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1492,7 +1495,7 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
     <message>
         <location line="+4"/>
         <source>Previous Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>Předchozí konflikt</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1502,7 +1505,7 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
     <message>
         <location line="+1"/>
         <source>Next Conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>Následující konflikt</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1512,7 +1515,7 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
     <message>
         <location line="+7"/>
         <source>Push to Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Vnutit doleva</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1522,7 +1525,7 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
     <message>
         <location line="+1"/>
         <source>Push to Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Vnutit doprava</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1557,7 +1560,7 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
     <message>
         <location line="+6"/>
         <source>Delete Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Smazat změnu</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1617,7 +1620,7 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
         <location line="+22"/>
         <location line="+6"/>
         <source>Main Menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Hlavní nabídka</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -1722,12 +1725,12 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
     <message>
         <location line="+17"/>
         <source>No recent comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>Žádná nedávná porovnání</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Clear Recent Comparisons</source>
-        <translation type="unfinished"></translation>
+        <translation>Vymazat nedávná porovnání</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -1743,14 +1746,14 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
         <location line="+65"/>
         <location line="+17"/>
         <source>%1 - Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 - Meld Qt</translation>
     </message>
     <message>
         <location line="+26"/>
         <location line="+146"/>
         <location line="+16"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Porovnání nelze otevřít</translation>
     </message>
     <message>
         <location line="+43"/>
@@ -1765,7 +1768,7 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
     <message>
         <location line="+11"/>
         <source>Select what to compare, and the patch to apply to it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vyberte, co se má porovnat, a záplatu, která se na to má použít.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1773,12 +1776,14 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
         <source>The patch “%1” can’t be read.
 
 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Záplatu „%1“ nelze přečíst.
+
+%2</translation>
     </message>
     <message>
         <location line="+66"/>
         <source>Opening archive “%1”…</source>
-        <translation type="unfinished"></translation>
+        <translation>Otevírá se archiv „%1“…</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1788,17 +1793,17 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
     <message>
         <location line="+2"/>
         <source>Opening Archive</source>
-        <translation type="unfinished"></translation>
+        <translation>Otevírá se archiv</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Couldn’t open archive %1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Nelze otevřít archiv %1: %2</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Failed to open archive</source>
-        <translation type="unfinished"></translation>
+        <translation>Otevření archivu selhalo</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -1814,7 +1819,7 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
     <message>
         <location line="+28"/>
         <source>The patch “%1” doesn’t exist</source>
-        <translation type="unfinished"></translation>
+        <translation>Záplata „%1“ neexistuje</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -2157,22 +2162,22 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
     <message>
         <location line="+7"/>
         <source>Compare with a &amp;patch</source>
-        <translation type="unfinished"></translation>
+        <translation>Porovnat se zá&amp;platou</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the folder with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>Porovnat složku s tím, jak by ji změnila záplata</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the file with how a patch would change it</source>
-        <translation type="unfinished"></translation>
+        <translation>Porovnat soubor s tím, jak by jej změnila záplata</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Select Patch File</source>
-        <translation type="unfinished"></translation>
+        <translation>Výběr souboru se záplatou</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2222,12 +2227,12 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
     <message>
         <location line="+70"/>
         <source>Patches (*.patch *.diff)</source>
-        <translation type="unfinished"></translation>
+        <translation>Záplaty (*.patch *.diff)</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>All files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>Všechny soubory (*)</translation>
     </message>
 </context>
 <context>
@@ -2236,27 +2241,27 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
         <location filename="../src/ui/patchcomparison.cpp" line="+24"/>
         <location line="+41"/>
         <source>The patch “%1” can’t be applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Záplatu „%1“ nelze použít na „%2“.</translation>
     </message>
     <message>
         <location line="-34"/>
         <source>The patch deletes this file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Záplata tento soubor smaže.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The patch “%1” was applied to “%2”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Záplata „%1“ byla použita na „%2“.</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>%1 with %2 applied</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 s použitou %2</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>The patch “%1” can’t be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Záplatu „%1“ nelze přečíst.</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2376,7 +2381,7 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
     <message>
         <location line="+3"/>
         <source>Follow System Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Řídit se stylem systému</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2394,7 +2399,22 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
         <translation>Styl rozhraní</translation>
     </message>
     <message>
+        <location line="+5"/>
+        <source>System Language</source>
+        <translation>Jazyk systému</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Language</source>
+        <translation>Jazyk</translation>
+    </message>
+    <message>
         <location line="+3"/>
+        <source>The language will change when Meld Qt is next started.</source>
+        <translation>Jazyk se změní při příštím spuštění aplikace Meld Qt.</translation>
+    </message>
+    <message>
+        <location line="+14"/>
         <source>Use Custom Font</source>
         <translation>Použít vlastní písmo</translation>
     </message>
@@ -2426,12 +2446,12 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
     <message>
         <location line="+1"/>
         <source>At Any Character</source>
-        <translation type="unfinished"></translation>
+        <translation>Na libovolném znaku</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>At Word Boundaries</source>
-        <translation type="unfinished"></translation>
+        <translation>Na hranicích slov</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2506,22 +2526,22 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
     <message>
         <location line="+1"/>
         <source>Use {file} and {line} to refer to the file and line being opened</source>
-        <translation type="unfinished"></translation>
+        <translation>Pomocí {file} a {line} se odkážete na otevíraný soubor a řádek</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Application</source>
-        <translation type="unfinished"></translation>
+        <translation>Aplikace</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Open comparisons in the running Meld Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>Otevírat porovnání v běžícím Meld Qt</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Comparisons opened from the command line or other programs open in a new window of a Meld Qt that&apos;s already running, instead of starting another Meld Qt. This applies to Meld Qt started after the change.</source>
-        <translation type="unfinished"></translation>
+        <translation>Porovnání otevíraná z příkazového řádku nebo z jiných programů se otevřou v novém okně již běžícího Meld Qt, místo aby se spouštěl další Meld Qt. Platí pro Meld Qt spuštěný po změně.</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -2616,7 +2636,7 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
     <message>
         <location line="+5"/>
         <source>Order when comparing file revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>Pořadí při porovnávání revizí souborů</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2631,17 +2651,17 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
     <message>
         <location line="+5"/>
         <source>Order when merging files</source>
-        <translation type="unfinished"></translation>
+        <translation>Pořadí při slučování souborů</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Show the common ancestor in conflicts from conflict markers</source>
-        <translation type="unfinished"></translation>
+        <translation>Zobrazovat společného předka v konfliktech ze značek konfliktů</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Merges of files with diff3-style conflict markers start with the common ancestor’s text in conflicts, rather than nothing</source>
-        <translation type="unfinished"></translation>
+        <translation>Slučování souborů se značkami konfliktů ve stylu diff3 začíná v konfliktech textem společného předka namísto prázdna</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2691,7 +2711,7 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
     <message>
         <location line="+1"/>
         <source>When performing file comparisons, you may ignore certain types of changes. Each pattern here is a python regular expression which replaces matching text with the empty string before comparison is performed. If the expression contains groups, only the groups are replaced.</source>
-        <translation type="unfinished"></translation>
+        <translation>Při porovnávání souborů můžete ignorovat určité typy změn. Každý vzor je zde regulárním výrazem jazyka Python, který před porovnáním nahradí odpovídající text prázdným řetězcem. Pokud výraz obsahuje skupiny, nahradí se jen skupiny.</translation>
     </message>
 </context>
 <context>
@@ -2806,27 +2826,27 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
     <message>
         <location line="+18"/>
         <source>%1 — %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 — %2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>The file isn’t in %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Soubor není v %1.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 (%2, %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2, %3)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (working, %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (pracovní, %2)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 (%2, working)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2, pracovní)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -2866,7 +2886,7 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
     <message>
         <location line="+25"/>
         <source>working copy</source>
-        <translation type="unfinished"></translation>
+        <translation>pracovní kopie</translation>
     </message>
     <message>
         <location line="+67"/>
@@ -2893,7 +2913,7 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
         <location line="+1"/>
         <location line="+1"/>
         <source>Next Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Následující změna</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2904,7 +2924,7 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
         <location line="+1"/>
         <location line="+1"/>
         <source>Previous Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Předchozí změna</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2952,7 +2972,7 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
     <message>
         <location line="-754"/>
         <source>Push</source>
-        <translation type="unfinished"></translation>
+        <translation>Odeslat</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2996,7 +3016,7 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
     <message>
         <location line="+1"/>
         <source>Pull</source>
-        <translation type="unfinished"></translation>
+        <translation>Stáhnout</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -3021,42 +3041,42 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
     <message>
         <location line="+30"/>
         <source>The commit, tag or tree that changes are compared with</source>
-        <translation type="unfinished"></translation>
+        <translation>Commit, značka nebo strom, se kterým se změny porovnávají</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The working copy, or a commit, tag or tree, whose changes are shown</source>
-        <translation type="unfinished"></translation>
+        <translation>Pracovní kopie nebo commit, značka či strom, jejichž změny se zobrazují</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Swap</source>
-        <translation type="unfinished"></translation>
+        <translation>Prohodit</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Swap the revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>Prohodit revize</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Obnovit výchozí</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Compare the working copy with the current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>Porovnat pracovní kopii s aktuálním commitem</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Changes from</source>
-        <translation type="unfinished"></translation>
+        <translation>Změny od</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>to</source>
-        <translation type="unfinished"></translation>
+        <translation>do</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -3066,17 +3086,17 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
     <message>
         <location line="+28"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Hledat</translation>
     </message>
     <message>
         <location line="+102"/>
         <source>The files as they are now, which can be changed</source>
-        <translation type="unfinished"></translation>
+        <translation>Soubory v současném stavu, které lze měnit</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>Unknown revision</source>
-        <translation type="unfinished"></translation>
+        <translation>Neznámá revize</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -3087,7 +3107,7 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
     <message>
         <location line="+5"/>
         <source>%1 → %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 → %2</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3102,12 +3122,12 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
     <message>
         <location line="+40"/>
         <source>Scanning %1</source>
-        <translation type="unfinished">Prochází se %1</translation>
+        <translation>Prochází se %1</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>No such file or directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Soubor nebo složka neexistuje</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -3122,13 +3142,14 @@ The_Universality &lt;translate.cardiac584@aleeas.com&gt;</translation>
     <message>
         <location line="+157"/>
         <source>Error running command</source>
-        <translation type="unfinished"></translation>
+        <translation>Chyba při spouštění příkazu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>While running &apos;%1&apos;
 Error: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Při spouštění „%1“
+Chyba: %2</translation>
     </message>
     <message>
         <location line="+58"/>
@@ -3171,12 +3192,12 @@ Error: %2</source>
     <message>
         <location line="+22"/>
         <source>Error deleting %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Chyba při mazání %1</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Couldn&apos;t open comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Porovnání nelze otevřít</translation>
     </message>
 </context>
 <context>
@@ -3184,12 +3205,12 @@ Error: %2</source>
     <message>
         <location filename="../src/core/conflictmarkers.cpp" line="+134"/>
         <source>Line %1: a conflict starts inside the conflict that starts at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Řádek %1: konflikt začíná uvnitř konfliktu, který začíná na řádku %2.</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>The conflict that starts at line %1 doesn’t end.</source>
-        <translation type="unfinished"></translation>
+        <translation>Konflikt, který začíná na řádku %1, nekončí.</translation>
     </message>
 </context>
 <context>
@@ -3197,137 +3218,137 @@ Error: %2</source>
     <message>
         <location filename="../src/core/patch.cpp" line="+176"/>
         <source>Line %1 of the patch: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Řádek %1 záplaty: %2</translation>
     </message>
     <message>
         <location line="+96"/>
         <source>malformed hunk header</source>
-        <translation type="unfinished"></translation>
+        <translation>chybná hlavička bloku</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>unexpected line in a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>neočekávaný řádek v bloku</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>the hunk has more lines than its header says</source>
-        <translation type="unfinished"></translation>
+        <translation>blok má více řádků, než uvádí jeho hlavička</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>the patch ends in the middle of a hunk</source>
-        <translation type="unfinished"></translation>
+        <translation>záplata končí uprostřed bloku</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Only unified diffs can be applied; this is a context diff.</source>
-        <translation type="unfinished"></translation>
+        <translation>Použít lze jen unifikované rozdíly; toto je kontextový rozdíl.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>No changes were found in the patch.</source>
-        <translation type="unfinished"></translation>
+        <translation>V záplatě nebyly nalezeny žádné změny.</translation>
     </message>
     <message>
         <location line="+122"/>
         <source>Hunk #%1 doesn’t match the file at line %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Blok č. %1 neodpovídá souboru na řádku %2.</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>Hunk #%1 applied at line %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Blok č. %1 použit na řádku %2</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source> (offset %n lines)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform> (posun o %n řádek)</numerusform>
+            <numerusform> (posun o %n řádky)</numerusform>
+            <numerusform> (posun o %n řádků)</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source> with fuzz %1</source>
-        <translation type="unfinished"></translation>
+        <translation> s nepřesností %1</translation>
     </message>
     <message>
         <location line="+15"/>
         <location line="+186"/>
         <source>Binary changes can’t be applied.</source>
-        <translation type="unfinished"></translation>
+        <translation>Binární změny nelze použít.</translation>
     </message>
     <message>
         <location line="-174"/>
         <source>The patch creates this file, which is already as it would create it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Záplata vytváří tento soubor, který už je takový, jaký by jej vytvořila.</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+190"/>
         <source>The patch creates this file, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>Záplata vytváří tento soubor, ale ten již existuje.</translation>
     </message>
     <message>
         <location line="-178"/>
         <source>The patch seems to be applied already: its changes are in the file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zdá se, že záplata už je použitá: její změny jsou v souboru.</translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source>%1 of %n hunks can’t be applied.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 z %n bloku nelze použít.</numerusform>
+            <numerusform>%1 z %n bloků nelze použít.</numerusform>
+            <numerusform>%1 z %n bloků nelze použít.</numerusform>
         </translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch deletes this file, but it has other contents than the patch removes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Záplata maže tento soubor, ale ten má jiný obsah, než jaký záplata odstraňuje.</translation>
     </message>
     <message>
         <location line="+75"/>
         <source>The patch changes several files called %1:</source>
-        <translation type="unfinished"></translation>
+        <translation>Záplata mění několik souborů s názvem %1:</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The patch doesn’t change %1. It changes:</source>
-        <translation type="unfinished"></translation>
+        <translation>Záplata nemění %1. Mění:</translation>
     </message>
     <message>
         <location line="+73"/>
         <source>The patch changes %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Záplata mění %1, který není ve složce.</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>The patch deletes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Záplata maže tento soubor, ale ten není ve složce.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The patch makes this file from %1, which isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Záplata vytváří tento soubor z %1, který není ve složce.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>The patch makes this file from %1, but it already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>Záplata vytváří tento soubor z %1, ale ten již existuje.</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>The patch changes this file, but it isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Záplata mění tento soubor, ale ten není ve složce.</translation>
     </message>
     <message>
         <location line="+106"/>
         <source>The file isn’t in the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Soubor není ve složce.</translation>
     </message>
 </context>
 <context>
@@ -3351,7 +3372,7 @@ Error: %2</source>
     <message>
         <location line="+3"/>
         <source>“%1” can’t be put in the trash. Do you want to delete it permanently?</source>
-        <translation type="unfinished"></translation>
+        <translation>„%1“ nelze umístit do koše. Chcete smazat trvale?</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3473,22 +3494,22 @@ Error: %2</source>
     <message>
         <location line="+98"/>
         <source>The current commit</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktuální commit</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>“%1” isn’t a commit, tag or tree in this repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>„%1“ není v tomto repozitáři commit, značka ani strom.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>%1 isn’t in the repository.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 není v repozitáři.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>%1 isn’t in %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 není v %2.</translation>
     </message>
     <message>
         <location line="+84"/>
