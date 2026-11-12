@@ -1,0 +1,21 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" id="compare-files">
+  <info>
+    <link type="guide" xref="index"/>
+    <desc>Compare two or three files side by side.</desc>
+    <credit type="author"><name>A. Writer</name></credit>
+  </info>
+  <title>Compare files</title>
+  <section id="open">
+    <title>Open a comparison</title>
+    <p>Run <cmd>meld-qt left.txt right.txt</cmd>, or choose
+    <guiseq><gui>File</gui><gui its:translate="no">New Comparison</gui></guiseq>.</p>
+    <note style="tip">
+      <p>Press <keyseq><key>Ctrl</key><key>D</key></keyseq> to go to the next change.</p>
+    </note>
+    <list>
+      <item><p>Blank panes are <em>allowed</em>.</p></item>
+    </list>
+  </section>
+</page>

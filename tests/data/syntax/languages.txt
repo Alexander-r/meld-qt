@@ -1,0 +1,3 @@
+gtksourceview/file.octave octave
+gtksourceview/file.mediawiki mediawiki
+gtksourceview/todo.txt todotxt

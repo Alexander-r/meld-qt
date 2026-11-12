@@ -1,0 +1,62 @@
+Translations
+============
+
+meld-qt_<language>.ts are the program's translations, in Qt Linguist's
+format: open them in Qt Linguist (linguist6, or "linguist" with Qt 6) to
+translate. meld-qt_en.ts only has the plural forms of English messages
+(e.g., "1 unpushed commit"), which messages with a number have in their
+plural in the sources ("%n unpushed commits").
+
+The translations are built into the program, and it uses the one for the
+user's language (LANGUAGE, LC_ALL, LC_MESSAGES or LANG on Linux, as gettext
+reads them, or the system's language), and Qt's own translations for its
+standard dialogs and buttons. Messages without a translation are in English.
+Translations that are unfinished in Qt Linguist aren't built in, as gettext
+leaves out fuzzy ones.
+
+Updating them from the sources
+------------------------------
+
+The .ts files have to be updated with lupdate when the sources' messages
+change (new messages, or ones that have changed or gone). Building doesn't do
+this (it only builds the .ts files into the program), with either build
+system:
+
+    cmake --build build --target update_translations
+    make update_translations          # in a qmake build folder
+
+In Qt Creator, this is a make step with the target update_translations (or
+the CMake target), rather than Tools > External > Linguist > Update
+Translations, which runs lupdate on the project without these options and
+would read the tests too. Both targets run lupdate on src/, which gives the
+same files; by hand, from the top folder:
+
+    lupdate -I src src -locations relative -no-obsolete \
+        -ts $(ls translations/meld-qt_*.ts | grep -v '_en\.ts$')
+    lupdate -I src src -locations relative -no-obsolete -pluralonly \
+        -ts translations/meld-qt_en.ts
+
+The files only have the messages the sources have (-no-obsolete): when a
+message changes, lupdate offers its old translation for the new one, as
+unfinished, and drops the old one.
+
+A message with a number takes it as %n, with tr(text, disambiguation, n),
+rather than choosing its singular or plural in the code; its English forms
+are then translated in meld-qt_en.ts. Comments for translators go just before
+the message, as //: comments.
+
+A new language
+--------------
+
+lupdate makes the file, from the top folder:
+
+    lupdate -I src src -locations relative -no-obsolete -ts translations/meld-qt_<language>.ts
+
+Then run CMake or qmake again: both build systems find the files here. The
+language is as Qt names it (de, pt_BR, sr_Latn): a file for "de" is used for
+any German, and one for "pt_BR" before "pt" in Brazil.
+
+Preferences lists the language by its name in that language, as Qt gives it.
+Where that doesn't tell it apart from another translation (pt and pt_BR, say),
+add a name to nativeName() in src/core/translations.cpp; tst_translations
+checks that every language has a name of its own.

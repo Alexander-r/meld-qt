@@ -1,0 +1,13 @@
+[package]
+name = "sample"
+version = "1.0.0"
+published = false
+released = 2026-11-11T12:00:00Z
+
+[features]
+default = ["single-instance"]
+single-instance = { enabled = true, network = false }
+
+[[tests]]
+name = "merge"
+timeout = 1.5

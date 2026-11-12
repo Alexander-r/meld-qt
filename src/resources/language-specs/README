@@ -1,0 +1,14 @@
+Syntax highlighting definitions
+===============================
+
+The language definitions in this folder and the colour schemes in ../styles
+(except Meld's own meld-base.xml and meld-dark.xml) are copied unchanged from
+GtkSourceView 5.22.0 (https://gitlab.gnome.org/GNOME/gtksourceview), the
+library the original Meld highlights syntax with. They are data files read by
+the port's own highlighting engine (src/core/syntax); no GtkSourceView code
+is used. GtkSourceView's test files, testv1.lang and testdark.xml, aren't
+included.
+
+Each file carries its licence: the GNU Lesser General Public License,
+version 2.1 or later, or (gdscript, logtalk, powershell, protobuf and spice)
+the GNU General Public License, version 2 or later.

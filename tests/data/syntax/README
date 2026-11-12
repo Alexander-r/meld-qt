@@ -1,0 +1,18 @@
+Samples for the syntax highlighting tests
+=========================================
+
+The files in gtksourceview/ are GtkSourceView's samples for testing syntax
+highlighting (tests/syntax-highlighting in GtkSourceView 5.22.0,
+https://gitlab.gnome.org/GNOME/gtksourceview), distributed with it under the
+GNU Lesser General Public License, version 2.1 or later. README.gtksourceview
+is that folder's README. file.cir (not UTF-8) isn't included.
+
+The files in extra/ were written for this project, for the languages and
+styles that GtkSourceView's samples don't cover: mallard and meson, and a
+few styles of markdown, cmake, C++, Python and TOML. They're kept small, and
+the reference data has to be regenerated when they change.
+
+tools/generate_syntax_reference_data.py highlights them with GtkSourceView
+for the reference data in ../syntax_reference.json; samples are matched to
+languages by their names, or by languages.txt, with lines of
+"<sample path> <language id>".
