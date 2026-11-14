@@ -283,7 +283,7 @@ argument @blank koji kreira prazan panel.</translation>
 %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/preferences.cpp" line="+108"/>
+        <location filename="../src/ui/preferences.cpp" line="+109"/>
         <source>Select a Style</source>
         <translation>Odaberite stil</translation>
     </message>
@@ -1306,19 +1306,6 @@ Učitavanje datoteka s veoma dugim redovima može usporiti Meld Qt ili ga učini
         <source>Built with Qt %1</source>
         <translation>Izgrađeno sa Qt %1</translation>
     </message>
-    <message>
-        <location line="+7"/>
-        <source>translator-credits</source>
-        <extracomment>The translators&apos; names, one per line (e-mail addresses may follow, in angle brackets). The original&apos;s are kept from its translations.</extracomment>
-        <translation>   Džejda Karaman https://launchpad.net/~dkaraman1
-  Omar Dervisevic https://launchpad.net/~omardervisevic
-  Samir Ribić https://launchpad.net/~megaribi</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Translated by</source>
-        <translation>Preveli</translation>
-    </message>
 </context>
 <context>
     <name>meld::MeldSettings</name>
@@ -1387,14 +1374,14 @@ Učitavanje datoteka s veoma dugim redovima može usporiti Meld Qt ili ga učini
     <name>meld::MeldWindow</name>
     <message>
         <location filename="../src/ui/meldwindow.cpp" line="+151"/>
-        <location line="+470"/>
+        <location line="+485"/>
         <location line="+5"/>
         <location line="+12"/>
         <source>Meld Qt</source>
         <translation>Meld Qt</translation>
     </message>
     <message>
-        <location line="-383"/>
+        <location line="-398"/>
         <source>Header bar</source>
         <translation>Traka zaglavlja</translation>
     </message>
@@ -1420,12 +1407,12 @@ Učitavanje datoteka s veoma dugim redovima može usporiti Meld Qt ili ga učini
     </message>
     <message>
         <location line="+5"/>
-        <location line="+901"/>
+        <location line="+916"/>
         <source>Fullscreen</source>
         <translation>Preko cijelog ekrana</translation>
     </message>
     <message>
-        <location line="-894"/>
+        <location line="-909"/>
         <source>Quit</source>
         <translation>Odustani</translation>
     </message>
@@ -1441,12 +1428,17 @@ Učitavanje datoteka s veoma dugim redovima može usporiti Meld Qt ili ga učini
     </message>
     <message>
         <location line="+1"/>
-        <location line="+973"/>
+        <location line="+989"/>
         <source>Keyboard Shortcuts</source>
         <translation>Prečice tastature</translation>
     </message>
     <message>
-        <location line="-959"/>
+        <location line="-985"/>
+        <source>Toggle Word Wrap</source>
+        <translation>Uključi/isključi prelamanje teksta</translation>
+    </message>
+    <message>
+        <location line="+25"/>
         <source>Previous Tab</source>
         <translation>Prethodna kartica</translation>
     </message>
@@ -1562,35 +1554,35 @@ Učitavanje datoteka s veoma dugim redovima može usporiti Meld Qt ili ga učini
     </message>
     <message>
         <location line="+2"/>
-        <location line="+859"/>
+        <location line="+860"/>
         <location line="+10"/>
         <source>Delete change</source>
         <translation>Izbriši promjenu</translation>
     </message>
     <message>
-        <location line="-864"/>
+        <location line="-865"/>
         <source>Copy to Left</source>
         <translation>Kopiraj_ na desno</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+860"/>
+        <location line="+861"/>
         <source>Copy to left</source>
         <translation>Kopiraj u lijevo</translation>
     </message>
     <message>
-        <location line="-859"/>
+        <location line="-860"/>
         <source>Copy to Right</source>
         <translation>Kopiraj_ na lijevo</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+858"/>
+        <location line="+859"/>
         <source>Copy to right</source>
         <translation>Kopiraj u desno</translation>
     </message>
     <message>
-        <location line="-857"/>
+        <location line="-858"/>
         <source>Delete</source>
         <translation>Izbriši</translation>
     </message>
@@ -1860,7 +1852,12 @@ Učitavanje datoteka s veoma dugim redovima može usporiti Meld Qt ili ga učini
         <translation>Otvori meni</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+2"/>
+        <source>Toggle word wrap</source>
+        <translation>Uključi/isključi prelamanje teksta</translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>Common Actions</source>
         <translation>Uobičajene radnje</translation>
     </message>
@@ -2452,7 +2449,7 @@ Učitavanje datoteka s veoma dugim redovima može usporiti Meld Qt ili ga učini
         <translation>Na granicama riječi</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+11"/>
         <source>Wrap Text</source>
         <translation>Prelamaj tekst</translation>
     </message>

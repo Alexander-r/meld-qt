@@ -283,7 +283,7 @@ një argumenti &lt;skedar&gt; për të krijuar një panel të zbrazët.</transla
 %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/preferences.cpp" line="+108"/>
+        <location filename="../src/ui/preferences.cpp" line="+109"/>
         <source>Select a Style</source>
         <translation type="unfinished">Përzgjidhni një Stil</translation>
     </message>
@@ -1303,18 +1303,6 @@ Ngarkimi i skedarëve me rreshta shumë të gjatë mund ta bëjë Meld Qt-në t�
         <source>Built with Qt %1</source>
         <translation type="unfinished">Ndërtuar me Qt %1</translation>
     </message>
-    <message>
-        <location line="+7"/>
-        <source>translator-credits</source>
-        <extracomment>The translators&apos; names, one per line (e-mail addresses may follow, in angle brackets). The original&apos;s are kept from its translations.</extracomment>
-        <translation type="unfinished">Besnik Bleta &lt;besnik@programeshqip.org&gt;
-Laurent Dhima &lt;laurenti@alblinux.net&gt;</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Translated by</source>
-        <translation type="unfinished">Përkthyer nga</translation>
-    </message>
 </context>
 <context>
     <name>meld::MeldSettings</name>
@@ -1383,14 +1371,14 @@ Laurent Dhima &lt;laurenti@alblinux.net&gt;</translation>
     <name>meld::MeldWindow</name>
     <message>
         <location filename="../src/ui/meldwindow.cpp" line="+151"/>
-        <location line="+470"/>
+        <location line="+485"/>
         <location line="+5"/>
         <location line="+12"/>
         <source>Meld Qt</source>
         <translation>Meld Qt</translation>
     </message>
     <message>
-        <location line="-383"/>
+        <location line="-398"/>
         <source>Header bar</source>
         <translation type="unfinished">Shtyllë kryesh</translation>
     </message>
@@ -1416,12 +1404,12 @@ Laurent Dhima &lt;laurenti@alblinux.net&gt;</translation>
     </message>
     <message>
         <location line="+5"/>
-        <location line="+901"/>
+        <location line="+916"/>
         <source>Fullscreen</source>
         <translation type="unfinished">Sa Krejt Ekrani</translation>
     </message>
     <message>
-        <location line="-894"/>
+        <location line="-909"/>
         <source>Quit</source>
         <translation type="unfinished">Dil</translation>
     </message>
@@ -1437,12 +1425,17 @@ Laurent Dhima &lt;laurenti@alblinux.net&gt;</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location line="+973"/>
+        <location line="+989"/>
         <source>Keyboard Shortcuts</source>
         <translation type="unfinished">Shkurtore Tastiere</translation>
     </message>
     <message>
-        <location line="-959"/>
+        <location line="-985"/>
+        <source>Toggle Word Wrap</source>
+        <translation type="unfinished">Aktivizo/Çaktivizo Mbështjelljen e Tekstit</translation>
+    </message>
+    <message>
+        <location line="+25"/>
         <source>Previous Tab</source>
         <translation type="unfinished">Skeda e Mëparshme</translation>
     </message>
@@ -1558,35 +1551,35 @@ Laurent Dhima &lt;laurenti@alblinux.net&gt;</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+859"/>
+        <location line="+860"/>
         <location line="+10"/>
         <source>Delete change</source>
         <translation type="unfinished">Fshije ndryshimin</translation>
     </message>
     <message>
-        <location line="-864"/>
+        <location line="-865"/>
         <source>Copy to Left</source>
         <translation type="unfinished">Kopjoje Majtas</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+860"/>
+        <location line="+861"/>
         <source>Copy to left</source>
         <translation type="unfinished">Kopjoje majtas</translation>
     </message>
     <message>
-        <location line="-859"/>
+        <location line="-860"/>
         <source>Copy to Right</source>
         <translation type="unfinished">Kopjoje Djathtas</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+858"/>
+        <location line="+859"/>
         <source>Copy to right</source>
         <translation type="unfinished">Kopjoje djathtas</translation>
     </message>
     <message>
-        <location line="-857"/>
+        <location line="-858"/>
         <source>Delete</source>
         <translation type="unfinished">Fshije</translation>
     </message>
@@ -1856,7 +1849,12 @@ Laurent Dhima &lt;laurenti@alblinux.net&gt;</translation>
         <translation type="unfinished">Hapni menunë</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+2"/>
+        <source>Toggle word wrap</source>
+        <translation type="unfinished">Aktivizo/çaktivizo mbështjelljen e tekstit</translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>Common Actions</source>
         <translation type="unfinished">Veprime të Rëndomta</translation>
     </message>
@@ -2448,7 +2446,7 @@ Laurent Dhima &lt;laurenti@alblinux.net&gt;</translation>
         <translation type="unfinished">Te Kufij Fjalësh</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+11"/>
         <source>Wrap Text</source>
         <translation type="unfinished">Mbështille Tekstin</translation>
     </message>

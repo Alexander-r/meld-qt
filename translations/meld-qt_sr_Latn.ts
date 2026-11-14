@@ -283,7 +283,7 @@ argumenta &lt;datoteka&gt; da bi se napravilo prazno okno.</translation>
 %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/preferences.cpp" line="+108"/>
+        <location filename="../src/ui/preferences.cpp" line="+109"/>
         <source>Select a Style</source>
         <translation>Izaberite stil</translation>
     </message>
@@ -1306,20 +1306,6 @@ Učitavanje datoteka sa vrlo dugim redovima može učiniti Meld Qt sporim ili ne
         <source>Built with Qt %1</source>
         <translation>Izgrađeno pomoću Qt-a %1</translation>
     </message>
-    <message>
-        <location line="+7"/>
-        <source>translator-credits</source>
-        <extracomment>The translators&apos; names, one per line (e-mail addresses may follow, in angle brackets). The original&apos;s are kept from its translations.</extracomment>
-        <translation>Danilo Šegan &lt;dsegan@gmx.net&gt;
-Miroslav Nikolić &lt;miroslavnikolic@rocketmail.com&gt;
-
-http://prevod.org — prevod na srpski jezik</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Translated by</source>
-        <translation>Preveo</translation>
-    </message>
 </context>
 <context>
     <name>meld::MeldSettings</name>
@@ -1388,14 +1374,14 @@ http://prevod.org — prevod na srpski jezik</translation>
     <name>meld::MeldWindow</name>
     <message>
         <location filename="../src/ui/meldwindow.cpp" line="+151"/>
-        <location line="+470"/>
+        <location line="+485"/>
         <location line="+5"/>
         <location line="+12"/>
         <source>Meld Qt</source>
         <translation>Meld Qt</translation>
     </message>
     <message>
-        <location line="-383"/>
+        <location line="-398"/>
         <source>Header bar</source>
         <translation>Traka zaglavlja</translation>
     </message>
@@ -1421,12 +1407,12 @@ http://prevod.org — prevod na srpski jezik</translation>
     </message>
     <message>
         <location line="+5"/>
-        <location line="+901"/>
+        <location line="+916"/>
         <source>Fullscreen</source>
         <translation>Preko celog ekrana</translation>
     </message>
     <message>
-        <location line="-894"/>
+        <location line="-909"/>
         <source>Quit</source>
         <translation>Izađi</translation>
     </message>
@@ -1442,12 +1428,17 @@ http://prevod.org — prevod na srpski jezik</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location line="+973"/>
+        <location line="+989"/>
         <source>Keyboard Shortcuts</source>
         <translation>Prečice tastature</translation>
     </message>
     <message>
-        <location line="-959"/>
+        <location line="-985"/>
+        <source>Toggle Word Wrap</source>
+        <translation>Uključi/isključi prelamanje teksta</translation>
+    </message>
+    <message>
+        <location line="+25"/>
         <source>Previous Tab</source>
         <translation>Prethodni jezičak</translation>
     </message>
@@ -1563,35 +1554,35 @@ http://prevod.org — prevod na srpski jezik</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+859"/>
+        <location line="+860"/>
         <location line="+10"/>
         <source>Delete change</source>
         <translation>Obrišite izmenu</translation>
     </message>
     <message>
-        <location line="-864"/>
+        <location line="-865"/>
         <source>Copy to Left</source>
         <translation>Umnoži levo</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+860"/>
+        <location line="+861"/>
         <source>Copy to left</source>
         <translation>Umnožite levo</translation>
     </message>
     <message>
-        <location line="-859"/>
+        <location line="-860"/>
         <source>Copy to Right</source>
         <translation>Umnoži desno</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+858"/>
+        <location line="+859"/>
         <source>Copy to right</source>
         <translation>Umnožite desno</translation>
     </message>
     <message>
-        <location line="-857"/>
+        <location line="-858"/>
         <source>Delete</source>
         <translation>Obriši</translation>
     </message>
@@ -1861,7 +1852,12 @@ http://prevod.org — prevod na srpski jezik</translation>
         <translation>Otvara izbornik</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+2"/>
+        <source>Toggle word wrap</source>
+        <translation>Uključi/isključi prelamanje teksta</translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>Common Actions</source>
         <translation>Opšte radnje</translation>
     </message>
@@ -2453,7 +2449,7 @@ http://prevod.org — prevod na srpski jezik</translation>
         <translation>Na granicama reči</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+11"/>
         <source>Wrap Text</source>
         <translation>Prelom teksta</translation>
     </message>

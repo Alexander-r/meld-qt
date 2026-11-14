@@ -33,6 +33,8 @@ const QList<QPair<QString, QStringList>> &viewAccelerators()
         {"win.gear-menu", {"F10"}},
         {"win.fullscreen", {"F11"}},
         {"win.new-tab", {"Ctrl+N"}},
+        // Not in the original; VS Code's binding for toggling word wrap
+        {"win.toggle-word-wrap", {"Alt+Z"}},
         {"win.stop", {"Esc"}},
         // Provided by GtkApplication and AdwTabView in the original
         {"win.show-help-overlay", {"Ctrl+?"}},

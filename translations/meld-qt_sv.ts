@@ -283,7 +283,7 @@ ett argument &lt;fil&gt; för att skapa en tom panel.</translation>
 %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/preferences.cpp" line="+108"/>
+        <location filename="../src/ui/preferences.cpp" line="+109"/>
         <source>Select a Style</source>
         <translation>Välj en stil</translation>
     </message>
@@ -1302,24 +1302,6 @@ Att läsa in filer med väldigt långa rader kan göra att Meld Qt blir långsam
         <source>Built with Qt %1</source>
         <translation>Byggt med Qt %1</translation>
     </message>
-    <message>
-        <location line="+7"/>
-        <source>translator-credits</source>
-        <extracomment>The translators&apos; names, one per line (e-mail addresses may follow, in angle brackets). The original&apos;s are kept from its translations.</extracomment>
-        <translation>Anders Jonsson &lt;anders.jonsson@norsjovallen.se&gt;
-Josef Andersson &lt;josef.andersson@fripost.org&gt;
-Daniel Nylander &lt;po@danielnylander.se&gt;
-Christian Rose
-Luna Jernberg &lt;droidbittin@gmail.com&gt;
-
-Skicka synpunkter på översättningen till
-&lt;tp-sv@listor.tp-sv.se&gt;.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Translated by</source>
-        <translation>Översatt av</translation>
-    </message>
 </context>
 <context>
     <name>meld::MeldSettings</name>
@@ -1388,14 +1370,14 @@ Skicka synpunkter på översättningen till
     <name>meld::MeldWindow</name>
     <message>
         <location filename="../src/ui/meldwindow.cpp" line="+151"/>
-        <location line="+470"/>
+        <location line="+485"/>
         <location line="+5"/>
         <location line="+12"/>
         <source>Meld Qt</source>
         <translation>Meld Qt</translation>
     </message>
     <message>
-        <location line="-383"/>
+        <location line="-398"/>
         <source>Header bar</source>
         <translation>Rubrikrad</translation>
     </message>
@@ -1421,12 +1403,12 @@ Skicka synpunkter på översättningen till
     </message>
     <message>
         <location line="+5"/>
-        <location line="+901"/>
+        <location line="+916"/>
         <source>Fullscreen</source>
         <translation>Helskärm</translation>
     </message>
     <message>
-        <location line="-894"/>
+        <location line="-909"/>
         <source>Quit</source>
         <translation>Avsluta</translation>
     </message>
@@ -1442,12 +1424,17 @@ Skicka synpunkter på översättningen till
     </message>
     <message>
         <location line="+1"/>
-        <location line="+973"/>
+        <location line="+989"/>
         <source>Keyboard Shortcuts</source>
         <translation>Tangentbordsgenvägar</translation>
     </message>
     <message>
-        <location line="-959"/>
+        <location line="-985"/>
+        <source>Toggle Word Wrap</source>
+        <translation>Växla textradbrytning</translation>
+    </message>
+    <message>
+        <location line="+25"/>
         <source>Previous Tab</source>
         <translation>Föregående flik</translation>
     </message>
@@ -1563,35 +1550,35 @@ Skicka synpunkter på översättningen till
     </message>
     <message>
         <location line="+2"/>
-        <location line="+859"/>
+        <location line="+860"/>
         <location line="+10"/>
         <source>Delete change</source>
         <translation>Ta bort ändring</translation>
     </message>
     <message>
-        <location line="-864"/>
+        <location line="-865"/>
         <source>Copy to Left</source>
         <translation>Kopiera till vänster</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+860"/>
+        <location line="+861"/>
         <source>Copy to left</source>
         <translation>Kopiera till vänster</translation>
     </message>
     <message>
-        <location line="-859"/>
+        <location line="-860"/>
         <source>Copy to Right</source>
         <translation>Kopiera till höger</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+858"/>
+        <location line="+859"/>
         <source>Copy to right</source>
         <translation>Kopiera till höger</translation>
     </message>
     <message>
-        <location line="-857"/>
+        <location line="-858"/>
         <source>Delete</source>
         <translation>Ta bort</translation>
     </message>
@@ -1861,7 +1848,12 @@ Skicka synpunkter på översättningen till
         <translation>Öppna meny</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+2"/>
+        <source>Toggle word wrap</source>
+        <translation>Växla textradbrytning</translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>Common Actions</source>
         <translation>Vanliga åtgärder</translation>
     </message>
@@ -2453,7 +2445,7 @@ Skicka synpunkter på översättningen till
         <translation>Vid ordgränser</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+11"/>
         <source>Wrap Text</source>
         <translation>Radbryt text</translation>
     </message>

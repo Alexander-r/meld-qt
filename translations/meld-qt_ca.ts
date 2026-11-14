@@ -283,7 +283,7 @@ d&apos;un argument &lt;fitxer&gt; per a crear una subfinestra buida.</translatio
 %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/preferences.cpp" line="+108"/>
+        <location filename="../src/ui/preferences.cpp" line="+109"/>
         <source>Select a Style</source>
         <translation>Seleccioneu un estil</translation>
     </message>
@@ -1303,22 +1303,6 @@ Carregar fitxers amb línies molt llargues pot fer que el Meld Qt vagi lent o de
         <source>Built with Qt %1</source>
         <translation>Construït amb Qt %1</translation>
     </message>
-    <message>
-        <location line="+7"/>
-        <source>translator-credits</source>
-        <extracomment>The translators&apos; names, one per line (e-mail addresses may follow, in angle brackets). The original&apos;s are kept from its translations.</extracomment>
-        <translation>Xavier Conde Rueda &lt;xaviconde@eresmas.com&gt;
-Gil Forcada &lt;gilforcada@guifi.net&gt;
-David Planella &lt;david.planella@gmail.com&gt;
-Pere Orga &lt;pere@orga.cat&gt;
-Joan Coll &lt;jcoll2@gmail.com&gt;
-Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Translated by</source>
-        <translation>Traduït per</translation>
-    </message>
 </context>
 <context>
     <name>meld::MeldSettings</name>
@@ -1387,14 +1371,14 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     <name>meld::MeldWindow</name>
     <message>
         <location filename="../src/ui/meldwindow.cpp" line="+151"/>
-        <location line="+470"/>
+        <location line="+485"/>
         <location line="+5"/>
         <location line="+12"/>
         <source>Meld Qt</source>
         <translation>Meld Qt</translation>
     </message>
     <message>
-        <location line="-383"/>
+        <location line="-398"/>
         <source>Header bar</source>
         <translation>Barra de capçalera</translation>
     </message>
@@ -1420,12 +1404,12 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     </message>
     <message>
         <location line="+5"/>
-        <location line="+901"/>
+        <location line="+916"/>
         <source>Fullscreen</source>
         <translation>Pantalla completa</translation>
     </message>
     <message>
-        <location line="-894"/>
+        <location line="-909"/>
         <source>Quit</source>
         <translation>Surt</translation>
     </message>
@@ -1441,12 +1425,17 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location line="+973"/>
+        <location line="+989"/>
         <source>Keyboard Shortcuts</source>
         <translation>Dreceres de teclat</translation>
     </message>
     <message>
-        <location line="-959"/>
+        <location line="-985"/>
+        <source>Toggle Word Wrap</source>
+        <translation>Commuta l&apos;ajustament del text</translation>
+    </message>
+    <message>
+        <location line="+25"/>
         <source>Previous Tab</source>
         <translation>Pestanya anterior</translation>
     </message>
@@ -1562,35 +1551,35 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+859"/>
+        <location line="+860"/>
         <location line="+10"/>
         <source>Delete change</source>
         <translation>Elimina el canvi</translation>
     </message>
     <message>
-        <location line="-864"/>
+        <location line="-865"/>
         <source>Copy to Left</source>
         <translation>Copia a l&apos;esquerra</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+860"/>
+        <location line="+861"/>
         <source>Copy to left</source>
         <translation>Copia a l&apos;esquerra</translation>
     </message>
     <message>
-        <location line="-859"/>
+        <location line="-860"/>
         <source>Copy to Right</source>
         <translation>Copia a la dreta</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+858"/>
+        <location line="+859"/>
         <source>Copy to right</source>
         <translation>Copia a la dreta</translation>
     </message>
     <message>
-        <location line="-857"/>
+        <location line="-858"/>
         <source>Delete</source>
         <translation>Elimina</translation>
     </message>
@@ -1860,7 +1849,12 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
         <translation>Obre el menú</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+2"/>
+        <source>Toggle word wrap</source>
+        <translation>Commuta l&apos;ajustament del text</translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>Common Actions</source>
         <translation>Accions comunes</translation>
     </message>
@@ -2452,7 +2446,7 @@ Jordi Mas i Hernàndez &lt;jmas@softcatala.org&gt;</translation>
         <translation>Als límits de les paraules</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+11"/>
         <source>Wrap Text</source>
         <translation>Ajusta el text</translation>
     </message>

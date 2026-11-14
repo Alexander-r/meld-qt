@@ -283,7 +283,7 @@ Khi so sánh tập tin, có thể dùng đối số đặc biệt @blank thay ch
 %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/preferences.cpp" line="+108"/>
+        <location filename="../src/ui/preferences.cpp" line="+109"/>
         <source>Select a Style</source>
         <translation>Chọn kiểu dáng</translation>
     </message>
@@ -1300,17 +1300,6 @@ Việc tải tập tin có dòng rất dài có thể làm Meld Qt chậm hoặc
         <source>Built with Qt %1</source>
         <translation>Được xây dựng với Qt %1</translation>
     </message>
-    <message>
-        <location line="+7"/>
-        <source>translator-credits</source>
-        <extracomment>The translators&apos; names, one per line (e-mail addresses may follow, in angle brackets). The original&apos;s are kept from its translations.</extracomment>
-        <translation>Trương Ứng Minh &lt;truongungminh@gmail.com&gt;</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Translated by</source>
-        <translation>Dịch bởi</translation>
-    </message>
 </context>
 <context>
     <name>meld::MeldSettings</name>
@@ -1379,14 +1368,14 @@ Việc tải tập tin có dòng rất dài có thể làm Meld Qt chậm hoặc
     <name>meld::MeldWindow</name>
     <message>
         <location filename="../src/ui/meldwindow.cpp" line="+151"/>
-        <location line="+470"/>
+        <location line="+485"/>
         <location line="+5"/>
         <location line="+12"/>
         <source>Meld Qt</source>
         <translation>Meld Qt</translation>
     </message>
     <message>
-        <location line="-383"/>
+        <location line="-398"/>
         <source>Header bar</source>
         <translation>Thanh tiêu đề</translation>
     </message>
@@ -1412,12 +1401,12 @@ Việc tải tập tin có dòng rất dài có thể làm Meld Qt chậm hoặc
     </message>
     <message>
         <location line="+5"/>
-        <location line="+901"/>
+        <location line="+916"/>
         <source>Fullscreen</source>
         <translation>Toàn màn hình</translation>
     </message>
     <message>
-        <location line="-894"/>
+        <location line="-909"/>
         <source>Quit</source>
         <translation>Thoát</translation>
     </message>
@@ -1433,12 +1422,17 @@ Việc tải tập tin có dòng rất dài có thể làm Meld Qt chậm hoặc
     </message>
     <message>
         <location line="+1"/>
-        <location line="+973"/>
+        <location line="+989"/>
         <source>Keyboard Shortcuts</source>
         <translation>Phím tắt</translation>
     </message>
     <message>
-        <location line="-959"/>
+        <location line="-985"/>
+        <source>Toggle Word Wrap</source>
+        <translation>Bật/tắt ngắt dòng văn bản</translation>
+    </message>
+    <message>
+        <location line="+25"/>
         <source>Previous Tab</source>
         <translation>Thẻ trước đó</translation>
     </message>
@@ -1554,35 +1548,35 @@ Việc tải tập tin có dòng rất dài có thể làm Meld Qt chậm hoặc
     </message>
     <message>
         <location line="+2"/>
-        <location line="+859"/>
+        <location line="+860"/>
         <location line="+10"/>
         <source>Delete change</source>
         <translation>Xoá các thay đổi</translation>
     </message>
     <message>
-        <location line="-864"/>
+        <location line="-865"/>
         <source>Copy to Left</source>
         <translation>Chép sang trái</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+860"/>
+        <location line="+861"/>
         <source>Copy to left</source>
         <translation>Chép sang trái</translation>
     </message>
     <message>
-        <location line="-859"/>
+        <location line="-860"/>
         <source>Copy to Right</source>
         <translation>Chép sang phải</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+858"/>
+        <location line="+859"/>
         <source>Copy to right</source>
         <translation>Chép sang phải</translation>
     </message>
     <message>
-        <location line="-857"/>
+        <location line="-858"/>
         <source>Delete</source>
         <translation>Xóa</translation>
     </message>
@@ -1852,7 +1846,12 @@ Việc tải tập tin có dòng rất dài có thể làm Meld Qt chậm hoặc
         <translation>Mở trình đơn</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+2"/>
+        <source>Toggle word wrap</source>
+        <translation>Bật/tắt ngắt dòng văn bản</translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>Common Actions</source>
         <translation>Thao tác chung</translation>
     </message>
@@ -2444,7 +2443,7 @@ Việc tải tập tin có dòng rất dài có thể làm Meld Qt chậm hoặc
         <translation>Tại ranh giới từ</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+11"/>
         <source>Wrap Text</source>
         <translation>Ngắt dòng văn bản</translation>
     </message>

@@ -283,7 +283,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
 %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/preferences.cpp" line="+108"/>
+        <location filename="../src/ui/preferences.cpp" line="+109"/>
         <source>Select a Style</source>
         <translation>选择样式</translation>
     </message>
@@ -1300,23 +1300,6 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <source>Built with Qt %1</source>
         <translation>使用 Qt %1 构建</translation>
     </message>
-    <message>
-        <location line="+7"/>
-        <source>translator-credits</source>
-        <extracomment>The translators&apos; names, one per line (e-mail addresses may follow, in angle brackets). The original&apos;s are kept from its translations.</extracomment>
-        <translation>Funda Wang &lt;fundawang@linux.net.cn&gt;, 2004, 2005
-Careone &lt;careoneagain@gmail.com&gt;, 2009
-arccos &lt;boyermoore@gmail.com&gt;, 2009
-Tao Wang &lt;dancefire@gmail.com&gt;, 2010, 2013
-Wylmer Wang &lt;wantinghard@gmail.com&gt;, 2013
-Whired Planck &lt;fungdaat31@outlook.com&gt;, 2020-2021
-lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Translated by</source>
-        <translation>翻译者</translation>
-    </message>
 </context>
 <context>
     <name>meld::MeldSettings</name>
@@ -1385,14 +1368,14 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
     <name>meld::MeldWindow</name>
     <message>
         <location filename="../src/ui/meldwindow.cpp" line="+151"/>
-        <location line="+470"/>
+        <location line="+485"/>
         <location line="+5"/>
         <location line="+12"/>
         <source>Meld Qt</source>
         <translation>Meld Qt</translation>
     </message>
     <message>
-        <location line="-383"/>
+        <location line="-398"/>
         <source>Header bar</source>
         <translation>标题栏</translation>
     </message>
@@ -1418,12 +1401,12 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
     </message>
     <message>
         <location line="+5"/>
-        <location line="+901"/>
+        <location line="+916"/>
         <source>Fullscreen</source>
         <translation>全屏</translation>
     </message>
     <message>
-        <location line="-894"/>
+        <location line="-909"/>
         <source>Quit</source>
         <translation>退出</translation>
     </message>
@@ -1439,12 +1422,17 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location line="+973"/>
+        <location line="+989"/>
         <source>Keyboard Shortcuts</source>
         <translation>键盘快捷键</translation>
     </message>
     <message>
-        <location line="-959"/>
+        <location line="-985"/>
+        <source>Toggle Word Wrap</source>
+        <translation>切换文本换行</translation>
+    </message>
+    <message>
+        <location line="+25"/>
         <source>Previous Tab</source>
         <translation>上一标签页</translation>
     </message>
@@ -1560,35 +1548,35 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+859"/>
+        <location line="+860"/>
         <location line="+10"/>
         <source>Delete change</source>
         <translation>删除更改</translation>
     </message>
     <message>
-        <location line="-864"/>
+        <location line="-865"/>
         <source>Copy to Left</source>
         <translation>复制到左侧</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+860"/>
+        <location line="+861"/>
         <source>Copy to left</source>
         <translation>复制到左侧</translation>
     </message>
     <message>
-        <location line="-859"/>
+        <location line="-860"/>
         <source>Copy to Right</source>
         <translation>复制到右侧</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+858"/>
+        <location line="+859"/>
         <source>Copy to right</source>
         <translation>复制到右侧</translation>
     </message>
     <message>
-        <location line="-857"/>
+        <location line="-858"/>
         <source>Delete</source>
         <translation>删除</translation>
     </message>
@@ -1858,7 +1846,12 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
         <translation>打开菜单</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+2"/>
+        <source>Toggle word wrap</source>
+        <translation>切换文本换行</translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>Common Actions</source>
         <translation>通用操作</translation>
     </message>
@@ -2450,7 +2443,7 @@ lumingzh &lt;lumingzh@qq.com&gt;, 2024-2026</translation>
         <translation>在单词边界处</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+11"/>
         <source>Wrap Text</source>
         <translation>文本折行</translation>
     </message>

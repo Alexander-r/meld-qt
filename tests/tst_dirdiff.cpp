@@ -8,9 +8,13 @@
 #include "msgarea.h"
 #include "settings.h"
 
+#include <QApplication>
 #include <QDir>
 #include <QFile>
 #include <QPointer>
+#include <QScopeGuard>
+#include <QStyle>
+#include <QStyleFactory>
 #include <QTabWidget>
 #include <QTemporaryDir>
 #include <QTest>
@@ -130,6 +134,45 @@ private Q_SLOTS:
             }
         }
         window_.reset();
+    }
+
+    void breezeHoverFrameHasNoLineInLaterPanes()
+    {
+        // Breeze takes visual column indices for logical ones when it frames
+        // a hovered row, which drew a line at the start of the Size column
+        // in the right pane, where the left pane's columns are hidden
+        std::unique_ptr<QStyle> breeze(QStyleFactory::create(QStringLiteral("breeze")));
+        if (!breeze)
+            QSKIP("The Breeze style isn't installed");
+        const QString oldStyle = QApplication::style()->name();
+        QApplication::setStyle(breeze.release());
+        const auto restoreStyle = qScopeGuard([&oldStyle]() { QApplication::setStyle(oldStyle); });
+        window_ = std::make_unique<MeldWindow>();
+        window_->resize(1200, 600);
+        window_->show();
+        QVERIFY(QTest::qWaitForWindowExposed(window_.get()));
+
+        DirDiff *doc = open(makeFolders());
+        const QModelIndex row = doc->model()->indexOf(find(doc, QStringLiteral("same.txt")));
+        QVERIFY(row.isValid());
+        for (int pane = 0; pane < 2; ++pane) {
+            DirTreeView *view = doc->treeView(pane);
+            const QRect size = view->visualRect(
+                row.siblingAtColumn(DirDiffTreeModel::columnIndex(DirDiffTreeModel::ColSize, pane)));
+            QVERIFY(size.isValid());
+            QTest::mouseMove(view->viewport(), size.center());
+            QTRY_VERIFY(view->viewport()->underMouse());
+            view->viewport()->repaint();
+            const QImage image = view->viewport()->grab().toImage();
+            const int y = size.center().y();
+            // The frame's fill is the same on both sides of the column edge,
+            // up to the size's text
+            const QColor nameEnd = image.pixelColor(size.left() - 3, y);
+            QVERIFY2(nameEnd != view->palette().color(QPalette::Base), qPrintable(QString::number(pane)));
+            for (int x = size.left(); x < size.left() + 4; ++x)
+                QCOMPARE(image.pixelColor(x, y), nameEnd);
+            QTest::mouseMove(window_.get(), QPoint(1, 1));
+        }
     }
 
     void rowStates()

@@ -287,6 +287,21 @@ void MeldWindow::buildHeaderBar()
     addWindowAction(QStringLiteral("app.about"), tr("&About Meld Qt"), [this]() { Q_EMIT aboutRequested(); });
     addWindowAction(QStringLiteral("win.show-help-overlay"), tr("Keyboard Shortcuts"),
                     [this]() { showKeyboardShortcuts(); });
+    // Switches between wrapping at word boundaries and not wrapping, as the
+    // current comparison shows it; any wrapping is turned off
+    addWindowAction(QStringLiteral("win.toggle-word-wrap"), tr("Toggle Word Wrap"), [this]() {
+        MeldSettings *settings = MeldSettings::instance();
+        const QString key = QStringLiteral("wrap-mode");
+        MeldDoc *doc = currentDoc();
+        QAction *wrapAction = doc ? doc->action(QStringLiteral("wrap-mode-bool")) : nullptr;
+        const bool wrapped =
+            wrapAction ? wrapAction->isChecked() : settings->stringValue(key) != QLatin1String("none");
+        settings->setValue(key, wrapped ? QStringLiteral("none") : QStringLiteral("word"));
+        // The tab's own toggle may differ from the setting, which then
+        // doesn't change
+        if (wrapAction)
+            wrapAction->setChecked(!wrapped);
+    });
 
     // Tab navigation, as provided by AdwTabView in the original
     const auto selectTab = [this](int index) {
@@ -1177,6 +1192,7 @@ void MeldWindow::showKeyboardShortcuts()
              {QT_TR_NOOP("Keyboard shortcuts"), "win.show-help-overlay", nullptr},
              {QT_TR_NOOP("Open menu"), "win.gear-menu", nullptr},
              {QT_TR_NOOP("Fullscreen"), "win.fullscreen", nullptr},
+             {QT_TR_NOOP("Toggle word wrap"), "win.toggle-word-wrap", nullptr},
          }},
         {QT_TR_NOOP("Common Actions"),
          {

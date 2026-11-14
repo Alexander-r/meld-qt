@@ -283,7 +283,7 @@ d’un argument &lt;fichier&gt; pour créer un panneau vide.</translation>
 %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/preferences.cpp" line="+108"/>
+        <location filename="../src/ui/preferences.cpp" line="+109"/>
         <source>Select a Style</source>
         <translation>Sélectionner un style</translation>
     </message>
@@ -1302,24 +1302,6 @@ Le chargement de fichiers contenant de très longues lignes peut rendre Meld Qt 
         <source>Built with Qt %1</source>
         <translation>Compilé avec Qt %1</translation>
     </message>
-    <message>
-        <location line="+7"/>
-        <source>translator-credits</source>
-        <extracomment>The translators&apos; names, one per line (e-mail addresses may follow, in angle brackets). The original&apos;s are kept from its translations.</extracomment>
-        <translation>Stephen Kennedy &lt;steve9000@users.sourceforge.net&gt;, 2003
-Jonathan Ernst &lt;jonathan@ernstfamily.ch&gt;, 2006
-Claude Paroz &lt;claude@2xlibre.net&gt;, 2006-2018
-Robert-André Mauchin &lt;zebob.m@pengzone.org&gt;, 2007
-Bruno Brouard &lt;annoa.b@gmail.com&gt;, 2009-2010
-Jérôme Sirgue &lt;jsirgue@free.fr&gt;, 2014
-Guillaume Bernard &lt;associations@guillaume-bernard.fr&gt;, 2020-2026
-Jean-Marc Tissières &lt;jmetissieres@gmail.com&gt;, 2025-2026</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Translated by</source>
-        <translation>Traduit par</translation>
-    </message>
 </context>
 <context>
     <name>meld::MeldSettings</name>
@@ -1388,14 +1370,14 @@ Jean-Marc Tissières &lt;jmetissieres@gmail.com&gt;, 2025-2026</translation>
     <name>meld::MeldWindow</name>
     <message>
         <location filename="../src/ui/meldwindow.cpp" line="+151"/>
-        <location line="+470"/>
+        <location line="+485"/>
         <location line="+5"/>
         <location line="+12"/>
         <source>Meld Qt</source>
         <translation>Meld Qt</translation>
     </message>
     <message>
-        <location line="-383"/>
+        <location line="-398"/>
         <source>Header bar</source>
         <translation>Barre d’en-tête</translation>
     </message>
@@ -1421,12 +1403,12 @@ Jean-Marc Tissières &lt;jmetissieres@gmail.com&gt;, 2025-2026</translation>
     </message>
     <message>
         <location line="+5"/>
-        <location line="+901"/>
+        <location line="+916"/>
         <source>Fullscreen</source>
         <translation>Plein écran</translation>
     </message>
     <message>
-        <location line="-894"/>
+        <location line="-909"/>
         <source>Quit</source>
         <translation>Quitter</translation>
     </message>
@@ -1442,12 +1424,17 @@ Jean-Marc Tissières &lt;jmetissieres@gmail.com&gt;, 2025-2026</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location line="+973"/>
+        <location line="+989"/>
         <source>Keyboard Shortcuts</source>
         <translation>Raccourcis clavier</translation>
     </message>
     <message>
-        <location line="-959"/>
+        <location line="-985"/>
+        <source>Toggle Word Wrap</source>
+        <translation>Activer/désactiver le retour à la ligne</translation>
+    </message>
+    <message>
+        <location line="+25"/>
         <source>Previous Tab</source>
         <translation>Onglet précédent</translation>
     </message>
@@ -1563,35 +1550,35 @@ Jean-Marc Tissières &lt;jmetissieres@gmail.com&gt;, 2025-2026</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+859"/>
+        <location line="+860"/>
         <location line="+10"/>
         <source>Delete change</source>
         <translation>Supprimer la modification</translation>
     </message>
     <message>
-        <location line="-864"/>
+        <location line="-865"/>
         <source>Copy to Left</source>
         <translation>Copie vers la gauche</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+860"/>
+        <location line="+861"/>
         <source>Copy to left</source>
         <translation>Copie vers la gauche</translation>
     </message>
     <message>
-        <location line="-859"/>
+        <location line="-860"/>
         <source>Copy to Right</source>
         <translation>Copie vers la droite</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+858"/>
+        <location line="+859"/>
         <source>Copy to right</source>
         <translation>Copie vers la droite</translation>
     </message>
     <message>
-        <location line="-857"/>
+        <location line="-858"/>
         <source>Delete</source>
         <translation>Supprimer</translation>
     </message>
@@ -1861,7 +1848,12 @@ Jean-Marc Tissières &lt;jmetissieres@gmail.com&gt;, 2025-2026</translation>
         <translation>Ouvrir le menu</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+2"/>
+        <source>Toggle word wrap</source>
+        <translation>Activer/désactiver le retour à la ligne</translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>Common Actions</source>
         <translation>Actions courantes</translation>
     </message>
@@ -2453,7 +2445,7 @@ Jean-Marc Tissières &lt;jmetissieres@gmail.com&gt;, 2025-2026</translation>
         <translation>Aux limites des mots</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+11"/>
         <source>Wrap Text</source>
         <translation>Retour à la ligne</translation>
     </message>

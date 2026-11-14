@@ -840,6 +840,42 @@ private Q_SLOTS:
         QCOMPARE(closed.count(), 1);
     }
 
+    void altZTogglesWordWrap()
+    {
+        MeldSettings *settings = MeldSettings::instance();
+        const QString key = QStringLiteral("wrap-mode");
+        settings->setValue(key, QStringLiteral("char"));
+        FileDiff *doc = open({writeFile("a\n"), writeFile("b\n")});
+        QVERIFY(QTest::qWaitForWindowActive(window_.get()));
+        doc->textView(0)->setFocus();
+        QTRY_VERIFY(doc->textView(0)->hasFocus());
+        const auto wrapMode = [doc]() {
+            SourceView *view = doc->textView(0);
+            return view->lineWrapMode() == QPlainTextEdit::NoWrap ? QTextOption::NoWrap : view->wordWrapMode();
+        };
+        QCOMPARE(wrapMode(), QTextOption::WrapAnywhere);
+
+        // Wrapping at any character is turned off, then wraps at words
+        QTest::keyClick(doc->textView(0), Qt::Key_Z, Qt::AltModifier);
+        QCOMPARE(settings->stringValue(key), QStringLiteral("none"));
+        QCOMPARE(wrapMode(), QTextOption::NoWrap);
+        QVERIFY(!doc->action(QStringLiteral("wrap-mode-bool"))->isChecked());
+        QTest::keyClick(doc->textView(0), Qt::Key_Z, Qt::AltModifier);
+        QCOMPARE(settings->stringValue(key), QStringLiteral("word"));
+        QCOMPARE(wrapMode(), QTextOption::WordWrap);
+        QVERIFY(doc->action(QStringLiteral("wrap-mode-bool"))->isChecked());
+        QVERIFY(!doc->textBuffer(0)->isModified());
+
+        // What the tab shows decides, when its own toggle differs from the setting
+        doc->action(QStringLiteral("wrap-mode-bool"))->setChecked(false);
+        QTest::keyClick(doc->textView(0), Qt::Key_Z, Qt::AltModifier);
+        QCOMPARE(settings->stringValue(key), QStringLiteral("word"));
+        QCOMPARE(wrapMode(), QTextOption::WordWrap);
+        QTest::keyClick(doc->textView(0), Qt::Key_Z, Qt::AltModifier);
+        QCOMPARE(wrapMode(), QTextOption::NoWrap);
+        settings->setValue(key, QStringLiteral("none"));
+    }
+
     void displayChangesDontModifyBuffers()
     {
         FileDiff *doc = open({writeFile("a\tb\n"), writeFile("a b\n")});

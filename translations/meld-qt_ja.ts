@@ -283,7 +283,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
 %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/preferences.cpp" line="+108"/>
+        <location filename="../src/ui/preferences.cpp" line="+109"/>
         <source>Select a Style</source>
         <translation>スタイルを選択</translation>
     </message>
@@ -1301,21 +1301,6 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <source>Built with Qt %1</source>
         <translation>Qt %1 でビルド</translation>
     </message>
-    <message>
-        <location line="+7"/>
-        <source>translator-credits</source>
-        <extracomment>The translators&apos; names, one per line (e-mail addresses may follow, in angle brackets). The original&apos;s are kept from its translations.</extracomment>
-        <translation>相花 毅 &lt;takeshi.aihana@gmail.com&gt;
-Shinichirou Yamada &lt;yamada_strong_yamada_nice_64bit@yahoo.co.jp&gt;
-sicklylife &lt;translation@sicklylife.jp&gt;
-Toshiharu Kudoh &lt;toshi.kd2@gmail.com&gt;
-Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Translated by</source>
-        <translation>翻訳者</translation>
-    </message>
 </context>
 <context>
     <name>meld::MeldSettings</name>
@@ -1384,14 +1369,14 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     <name>meld::MeldWindow</name>
     <message>
         <location filename="../src/ui/meldwindow.cpp" line="+151"/>
-        <location line="+470"/>
+        <location line="+485"/>
         <location line="+5"/>
         <location line="+12"/>
         <source>Meld Qt</source>
         <translation>Meld Qt</translation>
     </message>
     <message>
-        <location line="-383"/>
+        <location line="-398"/>
         <source>Header bar</source>
         <translation>ヘッダーバー</translation>
     </message>
@@ -1417,12 +1402,12 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     </message>
     <message>
         <location line="+5"/>
-        <location line="+901"/>
+        <location line="+916"/>
         <source>Fullscreen</source>
         <translation>フルスクリーン</translation>
     </message>
     <message>
-        <location line="-894"/>
+        <location line="-909"/>
         <source>Quit</source>
         <translation>終了</translation>
     </message>
@@ -1438,12 +1423,17 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location line="+973"/>
+        <location line="+989"/>
         <source>Keyboard Shortcuts</source>
         <translation>キーボードショートカット</translation>
     </message>
     <message>
-        <location line="-959"/>
+        <location line="-985"/>
+        <source>Toggle Word Wrap</source>
+        <translation>文字列の折り返しの切り替え</translation>
+    </message>
+    <message>
+        <location line="+25"/>
         <source>Previous Tab</source>
         <translation>前のタブ</translation>
     </message>
@@ -1559,35 +1549,35 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+859"/>
+        <location line="+860"/>
         <location line="+10"/>
         <source>Delete change</source>
         <translation>変更点を削除します</translation>
     </message>
     <message>
-        <location line="-864"/>
+        <location line="-865"/>
         <source>Copy to Left</source>
         <translation>左へコピー</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+860"/>
+        <location line="+861"/>
         <source>Copy to left</source>
         <translation>左へコピーします</translation>
     </message>
     <message>
-        <location line="-859"/>
+        <location line="-860"/>
         <source>Copy to Right</source>
         <translation>右へコピー</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+858"/>
+        <location line="+859"/>
         <source>Copy to right</source>
         <translation>右へコピーします</translation>
     </message>
     <message>
-        <location line="-857"/>
+        <location line="-858"/>
         <source>Delete</source>
         <translation>削除</translation>
     </message>
@@ -1857,7 +1847,12 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
         <translation>メニューを開く</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+2"/>
+        <source>Toggle word wrap</source>
+        <translation>文字列の折り返しの切り替え</translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>Common Actions</source>
         <translation>よく使うアクション</translation>
     </message>
@@ -2449,7 +2444,7 @@ Ryo Nakano &lt;ryonakaknock3@gmail.com&gt;</translation>
         <translation>単語の境界で</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+11"/>
         <source>Wrap Text</source>
         <translation>テキストを折り返す</translation>
     </message>

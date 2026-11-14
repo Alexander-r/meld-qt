@@ -501,6 +501,9 @@ highlights and sync points.
   with a patch"), which the original can't do.
 - The original always opens comparisons in the running Meld; this is
   optional here, and off by default (see "Single-instance mode").
+- Alt+Z switches text wrapping between "At Word Boundaries" and "Never" (as
+  VS Code's binding does), turning it off if it wraps at any character. The
+  original has no shortcut for this.
 - The language can be chosen in Preferences (see "Translations"); the
   original always uses the system's.
 - Settings are stored with `QSettings`, in `~/.config/meld-qt/meld-qt.ini` on

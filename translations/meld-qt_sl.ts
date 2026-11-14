@@ -283,7 +283,7 @@ posebni argument @blank, ki ustvari prazno okno.</translation>
 %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/preferences.cpp" line="+108"/>
+        <location filename="../src/ui/preferences.cpp" line="+109"/>
         <source>Select a Style</source>
         <translation>Izbor sloga</translation>
     </message>
@@ -1309,17 +1309,6 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
         <source>Built with Qt %1</source>
         <translation>Izgrajeno s Qt %1</translation>
     </message>
-    <message>
-        <location line="+7"/>
-        <source>translator-credits</source>
-        <extracomment>The translators&apos; names, one per line (e-mail addresses may follow, in angle brackets). The original&apos;s are kept from its translations.</extracomment>
-        <translation>Matej Urbančič &lt;mateju@src.gnome.org&gt;</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Translated by</source>
-        <translation>Prevod</translation>
-    </message>
 </context>
 <context>
     <name>meld::MeldSettings</name>
@@ -1388,14 +1377,14 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <name>meld::MeldWindow</name>
     <message>
         <location filename="../src/ui/meldwindow.cpp" line="+151"/>
-        <location line="+470"/>
+        <location line="+485"/>
         <location line="+5"/>
         <location line="+12"/>
         <source>Meld Qt</source>
         <translation>Meld Qt</translation>
     </message>
     <message>
-        <location line="-383"/>
+        <location line="-398"/>
         <source>Header bar</source>
         <translation>Naslovna vrstica</translation>
     </message>
@@ -1421,12 +1410,12 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     </message>
     <message>
         <location line="+5"/>
-        <location line="+901"/>
+        <location line="+916"/>
         <source>Fullscreen</source>
         <translation>Celozaslonski način</translation>
     </message>
     <message>
-        <location line="-894"/>
+        <location line="-909"/>
         <source>Quit</source>
         <translation>Končaj</translation>
     </message>
@@ -1442,12 +1431,17 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     </message>
     <message>
         <location line="+1"/>
-        <location line="+973"/>
+        <location line="+989"/>
         <source>Keyboard Shortcuts</source>
         <translation>Tipkovne bližnjice</translation>
     </message>
     <message>
-        <location line="-959"/>
+        <location line="-985"/>
+        <source>Toggle Word Wrap</source>
+        <translation>Preklopi prelom besedila</translation>
+    </message>
+    <message>
+        <location line="+25"/>
         <source>Previous Tab</source>
         <translation>Predhodni zavihek</translation>
     </message>
@@ -1563,35 +1557,35 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     </message>
     <message>
         <location line="+2"/>
-        <location line="+859"/>
+        <location line="+860"/>
         <location line="+10"/>
         <source>Delete change</source>
         <translation>Izbriši spremembo</translation>
     </message>
     <message>
-        <location line="-864"/>
+        <location line="-865"/>
         <source>Copy to Left</source>
         <translation>Kopiraj na levo</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+860"/>
+        <location line="+861"/>
         <source>Copy to left</source>
         <translation>Kopiraj na levo</translation>
     </message>
     <message>
-        <location line="-859"/>
+        <location line="-860"/>
         <source>Copy to Right</source>
         <translation>Kopiraj na desno</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+858"/>
+        <location line="+859"/>
         <source>Copy to right</source>
         <translation>Kopiraj na desno</translation>
     </message>
     <message>
-        <location line="-857"/>
+        <location line="-858"/>
         <source>Delete</source>
         <translation>Izbriši</translation>
     </message>
@@ -1861,7 +1855,12 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
         <translation>Odpri meni</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+2"/>
+        <source>Toggle word wrap</source>
+        <translation>Preklopi prelom besedila</translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>Common Actions</source>
         <translation>Pogosta dejanja</translation>
     </message>
@@ -2453,7 +2452,7 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
         <translation>Na mejah besed</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+11"/>
         <source>Wrap Text</source>
         <translation>Prelomi besedilo</translation>
     </message>

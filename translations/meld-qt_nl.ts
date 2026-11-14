@@ -283,7 +283,7 @@ een &lt;bestand&gt;-argument om een leeg paneel aan te maken.</translation>
 %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/preferences.cpp" line="+108"/>
+        <location filename="../src/ui/preferences.cpp" line="+109"/>
         <source>Select a Style</source>
         <translation>Selecteer een stijl</translation>
     </message>
@@ -1303,17 +1303,6 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
         <source>Built with Qt %1</source>
         <translation>Gebouwd met Qt %1</translation>
     </message>
-    <message>
-        <location line="+7"/>
-        <source>translator-credits</source>
-        <extracomment>The translators&apos; names, one per line (e-mail addresses may follow, in angle brackets). The original&apos;s are kept from its translations.</extracomment>
-        <translation>Vincent van Adrighem, Wouter Bolsterlee, Hannie Dumoleyn, Sense Hofstede, Justin van Steijn, Reinout van Schouwen, Nathan Follens en Dick Groskamp.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Translated by</source>
-        <translation>Vertaald door</translation>
-    </message>
 </context>
 <context>
     <name>meld::MeldSettings</name>
@@ -1382,14 +1371,14 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     <name>meld::MeldWindow</name>
     <message>
         <location filename="../src/ui/meldwindow.cpp" line="+151"/>
-        <location line="+470"/>
+        <location line="+485"/>
         <location line="+5"/>
         <location line="+12"/>
         <source>Meld Qt</source>
         <translation>Meld Qt</translation>
     </message>
     <message>
-        <location line="-383"/>
+        <location line="-398"/>
         <source>Header bar</source>
         <translation>Kopbalk</translation>
     </message>
@@ -1415,12 +1404,12 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     </message>
     <message>
         <location line="+5"/>
-        <location line="+901"/>
+        <location line="+916"/>
         <source>Fullscreen</source>
         <translation>Volledig scherm</translation>
     </message>
     <message>
-        <location line="-894"/>
+        <location line="-909"/>
         <source>Quit</source>
         <translation>Afsluiten</translation>
     </message>
@@ -1436,12 +1425,17 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     </message>
     <message>
         <location line="+1"/>
-        <location line="+973"/>
+        <location line="+989"/>
         <source>Keyboard Shortcuts</source>
         <translation>Sneltoetsen voor toetsenbord</translation>
     </message>
     <message>
-        <location line="-959"/>
+        <location line="-985"/>
+        <source>Toggle Word Wrap</source>
+        <translation>Tekstterugloop aan/uit</translation>
+    </message>
+    <message>
+        <location line="+25"/>
         <source>Previous Tab</source>
         <translation>Vorige tab</translation>
     </message>
@@ -1557,35 +1551,35 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
     </message>
     <message>
         <location line="+2"/>
-        <location line="+859"/>
+        <location line="+860"/>
         <location line="+10"/>
         <source>Delete change</source>
         <translation>Wijziging verwijderen</translation>
     </message>
     <message>
-        <location line="-864"/>
+        <location line="-865"/>
         <source>Copy to Left</source>
         <translation>Naar links kopiëren</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+860"/>
+        <location line="+861"/>
         <source>Copy to left</source>
         <translation>Naar links kopiëren</translation>
     </message>
     <message>
-        <location line="-859"/>
+        <location line="-860"/>
         <source>Copy to Right</source>
         <translation>Naar rechts kopiëren</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+858"/>
+        <location line="+859"/>
         <source>Copy to right</source>
         <translation>Naar rechts kopiëren</translation>
     </message>
     <message>
-        <location line="-857"/>
+        <location line="-858"/>
         <source>Delete</source>
         <translation>Verwijderen</translation>
     </message>
@@ -1855,7 +1849,12 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
         <translation>Menu Openen</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+2"/>
+        <source>Toggle word wrap</source>
+        <translation>Tekstterugloop aan/uit</translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>Common Actions</source>
         <translation>Veel voorkomende acties</translation>
     </message>
@@ -2447,7 +2446,7 @@ Laden van bestanden met hele lange regels zou Meld Qt langzaam kunnen maken of z
         <translation>Bij woordgrenzen</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+11"/>
         <source>Wrap Text</source>
         <translation>Tekstterugloop</translation>
     </message>

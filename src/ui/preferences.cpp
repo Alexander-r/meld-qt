@@ -23,6 +23,7 @@
 #include <QPlainTextEdit>
 #include <QPushButton>
 #include <QScrollArea>
+#include <QSignalBlocker>
 #include <QSpinBox>
 #include <QTabWidget>
 #include <QToolButton>
@@ -441,6 +442,13 @@ QWidget *PreferencesDialog::buildEditorPage()
     wrap->setCurrentIndex(std::max(0, wrap->findData(settings->stringValue(QStringLiteral("wrap-mode")))));
     connect(wrap, &QComboBox::currentIndexChanged, this,
             [wrap]() { MeldSettings::instance()->setValue(QStringLiteral("wrap-mode"), wrap->currentData()); });
+    // The setting can also be changed with a shortcut while this is open
+    connect(settings, &MeldSettings::changed, wrap, [wrap](const QString &key) {
+        if (key != QLatin1String("wrap-mode"))
+            return;
+        const QSignalBlocker blocker(wrap);
+        wrap->setCurrentIndex(std::max(0, wrap->findData(MeldSettings::instance()->stringValue(key))));
+    });
     wrapRow->addRow(tr("Wrap Text"), wrap);
     addGroupLayout(display, wrapRow);
     display->layout()->addWidget(

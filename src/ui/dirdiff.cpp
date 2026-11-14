@@ -28,8 +28,11 @@
 #include <QMenu>
 #include <QMessageBox>
 #include <QPainter>
+#include <QPointer>
+#include <QProxyStyle>
 #include <QPushButton>
 #include <QScrollBar>
+#include <QStyleOptionViewItem>
 #include <QVBoxLayout>
 
 #include <algorithm>
@@ -175,6 +178,50 @@ void expandToIndex(QTreeView *view, const QModelIndex &index)
         view->expand(*it);
 }
 
+// Breeze adjusts the frame it draws around a row's cells (hover and
+// selection) for narrow neighbouring columns, but finds the neighbours by
+// taking a cell's visual index as a logical one. The views of the second
+// and third panes show the model's later columns, with the earlier ones
+// hidden, so Breeze finds those zero-width columns instead and draws part of
+// the frame twice: a line at the start of the second column. Without the
+// widget it frames each cell from its position in the row, which is right
+// here (none of the columns is that narrow); as the views select rows, it
+// needs the widget for nothing else.
+class BreezeItemFrameStyle : public QProxyStyle {
+public:
+    using QProxyStyle::QProxyStyle;
+
+    void drawPrimitive(PrimitiveElement element, const QStyleOption *option, QPainter *painter,
+                       const QWidget *widget) const override
+    {
+        if (element == PE_PanelItemViewItem) {
+            if (const auto *item = qstyleoption_cast<const QStyleOptionViewItem *>(option)) {
+                QStyleOptionViewItem copy(*item);
+                copy.widget = nullptr;
+                QProxyStyle::drawPrimitive(element, &copy, painter, nullptr);
+                return;
+            }
+        }
+        QProxyStyle::drawPrimitive(element, option, painter, widget);
+    }
+};
+
+//! The style for the folder views: the application's, apart from the
+//! workaround for Breeze above
+QStyle *treeViewStyle()
+{
+    QStyle *style = QApplication::style();
+    if (style->name().compare(QLatin1String("breeze"), Qt::CaseInsensitive) != 0)
+        return nullptr;
+    // One for all the views, as each proxy makes its own copy of the style
+    static QPointer<QStyle> breezeStyle;
+    if (!breezeStyle) {
+        breezeStyle = new BreezeItemFrameStyle(style->name());
+        breezeStyle->setParent(qApp);
+    }
+    return breezeStyle;
+}
+
 } // namespace
 
 // ---------------------------------------------------------------------------
@@ -256,6 +303,8 @@ DirTreeView::DirTreeView(QWidget *parent)
     setEditTriggers(QAbstractItemView::NoEditTriggers);
     header()->setStretchLastSection(false);
     header()->setSectionsMovable(false);
+    if (QStyle *style = treeViewStyle())
+        setStyle(style);
 }
 
 bool DirTreeView::searchMatches(const QStringList &paths, const QString &key)

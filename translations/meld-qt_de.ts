@@ -283,7 +283,7 @@ Für Dateivergleiche kann anstelle eines &lt;Datei&gt;-Arguments das spezielle A
 %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/preferences.cpp" line="+108"/>
+        <location filename="../src/ui/preferences.cpp" line="+109"/>
         <source>Select a Style</source>
         <translation>Stil auswählen</translation>
     </message>
@@ -1303,29 +1303,6 @@ Das Laden von Dateien mit sehr langen Zeilen kann Meld Qt verlangsamen oder nich
         <source>Built with Qt %1</source>
         <translation>Erstellt mit Qt %1</translation>
     </message>
-    <message>
-        <location line="+7"/>
-        <source>translator-credits</source>
-        <extracomment>The translators&apos; names, one per line (e-mail addresses may follow, in angle brackets). The original&apos;s are kept from its translations.</extracomment>
-        <translation>Hendrik Brandt &lt;eru@gmx.li&gt;
-Frank Arnold &lt;frank@scirocco-5v-turbo.de&gt;
-Hendrik Richter &lt;hendrikr@gnome.org&gt;
-Mario Blättermann &lt;mario.blaettermann@gmail.com&gt;
-Holger Wansing &lt;linux@wansing-online.de&gt;
-Benjamin Steinwender &lt;b@stbe.at&gt;
-Christian Kirbach &lt;christian.kirbach@gmail.com&gt;
-Bernd Homuth &lt;dev@hmt.im&gt;
-Paul Seyfert &lt;pseyfert@mathphys.fsk.uni-heidelberg.de&gt;
-Philipp Kiemle &lt;philipp.kiemle@gmail.com&gt;
-Tim Sabsch &lt;tim@sabsch.com&gt;
-Jürgen Benvenuti &lt;gastornis@posteo.org&gt;
-Uwe Senkler &lt;usg@ostangeln.de&gt;</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Translated by</source>
-        <translation>Übersetzt von</translation>
-    </message>
 </context>
 <context>
     <name>meld::MeldSettings</name>
@@ -1394,14 +1371,14 @@ Uwe Senkler &lt;usg@ostangeln.de&gt;</translation>
     <name>meld::MeldWindow</name>
     <message>
         <location filename="../src/ui/meldwindow.cpp" line="+151"/>
-        <location line="+470"/>
+        <location line="+485"/>
         <location line="+5"/>
         <location line="+12"/>
         <source>Meld Qt</source>
         <translation>Meld Qt</translation>
     </message>
     <message>
-        <location line="-383"/>
+        <location line="-398"/>
         <source>Header bar</source>
         <translation>Kopfleiste</translation>
     </message>
@@ -1427,12 +1404,12 @@ Uwe Senkler &lt;usg@ostangeln.de&gt;</translation>
     </message>
     <message>
         <location line="+5"/>
-        <location line="+901"/>
+        <location line="+916"/>
         <source>Fullscreen</source>
         <translation>Vollbild</translation>
     </message>
     <message>
-        <location line="-894"/>
+        <location line="-909"/>
         <source>Quit</source>
         <translation>Beenden</translation>
     </message>
@@ -1448,12 +1425,17 @@ Uwe Senkler &lt;usg@ostangeln.de&gt;</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location line="+973"/>
+        <location line="+989"/>
         <source>Keyboard Shortcuts</source>
         <translation>Tastenkürzel</translation>
     </message>
     <message>
-        <location line="-959"/>
+        <location line="-985"/>
+        <source>Toggle Word Wrap</source>
+        <translation>Textumbruch umschalten</translation>
+    </message>
+    <message>
+        <location line="+25"/>
         <source>Previous Tab</source>
         <translation>Vorheriger Reiter</translation>
     </message>
@@ -1569,35 +1551,35 @@ Uwe Senkler &lt;usg@ostangeln.de&gt;</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+859"/>
+        <location line="+860"/>
         <location line="+10"/>
         <source>Delete change</source>
         <translation>Änderung löschen</translation>
     </message>
     <message>
-        <location line="-864"/>
+        <location line="-865"/>
         <source>Copy to Left</source>
         <translation>Nach links kopieren</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+860"/>
+        <location line="+861"/>
         <source>Copy to left</source>
         <translation>Nach links kopieren</translation>
     </message>
     <message>
-        <location line="-859"/>
+        <location line="-860"/>
         <source>Copy to Right</source>
         <translation>Nach rechts kopieren</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+858"/>
+        <location line="+859"/>
         <source>Copy to right</source>
         <translation>Nach rechts kopieren</translation>
     </message>
     <message>
-        <location line="-857"/>
+        <location line="-858"/>
         <source>Delete</source>
         <translation>Löschen</translation>
     </message>
@@ -1867,7 +1849,12 @@ Uwe Senkler &lt;usg@ostangeln.de&gt;</translation>
         <translation>Menü öffnen</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+2"/>
+        <source>Toggle word wrap</source>
+        <translation>Textumbruch umschalten</translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>Common Actions</source>
         <translation>Häufige Aktionen</translation>
     </message>
@@ -2459,7 +2446,7 @@ Uwe Senkler &lt;usg@ostangeln.de&gt;</translation>
         <translation>An Wortgrenzen</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+11"/>
         <source>Wrap Text</source>
         <translation>Textumbruch</translation>
     </message>

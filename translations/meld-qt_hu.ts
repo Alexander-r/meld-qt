@@ -283,7 +283,7 @@ argumentum is használható egy üres ablaktábla létrehozásához.</translatio
 %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/preferences.cpp" line="+108"/>
+        <location filename="../src/ui/preferences.cpp" line="+109"/>
         <source>Select a Style</source>
         <translation>Stílus kiválasztása</translation>
     </message>
@@ -1300,20 +1300,6 @@ A nagyon hosszú sorokat tartalmazó fájlok betöltése lassíthatja vagy vála
         <source>Built with Qt %1</source>
         <translation>Qt %1 használatával készült</translation>
     </message>
-    <message>
-        <location line="+7"/>
-        <source>translator-credits</source>
-        <extracomment>The translators&apos; names, one per line (e-mail addresses may follow, in angle brackets). The original&apos;s are kept from its translations.</extracomment>
-        <translation>Csécsy László &lt;boobaa at ajrg dot hu&gt;
-Kelemen Gábor &lt;kelemeng at gnome dot hu&gt;
-Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
-Úr Balázs &lt;ur.balazs at fsf dot hu&gt;</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Translated by</source>
-        <translation>Fordította</translation>
-    </message>
 </context>
 <context>
     <name>meld::MeldSettings</name>
@@ -1382,14 +1368,14 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     <name>meld::MeldWindow</name>
     <message>
         <location filename="../src/ui/meldwindow.cpp" line="+151"/>
-        <location line="+470"/>
+        <location line="+485"/>
         <location line="+5"/>
         <location line="+12"/>
         <source>Meld Qt</source>
         <translation>Meld Qt</translation>
     </message>
     <message>
-        <location line="-383"/>
+        <location line="-398"/>
         <source>Header bar</source>
         <translation>Fejléc</translation>
     </message>
@@ -1415,12 +1401,12 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     </message>
     <message>
         <location line="+5"/>
-        <location line="+901"/>
+        <location line="+916"/>
         <source>Fullscreen</source>
         <translation>Teljes képernyő</translation>
     </message>
     <message>
-        <location line="-894"/>
+        <location line="-909"/>
         <source>Quit</source>
         <translation>Kilépés</translation>
     </message>
@@ -1436,12 +1422,17 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     </message>
     <message>
         <location line="+1"/>
-        <location line="+973"/>
+        <location line="+989"/>
         <source>Keyboard Shortcuts</source>
         <translation>Gyorsbillentyűk</translation>
     </message>
     <message>
-        <location line="-959"/>
+        <location line="-985"/>
+        <source>Toggle Word Wrap</source>
+        <translation>Szövegtördelés be/ki</translation>
+    </message>
+    <message>
+        <location line="+25"/>
         <source>Previous Tab</source>
         <translation>Előző lap</translation>
     </message>
@@ -1557,35 +1548,35 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
     </message>
     <message>
         <location line="+2"/>
-        <location line="+859"/>
+        <location line="+860"/>
         <location line="+10"/>
         <source>Delete change</source>
         <translation>Változás törlése</translation>
     </message>
     <message>
-        <location line="-864"/>
+        <location line="-865"/>
         <source>Copy to Left</source>
         <translation>Másolás a balra</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+860"/>
+        <location line="+861"/>
         <source>Copy to left</source>
         <translation>Másolás a bal oldalra</translation>
     </message>
     <message>
-        <location line="-859"/>
+        <location line="-860"/>
         <source>Copy to Right</source>
         <translation>Másolás a jobbra</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+858"/>
+        <location line="+859"/>
         <source>Copy to right</source>
         <translation>Másolás a jobb oldalra</translation>
     </message>
     <message>
-        <location line="-857"/>
+        <location line="-858"/>
         <source>Delete</source>
         <translation>Törlés</translation>
     </message>
@@ -1855,7 +1846,12 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
         <translation>Menü megnyitása</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+2"/>
+        <source>Toggle word wrap</source>
+        <translation>Szövegtördelés be/ki</translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>Common Actions</source>
         <translation>Gyakori műveletek</translation>
     </message>
@@ -2447,7 +2443,7 @@ Meskó Balázs &lt;mesko.balazs at fsf dot hu&gt;
         <translation>Szóhatároknál</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+11"/>
         <source>Wrap Text</source>
         <translation>Szöveg tördelése</translation>
     </message>
