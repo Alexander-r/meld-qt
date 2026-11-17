@@ -17,6 +17,7 @@
 #include <QJsonDocument>
 #include <QJsonObject>
 #include <QLocale>
+#include <QMimeDatabase>
 #include <QSet>
 #include <QTest>
 
@@ -437,6 +438,11 @@ void TestSyntax::guess()
     QFETCH(QString, fileName);
     QFETCH(QString, contentType);
     QFETCH(QString, expected);
+    // The data was recorded with a MIME database that has text/x-python2, as
+    // a subclass of text/x-python (shared-mime-info 2.5.1 has it); one without
+    // it (2.4, in the Steam Linux Runtime 4) gives another language for it
+    if (contentType == QLatin1String("text/x-python2") && !QMimeDatabase().mimeTypeForName(contentType).isValid())
+        QSKIP("text/x-python2 isn't in this system's MIME database");
     const Language *language = LanguageManager::instance().guessLanguage(fileName, contentType);
     QCOMPARE(language ? language->id() : QString(), expected);
 }

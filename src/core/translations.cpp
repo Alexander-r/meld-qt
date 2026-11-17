@@ -49,6 +49,19 @@ QStringList candidates(const QStringList &uiLanguages, const QString &posixLocal
             result.append(name);
     }
 
+    // Before Qt 6.9, a locale's languages don't end with the language alone
+    // ("de-Latn-AT de-AT", without "de"), which most translations are named
+    // for, so it's added after each language's names, as Qt 6.9 does
+    for (qsizetype index = 0; index < result.size();) {
+        const QString language = languageCode(result.at(index));
+        qsizetype end = index + 1;
+        while (end < result.size() && languageCode(result.at(end)) == language)
+            ++end;
+        if (!result.contains(language))
+            result.insert(end++, language);
+        index = end;
+    }
+
     // The POSIX locale's modifier, e.g., "sr_RS.UTF-8@latin", comes before
     // the languages Qt made of the locale without it
     const qsizetype at = posixLocale.indexOf(QLatin1Char('@'));

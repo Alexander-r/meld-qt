@@ -7,6 +7,9 @@
 #  meld_no_tests                 don't build the test suite
 #  meld_no_desktop_integration   don't install the desktop file, icons and the
 #                                MIME type of saved comparisons with the program
+#  meld_deploy_qt                (Windows) install the Qt libraries, plugins and
+#                                translations the program uses with it, with
+#                                windeployqt, for running without Qt installed
 # PREFIX=<path> sets where "make install" installs to.
 # MELD_VERSION=<version> sets the version that the program reports (e.g., a git
 # commit), rather than the project's.
@@ -14,7 +17,8 @@
 !versionAtLeast(QT_VERSION, 6.8.0): error("Meld Qt needs Qt 6.8 or newer; this qmake is for Qt $$QT_VERSION")
 
 # As project(VERSION) in CMakeLists.txt
-isEmpty(MELD_VERSION): MELD_VERSION = 1.0.0
+MELD_PROJECT_VERSION = 1.0.1
+isEmpty(MELD_VERSION): MELD_VERSION = $$MELD_PROJECT_VERSION
 
 isEmpty(PREFIX): PREFIX = /usr/local
 

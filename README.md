@@ -52,6 +52,7 @@ Build options (`cmake -D<option>=ON|OFF`):
 | `MELD_SINGLE_INSTANCE_NETWORK` | OFF | Implement it with Qt Network's local sockets, rather than with shared memory |
 | `MELD_BUILD_TESTS` | ON | Build the test suite |
 | `MELD_INSTALL_DESKTOP_INTEGRATION` | ON | Install the desktop file, icons and MIME type with the program (Linux and BSDs; see "Installing") |
+| `MELD_DEPLOY_QT` | OFF | Install the Qt libraries the program uses with it, with windeployqt (Windows; see "Installing on Windows") |
 
 `-DMELD_VERSION=<version>` sets the version that the program reports, in its
 About window and with `--version`, rather than the project's. For example, for
@@ -91,6 +92,7 @@ qmake step in Qt Creator:
 | `CONFIG+=meld_single_instance_network` | `MELD_SINGLE_INSTANCE_NETWORK=ON` |
 | `CONFIG+=meld_no_tests` | `MELD_BUILD_TESTS=OFF` |
 | `CONFIG+=meld_no_desktop_integration` | `MELD_INSTALL_DESKTOP_INTEGRATION=OFF` |
+| `CONFIG+=meld_deploy_qt` | `MELD_DEPLOY_QT=ON` |
 | `MELD_VERSION=<version>` | `MELD_VERSION=<version>` |
 | `PREFIX=<path>` | `CMAKE_INSTALL_PREFIX` |
 
@@ -430,6 +432,97 @@ desktop file's `Exec` is `meld-qt`, so the prefix's `bin` must be in `PATH`
 (as `/usr/local/bin` and usually `~/.local/bin` are), and desktops only find
 the files in prefixes in `XDG_DATA_DIRS` (or `~/.local/share`). The tests
 include `desktop-file-validate` on the desktop file, if it's installed.
+
+### Installing on Windows
+
+With `MELD_DEPLOY_QT` ON (`CONFIG+=meld_deploy_qt` for qmake), installing
+runs Qt's `windeployqt` on the installed `meld-qt.exe`, which copies the Qt
+libraries, plugins and translations it uses next to it, and the compiler's
+runtime: MinGW's DLLs, or the Visual C++ redistributable's installer. The
+folder that's installed to then runs on a Windows system without Qt or the
+compiler, and can be copied or zipped as it is:
+
+```sh
+cmake -S . -B build -DMELD_DEPLOY_QT=ON -DMELD_BUILD_TESTS=OFF
+cmake --build build -j --config Release
+cmake --install build --config Release --prefix C:/meld-qt   # C:/meld-qt/bin/meld-qt.exe
+```
+
+With qmake, from Qt's command prompt or Qt Creator (with `make install` as a
+build step), `make` being `mingw32-make` or `nmake`/`jom`:
+
+```sh
+qmake6 ..\meld-qt.pro CONFIG+=release CONFIG+=meld_deploy_qt CONFIG+=meld_no_tests PREFIX=C:/meld-qt
+mingw32-make -j
+mingw32-make install                                         # C:/meld-qt/bin/meld-qt.exe
+```
+
+`windeployqt` finds MinGW's runtime through `PATH`, so the compiler's `bin`
+folder has to be in it (as it is in Qt's command prompt and Qt Creator).
+CMake writes a `qt.conf` next to the program, and the plugins and Qt's
+translations go in `plugins` and `translations` in the prefix; qmake leaves
+them in the folder of the program, where windeployqt puts them by default.
+Either way, Qt's own messages (in standard dialogs, for example) are
+translated, as they are with an installed Qt.
+
+`meld-qt.exe` has the program's icon (`src/app/meld-qt.ico`, which
+`tools/generate_windows_icon.py` writes from the scalable icon) and version
+information built in, for Explorer, the taskbar and shortcuts.
+
+#### Windows installer
+
+`build-windows-installer.sh` makes an installer of that folder with NSIS, on
+Linux (or anywhere with bash), from `packaging/windows/meld-qt.nsi`:
+
+```sh
+./build-windows-installer.sh /path/to/meld-qt   # build-windows/Meld-Qt-<version>-x64-setup.exe
+MELD_VERSION=1.0.1 ./build-windows-installer.sh /path/to/meld-qt
+```
+
+It uses `makensis` if it's installed (NSIS 3), and otherwise runs it in a
+container (Ubuntu 24.04 and its `nsis` package, built once as
+`localhost/meld-qt-nsis`), which needs Docker or Podman. The installer is for
+all users, in `Program Files\Meld Qt`, on 64-bit Windows 10 1809 or newer. It
+installs the folder as it is, with a Start menu shortcut, and optionally a
+desktop shortcut and `.meldcmp` files opening in Meld Qt, and registers
+`meld-qt` for the Run dialog. If windeployqt copied `vc_redist.x64.exe` (MSVC
+builds), it isn't installed; the installer runs it if the Visual C++ runtime
+isn't installed or is older. The uninstaller removes only the files that were
+installed, and not the settings. Installing over an earlier version runs its
+uninstaller first. `/S` installs or uninstalls silently, and `/D=<folder>`,
+last on the command line, chooses the folder.
+
+### AppImage (Linux)
+
+`build-appimage.sh` builds an AppImage that runs on other Linux
+distributions, built in the Steam Linux Runtime 4 SDK (Debian 13 based)
+rather than on the build system, whose libraries are likely newer than many
+systems have:
+
+```sh
+./build-appimage.sh                # build-appimage/Meld-Qt-<version>-x86_64.AppImage
+./build-appimage.sh --tests        # and run the test suite in the runtime
+./build-appimage.sh -- -DMELD_SINGLE_INSTANCE_NETWORK=ON   # with more CMake options
+MELD_VERSION="$(git describe --always --dirty)" ./build-appimage.sh
+```
+
+It needs Docker or Podman, and network access the first time. The SDK is the
+container image `registry.gitlab.steamos.cloud/steamrt/steamrt4/sdk`, of the
+version of the Steam Linux Runtime 4 that Steam has installed (or the latest,
+if it isn't found); Qt 6.8 is installed in it from Debian 13, in a local image
+(`localhost/meld-qt-appimage`) that's kept for later builds, and rebuilt with
+the latest packages with `--rebuild-image`. linuxdeploy (with its Qt plugin)
+and appimagetool, which are downloaded into `build-appimage/tools`, bundle Qt,
+its X11 (xcb), Wayland and SVG plugins and its translations, and the libraries
+they need, apart from those that every desktop has (glibc, libstdc++,
+fontconfig, FreeType, HarfBuzz, OpenGL and X11/Wayland's client libraries).
+`./build-appimage.sh --help` lists the options.
+
+The AppImage needs glibc 2.39 and the C++ library of GCC 13 or newer (the
+script prints the glibc it needs), so it runs on Ubuntu 24.04, Debian 13,
+Fedora 40, RHEL 10, openSUSE Tumbleweed and Arch, or their newer versions, but
+not Debian 12 or Ubuntu 22.04. Its runtime doesn't need libfuse2; without FUSE
+at all, `--appimage-extract-and-run` runs it.
 
 ## Source layout
 

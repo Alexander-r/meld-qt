@@ -258,6 +258,11 @@ private Q_SLOTS:
             << QStringList{"de_DE", "de", "sr_Latn", "sr_RS", "sr"};
         QTest::newRow("unknown modifier") << QStringList{"de-DE", "de"} << "de_DE.UTF-8@euro"
                                           << QStringList{"de_DE", "de"};
+        // Before Qt 6.9, without the language alone
+        QTest::newRow("Austrian German, Qt 6.8") << QStringList{"de-Latn-AT", "de-AT"} << "de_AT.UTF-8"
+                                                 << QStringList{"de_Latn_AT", "de_AT", "de"};
+        QTest::newRow("LANGUAGE, Qt 6.8") << QStringList{"pt-PT", "fr-CA", "fr"} << "pt_PT.UTF-8"
+                                          << QStringList{"pt_PT", "pt", "fr_CA", "fr"};
     }
 
     void candidates()

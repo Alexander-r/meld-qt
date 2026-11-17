@@ -41,7 +41,9 @@ QStringList globSuffix(const QString &path, const QString &pattern)
 {
     const QFileInfo info(path);
     QStringList matches = info.dir().entryList({info.fileName() + pattern}, QDir::Files | QDir::Hidden | QDir::System);
-    QCollator collator;
+    // Of a locale that sorts numbers by value: the C locale (LANG=C) compares
+    // only characters, which would put ".r12" before ".r9"
+    QCollator collator{QLocale(QLocale::English)};
     collator.setNumericMode(true);
     std::sort(matches.begin(), matches.end(), collator);
     for (QString &match : matches)

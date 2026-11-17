@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.21)
 
 project(MeldQt
-    VERSION 1.0.0
+    VERSION 1.0.1
     DESCRIPTION "Visual diff and merge tool"
     LANGUAGES CXX)
 
@@ -39,6 +39,15 @@ if(UNIX AND NOT APPLE)
            "Install the desktop file, icons and the MIME type of saved comparisons with the program" ON)
 else()
     set(MELD_INSTALL_DESKTOP_INTEGRATION OFF)
+endif()
+
+# Installing the program with the Qt libraries, plugins and translations it
+# uses (and the compiler's runtime), found by windeployqt, makes a folder that
+# runs on another Windows system without Qt
+if(WIN32)
+    option(MELD_DEPLOY_QT "Install the Qt libraries the program uses with it, with windeployqt" OFF)
+else()
+    set(MELD_DEPLOY_QT OFF)
 endif()
 
 if(NOT CMAKE_BUILD_TYPE AND NOT CMAKE_CONFIGURATION_TYPES)
