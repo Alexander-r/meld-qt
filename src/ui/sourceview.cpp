@@ -92,7 +92,7 @@ void LineNumberGutter::paintEvent(QPaintEvent *event)
 
         if (chunk && chunk->start_a != chunk->end_a) {
             const bool isCurrent = view_->currentChunkCheck && view_->currentChunkCheck(*chunk);
-            painter.fillRect(QRectF(0, y + 1, width, height),
+            painter.fillRect(QRectF(0, y, width, height),
                              isCurrent ? theme.highlightedFill(chunk->tag) : theme.fill(chunk->tag));
         }
 
@@ -394,7 +394,12 @@ std::vector<SourceView::VisibleLine> SourceView::visibleLines() const
     const qreal bottom = viewport()->height();
     while (block.isValid()) {
         if (block.isVisible()) {
-            const qreal height = blockBoundingRect(block).height();
+            qreal height = blockBoundingRect(block).height();
+            // QPlainTextDocumentLayout adds the document margin to the
+            // last block, which isn't part of the line: leaving it in
+            // would make the last line's chunk taller than its text
+            if (!block.next().isValid())
+                height = std::max(0.0, height - document()->documentMargin());
             result.push_back({block.blockNumber(), top, height});
             top += height;
             if (top > bottom)

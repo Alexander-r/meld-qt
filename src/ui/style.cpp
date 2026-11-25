@@ -8,6 +8,7 @@
 #include <QApplication>
 #include <QSettings>
 #include <QStandardPaths>
+#include <QStyle>
 #include <QStyleHints>
 
 namespace meld {
@@ -250,6 +251,27 @@ Theme themeFromSchemes(bool dark)
     return t;
 }
 
+//! The style Qt chose for the platform, before matchStyleToColourScheme()
+//! replaced it
+QString nativeStyleName;
+
+/*!
+ * Qt's windowsvista style draws buttons, menus and so on with the native
+ * light theme whatever the palette, so with a dark palette their text is
+ * light on light. As Qt suggests, Fusion, which draws with the palette,
+ * stands in for it in dark mode (its windows11 style has a dark mode).
+ */
+void matchStyleToColourScheme(bool dark)
+{
+    if (nativeStyleName.isEmpty())
+        nativeStyleName = QApplication::style()->name();
+    if (nativeStyleName.compare(QLatin1String("windowsvista"), Qt::CaseInsensitive) != 0)
+        return;
+    const QString wanted = dark ? QStringLiteral("fusion") : nativeStyleName;
+    if (QApplication::style()->name().compare(wanted, Qt::CaseInsensitive) != 0)
+        QApplication::setStyle(wanted);
+}
+
 } // namespace
 
 QColor Theme::fill(ChunkTag tag) const
@@ -403,9 +425,28 @@ void applyStyleVariant()
     else if (variant == QLatin1String("force-dark"))
         scheme = Qt::ColorScheme::Dark;
     // Platforms that support it switch their palette...
-    QGuiApplication::styleHints()->setColorScheme(scheme);
+    QStyleHints *hints = QGuiApplication::styleHints();
+    hints->setColorScheme(scheme);
     qApp->setProperty(KdeColorSchemeProperty, QVariant());
     QApplication::setPalette(QPalette());
+    if (scheme == Qt::ColorScheme::Unknown)
+        matchStyleToColourScheme(hints->colorScheme() == Qt::ColorScheme::Dark
+                                 || shouldUseDark(QApplication::palette().color(QPalette::Window)));
+    else
+        matchStyleToColourScheme(scheme == Qt::ColorScheme::Dark);
+    // The style follows the system's colour scheme when it changes
+    static const bool followingSystem = [hints] {
+        QObject::connect(hints, &QStyleHints::colorSchemeChanged, qApp, [](Qt::ColorScheme) {
+            static bool applying = false;
+            if (applying)
+                return;
+            applying = true;
+            applyStyleVariant();
+            applying = false;
+        });
+        return true;
+    }();
+    Q_UNUSED(followingSystem);
     // ...but many don't (e.g., KDE's, or with Qt's Fusion style), so the
     // palette is made to match
     if (scheme != Qt::ColorScheme::Unknown) {
