@@ -27,7 +27,7 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../src/ui/dirdiff.cpp" line="+88"/>
+        <location filename="../src/ui/dirdiff.cpp" line="+91"/>
         <source>Couldn&apos;t create link %1</source>
         <translation>ایجاد پیوند %1 ممکن نبود</translation>
     </message>
@@ -437,7 +437,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
 <context>
     <name>meld::DirDiff</name>
     <message>
-        <location filename="../src/ui/dirdiff.cpp" line="+281"/>
+        <location filename="../src/ui/dirdiff.cpp" line="+327"/>
         <source>Select Folder</source>
         <translation>انتخاب شاخه</translation>
     </message>
@@ -1368,14 +1368,14 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <name>meld::MeldWindow</name>
     <message>
         <location filename="../src/ui/meldwindow.cpp" line="+151"/>
-        <location line="+485"/>
-        <location line="+5"/>
+        <location line="+502"/>
+        <location line="+6"/>
         <location line="+12"/>
         <source>Meld Qt</source>
         <translation>Meld Qt</translation>
     </message>
     <message>
-        <location line="-398"/>
+        <location line="-416"/>
         <source>Header bar</source>
         <translation>نوار سرآیند</translation>
     </message>
@@ -1401,12 +1401,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     </message>
     <message>
         <location line="+5"/>
-        <location line="+916"/>
+        <location line="+936"/>
         <source>Fullscreen</source>
         <translation>تمام‌صفحه</translation>
     </message>
     <message>
-        <location line="-909"/>
+        <location line="-929"/>
         <source>Quit</source>
         <translation>خروج</translation>
     </message>
@@ -1422,12 +1422,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     </message>
     <message>
         <location line="+1"/>
-        <location line="+989"/>
+        <location line="+1012"/>
         <source>Keyboard Shortcuts</source>
         <translation>میان‌برهای صفحه‌کلید</translation>
     </message>
     <message>
-        <location line="-985"/>
+        <location line="-1008"/>
         <source>Toggle Word Wrap</source>
         <translation>تغییر وضعیت شکستن خط‌ها</translation>
     </message>
@@ -1548,35 +1548,35 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     </message>
     <message>
         <location line="+2"/>
-        <location line="+860"/>
-        <location line="+10"/>
+        <location line="+880"/>
+        <location line="+13"/>
         <source>Delete change</source>
         <translation>حذف تغییر</translation>
     </message>
     <message>
-        <location line="-865"/>
+        <location line="-888"/>
         <source>Copy to Left</source>
         <translation>رونوشت به چپ</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+861"/>
+        <location line="+884"/>
         <source>Copy to left</source>
         <translation>رونوشت به چپ</translation>
     </message>
     <message>
-        <location line="-860"/>
+        <location line="-883"/>
         <source>Copy to Right</source>
         <translation>رونوشت به راست</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+859"/>
+        <location line="+882"/>
         <source>Copy to right</source>
         <translation>رونوشت به راست</translation>
     </message>
     <message>
-        <location line="-858"/>
+        <location line="-881"/>
         <source>Delete</source>
         <translation>حذف</translation>
     </message>
@@ -1587,6 +1587,11 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     </message>
     <message>
         <location line="+14"/>
+        <source>Display</source>
+        <translation>نمایش</translation>
+    </message>
+    <message>
+        <location line="+9"/>
         <source>Text Filters</source>
         <translation>پالایه‌های متن</translation>
     </message>
@@ -1717,7 +1722,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <translation>پاک کردن مقایسه‌های اخیر</translation>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="+34"/>
         <source>File Status</source>
         <translation>وضعیت پرونده</translation>
     </message>
@@ -1727,8 +1732,8 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <translation>نام پرونده</translation>
     </message>
     <message>
-        <location line="+65"/>
-        <location line="+17"/>
+        <location line="+66"/>
+        <location line="+18"/>
         <source>%1 - Meld Qt</source>
         <translation>%1 - Meld Qt</translation>
     </message>
@@ -1806,12 +1811,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <translation>وصلهٔ «%1» وجود ندارد</translation>
     </message>
     <message>
-        <location line="+65"/>
-        <source>Windows and Tabs</source>
-        <translation>پنجره‌ها و زبانه‌ها</translation>
+        <location line="+151"/>
+        <source>Version control</source>
+        <translation>واپایش نگارش</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="-82"/>
         <source>New comparison</source>
         <translation>مقایسهٔ جدید</translation>
     </message>
@@ -1826,12 +1831,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <translation>خروج از Meld Qt</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="-4"/>
         <source>General</source>
         <translation>عمومی</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+8"/>
         <source>Show preferences</source>
         <translation>نمایش ترجیحات</translation>
     </message>
@@ -1851,12 +1856,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <translation>تغییر وضعیت شکستن خط‌ها</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Common Actions</source>
-        <translation>کنش‌های معمول</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+4"/>
         <source>Stop the current action</source>
         <translation>توقّف کنش جاری</translation>
     </message>
@@ -1871,12 +1871,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <translation>گشودن خارجی</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Panes</source>
-        <translation>قاب‌ها</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+12"/>
         <source>Previous comparison pane</source>
         <translation>قاب مقایسهٔ پیشین</translation>
     </message>
@@ -1906,12 +1901,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <translation>رفتن به تغییر بعدی</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Tabs</source>
-        <translation>زبانه‌ها</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="-15"/>
         <source>Go to previous tab</source>
         <translation>رفتن به زبانهٔ پیشین</translation>
     </message>
@@ -1936,7 +1926,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <translation>جابه‌جایی زبانه به چپ</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+13"/>
         <source>Editing</source>
         <translation>ویرایش کردن</translation>
     </message>
@@ -2066,7 +2056,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <translation>نمایش نقشهٔ نمای کلی</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+4"/>
         <source>Zoom in</source>
         <translation>بزرگ‌نمایی</translation>
     </message>
@@ -2096,12 +2086,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <translation>جمع کردن شاخهٔ کنونی</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Version control comparison</source>
-        <translation>مقایسهٔ واپایش نگارش</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+4"/>
         <source>Commit to version control</source>
         <translation>ثبت در واپایش نگارش</translation>
     </message>
@@ -2719,19 +2704,13 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
 <context>
     <name>meld::StatusBar</name>
     <message>
-        <location filename="../src/ui/statusbar.cpp" line="+53"/>
-        <source>Display</source>
-        <extracomment>This is the status bar label for a group of settings, such as text wrapping, show line numbers, whitespace, etc.</extracomment>
-        <translation>نمایش</translation>
-    </message>
-    <message>
-        <location line="+54"/>
+        <location filename="../src/ui/statusbar.cpp" line="+100"/>
         <source>Line you want to move the cursor to</source>
         <translation>خطی که می‌خواهید مکان‌نما به آن برود</translation>
     </message>
     <message>
         <location line="+28"/>
-        <location line="+20"/>
+        <location line="+12"/>
         <source>Ln %1, Col %2</source>
         <translation>خط %1، ستون %2</translation>
     </message>
@@ -3508,7 +3487,7 @@ Error: %2</source>
         <translation>صحنه‌گذاری‌شده</translation>
     </message>
     <message>
-        <location filename="../src/core/vc/svn.cpp" line="+193"/>
+        <location filename="../src/core/vc/svn.cpp" line="+195"/>
         <source>Rev %1</source>
         <translation>نگارش %1</translation>
     </message>

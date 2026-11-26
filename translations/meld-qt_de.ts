@@ -27,7 +27,7 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../src/ui/dirdiff.cpp" line="+88"/>
+        <location filename="../src/ui/dirdiff.cpp" line="+91"/>
         <source>Couldn&apos;t create link %1</source>
         <translation>Verknüpfung %1 konnte nicht angelegt werden</translation>
     </message>
@@ -438,7 +438,7 @@ Für Dateivergleiche kann anstelle eines &lt;Datei&gt;-Arguments das spezielle A
 <context>
     <name>meld::DirDiff</name>
     <message>
-        <location filename="../src/ui/dirdiff.cpp" line="+281"/>
+        <location filename="../src/ui/dirdiff.cpp" line="+327"/>
         <source>Select Folder</source>
         <translation>Ordner auswählen</translation>
     </message>
@@ -1371,14 +1371,14 @@ Das Laden von Dateien mit sehr langen Zeilen kann Meld Qt verlangsamen oder nich
     <name>meld::MeldWindow</name>
     <message>
         <location filename="../src/ui/meldwindow.cpp" line="+151"/>
-        <location line="+485"/>
-        <location line="+5"/>
+        <location line="+502"/>
+        <location line="+6"/>
         <location line="+12"/>
         <source>Meld Qt</source>
         <translation>Meld Qt</translation>
     </message>
     <message>
-        <location line="-398"/>
+        <location line="-416"/>
         <source>Header bar</source>
         <translation>Kopfleiste</translation>
     </message>
@@ -1404,12 +1404,12 @@ Das Laden von Dateien mit sehr langen Zeilen kann Meld Qt verlangsamen oder nich
     </message>
     <message>
         <location line="+5"/>
-        <location line="+916"/>
+        <location line="+936"/>
         <source>Fullscreen</source>
         <translation>Vollbild</translation>
     </message>
     <message>
-        <location line="-909"/>
+        <location line="-929"/>
         <source>Quit</source>
         <translation>Beenden</translation>
     </message>
@@ -1425,12 +1425,12 @@ Das Laden von Dateien mit sehr langen Zeilen kann Meld Qt verlangsamen oder nich
     </message>
     <message>
         <location line="+1"/>
-        <location line="+989"/>
+        <location line="+1012"/>
         <source>Keyboard Shortcuts</source>
         <translation>Tastenkürzel</translation>
     </message>
     <message>
-        <location line="-985"/>
+        <location line="-1008"/>
         <source>Toggle Word Wrap</source>
         <translation>Textumbruch umschalten</translation>
     </message>
@@ -1551,35 +1551,35 @@ Das Laden von Dateien mit sehr langen Zeilen kann Meld Qt verlangsamen oder nich
     </message>
     <message>
         <location line="+2"/>
-        <location line="+860"/>
-        <location line="+10"/>
+        <location line="+880"/>
+        <location line="+13"/>
         <source>Delete change</source>
         <translation>Änderung löschen</translation>
     </message>
     <message>
-        <location line="-865"/>
+        <location line="-888"/>
         <source>Copy to Left</source>
         <translation>Nach links kopieren</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+861"/>
+        <location line="+884"/>
         <source>Copy to left</source>
         <translation>Nach links kopieren</translation>
     </message>
     <message>
-        <location line="-860"/>
+        <location line="-883"/>
         <source>Copy to Right</source>
         <translation>Nach rechts kopieren</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+859"/>
+        <location line="+882"/>
         <source>Copy to right</source>
         <translation>Nach rechts kopieren</translation>
     </message>
     <message>
-        <location line="-858"/>
+        <location line="-881"/>
         <source>Delete</source>
         <translation>Löschen</translation>
     </message>
@@ -1590,6 +1590,11 @@ Das Laden von Dateien mit sehr langen Zeilen kann Meld Qt verlangsamen oder nich
     </message>
     <message>
         <location line="+14"/>
+        <source>Display</source>
+        <translation>Darstellung</translation>
+    </message>
+    <message>
+        <location line="+9"/>
         <source>Text Filters</source>
         <translation>Textfilter</translation>
     </message>
@@ -1720,7 +1725,7 @@ Das Laden von Dateien mit sehr langen Zeilen kann Meld Qt verlangsamen oder nich
         <translation>Zuletzt verwendete Vergleiche leeren</translation>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="+34"/>
         <source>File Status</source>
         <translation>Dateistatus</translation>
     </message>
@@ -1730,8 +1735,8 @@ Das Laden von Dateien mit sehr langen Zeilen kann Meld Qt verlangsamen oder nich
         <translation>Dateiname</translation>
     </message>
     <message>
-        <location line="+65"/>
-        <location line="+17"/>
+        <location line="+66"/>
+        <location line="+18"/>
         <source>%1 - Meld Qt</source>
         <translation>%1 - Meld Qt</translation>
     </message>
@@ -1809,12 +1814,12 @@ Das Laden von Dateien mit sehr langen Zeilen kann Meld Qt verlangsamen oder nich
         <translation>Der Patch »%1« existiert nicht</translation>
     </message>
     <message>
-        <location line="+65"/>
-        <source>Windows and Tabs</source>
-        <translation>Fenster und Reiter</translation>
+        <location line="+151"/>
+        <source>Version control</source>
+        <translation>Versionsvergleich</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="-82"/>
         <source>New comparison</source>
         <translation>Neuer Vergleich</translation>
     </message>
@@ -1829,12 +1834,12 @@ Das Laden von Dateien mit sehr langen Zeilen kann Meld Qt verlangsamen oder nich
         <translation>Meld Qt beenden</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="-4"/>
         <source>General</source>
         <translation>Allgemein</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+8"/>
         <source>Show preferences</source>
         <translation>Einstellungen anzeigen</translation>
     </message>
@@ -1854,12 +1859,7 @@ Das Laden von Dateien mit sehr langen Zeilen kann Meld Qt verlangsamen oder nich
         <translation>Textumbruch umschalten</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Common Actions</source>
-        <translation>Häufige Aktionen</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+4"/>
         <source>Stop the current action</source>
         <translation>Aktuelle Aktion abbrechen</translation>
     </message>
@@ -1874,12 +1874,7 @@ Das Laden von Dateien mit sehr langen Zeilen kann Meld Qt verlangsamen oder nich
         <translation>Extern öffnen</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Panes</source>
-        <translation>Bereiche</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+12"/>
         <source>Previous comparison pane</source>
         <translation>Vorheriger Vergleichsbereich</translation>
     </message>
@@ -1909,12 +1904,7 @@ Das Laden von Dateien mit sehr langen Zeilen kann Meld Qt verlangsamen oder nich
         <translation>Zur nächsten Änderung gehen</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Tabs</source>
-        <translation>Reiter</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="-15"/>
         <source>Go to previous tab</source>
         <translation>Zum vorherigen Reiter wechseln</translation>
     </message>
@@ -1939,7 +1929,7 @@ Das Laden von Dateien mit sehr langen Zeilen kann Meld Qt verlangsamen oder nich
         <translation>Reiter nach rechts verschieben</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+13"/>
         <source>Editing</source>
         <translation>Bearbeitung</translation>
     </message>
@@ -2069,7 +2059,7 @@ Das Laden von Dateien mit sehr langen Zeilen kann Meld Qt verlangsamen oder nich
         <translation>Übersichtsgrafik anzeigen</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+4"/>
         <source>Zoom in</source>
         <translation>Vergrößern</translation>
     </message>
@@ -2099,12 +2089,7 @@ Das Laden von Dateien mit sehr langen Zeilen kann Meld Qt verlangsamen oder nich
         <translation>Den aktuellen Ordner einklappen</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Version control comparison</source>
-        <translation>Versionsvergleich</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+4"/>
         <source>Commit to version control</source>
         <translation>Änderungen in die Versionsverwaltung einspielen</translation>
     </message>
@@ -2722,19 +2707,13 @@ Das Laden von Dateien mit sehr langen Zeilen kann Meld Qt verlangsamen oder nich
 <context>
     <name>meld::StatusBar</name>
     <message>
-        <location filename="../src/ui/statusbar.cpp" line="+53"/>
-        <source>Display</source>
-        <extracomment>This is the status bar label for a group of settings, such as text wrapping, show line numbers, whitespace, etc.</extracomment>
-        <translation>Darstellung</translation>
-    </message>
-    <message>
-        <location line="+54"/>
+        <location filename="../src/ui/statusbar.cpp" line="+100"/>
         <source>Line you want to move the cursor to</source>
         <translation>Zeile, zu der der Zeiger bewegt werden soll</translation>
     </message>
     <message>
         <location line="+28"/>
-        <location line="+20"/>
+        <location line="+12"/>
         <source>Ln %1, Col %2</source>
         <translation>Z. %1, Sp. %2</translation>
     </message>
@@ -3515,7 +3494,7 @@ Fehler: %2</translation>
         <translation>Bereitgestellt</translation>
     </message>
     <message>
-        <location filename="../src/core/vc/svn.cpp" line="+193"/>
+        <location filename="../src/core/vc/svn.cpp" line="+195"/>
         <source>Rev %1</source>
         <translation>Rev %1</translation>
     </message>

@@ -27,7 +27,7 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../src/ui/dirdiff.cpp" line="+88"/>
+        <location filename="../src/ui/dirdiff.cpp" line="+91"/>
         <source>Couldn&apos;t create link %1</source>
         <translation>Không thể tạo liên kết %1</translation>
     </message>
@@ -437,7 +437,7 @@ Khi so sánh tập tin, có thể dùng đối số đặc biệt @blank thay ch
 <context>
     <name>meld::DirDiff</name>
     <message>
-        <location filename="../src/ui/dirdiff.cpp" line="+281"/>
+        <location filename="../src/ui/dirdiff.cpp" line="+327"/>
         <source>Select Folder</source>
         <translation>Chọn thư mục</translation>
     </message>
@@ -1368,14 +1368,14 @@ Việc tải tập tin có dòng rất dài có thể làm Meld Qt chậm hoặc
     <name>meld::MeldWindow</name>
     <message>
         <location filename="../src/ui/meldwindow.cpp" line="+151"/>
-        <location line="+485"/>
-        <location line="+5"/>
+        <location line="+502"/>
+        <location line="+6"/>
         <location line="+12"/>
         <source>Meld Qt</source>
         <translation>Meld Qt</translation>
     </message>
     <message>
-        <location line="-398"/>
+        <location line="-416"/>
         <source>Header bar</source>
         <translation>Thanh tiêu đề</translation>
     </message>
@@ -1401,12 +1401,12 @@ Việc tải tập tin có dòng rất dài có thể làm Meld Qt chậm hoặc
     </message>
     <message>
         <location line="+5"/>
-        <location line="+916"/>
+        <location line="+936"/>
         <source>Fullscreen</source>
         <translation>Toàn màn hình</translation>
     </message>
     <message>
-        <location line="-909"/>
+        <location line="-929"/>
         <source>Quit</source>
         <translation>Thoát</translation>
     </message>
@@ -1422,12 +1422,12 @@ Việc tải tập tin có dòng rất dài có thể làm Meld Qt chậm hoặc
     </message>
     <message>
         <location line="+1"/>
-        <location line="+989"/>
+        <location line="+1012"/>
         <source>Keyboard Shortcuts</source>
         <translation>Phím tắt</translation>
     </message>
     <message>
-        <location line="-985"/>
+        <location line="-1008"/>
         <source>Toggle Word Wrap</source>
         <translation>Bật/tắt ngắt dòng văn bản</translation>
     </message>
@@ -1548,35 +1548,35 @@ Việc tải tập tin có dòng rất dài có thể làm Meld Qt chậm hoặc
     </message>
     <message>
         <location line="+2"/>
-        <location line="+860"/>
-        <location line="+10"/>
+        <location line="+880"/>
+        <location line="+13"/>
         <source>Delete change</source>
         <translation>Xoá các thay đổi</translation>
     </message>
     <message>
-        <location line="-865"/>
+        <location line="-888"/>
         <source>Copy to Left</source>
         <translation>Chép sang trái</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+861"/>
+        <location line="+884"/>
         <source>Copy to left</source>
         <translation>Chép sang trái</translation>
     </message>
     <message>
-        <location line="-860"/>
+        <location line="-883"/>
         <source>Copy to Right</source>
         <translation>Chép sang phải</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+859"/>
+        <location line="+882"/>
         <source>Copy to right</source>
         <translation>Chép sang phải</translation>
     </message>
     <message>
-        <location line="-858"/>
+        <location line="-881"/>
         <source>Delete</source>
         <translation>Xóa</translation>
     </message>
@@ -1587,6 +1587,11 @@ Việc tải tập tin có dòng rất dài có thể làm Meld Qt chậm hoặc
     </message>
     <message>
         <location line="+14"/>
+        <source>Display</source>
+        <translation>Hiển thị</translation>
+    </message>
+    <message>
+        <location line="+9"/>
         <source>Text Filters</source>
         <translation>Bộ lọc chữ</translation>
     </message>
@@ -1717,7 +1722,7 @@ Việc tải tập tin có dòng rất dài có thể làm Meld Qt chậm hoặc
         <translation>Xóa các phép so sánh gần đây</translation>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="+34"/>
         <source>File Status</source>
         <translation>Trạng thái tập tin</translation>
     </message>
@@ -1727,8 +1732,8 @@ Việc tải tập tin có dòng rất dài có thể làm Meld Qt chậm hoặc
         <translation>Tên tập tin</translation>
     </message>
     <message>
-        <location line="+65"/>
-        <location line="+17"/>
+        <location line="+66"/>
+        <location line="+18"/>
         <source>%1 - Meld Qt</source>
         <translation>%1 - Meld Qt</translation>
     </message>
@@ -1806,12 +1811,12 @@ Việc tải tập tin có dòng rất dài có thể làm Meld Qt chậm hoặc
         <translation>Bản vá “%1” không tồn tại</translation>
     </message>
     <message>
-        <location line="+65"/>
-        <source>Windows and Tabs</source>
-        <translation>Cửa sổ và thẻ</translation>
+        <location line="+151"/>
+        <source>Version control</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="-82"/>
         <source>New comparison</source>
         <translation>Phép so sánh mới</translation>
     </message>
@@ -1826,12 +1831,12 @@ Việc tải tập tin có dòng rất dài có thể làm Meld Qt chậm hoặc
         <translation>Thoát Meld Qt</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="-4"/>
         <source>General</source>
         <translation>Chung</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+8"/>
         <source>Show preferences</source>
         <translation>Hiện tùy thích</translation>
     </message>
@@ -1851,12 +1856,7 @@ Việc tải tập tin có dòng rất dài có thể làm Meld Qt chậm hoặc
         <translation>Bật/tắt ngắt dòng văn bản</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Common Actions</source>
-        <translation>Thao tác chung</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+4"/>
         <source>Stop the current action</source>
         <translation>Dừng tác vụ hiện tại</translation>
     </message>
@@ -1871,12 +1871,7 @@ Việc tải tập tin có dòng rất dài có thể làm Meld Qt chậm hoặc
         <translation>Mở bên ngoài</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Panes</source>
-        <translation>Các khung</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+12"/>
         <source>Previous comparison pane</source>
         <translation>Khung so sánh trước</translation>
     </message>
@@ -1906,12 +1901,7 @@ Việc tải tập tin có dòng rất dài có thể làm Meld Qt chậm hoặc
         <translation>Đi đến thay đổi tiếp theo</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Tabs</source>
-        <translation>Thẻ</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="-15"/>
         <source>Go to previous tab</source>
         <translation>Đi đến thẻ trước</translation>
     </message>
@@ -1936,7 +1926,7 @@ Việc tải tập tin có dòng rất dài có thể làm Meld Qt chậm hoặc
         <translation>Chuyển thẻ sang phải</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+13"/>
         <source>Editing</source>
         <translation>Biên soạn</translation>
     </message>
@@ -2066,7 +2056,7 @@ Việc tải tập tin có dòng rất dài có thể làm Meld Qt chậm hoặc
         <translation>Hiện bản đồ tổng quan</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+4"/>
         <source>Zoom in</source>
         <translation>Phóng to</translation>
     </message>
@@ -2096,12 +2086,7 @@ Việc tải tập tin có dòng rất dài có thể làm Meld Qt chậm hoặc
         <translation>Thu gọn thư mục hiện tại</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Version control comparison</source>
-        <translation>So sánh quản lý phiên bản</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+4"/>
         <source>Commit to version control</source>
         <translation>Chuyển giao vào quản lý phiên bản</translation>
     </message>
@@ -2719,19 +2704,13 @@ Việc tải tập tin có dòng rất dài có thể làm Meld Qt chậm hoặc
 <context>
     <name>meld::StatusBar</name>
     <message>
-        <location filename="../src/ui/statusbar.cpp" line="+53"/>
-        <source>Display</source>
-        <extracomment>This is the status bar label for a group of settings, such as text wrapping, show line numbers, whitespace, etc.</extracomment>
-        <translation>Hiển thị</translation>
-    </message>
-    <message>
-        <location line="+54"/>
+        <location filename="../src/ui/statusbar.cpp" line="+100"/>
         <source>Line you want to move the cursor to</source>
         <translation>Dòng bạn muốn di chuyển con trỏ đến</translation>
     </message>
     <message>
         <location line="+28"/>
-        <location line="+20"/>
+        <location line="+12"/>
         <source>Ln %1, Col %2</source>
         <translation>Dòng %1, Cột %2</translation>
     </message>
@@ -3508,7 +3487,7 @@ Lỗi: %2</translation>
         <translation>Trong vùng chờ</translation>
     </message>
     <message>
-        <location filename="../src/core/vc/svn.cpp" line="+193"/>
+        <location filename="../src/core/vc/svn.cpp" line="+195"/>
         <source>Rev %1</source>
         <translation>Bản sửa đổi %1</translation>
     </message>

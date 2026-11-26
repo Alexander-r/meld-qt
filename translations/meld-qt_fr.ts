@@ -27,7 +27,7 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../src/ui/dirdiff.cpp" line="+88"/>
+        <location filename="../src/ui/dirdiff.cpp" line="+91"/>
         <source>Couldn&apos;t create link %1</source>
         <translation>Impossible de créer le lien %1</translation>
     </message>
@@ -438,7 +438,7 @@ d’un argument &lt;fichier&gt; pour créer un panneau vide.</translation>
 <context>
     <name>meld::DirDiff</name>
     <message>
-        <location filename="../src/ui/dirdiff.cpp" line="+281"/>
+        <location filename="../src/ui/dirdiff.cpp" line="+327"/>
         <source>Select Folder</source>
         <translation>Sélectionner le dossier</translation>
     </message>
@@ -1370,14 +1370,14 @@ Le chargement de fichiers contenant de très longues lignes peut rendre Meld Qt 
     <name>meld::MeldWindow</name>
     <message>
         <location filename="../src/ui/meldwindow.cpp" line="+151"/>
-        <location line="+485"/>
-        <location line="+5"/>
+        <location line="+502"/>
+        <location line="+6"/>
         <location line="+12"/>
         <source>Meld Qt</source>
         <translation>Meld Qt</translation>
     </message>
     <message>
-        <location line="-398"/>
+        <location line="-416"/>
         <source>Header bar</source>
         <translation>Barre d’en-tête</translation>
     </message>
@@ -1403,12 +1403,12 @@ Le chargement de fichiers contenant de très longues lignes peut rendre Meld Qt 
     </message>
     <message>
         <location line="+5"/>
-        <location line="+916"/>
+        <location line="+936"/>
         <source>Fullscreen</source>
         <translation>Plein écran</translation>
     </message>
     <message>
-        <location line="-909"/>
+        <location line="-929"/>
         <source>Quit</source>
         <translation>Quitter</translation>
     </message>
@@ -1424,12 +1424,12 @@ Le chargement de fichiers contenant de très longues lignes peut rendre Meld Qt 
     </message>
     <message>
         <location line="+1"/>
-        <location line="+989"/>
+        <location line="+1012"/>
         <source>Keyboard Shortcuts</source>
         <translation>Raccourcis clavier</translation>
     </message>
     <message>
-        <location line="-985"/>
+        <location line="-1008"/>
         <source>Toggle Word Wrap</source>
         <translation>Activer/désactiver le retour à la ligne</translation>
     </message>
@@ -1550,35 +1550,35 @@ Le chargement de fichiers contenant de très longues lignes peut rendre Meld Qt 
     </message>
     <message>
         <location line="+2"/>
-        <location line="+860"/>
-        <location line="+10"/>
+        <location line="+880"/>
+        <location line="+13"/>
         <source>Delete change</source>
         <translation>Supprimer la modification</translation>
     </message>
     <message>
-        <location line="-865"/>
+        <location line="-888"/>
         <source>Copy to Left</source>
         <translation>Copie vers la gauche</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+861"/>
+        <location line="+884"/>
         <source>Copy to left</source>
         <translation>Copie vers la gauche</translation>
     </message>
     <message>
-        <location line="-860"/>
+        <location line="-883"/>
         <source>Copy to Right</source>
         <translation>Copie vers la droite</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+859"/>
+        <location line="+882"/>
         <source>Copy to right</source>
         <translation>Copie vers la droite</translation>
     </message>
     <message>
-        <location line="-858"/>
+        <location line="-881"/>
         <source>Delete</source>
         <translation>Supprimer</translation>
     </message>
@@ -1589,6 +1589,11 @@ Le chargement de fichiers contenant de très longues lignes peut rendre Meld Qt 
     </message>
     <message>
         <location line="+14"/>
+        <source>Display</source>
+        <translation>Affichage</translation>
+    </message>
+    <message>
+        <location line="+9"/>
         <source>Text Filters</source>
         <translation>Filtres textuels</translation>
     </message>
@@ -1719,7 +1724,7 @@ Le chargement de fichiers contenant de très longues lignes peut rendre Meld Qt 
         <translation>Effacer les comparaisons récentes</translation>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="+34"/>
         <source>File Status</source>
         <translation>État du fichier</translation>
     </message>
@@ -1729,8 +1734,8 @@ Le chargement de fichiers contenant de très longues lignes peut rendre Meld Qt 
         <translation>Nom de fichier</translation>
     </message>
     <message>
-        <location line="+65"/>
-        <location line="+17"/>
+        <location line="+66"/>
+        <location line="+18"/>
         <source>%1 - Meld Qt</source>
         <translation>%1 - Meld Qt</translation>
     </message>
@@ -1808,12 +1813,12 @@ Le chargement de fichiers contenant de très longues lignes peut rendre Meld Qt 
         <translation>Le correctif « %1 » n’existe pas</translation>
     </message>
     <message>
-        <location line="+65"/>
-        <source>Windows and Tabs</source>
-        <translation>Fenêtres et onglets</translation>
+        <location line="+151"/>
+        <source>Version control</source>
+        <translation>Gestionnaire de versions</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="-82"/>
         <source>New comparison</source>
         <translation>Nouvelle comparaison</translation>
     </message>
@@ -1828,12 +1833,12 @@ Le chargement de fichiers contenant de très longues lignes peut rendre Meld Qt 
         <translation>Quitter Meld Qt</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="-4"/>
         <source>General</source>
         <translation>Général</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+8"/>
         <source>Show preferences</source>
         <translation>Afficher les préférences</translation>
     </message>
@@ -1853,12 +1858,7 @@ Le chargement de fichiers contenant de très longues lignes peut rendre Meld Qt 
         <translation>Activer/désactiver le retour à la ligne</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Common Actions</source>
-        <translation>Actions courantes</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+4"/>
         <source>Stop the current action</source>
         <translation>Arrêter l’action en cours</translation>
     </message>
@@ -1873,12 +1873,7 @@ Le chargement de fichiers contenant de très longues lignes peut rendre Meld Qt 
         <translation>Ouvrir avec</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Panes</source>
-        <translation>Panneaux</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+12"/>
         <source>Previous comparison pane</source>
         <translation>Panneau de comparaison précédent</translation>
     </message>
@@ -1908,12 +1903,7 @@ Le chargement de fichiers contenant de très longues lignes peut rendre Meld Qt 
         <translation>Aller à la différence suivante</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Tabs</source>
-        <translation>Onglets</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="-15"/>
         <source>Go to previous tab</source>
         <translation>Aller à l’onglet précédent</translation>
     </message>
@@ -1938,7 +1928,7 @@ Le chargement de fichiers contenant de très longues lignes peut rendre Meld Qt 
         <translation>Déplacer l’onglet vers la droite</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+13"/>
         <source>Editing</source>
         <translation>Édition</translation>
     </message>
@@ -2068,7 +2058,7 @@ Le chargement de fichiers contenant de très longues lignes peut rendre Meld Qt 
         <translation>Afficher la vue d’ensemble</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+4"/>
         <source>Zoom in</source>
         <translation>Zoom avant</translation>
     </message>
@@ -2098,12 +2088,7 @@ Le chargement de fichiers contenant de très longues lignes peut rendre Meld Qt 
         <translation>Réduire le dossier actuel</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Version control comparison</source>
-        <translation>Comparaison de gestion de versions</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+4"/>
         <source>Commit to version control</source>
         <translation>Effectuer le commit dans la gestion de versions</translation>
     </message>
@@ -2721,19 +2706,13 @@ Le chargement de fichiers contenant de très longues lignes peut rendre Meld Qt 
 <context>
     <name>meld::StatusBar</name>
     <message>
-        <location filename="../src/ui/statusbar.cpp" line="+53"/>
-        <source>Display</source>
-        <extracomment>This is the status bar label for a group of settings, such as text wrapping, show line numbers, whitespace, etc.</extracomment>
-        <translation>Affichage</translation>
-    </message>
-    <message>
-        <location line="+54"/>
+        <location filename="../src/ui/statusbar.cpp" line="+100"/>
         <source>Line you want to move the cursor to</source>
         <translation>Ligne vers laquelle vous souhaitez déplacer le curseur</translation>
     </message>
     <message>
         <location line="+28"/>
-        <location line="+20"/>
+        <location line="+12"/>
         <source>Ln %1, Col %2</source>
         <translation>Lig %1, col %2</translation>
     </message>
@@ -3514,7 +3493,7 @@ Erreur : %2</translation>
         <translation>Indexé</translation>
     </message>
     <message>
-        <location filename="../src/core/vc/svn.cpp" line="+193"/>
+        <location filename="../src/core/vc/svn.cpp" line="+195"/>
         <source>Rev %1</source>
         <translation>Rév %1</translation>
     </message>

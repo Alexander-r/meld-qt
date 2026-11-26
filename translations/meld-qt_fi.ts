@@ -27,7 +27,7 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../src/ui/dirdiff.cpp" line="+88"/>
+        <location filename="../src/ui/dirdiff.cpp" line="+91"/>
         <source>Couldn&apos;t create link %1</source>
         <translation>Linkkiä %1 ei voitu luoda</translation>
     </message>
@@ -438,7 +438,7 @@ sijaan tyhjän paneelin luomiseksi.</translation>
 <context>
     <name>meld::DirDiff</name>
     <message>
-        <location filename="../src/ui/dirdiff.cpp" line="+281"/>
+        <location filename="../src/ui/dirdiff.cpp" line="+327"/>
         <source>Select Folder</source>
         <translation>Valitse kansio</translation>
     </message>
@@ -1371,14 +1371,14 @@ Erittäin pitkiä rivejä sisältävien tiedostojen lataaminen voi tehdä Meld Q
     <name>meld::MeldWindow</name>
     <message>
         <location filename="../src/ui/meldwindow.cpp" line="+151"/>
-        <location line="+485"/>
-        <location line="+5"/>
+        <location line="+502"/>
+        <location line="+6"/>
         <location line="+12"/>
         <source>Meld Qt</source>
         <translation>Meld Qt</translation>
     </message>
     <message>
-        <location line="-398"/>
+        <location line="-416"/>
         <source>Header bar</source>
         <translation>Otsikkopalkki</translation>
     </message>
@@ -1404,12 +1404,12 @@ Erittäin pitkiä rivejä sisältävien tiedostojen lataaminen voi tehdä Meld Q
     </message>
     <message>
         <location line="+5"/>
-        <location line="+916"/>
+        <location line="+936"/>
         <source>Fullscreen</source>
         <translation>Koko näyttö</translation>
     </message>
     <message>
-        <location line="-909"/>
+        <location line="-929"/>
         <source>Quit</source>
         <translation>Lopeta</translation>
     </message>
@@ -1425,12 +1425,12 @@ Erittäin pitkiä rivejä sisältävien tiedostojen lataaminen voi tehdä Meld Q
     </message>
     <message>
         <location line="+1"/>
-        <location line="+989"/>
+        <location line="+1012"/>
         <source>Keyboard Shortcuts</source>
         <translation>Pikanäppäimet</translation>
     </message>
     <message>
-        <location line="-985"/>
+        <location line="-1008"/>
         <source>Toggle Word Wrap</source>
         <translation>Tekstin rivitys päälle/pois</translation>
     </message>
@@ -1551,35 +1551,35 @@ Erittäin pitkiä rivejä sisältävien tiedostojen lataaminen voi tehdä Meld Q
     </message>
     <message>
         <location line="+2"/>
-        <location line="+860"/>
-        <location line="+10"/>
+        <location line="+880"/>
+        <location line="+13"/>
         <source>Delete change</source>
         <translation>Poista muutos</translation>
     </message>
     <message>
-        <location line="-865"/>
+        <location line="-888"/>
         <source>Copy to Left</source>
         <translation>Kopioi vasemmalle</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+861"/>
+        <location line="+884"/>
         <source>Copy to left</source>
         <translation>Kopioi vasemmalle</translation>
     </message>
     <message>
-        <location line="-860"/>
+        <location line="-883"/>
         <source>Copy to Right</source>
         <translation>Kopioi oikealle</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+859"/>
+        <location line="+882"/>
         <source>Copy to right</source>
         <translation>Kopioi oikealle</translation>
     </message>
     <message>
-        <location line="-858"/>
+        <location line="-881"/>
         <source>Delete</source>
         <translation>Poista</translation>
     </message>
@@ -1590,6 +1590,11 @@ Erittäin pitkiä rivejä sisältävien tiedostojen lataaminen voi tehdä Meld Q
     </message>
     <message>
         <location line="+14"/>
+        <source>Display</source>
+        <translation>Näytä</translation>
+    </message>
+    <message>
+        <location line="+9"/>
         <source>Text Filters</source>
         <translation>Tekstisuodattimet</translation>
     </message>
@@ -1720,7 +1725,7 @@ Erittäin pitkiä rivejä sisältävien tiedostojen lataaminen voi tehdä Meld Q
         <translation>Tyhjennä viimeisimmät vertailut</translation>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="+34"/>
         <source>File Status</source>
         <translation>Tiedoston tila</translation>
     </message>
@@ -1730,8 +1735,8 @@ Erittäin pitkiä rivejä sisältävien tiedostojen lataaminen voi tehdä Meld Q
         <translation>Tiedostonimi</translation>
     </message>
     <message>
-        <location line="+65"/>
-        <location line="+17"/>
+        <location line="+66"/>
+        <location line="+18"/>
         <source>%1 - Meld Qt</source>
         <translation>%1 - Meld Qt</translation>
     </message>
@@ -1809,12 +1814,12 @@ Erittäin pitkiä rivejä sisältävien tiedostojen lataaminen voi tehdä Meld Q
         <translation>Paikkatiedostoa ”%1” ei ole olemassa</translation>
     </message>
     <message>
-        <location line="+65"/>
-        <source>Windows and Tabs</source>
-        <translation>Ikkunat ja välilehdet</translation>
+        <location line="+151"/>
+        <source>Version control</source>
+        <translation>Versionhallinta</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="-82"/>
         <source>New comparison</source>
         <translation>Uusi vertailu</translation>
     </message>
@@ -1829,12 +1834,12 @@ Erittäin pitkiä rivejä sisältävien tiedostojen lataaminen voi tehdä Meld Q
         <translation>Lopeta Meld Qt</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="-4"/>
         <source>General</source>
         <translation>Yleiset</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+8"/>
         <source>Show preferences</source>
         <translation>Näytä asetukset</translation>
     </message>
@@ -1854,12 +1859,7 @@ Erittäin pitkiä rivejä sisältävien tiedostojen lataaminen voi tehdä Meld Q
         <translation>Tekstin rivitys päälle/pois</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Common Actions</source>
-        <translation>Yleiset toiminnot</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+4"/>
         <source>Stop the current action</source>
         <translation>Pysäytä nykyinen toiminto</translation>
     </message>
@@ -1874,12 +1874,7 @@ Erittäin pitkiä rivejä sisältävien tiedostojen lataaminen voi tehdä Meld Q
         <translation>Avaa ulkoisesti</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Panes</source>
-        <translation>Paneelit</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+12"/>
         <source>Previous comparison pane</source>
         <translation>Edellinen vertailupaneeli</translation>
     </message>
@@ -1909,12 +1904,7 @@ Erittäin pitkiä rivejä sisältävien tiedostojen lataaminen voi tehdä Meld Q
         <translation>Siirry seuraavaan muutokseen</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Tabs</source>
-        <translation>Välilehdet</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="-15"/>
         <source>Go to previous tab</source>
         <translation>Siirry edelliseen välilehteen</translation>
     </message>
@@ -1939,7 +1929,7 @@ Erittäin pitkiä rivejä sisältävien tiedostojen lataaminen voi tehdä Meld Q
         <translation>Siirrä välilehti oikealle</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+13"/>
         <source>Editing</source>
         <translation>Muokkaaminen</translation>
     </message>
@@ -2069,7 +2059,7 @@ Erittäin pitkiä rivejä sisältävien tiedostojen lataaminen voi tehdä Meld Q
         <translation>Näytä yleisnäkymäkartta</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+4"/>
         <source>Zoom in</source>
         <translation>Lähennä</translation>
     </message>
@@ -2099,12 +2089,7 @@ Erittäin pitkiä rivejä sisältävien tiedostojen lataaminen voi tehdä Meld Q
         <translation>Supista nykyinen kansio</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Version control comparison</source>
-        <translation>Versionhallinnan vertailu</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+4"/>
         <source>Commit to version control</source>
         <translation>Tee commit muutoksista versionhallintaan</translation>
     </message>
@@ -2722,19 +2707,13 @@ Erittäin pitkiä rivejä sisältävien tiedostojen lataaminen voi tehdä Meld Q
 <context>
     <name>meld::StatusBar</name>
     <message>
-        <location filename="../src/ui/statusbar.cpp" line="+53"/>
-        <source>Display</source>
-        <extracomment>This is the status bar label for a group of settings, such as text wrapping, show line numbers, whitespace, etc.</extracomment>
-        <translation>Näytä</translation>
-    </message>
-    <message>
-        <location line="+54"/>
+        <location filename="../src/ui/statusbar.cpp" line="+100"/>
         <source>Line you want to move the cursor to</source>
         <translation>Rivi, jolle haluat siirtää kursorin</translation>
     </message>
     <message>
         <location line="+28"/>
-        <location line="+20"/>
+        <location line="+12"/>
         <source>Ln %1, Col %2</source>
         <translation>Rv %1, Sar %2</translation>
     </message>
@@ -3515,7 +3494,7 @@ Virhe: %2</translation>
         <translation>Valmisteltu</translation>
     </message>
     <message>
-        <location filename="../src/core/vc/svn.cpp" line="+193"/>
+        <location filename="../src/core/vc/svn.cpp" line="+195"/>
         <source>Rev %1</source>
         <translation>Versio %1</translation>
     </message>

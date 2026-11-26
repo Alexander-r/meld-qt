@@ -27,7 +27,7 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../src/ui/dirdiff.cpp" line="+88"/>
+        <location filename="../src/ui/dirdiff.cpp" line="+91"/>
         <source>Couldn&apos;t create link %1</source>
         <translation>No s&apos;ha pogut crear l&apos;enllaç %1</translation>
     </message>
@@ -438,7 +438,7 @@ d&apos;un argument &lt;fitxer&gt; per a crear una subfinestra buida.</translatio
 <context>
     <name>meld::DirDiff</name>
     <message>
-        <location filename="../src/ui/dirdiff.cpp" line="+281"/>
+        <location filename="../src/ui/dirdiff.cpp" line="+327"/>
         <source>Select Folder</source>
         <translation>Seleccioneu una carpeta</translation>
     </message>
@@ -1371,14 +1371,14 @@ Carregar fitxers amb línies molt llargues pot fer que el Meld Qt vagi lent o de
     <name>meld::MeldWindow</name>
     <message>
         <location filename="../src/ui/meldwindow.cpp" line="+151"/>
-        <location line="+485"/>
-        <location line="+5"/>
+        <location line="+502"/>
+        <location line="+6"/>
         <location line="+12"/>
         <source>Meld Qt</source>
         <translation>Meld Qt</translation>
     </message>
     <message>
-        <location line="-398"/>
+        <location line="-416"/>
         <source>Header bar</source>
         <translation>Barra de capçalera</translation>
     </message>
@@ -1404,12 +1404,12 @@ Carregar fitxers amb línies molt llargues pot fer que el Meld Qt vagi lent o de
     </message>
     <message>
         <location line="+5"/>
-        <location line="+916"/>
+        <location line="+936"/>
         <source>Fullscreen</source>
         <translation>Pantalla completa</translation>
     </message>
     <message>
-        <location line="-909"/>
+        <location line="-929"/>
         <source>Quit</source>
         <translation>Surt</translation>
     </message>
@@ -1425,12 +1425,12 @@ Carregar fitxers amb línies molt llargues pot fer que el Meld Qt vagi lent o de
     </message>
     <message>
         <location line="+1"/>
-        <location line="+989"/>
+        <location line="+1012"/>
         <source>Keyboard Shortcuts</source>
         <translation>Dreceres de teclat</translation>
     </message>
     <message>
-        <location line="-985"/>
+        <location line="-1008"/>
         <source>Toggle Word Wrap</source>
         <translation>Commuta l&apos;ajustament del text</translation>
     </message>
@@ -1551,35 +1551,35 @@ Carregar fitxers amb línies molt llargues pot fer que el Meld Qt vagi lent o de
     </message>
     <message>
         <location line="+2"/>
-        <location line="+860"/>
-        <location line="+10"/>
+        <location line="+880"/>
+        <location line="+13"/>
         <source>Delete change</source>
         <translation>Elimina el canvi</translation>
     </message>
     <message>
-        <location line="-865"/>
+        <location line="-888"/>
         <source>Copy to Left</source>
         <translation>Copia a l&apos;esquerra</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+861"/>
+        <location line="+884"/>
         <source>Copy to left</source>
         <translation>Copia a l&apos;esquerra</translation>
     </message>
     <message>
-        <location line="-860"/>
+        <location line="-883"/>
         <source>Copy to Right</source>
         <translation>Copia a la dreta</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+859"/>
+        <location line="+882"/>
         <source>Copy to right</source>
         <translation>Copia a la dreta</translation>
     </message>
     <message>
-        <location line="-858"/>
+        <location line="-881"/>
         <source>Delete</source>
         <translation>Elimina</translation>
     </message>
@@ -1590,6 +1590,11 @@ Carregar fitxers amb línies molt llargues pot fer que el Meld Qt vagi lent o de
     </message>
     <message>
         <location line="+14"/>
+        <source>Display</source>
+        <translation>Visualització</translation>
+    </message>
+    <message>
+        <location line="+9"/>
         <source>Text Filters</source>
         <translation>Filtres de text</translation>
     </message>
@@ -1720,7 +1725,7 @@ Carregar fitxers amb línies molt llargues pot fer que el Meld Qt vagi lent o de
         <translation>Neteja les comparacions recents</translation>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="+34"/>
         <source>File Status</source>
         <translation>Estat del fitxer</translation>
     </message>
@@ -1730,8 +1735,8 @@ Carregar fitxers amb línies molt llargues pot fer que el Meld Qt vagi lent o de
         <translation>Nom del fitxer</translation>
     </message>
     <message>
-        <location line="+65"/>
-        <location line="+17"/>
+        <location line="+66"/>
+        <location line="+18"/>
         <source>%1 - Meld Qt</source>
         <translation>%1 - Meld Qt</translation>
     </message>
@@ -1809,12 +1814,12 @@ Carregar fitxers amb línies molt llargues pot fer que el Meld Qt vagi lent o de
         <translation>El pedaç «%1» no existeix</translation>
     </message>
     <message>
-        <location line="+65"/>
-        <source>Windows and Tabs</source>
-        <translation>Finestres i pestanyes</translation>
+        <location line="+151"/>
+        <source>Version control</source>
+        <translation>Control de versions</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="-82"/>
         <source>New comparison</source>
         <translation>Comparació nova</translation>
     </message>
@@ -1829,12 +1834,12 @@ Carregar fitxers amb línies molt llargues pot fer que el Meld Qt vagi lent o de
         <translation>Surt del Meld Qt</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="-4"/>
         <source>General</source>
         <translation>General</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+8"/>
         <source>Show preferences</source>
         <translation>Mostra les preferències</translation>
     </message>
@@ -1854,12 +1859,7 @@ Carregar fitxers amb línies molt llargues pot fer que el Meld Qt vagi lent o de
         <translation>Commuta l&apos;ajustament del text</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Common Actions</source>
-        <translation>Accions comunes</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+4"/>
         <source>Stop the current action</source>
         <translation>Atura l&apos;acció actual</translation>
     </message>
@@ -1874,12 +1874,7 @@ Carregar fitxers amb línies molt llargues pot fer que el Meld Qt vagi lent o de
         <translation>Obre externament</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Panes</source>
-        <translation>Subfinestres</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+12"/>
         <source>Previous comparison pane</source>
         <translation>Subfinestra de comparació anterior</translation>
     </message>
@@ -1909,12 +1904,7 @@ Carregar fitxers amb línies molt llargues pot fer que el Meld Qt vagi lent o de
         <translation>Ves al canvi següent</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Tabs</source>
-        <translation>Pestanyes</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="-15"/>
         <source>Go to previous tab</source>
         <translation>Ves a la pestanya anterior</translation>
     </message>
@@ -1939,7 +1929,7 @@ Carregar fitxers amb línies molt llargues pot fer que el Meld Qt vagi lent o de
         <translation>Mou la pestanya a la dreta</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+13"/>
         <source>Editing</source>
         <translation>Edició</translation>
     </message>
@@ -2069,7 +2059,7 @@ Carregar fitxers amb línies molt llargues pot fer que el Meld Qt vagi lent o de
         <translation>Mostra el mapa general</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+4"/>
         <source>Zoom in</source>
         <translation>Amplia</translation>
     </message>
@@ -2099,12 +2089,7 @@ Carregar fitxers amb línies molt llargues pot fer que el Meld Qt vagi lent o de
         <translation>Replega la carpeta actual</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Version control comparison</source>
-        <translation>Comparació de control de versions</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+4"/>
         <source>Commit to version control</source>
         <translation>Publica al control de versions</translation>
     </message>
@@ -2722,19 +2707,13 @@ Carregar fitxers amb línies molt llargues pot fer que el Meld Qt vagi lent o de
 <context>
     <name>meld::StatusBar</name>
     <message>
-        <location filename="../src/ui/statusbar.cpp" line="+53"/>
-        <source>Display</source>
-        <extracomment>This is the status bar label for a group of settings, such as text wrapping, show line numbers, whitespace, etc.</extracomment>
-        <translation>Visualització</translation>
-    </message>
-    <message>
-        <location line="+54"/>
+        <location filename="../src/ui/statusbar.cpp" line="+100"/>
         <source>Line you want to move the cursor to</source>
         <translation>Línia a la qual voleu moure el cursor</translation>
     </message>
     <message>
         <location line="+28"/>
-        <location line="+20"/>
+        <location line="+12"/>
         <source>Ln %1, Col %2</source>
         <translation>Ln %1, Col %2</translation>
     </message>
@@ -3515,7 +3494,7 @@ Error: %2</translation>
         <translation>Staged</translation>
     </message>
     <message>
-        <location filename="../src/core/vc/svn.cpp" line="+193"/>
+        <location filename="../src/core/vc/svn.cpp" line="+195"/>
         <source>Rev %1</source>
         <translation>Rev %1</translation>
     </message>

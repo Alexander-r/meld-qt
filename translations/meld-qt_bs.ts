@@ -27,7 +27,7 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../src/ui/dirdiff.cpp" line="+88"/>
+        <location filename="../src/ui/dirdiff.cpp" line="+91"/>
         <source>Couldn&apos;t create link %1</source>
         <translation>Nije moguće kreirati vezu %1</translation>
     </message>
@@ -439,7 +439,7 @@ argument @blank koji kreira prazan panel.</translation>
 <context>
     <name>meld::DirDiff</name>
     <message>
-        <location filename="../src/ui/dirdiff.cpp" line="+281"/>
+        <location filename="../src/ui/dirdiff.cpp" line="+327"/>
         <source>Select Folder</source>
         <translation>Odaberi direktorij</translation>
     </message>
@@ -1374,14 +1374,14 @@ Učitavanje datoteka s veoma dugim redovima može usporiti Meld Qt ili ga učini
     <name>meld::MeldWindow</name>
     <message>
         <location filename="../src/ui/meldwindow.cpp" line="+151"/>
-        <location line="+485"/>
-        <location line="+5"/>
+        <location line="+502"/>
+        <location line="+6"/>
         <location line="+12"/>
         <source>Meld Qt</source>
         <translation>Meld Qt</translation>
     </message>
     <message>
-        <location line="-398"/>
+        <location line="-416"/>
         <source>Header bar</source>
         <translation>Traka zaglavlja</translation>
     </message>
@@ -1407,12 +1407,12 @@ Učitavanje datoteka s veoma dugim redovima može usporiti Meld Qt ili ga učini
     </message>
     <message>
         <location line="+5"/>
-        <location line="+916"/>
+        <location line="+936"/>
         <source>Fullscreen</source>
         <translation>Preko cijelog ekrana</translation>
     </message>
     <message>
-        <location line="-909"/>
+        <location line="-929"/>
         <source>Quit</source>
         <translation>Odustani</translation>
     </message>
@@ -1428,12 +1428,12 @@ Učitavanje datoteka s veoma dugim redovima može usporiti Meld Qt ili ga učini
     </message>
     <message>
         <location line="+1"/>
-        <location line="+989"/>
+        <location line="+1012"/>
         <source>Keyboard Shortcuts</source>
         <translation>Prečice tastature</translation>
     </message>
     <message>
-        <location line="-985"/>
+        <location line="-1008"/>
         <source>Toggle Word Wrap</source>
         <translation>Uključi/isključi prelamanje teksta</translation>
     </message>
@@ -1554,35 +1554,35 @@ Učitavanje datoteka s veoma dugim redovima može usporiti Meld Qt ili ga učini
     </message>
     <message>
         <location line="+2"/>
-        <location line="+860"/>
-        <location line="+10"/>
+        <location line="+880"/>
+        <location line="+13"/>
         <source>Delete change</source>
         <translation>Izbriši promjenu</translation>
     </message>
     <message>
-        <location line="-865"/>
+        <location line="-888"/>
         <source>Copy to Left</source>
         <translation>Kopiraj_ na desno</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+861"/>
+        <location line="+884"/>
         <source>Copy to left</source>
         <translation>Kopiraj u lijevo</translation>
     </message>
     <message>
-        <location line="-860"/>
+        <location line="-883"/>
         <source>Copy to Right</source>
         <translation>Kopiraj_ na lijevo</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+859"/>
+        <location line="+882"/>
         <source>Copy to right</source>
         <translation>Kopiraj u desno</translation>
     </message>
     <message>
-        <location line="-858"/>
+        <location line="-881"/>
         <source>Delete</source>
         <translation>Izbriši</translation>
     </message>
@@ -1593,6 +1593,11 @@ Učitavanje datoteka s veoma dugim redovima može usporiti Meld Qt ili ga učini
     </message>
     <message>
         <location line="+14"/>
+        <source>Display</source>
+        <translation>Zaslon</translation>
+    </message>
+    <message>
+        <location line="+9"/>
         <source>Text Filters</source>
         <translation>Tekstovni filteri</translation>
     </message>
@@ -1723,7 +1728,7 @@ Učitavanje datoteka s veoma dugim redovima može usporiti Meld Qt ili ga učini
         <translation>Očisti nedavne usporedbe</translation>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="+34"/>
         <source>File Status</source>
         <translation>Status Datoteke</translation>
     </message>
@@ -1733,8 +1738,8 @@ Učitavanje datoteka s veoma dugim redovima može usporiti Meld Qt ili ga učini
         <translation>Ime datoteke</translation>
     </message>
     <message>
-        <location line="+65"/>
-        <location line="+17"/>
+        <location line="+66"/>
+        <location line="+18"/>
         <source>%1 - Meld Qt</source>
         <translation>%1 - Meld Qt</translation>
     </message>
@@ -1812,12 +1817,12 @@ Učitavanje datoteka s veoma dugim redovima može usporiti Meld Qt ili ga učini
         <translation>Zakrpa „%1“ ne postoji</translation>
     </message>
     <message>
-        <location line="+65"/>
-        <source>Windows and Tabs</source>
-        <translation>Prozori i kartice</translation>
+        <location line="+151"/>
+        <source>Version control</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="-82"/>
         <source>New comparison</source>
         <translation>Nova usporedba</translation>
     </message>
@@ -1832,12 +1837,12 @@ Učitavanje datoteka s veoma dugim redovima može usporiti Meld Qt ili ga učini
         <translation>Izađi iz programa Meld Qt</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="-4"/>
         <source>General</source>
         <translation>Općenito</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+8"/>
         <source>Show preferences</source>
         <translation>Prikaži postavke</translation>
     </message>
@@ -1857,12 +1862,7 @@ Učitavanje datoteka s veoma dugim redovima može usporiti Meld Qt ili ga učini
         <translation>Uključi/isključi prelamanje teksta</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Common Actions</source>
-        <translation>Uobičajene radnje</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+4"/>
         <source>Stop the current action</source>
         <translation>Zaustavi trenutnu akciju</translation>
     </message>
@@ -1877,12 +1877,7 @@ Učitavanje datoteka s veoma dugim redovima može usporiti Meld Qt ili ga učini
         <translation>Otvori vanjskim programom</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Panes</source>
-        <translation>Paneli</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+12"/>
         <source>Previous comparison pane</source>
         <translation>Prethodni panel usporedbe</translation>
     </message>
@@ -1912,12 +1907,7 @@ Učitavanje datoteka s veoma dugim redovima može usporiti Meld Qt ili ga učini
         <translation>Idi na sljedeću promjenu</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Tabs</source>
-        <translation>Kartice</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="-15"/>
         <source>Go to previous tab</source>
         <translation>Idi na prethodnu karticu</translation>
     </message>
@@ -1942,7 +1932,7 @@ Učitavanje datoteka s veoma dugim redovima može usporiti Meld Qt ili ga učini
         <translation>Pomjeri karticu desno</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+13"/>
         <source>Editing</source>
         <translation>Uređivanje</translation>
     </message>
@@ -2072,7 +2062,7 @@ Učitavanje datoteka s veoma dugim redovima može usporiti Meld Qt ili ga učini
         <translation>Prikaži preglednu mapu</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+4"/>
         <source>Zoom in</source>
         <translation>Uvećaj</translation>
     </message>
@@ -2102,12 +2092,7 @@ Učitavanje datoteka s veoma dugim redovima može usporiti Meld Qt ili ga učini
         <translation>Skupi trenutni direktorij</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Version control comparison</source>
-        <translation>Usporedba kontrole verzija</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+4"/>
         <source>Commit to version control</source>
         <translation>Izvrši u kontroli verzija</translation>
     </message>
@@ -2725,19 +2710,13 @@ Učitavanje datoteka s veoma dugim redovima može usporiti Meld Qt ili ga učini
 <context>
     <name>meld::StatusBar</name>
     <message>
-        <location filename="../src/ui/statusbar.cpp" line="+53"/>
-        <source>Display</source>
-        <extracomment>This is the status bar label for a group of settings, such as text wrapping, show line numbers, whitespace, etc.</extracomment>
-        <translation>Zaslon</translation>
-    </message>
-    <message>
-        <location line="+54"/>
+        <location filename="../src/ui/statusbar.cpp" line="+100"/>
         <source>Line you want to move the cursor to</source>
         <translation>Red na koji želite pomjeriti kursor</translation>
     </message>
     <message>
         <location line="+28"/>
-        <location line="+20"/>
+        <location line="+12"/>
         <source>Ln %1, Col %2</source>
         <translation>Ln %1, Col %2</translation>
     </message>
@@ -3522,7 +3501,7 @@ Greška: %2</translation>
         <translation>Pripremljeno</translation>
     </message>
     <message>
-        <location filename="../src/core/vc/svn.cpp" line="+193"/>
+        <location filename="../src/core/vc/svn.cpp" line="+195"/>
         <source>Rev %1</source>
         <translation>Rev %1</translation>
     </message>

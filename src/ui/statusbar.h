@@ -4,7 +4,6 @@
 #include <QToolButton>
 #include <QWidget>
 
-class QAction;
 class QLineEdit;
 class QMenu;
 
@@ -31,8 +30,6 @@ class StatusBar : public QWidget {
 public:
     explicit StatusBar(QWidget *parent = nullptr);
 
-    //! Actions shown in the "Display" menu, shared by all panes
-    void setDisplayActions(const QList<QAction *> &actions);
     void setCursorPosition(int line, int column);
     void setEncoding(const QByteArray &encoding);
     //! The language shown in the highlighting selector; empty for plain text
@@ -49,7 +46,6 @@ Q_SIGNALS:
     void languageSelected(const QString &languageId);
 
 private:
-    StatusMenuButton *displayButton_;
     StatusMenuButton *encodingButton_;
     StatusMenuButton *languageButton_;
     StatusMenuButton *lineButton_;

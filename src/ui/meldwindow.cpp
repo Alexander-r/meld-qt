@@ -412,6 +412,15 @@ void MeldWindow::buildHeaderBar()
     spinner_ = new Spinner(headerBar_);
     headerBar_->addWidget(spinner_);
 
+    textDisplayMenu_ = new QMenu(this);
+    textDisplayButton_ = new QToolButton(headerBar_);
+    textDisplayButton_->setText(tr("Display"));
+    textDisplayButton_->setPopupMode(QToolButton::InstantPopup);
+    textDisplayButton_->setToolButtonStyle(Qt::ToolButtonTextOnly);
+    textDisplayButton_->setFocusPolicy(Qt::NoFocus);
+    textDisplayButton_->setMenu(textDisplayMenu_);
+    textDisplayButtonAction_ = headerBar_->addWidget(textDisplayButton_);
+
     textFilterMenu_ = new QMenu(this);
     textFilterButton_ = new QToolButton(headerBar_);
     textFilterButton_->setText(tr("Text Filters"));
@@ -542,6 +551,7 @@ void MeldWindow::rebuildRecentMenu()
 
 void MeldWindow::updateFilterMenus()
 {
+    textDisplayMenu_->clear();
     textFilterMenu_->clear();
     folderFilterMenu_->clear();
     vcFilterMenu_->clear();
@@ -554,6 +564,12 @@ void MeldWindow::updateFilterMenus()
             vcFilterMenu_->addAction(doc->action(QLatin1String(name)));
         vcFilterMenu_->addSeparator();
         vcFilterMenu_->addAction(doc->action(QStringLiteral("vc-flatten")));
+    }
+
+    // The text-display-menu of appwindow.ui
+    for (const char *name : {"show-line-numbers", "draw-spaces-bool", "highlight-current-line-local", "wrap-mode-bool"}) {
+        if (QAction *action = doc->action(QLatin1String(name)))
+            textDisplayMenu_->addAction(action);
     }
 
     for (const auto &[name, label] : doc->textFilterActions()) {
@@ -616,6 +632,7 @@ void MeldWindow::onCurrentTabChanged()
         action->setVisible(kind == ToolbarKind::DirDiff);
 
     const FilterVisibility filters = doc ? doc->filterVisibility() : FilterVisibility{};
+    textDisplayButtonAction_->setVisible(filters.text);
     textFilterButtonAction_->setVisible(filters.text);
     folderFilterButtonAction_->setVisible(filters.folder);
     vcFilterButtonAction_->setVisible(filters.vc);
@@ -635,6 +652,7 @@ void MeldWindow::onCurrentTabChanged()
         scheduler_.addTask(doc->scheduler().asTask());
         setWindowTitle(doc->tabTitle().isEmpty() ? tr("Meld Qt") : tr("%1 - Meld Qt").arg(doc->tabTitle()));
     } else {
+        textDisplayMenu_->clear();
         textFilterMenu_->clear();
         folderFilterMenu_->clear();
         vcFilterMenu_->clear();
@@ -1168,8 +1186,10 @@ MeldDoc *MeldWindow::singleFileOpen(const QString &path)
 
 void MeldWindow::showKeyboardShortcuts()
 {
-    // The sections of Meld's shortcuts window (help-overlay.ui); entries
-    // either name an action, whose shortcuts are shown, or give a shortcut
+    // The sections of Meld's shortcuts dialog (shortcuts-dialog.ui); entries
+    // either name an action, whose shortcuts are shown, or give a shortcut.
+    // A section without a title continues the one before it, as a group of
+    // its own.
     struct Entry {
         const char *title;
         const char *action;
@@ -1180,13 +1200,13 @@ void MeldWindow::showKeyboardShortcuts()
         std::vector<Entry> entries;
     };
     static const std::vector<Section> sections{
-        {QT_TR_NOOP("Windows and Tabs"),
+        {QT_TR_NOOP("General"),
          {
              {QT_TR_NOOP("New comparison"), "win.new-tab", nullptr},
              {QT_TR_NOOP("Close a comparison"), "win.close", nullptr},
              {QT_TR_NOOP("Quit Meld Qt"), "app.quit", nullptr},
          }},
-        {QT_TR_NOOP("General"),
+        {nullptr,
          {
              {QT_TR_NOOP("Show preferences"), "app.preferences", nullptr},
              {QT_TR_NOOP("Keyboard shortcuts"), "win.show-help-overlay", nullptr},
@@ -1194,13 +1214,21 @@ void MeldWindow::showKeyboardShortcuts()
              {QT_TR_NOOP("Fullscreen"), "win.fullscreen", nullptr},
              {QT_TR_NOOP("Toggle word wrap"), "win.toggle-word-wrap", nullptr},
          }},
-        {QT_TR_NOOP("Common Actions"),
+        {nullptr,
          {
              {QT_TR_NOOP("Stop the current action"), "win.stop", nullptr},
              {QT_TR_NOOP("Refresh comparison"), "view.refresh", nullptr},
              {QT_TR_NOOP("Open externally"), "view.open-external", nullptr},
          }},
-        {QT_TR_NOOP("Panes"),
+        {nullptr,
+         {
+             {QT_TR_NOOP("Go to previous tab"), "win.previous-tab", nullptr},
+             {QT_TR_NOOP("Go to next tab"), "win.next-tab", nullptr},
+             {QT_TR_NOOP("Switch to tab"), nullptr, "Alt+0...9"},
+             {QT_TR_NOOP("Move tab left"), "win.move-tab-left", nullptr},
+             {QT_TR_NOOP("Move tab right"), "win.move-tab-right", nullptr},
+         }},
+        {nullptr,
          {
              {QT_TR_NOOP("Previous comparison pane"), "view.previous-pane", nullptr},
              {QT_TR_NOOP("Next comparison pane"), "view.next-pane", nullptr},
@@ -1210,14 +1238,6 @@ void MeldWindow::showKeyboardShortcuts()
          {
              {QT_TR_NOOP("Go to previous change"), nullptr, "Alt+Up"},
              {QT_TR_NOOP("Go to next change"), nullptr, "Alt+Down"},
-         }},
-        {QT_TR_NOOP("Tabs"),
-         {
-             {QT_TR_NOOP("Go to previous tab"), "win.previous-tab", nullptr},
-             {QT_TR_NOOP("Go to next tab"), "win.next-tab", nullptr},
-             {QT_TR_NOOP("Switch to tab"), nullptr, "Alt+0...9"},
-             {QT_TR_NOOP("Move tab left"), "win.move-tab-left", nullptr},
-             {QT_TR_NOOP("Move tab right"), "win.move-tab-right", nullptr},
          }},
         {QT_TR_NOOP("Editing"),
          {
@@ -1249,6 +1269,9 @@ void MeldWindow::showKeyboardShortcuts()
              {QT_TR_NOOP("Copy change below right"), "view.file-copy-right-down", nullptr},
              {QT_TR_NOOP("Delete change"), nullptr, "Alt+Del"},
              {QT_TR_NOOP("Show overview map"), "view.show-overview-map", nullptr},
+         }},
+        {nullptr,
+         {
              {QT_TR_NOOP("Zoom in"), "view.zoom-in", nullptr},
              {QT_TR_NOOP("Zoom out"), "view.zoom-out", nullptr},
              {QT_TR_NOOP("Reset zoom"), "view.zoom-reset", nullptr},
@@ -1261,7 +1284,7 @@ void MeldWindow::showKeyboardShortcuts()
              {QT_TR_NOOP("Expand the current folder"), nullptr, "+"},
              {QT_TR_NOOP("Collapse the current folder"), nullptr, "-"},
          }},
-        {QT_TR_NOOP("Version control comparison"),
+        {QT_TR_NOOP("Version control"),
          {
              {QT_TR_NOOP("Commit to version control"), "view.vc-commit", nullptr},
              {QT_TR_NOOP("Show/hide console output"), "view.vc-console-visible", nullptr},
@@ -1288,10 +1311,19 @@ void MeldWindow::showKeyboardShortcuts()
     QFont sectionFont = tree->font();
     sectionFont.setBold(true);
 
+    QTreeWidgetItem *sectionItem = nullptr;
     for (const Section &section : sections) {
-        auto *sectionItem = new QTreeWidgetItem(tree, {tr(section.title)});
-        sectionItem->setFont(0, sectionFont);
-        sectionItem->setFirstColumnSpanned(true);
+        if (section.title || !sectionItem) {
+            sectionItem = new QTreeWidgetItem(tree, {section.title ? tr(section.title) : QString()});
+            sectionItem->setFont(0, sectionFont);
+            sectionItem->setFirstColumnSpanned(true);
+        } else {
+            // A gap between the groups of a section
+            auto *gap = new QTreeWidgetItem(sectionItem);
+            gap->setFlags(Qt::NoItemFlags);
+            gap->setFirstColumnSpanned(true);
+            gap->setSizeHint(0, QSize(0, tree->fontMetrics().height() / 2));
+        }
         for (const Entry &entry : section.entries) {
             QStringList keys;
             if (entry.action) {

@@ -239,7 +239,6 @@ private:
     QWidget *overviewToolbarSpacer_ = nullptr;
     QWidget *overviewStatusSpacer_ = nullptr;
     FindBar *findbar_ = nullptr;
-    QList<QAction *> viewLocalActions_;
 
     int keymask_ = 0;
     ActionMode actionMode_ = ActionMode::Replace;

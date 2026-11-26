@@ -76,6 +76,7 @@ struct DiffOptions {
 
 //! Which per-view filter menus the window should show
 struct FilterVisibility {
+    //! The text filter menu, and the text display menu with it
     bool text = false;
     bool folder = false;
     bool vc = false;

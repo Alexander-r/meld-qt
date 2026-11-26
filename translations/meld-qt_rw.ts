@@ -27,7 +27,7 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../src/ui/dirdiff.cpp" line="+88"/>
+        <location filename="../src/ui/dirdiff.cpp" line="+91"/>
         <source>Couldn&apos;t create link %1</source>
         <translation type="unfinished">Ntibyashobotse kurema ihuza %1</translation>
     </message>
@@ -438,7 +438,7 @@ w&apos;impaka &lt;dosiye&gt; kugira ngo hakorwe igice kirimo ubusa.</translation
 <context>
     <name>meld::DirDiff</name>
     <message>
-        <location filename="../src/ui/dirdiff.cpp" line="+281"/>
+        <location filename="../src/ui/dirdiff.cpp" line="+327"/>
         <source>Select Folder</source>
         <translation type="unfinished">Hitamo Ububiko</translation>
     </message>
@@ -1371,14 +1371,14 @@ Gufungura amadosiye afite imirongo miremire cyane bishobora gutuma Meld Qt itind
     <name>meld::MeldWindow</name>
     <message>
         <location filename="../src/ui/meldwindow.cpp" line="+151"/>
-        <location line="+485"/>
-        <location line="+5"/>
+        <location line="+502"/>
+        <location line="+6"/>
         <location line="+12"/>
         <source>Meld Qt</source>
         <translation type="unfinished">Meld Qt</translation>
     </message>
     <message>
-        <location line="-398"/>
+        <location line="-416"/>
         <source>Header bar</source>
         <translation type="unfinished">Umurongo w&apos;umutwe</translation>
     </message>
@@ -1404,12 +1404,12 @@ Gufungura amadosiye afite imirongo miremire cyane bishobora gutuma Meld Qt itind
     </message>
     <message>
         <location line="+5"/>
-        <location line="+916"/>
+        <location line="+936"/>
         <source>Fullscreen</source>
         <translation type="unfinished">Ecran Yuzuye</translation>
     </message>
     <message>
-        <location line="-909"/>
+        <location line="-929"/>
         <source>Quit</source>
         <translation type="unfinished">Kuvamo</translation>
     </message>
@@ -1425,12 +1425,12 @@ Gufungura amadosiye afite imirongo miremire cyane bishobora gutuma Meld Qt itind
     </message>
     <message>
         <location line="+1"/>
-        <location line="+989"/>
+        <location line="+1012"/>
         <source>Keyboard Shortcuts</source>
         <translation type="unfinished">Inzira z&apos;Ihina za Mwandikisho</translation>
     </message>
     <message>
-        <location line="-985"/>
+        <location line="-1008"/>
         <source>Toggle Word Wrap</source>
         <translation type="unfinished">Hindura Kuzinga Inyandiko</translation>
     </message>
@@ -1551,35 +1551,35 @@ Gufungura amadosiye afite imirongo miremire cyane bishobora gutuma Meld Qt itind
     </message>
     <message>
         <location line="+2"/>
-        <location line="+860"/>
-        <location line="+10"/>
+        <location line="+880"/>
+        <location line="+13"/>
         <source>Delete change</source>
         <translation type="unfinished">Siba impinduka</translation>
     </message>
     <message>
-        <location line="-865"/>
+        <location line="-888"/>
         <source>Copy to Left</source>
         <translation type="unfinished">Koporora i Bumoso</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+861"/>
+        <location line="+884"/>
         <source>Copy to left</source>
         <translation type="unfinished">Koporora i bumoso</translation>
     </message>
     <message>
-        <location line="-860"/>
+        <location line="-883"/>
         <source>Copy to Right</source>
         <translation type="unfinished">Koporora i Buryo</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+859"/>
+        <location line="+882"/>
         <source>Copy to right</source>
         <translation type="unfinished">Koporora i buryo</translation>
     </message>
     <message>
-        <location line="-858"/>
+        <location line="-881"/>
         <source>Delete</source>
         <translation type="unfinished">Gusiba</translation>
     </message>
@@ -1590,6 +1590,11 @@ Gufungura amadosiye afite imirongo miremire cyane bishobora gutuma Meld Qt itind
     </message>
     <message>
         <location line="+14"/>
+        <source>Display</source>
+        <translation>Kugaragaza</translation>
+    </message>
+    <message>
+        <location line="+9"/>
         <source>Text Filters</source>
         <translation>inyungururamagambo</translation>
     </message>
@@ -1720,7 +1725,7 @@ Gufungura amadosiye afite imirongo miremire cyane bishobora gutuma Meld Qt itind
         <translation type="unfinished">Siba Igereranya Riherutse</translation>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="+34"/>
         <source>File Status</source>
         <translation type="unfinished">Imimerere ya Dosiye</translation>
     </message>
@@ -1730,8 +1735,8 @@ Gufungura amadosiye afite imirongo miremire cyane bishobora gutuma Meld Qt itind
         <translation type="unfinished">Izina rya dosiye</translation>
     </message>
     <message>
-        <location line="+65"/>
-        <location line="+17"/>
+        <location line="+66"/>
+        <location line="+18"/>
         <source>%1 - Meld Qt</source>
         <translation type="unfinished">%1 - Meld Qt</translation>
     </message>
@@ -1809,12 +1814,12 @@ Gufungura amadosiye afite imirongo miremire cyane bishobora gutuma Meld Qt itind
         <translation type="unfinished">Patch “%1” ntibaho</translation>
     </message>
     <message>
-        <location line="+65"/>
-        <source>Windows and Tabs</source>
-        <translation type="unfinished">Amadirishya n&apos;Udufishi</translation>
+        <location line="+151"/>
+        <source>Version control</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="-82"/>
         <source>New comparison</source>
         <translation type="unfinished">Igereranya rishya</translation>
     </message>
@@ -1829,12 +1834,12 @@ Gufungura amadosiye afite imirongo miremire cyane bishobora gutuma Meld Qt itind
         <translation type="unfinished">Kuva muri Meld Qt</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="-4"/>
         <source>General</source>
         <translation type="unfinished">Rusange</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+8"/>
         <source>Show preferences</source>
         <translation type="unfinished">Erekana ibyo ukunda</translation>
     </message>
@@ -1854,12 +1859,7 @@ Gufungura amadosiye afite imirongo miremire cyane bishobora gutuma Meld Qt itind
         <translation type="unfinished">Hindura kuzinga inyandiko</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Common Actions</source>
-        <translation type="unfinished">Ibikorwa Rusange</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+4"/>
         <source>Stop the current action</source>
         <translation type="unfinished">Hagarika igikorwa kiriho</translation>
     </message>
@@ -1874,12 +1874,7 @@ Gufungura amadosiye afite imirongo miremire cyane bishobora gutuma Meld Qt itind
         <translation type="unfinished">Fungura hanze</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Panes</source>
-        <translation type="unfinished">Ibice</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+12"/>
         <source>Previous comparison pane</source>
         <translation type="unfinished">Igice cy&apos;igereranya kibanziriza</translation>
     </message>
@@ -1909,12 +1904,7 @@ Gufungura amadosiye afite imirongo miremire cyane bishobora gutuma Meld Qt itind
         <translation type="unfinished">Jya ku mpinduka ikurikira</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Tabs</source>
-        <translation type="unfinished">Udufishi</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="-15"/>
         <source>Go to previous tab</source>
         <translation type="unfinished">Jya ku gafishi kabanziriza</translation>
     </message>
@@ -1939,7 +1929,7 @@ Gufungura amadosiye afite imirongo miremire cyane bishobora gutuma Meld Qt itind
         <translation type="unfinished">Imura agafishi i buryo</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+13"/>
         <source>Editing</source>
         <translation type="unfinished">Guhindura</translation>
     </message>
@@ -2069,7 +2059,7 @@ Gufungura amadosiye afite imirongo miremire cyane bishobora gutuma Meld Qt itind
         <translation type="unfinished">Erekana ikarita y&apos;incamake</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+4"/>
         <source>Zoom in</source>
         <translation type="unfinished">Kongera ingano</translation>
     </message>
@@ -2099,12 +2089,7 @@ Gufungura amadosiye afite imirongo miremire cyane bishobora gutuma Meld Qt itind
         <translation type="unfinished">Funga ububiko buriho</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Version control comparison</source>
-        <translation type="unfinished">Kugereranya kw&apos;igenzura ry&apos;uburyo</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+4"/>
         <source>Commit to version control</source>
         <translation type="unfinished">Kumvisha mu igenzura ry&apos;uburyo</translation>
     </message>
@@ -2722,19 +2707,13 @@ Gufungura amadosiye afite imirongo miremire cyane bishobora gutuma Meld Qt itind
 <context>
     <name>meld::StatusBar</name>
     <message>
-        <location filename="../src/ui/statusbar.cpp" line="+53"/>
-        <source>Display</source>
-        <extracomment>This is the status bar label for a group of settings, such as text wrapping, show line numbers, whitespace, etc.</extracomment>
-        <translation>Kugaragaza</translation>
-    </message>
-    <message>
-        <location line="+54"/>
+        <location filename="../src/ui/statusbar.cpp" line="+100"/>
         <source>Line you want to move the cursor to</source>
         <translation type="unfinished">Umurongo ushaka kwimuriraho akaranga</translation>
     </message>
     <message>
         <location line="+28"/>
-        <location line="+20"/>
+        <location line="+12"/>
         <source>Ln %1, Col %2</source>
         <translation type="unfinished">Umu %1, Ink %2</translation>
     </message>
@@ -3515,7 +3494,7 @@ Ikosa: %2</translation>
         <translation type="unfinished">Biteguwe</translation>
     </message>
     <message>
-        <location filename="../src/core/vc/svn.cpp" line="+193"/>
+        <location filename="../src/core/vc/svn.cpp" line="+195"/>
         <source>Rev %1</source>
         <translation type="unfinished">Uburyo %1</translation>
     </message>

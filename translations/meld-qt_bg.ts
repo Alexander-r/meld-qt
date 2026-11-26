@@ -27,7 +27,7 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../src/ui/dirdiff.cpp" line="+88"/>
+        <location filename="../src/ui/dirdiff.cpp" line="+91"/>
         <source>Couldn&apos;t create link %1</source>
         <translation>Връзката „%1“ не може да се създаде</translation>
     </message>
@@ -438,7 +438,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
 <context>
     <name>meld::DirDiff</name>
     <message>
-        <location filename="../src/ui/dirdiff.cpp" line="+281"/>
+        <location filename="../src/ui/dirdiff.cpp" line="+327"/>
         <source>Select Folder</source>
         <translation>Избор на папка</translation>
     </message>
@@ -1372,14 +1372,14 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <name>meld::MeldWindow</name>
     <message>
         <location filename="../src/ui/meldwindow.cpp" line="+151"/>
-        <location line="+485"/>
-        <location line="+5"/>
+        <location line="+502"/>
+        <location line="+6"/>
         <location line="+12"/>
         <source>Meld Qt</source>
         <translation>Meld Qt</translation>
     </message>
     <message>
-        <location line="-398"/>
+        <location line="-416"/>
         <source>Header bar</source>
         <translation>Заглавна лента</translation>
     </message>
@@ -1405,12 +1405,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     </message>
     <message>
         <location line="+5"/>
-        <location line="+916"/>
+        <location line="+936"/>
         <source>Fullscreen</source>
         <translation>На цял екран</translation>
     </message>
     <message>
-        <location line="-909"/>
+        <location line="-929"/>
         <source>Quit</source>
         <translation>Спиране на програмата</translation>
     </message>
@@ -1426,12 +1426,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     </message>
     <message>
         <location line="+1"/>
-        <location line="+989"/>
+        <location line="+1012"/>
         <source>Keyboard Shortcuts</source>
         <translation>Клавишни комбинации</translation>
     </message>
     <message>
-        <location line="-985"/>
+        <location line="-1008"/>
         <source>Toggle Word Wrap</source>
         <translation>Превключване на пренасянето</translation>
     </message>
@@ -1552,35 +1552,35 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     </message>
     <message>
         <location line="+2"/>
-        <location line="+860"/>
-        <location line="+10"/>
+        <location line="+880"/>
+        <location line="+13"/>
         <source>Delete change</source>
         <translation>Заличаване на промяната</translation>
     </message>
     <message>
-        <location line="-865"/>
+        <location line="-888"/>
         <source>Copy to Left</source>
         <translation>Копиране наляво</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+861"/>
+        <location line="+884"/>
         <source>Copy to left</source>
         <translation>Копиране наляво</translation>
     </message>
     <message>
-        <location line="-860"/>
+        <location line="-883"/>
         <source>Copy to Right</source>
         <translation>Копиране надясно</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+859"/>
+        <location line="+882"/>
         <source>Copy to right</source>
         <translation>Копиране надясно</translation>
     </message>
     <message>
-        <location line="-858"/>
+        <location line="-881"/>
         <source>Delete</source>
         <translation>Заличаване</translation>
     </message>
@@ -1591,6 +1591,11 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     </message>
     <message>
         <location line="+14"/>
+        <source>Display</source>
+        <translation>Визуализация</translation>
+    </message>
+    <message>
+        <location line="+9"/>
         <source>Text Filters</source>
         <translation>Филтри за текст</translation>
     </message>
@@ -1721,7 +1726,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <translation>Изчистване на скорошните сравнения</translation>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="+34"/>
         <source>File Status</source>
         <translation>Състояние на файла</translation>
     </message>
@@ -1731,8 +1736,8 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <translation>Име на файл</translation>
     </message>
     <message>
-        <location line="+65"/>
-        <location line="+17"/>
+        <location line="+66"/>
+        <location line="+18"/>
         <source>%1 - Meld Qt</source>
         <translation>%1 - Meld Qt</translation>
     </message>
@@ -1810,12 +1815,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <translation>Кръпката „%1“ не съществува</translation>
     </message>
     <message>
-        <location line="+65"/>
-        <source>Windows and Tabs</source>
-        <translation>Прозорци и подпрозорци</translation>
+        <location line="+151"/>
+        <source>Version control</source>
+        <translation>Контрол на версиитe</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="-82"/>
         <source>New comparison</source>
         <translation>Ново сравнение</translation>
     </message>
@@ -1830,12 +1835,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <translation>Спиране на Meld Qt</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="-4"/>
         <source>General</source>
         <translation>Общи</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+8"/>
         <source>Show preferences</source>
         <translation>Извеждане на настройките</translation>
     </message>
@@ -1855,12 +1860,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <translation>Превключване на пренасянето</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Common Actions</source>
-        <translation>Чести действия</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+4"/>
         <source>Stop the current action</source>
         <translation>Спиране на текущото действие</translation>
     </message>
@@ -1875,12 +1875,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <translation>Отваряне с външна програма</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Panes</source>
-        <translation>Панели</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+12"/>
         <source>Previous comparison pane</source>
         <translation>Предишният панел за сравнение</translation>
     </message>
@@ -1910,12 +1905,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <translation>Към следващата разлика</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Tabs</source>
-        <translation>Подпрозорци</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="-15"/>
         <source>Go to previous tab</source>
         <translation>Към предишния панел</translation>
     </message>
@@ -1940,7 +1930,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <translation>Преместване на подпрозореца надясно</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+13"/>
         <source>Editing</source>
         <translation>Редактиране</translation>
     </message>
@@ -2070,7 +2060,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <translation>Показване на обзорна карта</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+4"/>
         <source>Zoom in</source>
         <translation>Увеличаване</translation>
     </message>
@@ -2100,12 +2090,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <translation>Затваряне на текущата папка</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Version control comparison</source>
-        <translation>Сравнение спрямо системата за версии</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+4"/>
         <source>Commit to version control</source>
         <translation>Подаване към системата за контрол на версиите</translation>
     </message>
@@ -2723,19 +2708,13 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
 <context>
     <name>meld::StatusBar</name>
     <message>
-        <location filename="../src/ui/statusbar.cpp" line="+53"/>
-        <source>Display</source>
-        <extracomment>This is the status bar label for a group of settings, such as text wrapping, show line numbers, whitespace, etc.</extracomment>
-        <translation>Визуализация</translation>
-    </message>
-    <message>
-        <location line="+54"/>
+        <location filename="../src/ui/statusbar.cpp" line="+100"/>
         <source>Line you want to move the cursor to</source>
         <translation>Към кой ред да се придвижи курсора</translation>
     </message>
     <message>
         <location line="+28"/>
-        <location line="+20"/>
+        <location line="+12"/>
         <source>Ln %1, Col %2</source>
         <translation>Ред %1, Кол. %2</translation>
     </message>
@@ -3516,7 +3495,7 @@ Error: %2</source>
         <translation>В индекса</translation>
     </message>
     <message>
-        <location filename="../src/core/vc/svn.cpp" line="+193"/>
+        <location filename="../src/core/vc/svn.cpp" line="+195"/>
         <source>Rev %1</source>
         <translation>Версия %1</translation>
     </message>

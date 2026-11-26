@@ -27,7 +27,7 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../src/ui/dirdiff.cpp" line="+88"/>
+        <location filename="../src/ui/dirdiff.cpp" line="+91"/>
         <source>Couldn&apos;t create link %1</source>
         <translation>Povezave %1 ni mogoče ustvariti</translation>
     </message>
@@ -440,7 +440,7 @@ posebni argument @blank, ki ustvari prazno okno.</translation>
 <context>
     <name>meld::DirDiff</name>
     <message>
-        <location filename="../src/ui/dirdiff.cpp" line="+281"/>
+        <location filename="../src/ui/dirdiff.cpp" line="+327"/>
         <source>Select Folder</source>
         <translation>Izbor mape</translation>
     </message>
@@ -1377,14 +1377,14 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     <name>meld::MeldWindow</name>
     <message>
         <location filename="../src/ui/meldwindow.cpp" line="+151"/>
-        <location line="+485"/>
-        <location line="+5"/>
+        <location line="+502"/>
+        <location line="+6"/>
         <location line="+12"/>
         <source>Meld Qt</source>
         <translation>Meld Qt</translation>
     </message>
     <message>
-        <location line="-398"/>
+        <location line="-416"/>
         <source>Header bar</source>
         <translation>Naslovna vrstica</translation>
     </message>
@@ -1410,12 +1410,12 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     </message>
     <message>
         <location line="+5"/>
-        <location line="+916"/>
+        <location line="+936"/>
         <source>Fullscreen</source>
         <translation>Celozaslonski način</translation>
     </message>
     <message>
-        <location line="-909"/>
+        <location line="-929"/>
         <source>Quit</source>
         <translation>Končaj</translation>
     </message>
@@ -1431,12 +1431,12 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     </message>
     <message>
         <location line="+1"/>
-        <location line="+989"/>
+        <location line="+1012"/>
         <source>Keyboard Shortcuts</source>
         <translation>Tipkovne bližnjice</translation>
     </message>
     <message>
-        <location line="-985"/>
+        <location line="-1008"/>
         <source>Toggle Word Wrap</source>
         <translation>Preklopi prelom besedila</translation>
     </message>
@@ -1557,35 +1557,35 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     </message>
     <message>
         <location line="+2"/>
-        <location line="+860"/>
-        <location line="+10"/>
+        <location line="+880"/>
+        <location line="+13"/>
         <source>Delete change</source>
         <translation>Izbriši spremembo</translation>
     </message>
     <message>
-        <location line="-865"/>
+        <location line="-888"/>
         <source>Copy to Left</source>
         <translation>Kopiraj na levo</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+861"/>
+        <location line="+884"/>
         <source>Copy to left</source>
         <translation>Kopiraj na levo</translation>
     </message>
     <message>
-        <location line="-860"/>
+        <location line="-883"/>
         <source>Copy to Right</source>
         <translation>Kopiraj na desno</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+859"/>
+        <location line="+882"/>
         <source>Copy to right</source>
         <translation>Kopiraj na desno</translation>
     </message>
     <message>
-        <location line="-858"/>
+        <location line="-881"/>
         <source>Delete</source>
         <translation>Izbriši</translation>
     </message>
@@ -1596,6 +1596,11 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
     </message>
     <message>
         <location line="+14"/>
+        <source>Display</source>
+        <translation>Prikaz</translation>
+    </message>
+    <message>
+        <location line="+9"/>
         <source>Text Filters</source>
         <translation>Filtri besedila</translation>
     </message>
@@ -1726,7 +1731,7 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
         <translation>Počisti nedavne primerjave</translation>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="+34"/>
         <source>File Status</source>
         <translation>Stanje datoteke</translation>
     </message>
@@ -1736,8 +1741,8 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
         <translation>Ime datoteke</translation>
     </message>
     <message>
-        <location line="+65"/>
-        <location line="+17"/>
+        <location line="+66"/>
+        <location line="+18"/>
         <source>%1 - Meld Qt</source>
         <translation>%1 - Meld Qt</translation>
     </message>
@@ -1815,12 +1820,12 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
         <translation>Popravek »%1« ne obstaja</translation>
     </message>
     <message>
-        <location line="+65"/>
-        <source>Windows and Tabs</source>
-        <translation>Okna in zavihki</translation>
+        <location line="+151"/>
+        <source>Version control</source>
+        <translation>Nadzor različic</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="-82"/>
         <source>New comparison</source>
         <translation>Nova primerjava</translation>
     </message>
@@ -1835,12 +1840,12 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
         <translation>Končaj Meld Qt</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="-4"/>
         <source>General</source>
         <translation>Splošno</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+8"/>
         <source>Show preferences</source>
         <translation>Pokaži možnosti</translation>
     </message>
@@ -1860,12 +1865,7 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
         <translation>Preklopi prelom besedila</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Common Actions</source>
-        <translation>Pogosta dejanja</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+4"/>
         <source>Stop the current action</source>
         <translation>Ustavi trenutno dejanje</translation>
     </message>
@@ -1880,12 +1880,7 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
         <translation>Odpri v zunanjem programu</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Panes</source>
-        <translation>Okna</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+12"/>
         <source>Previous comparison pane</source>
         <translation>Skoči na predhodno okno primerjave</translation>
     </message>
@@ -1915,12 +1910,7 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
         <translation>Skoči na naslednjo spremembo</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Tabs</source>
-        <translation>Zavihki</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="-15"/>
         <source>Go to previous tab</source>
         <translation>Skoči na predhodni zavihek</translation>
     </message>
@@ -1945,7 +1935,7 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
         <translation>Premakne na zavihek desno</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+13"/>
         <source>Editing</source>
         <translation>Urejanje</translation>
     </message>
@@ -2075,7 +2065,7 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
         <translation>Pokaži predogledni zemljevid</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+4"/>
         <source>Zoom in</source>
         <translation>Približaj</translation>
     </message>
@@ -2105,12 +2095,7 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
         <translation>Strni trenutno mapo</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Version control comparison</source>
-        <translation>Primerjava nadzora različic</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+4"/>
         <source>Commit to version control</source>
         <translation>Uveljavi spremembe v sistem za nadzor različic</translation>
     </message>
@@ -2728,19 +2713,13 @@ Nalaganje datotek z zelo dolgimi vrsticami lahko upočasni delovanje Meld Qt ali
 <context>
     <name>meld::StatusBar</name>
     <message>
-        <location filename="../src/ui/statusbar.cpp" line="+53"/>
-        <source>Display</source>
-        <extracomment>This is the status bar label for a group of settings, such as text wrapping, show line numbers, whitespace, etc.</extracomment>
-        <translation>Prikaz</translation>
-    </message>
-    <message>
-        <location line="+54"/>
+        <location filename="../src/ui/statusbar.cpp" line="+100"/>
         <source>Line you want to move the cursor to</source>
         <translation>Vrstica, na katero želite postaviti kazalko</translation>
     </message>
     <message>
         <location line="+28"/>
-        <location line="+20"/>
+        <location line="+12"/>
         <source>Ln %1, Col %2</source>
         <translation>Vrstica %1, Stolpec %2</translation>
     </message>
@@ -3529,7 +3508,7 @@ Napaka: %2</translation>
         <translation>V pripravljenosti</translation>
     </message>
     <message>
-        <location filename="../src/core/vc/svn.cpp" line="+193"/>
+        <location filename="../src/core/vc/svn.cpp" line="+195"/>
         <source>Rev %1</source>
         <translation>Predelava %1</translation>
     </message>

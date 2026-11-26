@@ -135,13 +135,16 @@ private:
     QList<QAction *> fileDiffToolbar_;
     QList<QAction *> dirDiffToolbar_;
     QList<QAction *> conflictActions_;
+    QAction *textDisplayButtonAction_ = nullptr;
     QAction *textFilterButtonAction_ = nullptr;
     QAction *folderFilterButtonAction_ = nullptr;
     QAction *vcFilterButtonAction_ = nullptr;
+    QToolButton *textDisplayButton_ = nullptr;
     QToolButton *textFilterButton_ = nullptr;
     QToolButton *folderFilterButton_ = nullptr;
     QToolButton *vcFilterButton_ = nullptr;
     QToolButton *gearButton_ = nullptr;
+    QMenu *textDisplayMenu_ = nullptr;
     QMenu *textFilterMenu_ = nullptr;
     QMenu *folderFilterMenu_ = nullptr;
     QMenu *vcFilterMenu_ = nullptr;

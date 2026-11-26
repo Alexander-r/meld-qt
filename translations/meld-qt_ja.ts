@@ -27,7 +27,7 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../src/ui/dirdiff.cpp" line="+88"/>
+        <location filename="../src/ui/dirdiff.cpp" line="+91"/>
         <source>Couldn&apos;t create link %1</source>
         <translation>リンク %1 を作成できませんでした</translation>
     </message>
@@ -437,7 +437,7 @@ a &lt;file&gt; argument to create a blank pane.</source>
 <context>
     <name>meld::DirDiff</name>
     <message>
-        <location filename="../src/ui/dirdiff.cpp" line="+281"/>
+        <location filename="../src/ui/dirdiff.cpp" line="+327"/>
         <source>Select Folder</source>
         <translation>フォルダーを選択</translation>
     </message>
@@ -1369,14 +1369,14 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     <name>meld::MeldWindow</name>
     <message>
         <location filename="../src/ui/meldwindow.cpp" line="+151"/>
-        <location line="+485"/>
-        <location line="+5"/>
+        <location line="+502"/>
+        <location line="+6"/>
         <location line="+12"/>
         <source>Meld Qt</source>
         <translation>Meld Qt</translation>
     </message>
     <message>
-        <location line="-398"/>
+        <location line="-416"/>
         <source>Header bar</source>
         <translation>ヘッダーバー</translation>
     </message>
@@ -1402,12 +1402,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     </message>
     <message>
         <location line="+5"/>
-        <location line="+916"/>
+        <location line="+936"/>
         <source>Fullscreen</source>
         <translation>フルスクリーン</translation>
     </message>
     <message>
-        <location line="-909"/>
+        <location line="-929"/>
         <source>Quit</source>
         <translation>終了</translation>
     </message>
@@ -1423,12 +1423,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     </message>
     <message>
         <location line="+1"/>
-        <location line="+989"/>
+        <location line="+1012"/>
         <source>Keyboard Shortcuts</source>
         <translation>キーボードショートカット</translation>
     </message>
     <message>
-        <location line="-985"/>
+        <location line="-1008"/>
         <source>Toggle Word Wrap</source>
         <translation>文字列の折り返しの切り替え</translation>
     </message>
@@ -1549,35 +1549,35 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     </message>
     <message>
         <location line="+2"/>
-        <location line="+860"/>
-        <location line="+10"/>
+        <location line="+880"/>
+        <location line="+13"/>
         <source>Delete change</source>
         <translation>変更点を削除します</translation>
     </message>
     <message>
-        <location line="-865"/>
+        <location line="-888"/>
         <source>Copy to Left</source>
         <translation>左へコピー</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+861"/>
+        <location line="+884"/>
         <source>Copy to left</source>
         <translation>左へコピーします</translation>
     </message>
     <message>
-        <location line="-860"/>
+        <location line="-883"/>
         <source>Copy to Right</source>
         <translation>右へコピー</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+859"/>
+        <location line="+882"/>
         <source>Copy to right</source>
         <translation>右へコピーします</translation>
     </message>
     <message>
-        <location line="-858"/>
+        <location line="-881"/>
         <source>Delete</source>
         <translation>削除</translation>
     </message>
@@ -1588,6 +1588,11 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
     </message>
     <message>
         <location line="+14"/>
+        <source>Display</source>
+        <translation>表示</translation>
+    </message>
+    <message>
+        <location line="+9"/>
         <source>Text Filters</source>
         <translation>テキストフィルター</translation>
     </message>
@@ -1718,7 +1723,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <translation>最近の比較を消去</translation>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="+34"/>
         <source>File Status</source>
         <translation>ファイルの状態</translation>
     </message>
@@ -1728,8 +1733,8 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <translation>ファイル名</translation>
     </message>
     <message>
-        <location line="+65"/>
-        <location line="+17"/>
+        <location line="+66"/>
+        <location line="+18"/>
         <source>%1 - Meld Qt</source>
         <translation>%1 - Meld Qt</translation>
     </message>
@@ -1807,12 +1812,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <translation>パッチ “%1” は存在しません</translation>
     </message>
     <message>
-        <location line="+65"/>
-        <source>Windows and Tabs</source>
-        <translation>ウィンドウとタブ</translation>
+        <location line="+151"/>
+        <source>Version control</source>
+        <translation>バージョン管理</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="-82"/>
         <source>New comparison</source>
         <translation>新しい比較</translation>
     </message>
@@ -1827,12 +1832,12 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <translation>Meld Qt を終了する</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="-4"/>
         <source>General</source>
         <translation>全般</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+8"/>
         <source>Show preferences</source>
         <translation>設定を表示する</translation>
     </message>
@@ -1852,12 +1857,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <translation>文字列の折り返しの切り替え</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Common Actions</source>
-        <translation>よく使うアクション</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+4"/>
         <source>Stop the current action</source>
         <translation>現在適用中のアクションを停止する</translation>
     </message>
@@ -1872,12 +1872,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <translation>外部エディターで開く</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Panes</source>
-        <translation>ペイン</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+12"/>
         <source>Previous comparison pane</source>
         <translation>前の比較ペイン</translation>
     </message>
@@ -1907,12 +1902,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <translation>次の変更点へジャンプする</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Tabs</source>
-        <translation>タブ</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="-15"/>
         <source>Go to previous tab</source>
         <translation>前のタブへ移動する</translation>
     </message>
@@ -1937,7 +1927,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <translation>タブを右へ移動する</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+13"/>
         <source>Editing</source>
         <translation>編集</translation>
     </message>
@@ -2067,7 +2057,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <translation>概要マップを表示する</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+4"/>
         <source>Zoom in</source>
         <translation>拡大する</translation>
     </message>
@@ -2097,12 +2087,7 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
         <translation>現在のフォルダーを折りたたむ</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Version control comparison</source>
-        <translation>バージョン管理の比較</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+4"/>
         <source>Commit to version control</source>
         <translation>バージョン管理へコミットする</translation>
     </message>
@@ -2720,19 +2705,13 @@ Loading files with very long lines may make Meld Qt slow or unresponsive.</sourc
 <context>
     <name>meld::StatusBar</name>
     <message>
-        <location filename="../src/ui/statusbar.cpp" line="+53"/>
-        <source>Display</source>
-        <extracomment>This is the status bar label for a group of settings, such as text wrapping, show line numbers, whitespace, etc.</extracomment>
-        <translation>表示</translation>
-    </message>
-    <message>
-        <location line="+54"/>
+        <location filename="../src/ui/statusbar.cpp" line="+100"/>
         <source>Line you want to move the cursor to</source>
         <translation>カーソルを移動する行</translation>
     </message>
     <message>
         <location line="+28"/>
-        <location line="+20"/>
+        <location line="+12"/>
         <source>Ln %1, Col %2</source>
         <translation>%1 行、%2 列</translation>
     </message>
@@ -3509,7 +3488,7 @@ Error: %2</source>
         <translation>ステージング済み</translation>
     </message>
     <message>
-        <location filename="../src/core/vc/svn.cpp" line="+193"/>
+        <location filename="../src/core/vc/svn.cpp" line="+195"/>
         <source>Rev %1</source>
         <translation>リビジョン %1</translation>
     </message>

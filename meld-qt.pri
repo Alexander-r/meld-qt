@@ -17,7 +17,7 @@
 !versionAtLeast(QT_VERSION, 6.8.0): error("Meld Qt needs Qt 6.8 or newer; this qmake is for Qt $$QT_VERSION")
 
 # As project(VERSION) in CMakeLists.txt
-MELD_PROJECT_VERSION = 1.0.1
+MELD_PROJECT_VERSION = 1.0.2
 isEmpty(MELD_VERSION): MELD_VERSION = $$MELD_PROJECT_VERSION
 
 isEmpty(PREFIX): PREFIX = /usr/local

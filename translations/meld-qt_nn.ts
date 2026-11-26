@@ -27,7 +27,7 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../src/ui/dirdiff.cpp" line="+88"/>
+        <location filename="../src/ui/dirdiff.cpp" line="+91"/>
         <source>Couldn&apos;t create link %1</source>
         <translation>Klarte ikkje å lage lenkja %1</translation>
     </message>
@@ -438,7 +438,7 @@ eit &lt;fil&gt;-argument for å lage eit tomt felt.</translation>
 <context>
     <name>meld::DirDiff</name>
     <message>
-        <location filename="../src/ui/dirdiff.cpp" line="+281"/>
+        <location filename="../src/ui/dirdiff.cpp" line="+327"/>
         <source>Select Folder</source>
         <translation>Vel mappe</translation>
     </message>
@@ -1371,14 +1371,14 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     <name>meld::MeldWindow</name>
     <message>
         <location filename="../src/ui/meldwindow.cpp" line="+151"/>
-        <location line="+485"/>
-        <location line="+5"/>
+        <location line="+502"/>
+        <location line="+6"/>
         <location line="+12"/>
         <source>Meld Qt</source>
         <translation>Meld Qt</translation>
     </message>
     <message>
-        <location line="-398"/>
+        <location line="-416"/>
         <source>Header bar</source>
         <translation>Toppfelt</translation>
     </message>
@@ -1404,12 +1404,12 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     </message>
     <message>
         <location line="+5"/>
-        <location line="+916"/>
+        <location line="+936"/>
         <source>Fullscreen</source>
         <translation>Fullskjerm</translation>
     </message>
     <message>
-        <location line="-909"/>
+        <location line="-929"/>
         <source>Quit</source>
         <translation>Avslutt</translation>
     </message>
@@ -1425,12 +1425,12 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     </message>
     <message>
         <location line="+1"/>
-        <location line="+989"/>
+        <location line="+1012"/>
         <source>Keyboard Shortcuts</source>
         <translation>Tastatursnarvegar</translation>
     </message>
     <message>
-        <location line="-985"/>
+        <location line="-1008"/>
         <source>Toggle Word Wrap</source>
         <translation>Slå tekstbryting av/på</translation>
     </message>
@@ -1551,35 +1551,35 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     </message>
     <message>
         <location line="+2"/>
-        <location line="+860"/>
-        <location line="+10"/>
+        <location line="+880"/>
+        <location line="+13"/>
         <source>Delete change</source>
         <translation>Slett endring</translation>
     </message>
     <message>
-        <location line="-865"/>
+        <location line="-888"/>
         <source>Copy to Left</source>
         <translation>Kopier til venstre</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+861"/>
+        <location line="+884"/>
         <source>Copy to left</source>
         <translation>Kopier til venstre</translation>
     </message>
     <message>
-        <location line="-860"/>
+        <location line="-883"/>
         <source>Copy to Right</source>
         <translation>Kopier til høgre</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+859"/>
+        <location line="+882"/>
         <source>Copy to right</source>
         <translation>Kopier til høgre</translation>
     </message>
     <message>
-        <location line="-858"/>
+        <location line="-881"/>
         <source>Delete</source>
         <translation>Slett</translation>
     </message>
@@ -1590,6 +1590,11 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
     </message>
     <message>
         <location line="+14"/>
+        <source>Display</source>
+        <translation>Vising</translation>
+    </message>
+    <message>
+        <location line="+9"/>
         <source>Text Filters</source>
         <translation>Tekstfilter</translation>
     </message>
@@ -1720,7 +1725,7 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
         <translation>Tøm nylege samanlikningar</translation>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="+34"/>
         <source>File Status</source>
         <translation>Filstatus</translation>
     </message>
@@ -1730,8 +1735,8 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
         <translation>Filnamn</translation>
     </message>
     <message>
-        <location line="+65"/>
-        <location line="+17"/>
+        <location line="+66"/>
+        <location line="+18"/>
         <source>%1 - Meld Qt</source>
         <translation>%1 - Meld Qt</translation>
     </message>
@@ -1809,12 +1814,12 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
         <translation>Patchen «%1» finst ikkje</translation>
     </message>
     <message>
-        <location line="+65"/>
-        <source>Windows and Tabs</source>
-        <translation>Vindauge og faner</translation>
+        <location line="+151"/>
+        <source>Version control</source>
+        <translation>Versjonskontroll</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="-82"/>
         <source>New comparison</source>
         <translation>Ny samanlikning</translation>
     </message>
@@ -1829,12 +1834,12 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
         <translation>Avslutt Meld Qt</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="-4"/>
         <source>General</source>
         <translation>Generelt</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+8"/>
         <source>Show preferences</source>
         <translation>Vis innstillingar</translation>
     </message>
@@ -1854,12 +1859,7 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
         <translation>Slå tekstbryting av/på</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Common Actions</source>
-        <translation>Vanlege handlingar</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+4"/>
         <source>Stop the current action</source>
         <translation>Stopp den gjeldande handlinga</translation>
     </message>
@@ -1874,12 +1874,7 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
         <translation>Opne eksternt</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Panes</source>
-        <translation>Felt</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+12"/>
         <source>Previous comparison pane</source>
         <translation>Førre samanlikningsfelt</translation>
     </message>
@@ -1909,12 +1904,7 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
         <translation>Gå til neste endring</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Tabs</source>
-        <translation>Faner</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="-15"/>
         <source>Go to previous tab</source>
         <translation>Gå til førre fane</translation>
     </message>
@@ -1939,7 +1929,7 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
         <translation>Flytt fana til høgre</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+13"/>
         <source>Editing</source>
         <translation>Redigering</translation>
     </message>
@@ -2069,7 +2059,7 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
         <translation>Vis oversiktskart</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+4"/>
         <source>Zoom in</source>
         <translation>Forstørr</translation>
     </message>
@@ -2099,12 +2089,7 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
         <translation>Slå saman gjeldande mappe</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Version control comparison</source>
-        <translation>Versjonskontrollsamanlikning</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+4"/>
         <source>Commit to version control</source>
         <translation>Commit til versjonskontroll</translation>
     </message>
@@ -2722,19 +2707,13 @@ Viss du lastar filer med svært lange linjer, kan Meld Qt verte tregt eller slut
 <context>
     <name>meld::StatusBar</name>
     <message>
-        <location filename="../src/ui/statusbar.cpp" line="+53"/>
-        <source>Display</source>
-        <extracomment>This is the status bar label for a group of settings, such as text wrapping, show line numbers, whitespace, etc.</extracomment>
-        <translation>Vising</translation>
-    </message>
-    <message>
-        <location line="+54"/>
+        <location filename="../src/ui/statusbar.cpp" line="+100"/>
         <source>Line you want to move the cursor to</source>
         <translation>Linja du vil flytte peikaren til</translation>
     </message>
     <message>
         <location line="+28"/>
-        <location line="+20"/>
+        <location line="+12"/>
         <source>Ln %1, Col %2</source>
         <translation>Ln %1, Kol. %2</translation>
     </message>
@@ -3515,7 +3494,7 @@ Feil: %2</translation>
         <translation>Klargjort</translation>
     </message>
     <message>
-        <location filename="../src/core/vc/svn.cpp" line="+193"/>
+        <location filename="../src/core/vc/svn.cpp" line="+195"/>
         <source>Rev %1</source>
         <translation>Rev %1</translation>
     </message>

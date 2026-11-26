@@ -47,13 +47,6 @@ StatusBar::StatusBar(QWidget *parent)
     layout->setSpacing(6);
     layout->addStretch();
 
-    displayButton_ = new StatusMenuButton(this);
-    //: This is the status bar label for a group of settings, such as text
-    //: wrapping, show line numbers, whitespace, etc.
-    displayButton_->setText(tr("Display"));
-    displayButton_->setMenu(new QMenu(displayButton_));
-    layout->addWidget(displayButton_);
-
     encodingButton_ = new StatusMenuButton(this);
     encodingMenu_ = new QMenu(encodingButton_);
     auto *encodingGroup = new QActionGroup(encodingMenu_);
@@ -138,14 +131,6 @@ StatusBar::StatusBar(QWidget *parent)
     setCursorPosition(0, 0);
     setEncoding(QByteArrayLiteral("UTF-8"));
     setLanguage(QString());
-}
-
-void StatusBar::setDisplayActions(const QList<QAction *> &actions)
-{
-    QMenu *menu = displayButton_->menu();
-    menu->clear();
-    for (QAction *action : actions)
-        menu->addAction(action);
 }
 
 void StatusBar::setCursorPosition(int line, int column)

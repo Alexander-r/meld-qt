@@ -19,6 +19,7 @@
 #include <QDialogButtonBox>
 #include <QDir>
 #include <QLabel>
+#include <QMenu>
 #include <QPointer>
 #include <QPushButton>
 #include <QToolButton>
@@ -333,6 +334,46 @@ private Q_SLOTS:
         QCOMPARE(filediff->action(QStringLiteral("show-overview-map"))->isChecked(), !shown);
         filediff->action(QStringLiteral("show-overview-map"))->trigger();
         QCOMPARE(overview->isChecked(), shown);
+    }
+
+    void displayMenuIsInTheHeaderBar()
+    {
+        QString error;
+        auto *filediff = qobject_cast<FileDiff *>(
+            window_->openPaths({writeFile("a\n"), writeFile("b\n")}, false, false, true, &error));
+        auto *dirdiff =
+            qobject_cast<DirDiff *>(window_->openPaths({makeFolder(), makeFolder()}, false, false, true, &error));
+        QVERIFY(filediff && dirdiff);
+        settle(window_.get());
+
+        QToolButton *display = nullptr;
+        for (QToolButton *button : window_->findChildren<QToolButton *>()) {
+            if (button->text() == QLatin1String("Display")) {
+                QVERIFY2(!display, "only one Display button");
+                display = button;
+            }
+        }
+        QVERIFY(display);
+        QVERIFY(!filediff->isAncestorOf(display));
+
+        window_->tabWidget()->setCurrentWidget(dirdiff);
+        QVERIFY(!display->isVisibleTo(window_.get()));
+
+        window_->tabWidget()->setCurrentWidget(filediff);
+        QVERIFY(display->isVisibleTo(window_.get()));
+        QList<QAction *> expected;
+        for (const char *name : {"show-line-numbers", "draw-spaces-bool", "highlight-current-line-local",
+                                 "wrap-mode-bool"})
+            expected.append(filediff->action(QLatin1String(name)));
+        QCOMPARE(display->menu()->actions(), expected);
+
+        // The menu's toggles change all of the comparison's panes
+        QAction *wrap = expected.last();
+        const bool wrapped = wrap->isChecked();
+        display->menu()->actions().last()->trigger();
+        QCOMPARE(wrap->isChecked(), !wrapped);
+        for (int pane = 0; pane < filediff->numPanes(); ++pane)
+            QCOMPARE(filediff->textView(pane)->wrapText(), !wrapped);
     }
 
     void keyboardShortcutsReachTheCurrentTab()

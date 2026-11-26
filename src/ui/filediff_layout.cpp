@@ -406,8 +406,9 @@ void FileDiff::createActions()
 {
     MeldSettings *settings = MeldSettings::instance();
 
-    // Display options shared between all panes (the "view-local" actions)
-    const auto addViewLocal = [this](const QString &name, const QString &label, bool initial,
+    // Display options shared between all panes, shown in the window's
+    // Display menu
+    const auto addDisplayAction = [this](const QString &name, const QString &label, bool initial,
                                      void (SourceView::*setter)(bool)) {
         QAction *a = addToggleAction(name, initial, [this, setter](bool checked) {
             for (SourceView *view : textview_)
@@ -416,18 +417,15 @@ void FileDiff::createActions()
         a->setText(label);
         for (SourceView *view : textview_)
             (view->*setter)(initial);
-        viewLocalActions_.append(a);
     };
-    addViewLocal(QStringLiteral("show-line-numbers"), tr("Show line numbers"),
+    addDisplayAction(QStringLiteral("show-line-numbers"), tr("Show line numbers"),
                  settings->boolValue(QStringLiteral("show-line-numbers")), &SourceView::setShowLineNumbers);
-    addViewLocal(QStringLiteral("draw-spaces-bool"), tr("Show whitespace"),
+    addDisplayAction(QStringLiteral("draw-spaces-bool"), tr("Show whitespace"),
                  settings->boolValue(QStringLiteral("enable-space-drawer")), &SourceView::setDrawSpaces);
-    addViewLocal(QStringLiteral("highlight-current-line-local"), tr("Highlight current line"),
+    addDisplayAction(QStringLiteral("highlight-current-line-local"), tr("Highlight current line"),
                  settings->boolValue(QStringLiteral("highlight-current-line")), &SourceView::setHighlightCurrentLine);
-    addViewLocal(QStringLiteral("wrap-mode-bool"), tr("Text wrapping"),
+    addDisplayAction(QStringLiteral("wrap-mode-bool"), tr("Text wrapping"),
                  settings->stringValue(QStringLiteral("wrap-mode")) != QLatin1String("none"), &SourceView::setWrapText);
-    for (StatusBar *statusbar : statusbar_)
-        statusbar->setDisplayActions(viewLocalActions_);
 
     addToggleAction(QStringLiteral("show-overview-map"), showOverviewMap_, [this](bool show) {
         showOverviewMap_ = show;
